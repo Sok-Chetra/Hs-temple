@@ -7,7 +7,7 @@
 }
 /* nav style */
 #btn-nav{
-  color: black;
+  color: white;
   text-decoration: none;
 }
 #btn-nav::after {
@@ -129,17 +129,35 @@ input[type=checkbox]:focus {
 }
 
 /* dark Mode */
-.dark {
-  background-color: #121212;
-  color: white;
+.dark{
+  background-color: #000000;
+  color: aliceblue;
 }
 .dark #btn-nav{
-  color: whitesmoke;
+  color: red;
+}
+/* dark Mode */
+#navscroll{
+  height: 130px;
+  padding: 5px 200px;
+}
+.autohide{
+  display: flex;
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+
 }
 
+.scrolled-down{
+  transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+  transform:translateY(0); transition: all 0.3s ease-in-out;
+}
 
-
-/* dark Mode */
 
 /* style switch btn */
 .switch {

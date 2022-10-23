@@ -8,7 +8,7 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <!-- bootstrap -->
        <link rel="stylesheet" href="./plugins/css/bootstrap.min.css">
-       <script src="./plugins/js/bootstrap.bundle.js"></script>
+       <script src="./plugins/js/bootstrap.bundle.min.js"></script>
        <!-- bootstrap -->
        <!-- css -->
        <link rel="stylesheet" href="app.css">
@@ -18,160 +18,155 @@
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
        <!-- font awesome -->
        <script src="darkMode.js"></script>
+       <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
        <title>Document</title>
 </head>
 <body>
-
-    <div class="row">
-        <div class="col-12 bg-success">
-            <p>&nbsp;</p>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-between justify-content-sm-between justify-content-between align-items-center mt-2 mb-2">
-        <!-- navigation -->
-            <div class="col-2 d-flex align-items-center bg-transparent">
-            <!-- logo -->
-                <a class="navbar-brand d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" href="#">
-                    <img class="w-50 rounded rounded-circle" src="./images/blank-profile-picture-973460_640.png" alt="">
-                </a>
-            <!-- end logo -->
-            <!-- offcanvas show when md and sm screen-->
-                <button  class="d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-flex d-flex btn btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
-                    <svg id="chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" stroke-width="10" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5z"/>
-                    </svg>
-                </button>
-                <div class="offcanvas w-50 bg-secondary offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-                    <div class="offcanvas-header bg-success bg-opacity-75">
-                      <!-- logo in offcanvas -->  
-                        <div class="col-8 d-flex align-self-center">
-                            <a class="navbar-brand d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-flex d-flex justify-content-md-end justify-content-sm-start" href="#">
-                                <img class="w-50 h-755 rounded rounded-circle" src="./images/blank-profile-picture-973460_640.png" alt="">
-                            </a>
+        <div id="banner">
+            <div class="row d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-between justify-content-sm-between justify-content-between align-items-center fixed-top bg-success" id="navscroll">
+                <!-- navigation -->
+                <div class="col-2 d-flex align-items-center">
+                    <!-- logo -->
+                    <a class="navbar-brand d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" href="#">
+                        <img id="logo-img" class="img-fluid w-50 rounded rounded-circle" src="./images/blank-profile-picture-973460_640.png" alt="">
+                    </a>
+                    <!-- end logo -->
+                    <!-- offcanvas show when md and sm screen-->
+                    <button  class="d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-flex d-flex btn btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                        <svg id="chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" stroke-width="10" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </button>
+                    <div class="offcanvas w-50 bg-secondary offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                        <div class="offcanvas-header bg-success bg-opacity-75">
+                            <!-- logo in offcanvas -->  
+                            <div class="col-8 d-flex align-self-center">
+                                <a class="navbar-brand d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-flex d-flex justify-content-md-end justify-content-sm-start" href="#">
+                                    <img class="w-50 h-75 rounded rounded-circle" src="./images/blank-profile-picture-973460_640.png" alt="">
+                                </a>
+                            </div>
+                            <!-- logo in offcanvas -->
+                            <!-- btn Close -->
+                            <div class="col-4 d-flex justify-content-end align-self-start">
+                                <a type="button" class="text-reset d-flex align-items-start" data-bs-dismiss="offcanvas" aria-label="Close">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <!-- btn close -->
                         </div>
-                    <!-- logo in offcanvas -->
-                    <!-- btn Close -->
-                        <div class="col-4 d-flex justify-content-end align-self-start">
-                            <a type="button" class="text-reset d-flex align-items-start" data-bs-dismiss="offcanvas" aria-label="Close">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
-                                </svg>
-                            </a>
+                        <div class="offcanvas-body bg-secondary">
+                            <div class="col-12">
+                            <!-- search  -->
+                                <form action="">
+                                    <div class="d-block position-absolute w-100" style="z-index: 1;">
+                                        <input id="search-offcanvas" class="btn btn-sm bg-transparent"  type="search" name="search" placeholder=" &nbsp;Search.." autocomplete="off">
+                                    </div>
+                                </form>
+                                <div class="d-block position-relative">
+                                    <svg id="search" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-search" viewBox="-5 0 25 13">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <!-- navigation in offcanvas-->
+                                <ul class="nav nav-pills flex-column justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center align-items-center gap-2">
+                                    <li class="col-12 nav-item mb-2 me-xxl-0 me-xl-0 me-lg-0 me-md-0 me-sm-0">
+                                        
+                                    </li>
+                                    <li class="col-12 nav-item bg-success rounded" style="margin-top: 150px;">
+                                        <a class="nav-link btn text-light btn-success btn-lg" href="#" role="button">ទំព័រដើម</a>
+                                    </li>
+                                    <li class="col-12 nav-item bg-success rounded">
+                                        <a class="nav-link btn text-light btn-success" href="#" role="button">គោលបំណង</a>
+                                    </li>
+                                    <li class="col-12 nav-item bg-success rounded">
+                                        <a class="nav-link btn text-light btn-success" href="#" role="button">ចំណេះដឹង</a>
+                                    </li>
+                                    <li class="col-12 nav-item bg-success rounded">
+                                        <a class="nav-link btn text-light btn-success" href="#" role="button">អំពីយើង</a>
+                                    </li>
+                                    <li class="col-12 nav-item bg-success rounded">
+                                        <a class="nav-link btn text-light btn-success" href="#" role="button">ទំនាក់ទំនង</a>
+                                    </li>
+                                    <li class="nav-item ms-2 mb-2 d-none">
+                                        <form action="">
+                                            <div class="d-block position-absolute" style="z-index: 1;">
+                                                <input class="btn btn-sm bg-transparent"  type="text" name="search" placeholder=" &nbsp;Search.." autocomplete="off">
+                                            </div>
+                                        </form>
+                                        <div class="d-block position-relative">
+                                            <svg id="search" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="darkgreen" class="bi bi-search " viewBox="-5 0 25 13">
+                                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                            </svg>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <!-- navigation in offcanvas-->
+                            </div>
                         </div>
-                    <!-- btn close -->
                     </div>
-                    <div class="offcanvas-body bg-secondary">
-                        <div class="col-12">
-                        <!-- search  -->
+                    <!-- end offcanvas -->
+                </div>
+
+                <!-- navigation -->
+                <div class="col-8 col-lg-8 d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" id="main_nav">
+                    <ul id="navbar" class="nav nav-pills justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center align-items-center ms-auto">
+                        <li class="nav-item">
+                            <a id="btn-nav" class="nav-link " href="#" role="button">ទំព័រដើម</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a id="btn-nav" class="nav-link" href="#" role="button">គោលបំណង</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="btn-nav" class="nav-link" href="#" role="button">ចំណេះដឹង</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="btn-nav" class="nav-link" href="#" role="button">អំពីយើង</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="btn-nav" class="nav-link" href="#" role="button">ទំនាក់ទំនង</a>
+                        </li>
+                        <li class="nav-item ms-2 mb-2">
                             <form action="">
-                                <div class="d-block position-absolute w-100" style="z-index: 1;">
-                                    <input id="search-offcanvas" class="btn btn-sm bg-transparent"  type="search" name="search" placeholder=" &nbsp;Search.." autocomplete="off">
+                                <div class="d-block position-absolute" style="z-index: 1;">
+                                    <input class="btn btn-sm bg-transparent"  type="search" name="search" placeholder=" &nbsp;Search.." autocomplete="on">
                                 </div>
                             </form>
-                            <div class="d-block position-relative">
-                                <svg id="search" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-search" viewBox="-5 0 25 13">
+                            <div class="d-block position-relative bg-transparent">
+                                <svg id="search" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-search " viewBox="-5 0 25 13">
                                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                                 </svg>
                             </div>
-                        </div>
-                        <div class="col-12">
-                        <!-- navigation in offcanvas-->
-                            <ul class="nav nav-pills flex-column justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center align-items-center gap-2">
-                                <li class="col-12 nav-item mb-2 me-xxl-0 me-xl-0 me-lg-0 me-md-0 me-sm-0">
-                                    
-                                </li>
-                                <li class="col-12 nav-item bg-success rounded" style="margin-top: 150px;">
-                                    <a class="nav-link btn text-light btn-success btn-lg" href="#" role="button">ទំព័រដើម</a>
-                                </li>
-                                <li class="col-12 nav-item bg-success rounded">
-                                    <a class="nav-link btn text-light btn-success" href="#" role="button">គោលបំណង</a>
-                                </li>
-                                <li class="col-12 nav-item bg-success rounded">
-                                    <a class="nav-link btn text-light btn-success" href="#" role="button">ចំណេះដឹង</a>
-                                </li>
-                                <li class="col-12 nav-item bg-success rounded">
-                                    <a class="nav-link btn text-light btn-success" href="#" role="button">អំពីយើង</a>
-                                </li>
-                                <li class="col-12 nav-item bg-success rounded">
-                                    <a class="nav-link btn text-light btn-success" href="#" role="button">ទំនាក់ទំនង</a>
-                                </li>
-                                <li class="nav-item ms-2 mb-2 d-none">
-                                    <form action="">
-                                        <div class="d-block position-absolute" style="z-index: 1;">
-                                            <input class="btn btn-sm bg-transparent"  type="text" name="search" placeholder=" &nbsp;Search.." autocomplete="off">
-                                        </div>
-                                    </form>
-                                    <div class="d-block position-relative">
-                                        <svg id="search" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="darkgreen" class="bi bi-search " viewBox="-5 0 25 13">
-                                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                                        </svg>
-                                    </div>
-                                </li>
-                            </ul>
-                        <!-- navigation in offcanvas-->
-                        </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end navigation -->
+                <!-- <div class="col-2 d-xxl-flex d-xl-flex d-lg-flex d-md-none d-sm-none d-none justify-content-end mt-1">
+                    <div class="slide-toggle form-check form-switch">
+                        <label class="switch">
+                            <input type="checkbox" onclick="myFunction()"/>
+                            <span></span>
+                        </label>
+                        
+                    </div>
+                </div> -->
+                <div class="col-2 d-flex align-items-center justify-content-end mt-1 pe-1">
+                    <div class="form-check form-switch ">
+                        <input class="form-check-input" id="checkbox" type="checkbox" onclick="setDarkMode()" autocomplete="off">
+                        <label class="form-check-label" for="checkbox">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-circle-half" viewBox="0 2 17 16">
+                                <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+                            </svg>
+                        </label>
                     </div>
                 </div>
-            <!-- end offcanvas -->
             </div>
-        <!-- navigation -->
-            <div class="col-8 col-lg-8 d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none">
-                <ul class="nav nav-pills justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center align-items-center">
-                    <li class="nav-item">
-                        <a id="btn-nav" class="nav-link " href="#" role="button">ទំព័រដើម</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a id="btn-nav" class="nav-link" href="#" role="button">គោលបំណង</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="btn-nav" class="nav-link" href="#" role="button">ចំណេះដឹង</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="btn-nav" class="nav-link" href="#" role="button">អំពីយើង</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="btn-nav" class="nav-link" href="#" role="button">ទំនាក់ទំនង</a>
-                    </li>
-                    <li class="nav-item ms-2 mb-2">
-                        <form action="">
-                            <div class="d-block position-absolute" style="z-index: 1;">
-                                <input class="btn btn-sm bg-transparent"  type="search" name="search" placeholder=" &nbsp;Search.." autocomplete="on">
-                            </div>
-                        </form>
-                        <div class="d-block position-relative bg-transparent">
-                            <svg id="search" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="darkgreen" class="bi bi-search " viewBox="-5 0 25 13">
-                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                            </svg>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        <!-- end navigation -->
-            <!-- <div class="col-2 d-xxl-flex d-xl-flex d-lg-flex d-md-none d-sm-none d-none justify-content-end mt-1">
-                <div class="slide-toggle form-check form-switch">
-                    <label class="switch">
-                        <input type="checkbox" onclick="myFunction()"/>
-                        <span></span>
-                    </label>
-                    
-                </div>
-            </div> -->
-            <div class="col-2 d-flex align-items-center justify-content-end mt-1 pe-1">
-                <div class="form-check form-switch ">
-                    <input class="form-check-input" id="light" type="checkbox" onclick="myFunction()">
-                    <label class="form-check-label" for="light">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-circle-half" viewBox="0 2 17 16">
-                            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
-                        </svg>
-                    </label>
-                </div>
-            </div>
+            <!-- end navigation -->
         </div>
-    <!-- end navigation -->
-    </div>
-    <div class="row">
+    <div class="row " style="margin-top: 130px;">
         <div class="col-12">
             <div class="background">
                 <img id="bg-img" class="img-fluid mx-auto d-block" src="./images/cambodia-3464542_1920.jpg" alt="" >
@@ -455,5 +450,23 @@
     <footer>
         text-start
     </footer>
+    <script>
+$(document).ready(function() {
+  var banner_height = $("#navscroll").height();
+  var lastScrollTop = 0;
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    var currScrollTop = $(this).scrollTop();
+    if (scroll >= banner_height && currScrollTop > lastScrollTop) {
+      $("#banner").hide();
+    } else {
+      $("#banner").show();
+    }
+    lastScrollTop = currScrollTop;
+
+  });
+
+});
+        </script>
 </body>
 </html>
