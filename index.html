@@ -3,7 +3,7 @@
 <head>
        <meta charset="UTF-8">
        <meta name="referrer" content="strict-origin" />
-       <meta name="color-scheme" content="dark light">
+       <meta name="color-scheme" content="light dark" />
        <meta http-equiv="X-UA-Compatible" content="IE=edge">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <!-- bootstrap -->
@@ -154,14 +154,23 @@
                     </div>
                 </div> -->
                 <div class="col-2 d-flex align-items-center justify-content-end mt-1 pe-1">
-                    <div class="form-check form-switch ">
+
+                    <div>
+                        <button id="theme-toggle" class="btn">
+                            <svg id="dark-svg" width="30" height="30" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 9.5a7.5 7.5 0 1 1 12.718 5.388c-.254.245-.45.5-.567.773l-.952 2.212a.626.626 0 0 1-.574.377h-6.25a.625.625 0 0 1-.575-.377l-.951-2.213a2.454 2.454 0 0 0-.567-.772A7.48 7.48 0 0 1 4.5 9.5Zm3.75 10.625a.625.625 0 0 1 .625-.625h6.25a.625.625 0 1 1 0 1.25l-.28.559a1.25 1.25 0 0 1-1.118.691h-3.454a1.25 1.25 0 0 1-1.118-.691l-.28-.559a.625.625 0 0 1-.625-.625Z"></path>
+                               </svg>
+                        </button>
+                    </div>
+
+                    <!-- <div class="form-check form-switch ">
                         <input class="form-check-input" id="checkbox" type="checkbox" onclick="setDarkMode()" autocomplete="off">
                         <label class="form-check-label" for="checkbox">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-circle-half" viewBox="0 2 17 16">
-                                <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
-                            </svg>
+                            <svg id="dark-svg" width="30" height="30" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 9.5a7.5 7.5 0 1 1 12.718 5.388c-.254.245-.45.5-.567.773l-.952 2.212a.626.626 0 0 1-.574.377h-6.25a.625.625 0 0 1-.575-.377l-.951-2.213a2.454 2.454 0 0 0-.567-.772A7.48 7.48 0 0 1 4.5 9.5Zm3.75 10.625a.625.625 0 0 1 .625-.625h6.25a.625.625 0 1 1 0 1.25l-.28.559a1.25 1.25 0 0 1-1.118.691h-3.454a1.25 1.25 0 0 1-1.118-.691l-.28-.559a.625.625 0 0 1-.625-.625Z"></path>
+                               </svg>
                         </label>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- end navigation -->
@@ -450,23 +459,72 @@
     <footer>
         text-start
     </footer>
+
+    <div id="theme" hidden>
+        <p>test</p>
+    </div>
+
+
     <script>
-$(document).ready(function() {
-  var banner_height = $("#navscroll").height();
-  var lastScrollTop = 0;
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    var currScrollTop = $(this).scrollTop();
-    if (scroll >= banner_height && currScrollTop > lastScrollTop) {
-      $("#banner").hide();
-    } else {
-      $("#banner").show();
+        $(document).ready(function() {
+        var banner_height = $("#navscroll").height();
+        var lastScrollTop = 0;
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            var currScrollTop = $(this).scrollTop();
+            if (scroll >= banner_height && currScrollTop > lastScrollTop) {
+            $("#banner").hide();
+            } else {
+            $("#banner").show();
+            }
+            lastScrollTop = currScrollTop;
+
+        });
+
+        });
+    </script>
+
+<script>
+    function getTheme() {
+        return localStorage.getItem('theme') || 'light';
     }
-    lastScrollTop = currScrollTop;
+    function saveTheme(theme) {
+        localStorage.setItem('theme', theme);
+    }
 
-  });
+    const colorScheme = document.querySelector('meta[name="color-scheme"]');
+    function applyTheme(theme) {
+        document.body.className = theme;
+        colorScheme.content = theme;
+    }
 
-});
-        </script>
+    function rotateTheme(theme) {
+        if (theme === 'light') {
+            return 'dark'
+        }else{
+            return 'light';
+        }
+        
+    }
+
+    const themeDisplay = document.getElementById('theme');
+    const themeToggler = document.getElementById('theme-toggle');
+
+// Mimic heavy load done by other JS scripts
+    setTimeout(() => {
+        let theme = getTheme();
+        applyTheme(theme);
+        themeDisplay.innerText = theme;
+
+        themeToggler.onclick = () => {
+            const newTheme = rotateTheme(theme);
+            applyTheme(newTheme);
+            themeDisplay.innerText = newTheme;
+            saveTheme(newTheme);
+
+            theme = newTheme;
+        }
+    }, 100);
+</script>
 </body>
 </html>

@@ -136,6 +136,14 @@ input[type=checkbox]:focus {
 .dark #btn-nav{
   color: red;
 }
+.dark #navscroll{
+  background-color: #000000 !important;
+  color: aqua;
+}
+.dark #dark-svg{
+  fill: black;
+  stroke: white;
+}
 /* dark Mode */
 #navscroll{
   height: 130px;
