@@ -198,7 +198,15 @@ input[type=search]:active {
   box-shadow: none;
   border: none;
 }
-
+.btn{
+  border: none !important;
+}
+.btn:active{
+  border: none !important;
+}
+.btn:focus{
+  border: none !important;
+}
 /* dark Mode */
 #navscroll{
   height: 80px;
