@@ -5,10 +5,10 @@
         padding: 0px 200px;
     }
     #logo-img{
-        width: 25%;
+        width: 27%;
     }
     #btn-nav{
-        font-size: 22px;
+        font-size: 27px;
     }
     #box-purpose{
       width: 60rem;
@@ -21,180 +21,1529 @@
     #img-member{
       width: 150px;
     }
+    #text1{
+      font-size: 80px;
+      letter-spacing: 1px;
+    }
+    #text2{
+      font-size: 30px;
+      word-spacing: 5px;
+    }
+    #text-btn{
+      font-size: 27px;
+    }
+    #arrow-down{
+      width: 29px;
+      height: 29px;
+    }
+    #text-viewAll{
+      font-size: 20px;
+    }
+    #sub-title1{
+      font-size: 20px;
+    }
+    #title1{
+      font-size: 35px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+
 }
 @media screen and (max-width : 1899px) and (min-width:1800px) {
     #navscroll{
-        height: 120px;
-        padding: 5px 200px;
+        height: 100px;
+        padding: 0 200px;
     }
     #logo-img{
-        width: 46%;
+        width: 27.5%;
     }
     #btn-nav{
-        font-size: 20px;
+        font-size: 26px;
+    }
+    #box-purpose{
+      width: 60rem;
+      height: 30rem;
+    }
+    #title-purpose{
+      font-size: 50px;
+    }
+    #img-member{
+      width: 150px;
+    }
+    #text1{
+      font-size: 75px;
+      letter-spacing: 0px;
+    }
+    #text2{
+      font-size: 27px;
+      word-spacing: 5px;
+    }
+    #text-btn{
+      font-size: 25px;
+    }
+    #arrow-down{
+      width: 30px;
+      height: 30px;
+    }
+    #text-viewAll{
+      font-size: 20px;
+    }
+    #sub-title1{
+      font-size: 20px;
+    }
+    #title1{
+      font-size: 35px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
     }
 }
 @media screen and (max-width : 1799px) and (min-width:1700px) {
     #navscroll{
-        height: 120px;
-        padding: 5px 200px;
+        height: 95px;
+        padding: 0 200px;
     }
     #logo-img{
-        width: 50%;
+        width: 29%;
+    }
+    #btn-nav{
+        font-size: 25px;
+    }
+  #box-purpose{
+    width: 60rem;
+    height: 30rem;
+  }
+  #title-purpose{
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text1{
+    font-size: 60px;
+    letter-spacing: 1px;
+  }
+  #text2{
+    font-size: 25px;
+    word-spacing: 4px;
+  }
+  #text-btn{
+    font-size: 23px;
+  }
+  #arrow-down{
+    width: 27px;
+    height: 27px;
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+    font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+}
+@media screen and (max-width : 1699px) and (min-width:1600px) {
+  #navscroll{
+    height: 90px;
+    padding: 0 200px;
+  }
+  #logo-img{
+      width: 29.5%;
+  }
+  #btn-nav{
+      font-size: 24px;
+  }
+  #box-purpose{
+    width: 60rem;
+    height: 30rem;
+  }
+  #title-purpose{
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text1{
+    font-size: 55px;
+    letter-spacing: 1px;
+  }
+  #text2{
+    font-size: 22px;
+    word-spacing: 3px;
+  }
+  #text-btn{
+    font-size: 20px;
+  }
+  #arrow-down{
+    width: 25px;
+    height: 25px;
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+}
+@media screen and (max-width : 1599px) and (min-width:1500px) {
+    #navscroll{
+        height: 85px;
+        padding: 0 200px;
+    }
+    #logo-img{
+        width: 30%;
+    }
+    #btn-nav{
+        font-size: 23px;
+    }
+  #box-purpose{
+    width: 60rem;
+    height: 30rem;
+  }
+  #title-purpose{
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text1{
+    font-size: 50px;
+    letter-spacing: 1px;
+  }
+  #text2{
+    font-size: 30px;
+    word-spacing: 5px;
+  }
+  #text-btn{
+    font-size: 30px;
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+}
+@media screen and (max-width : 1499px) and (min-width:1400px) {
+    #navscroll{
+        height: 85px;
+        padding: 0 200px;
+    }
+    #logo-img{
+        width: 33%;
+    }
+    #btn-nav{
+        font-size: 22px;
+    }
+  #box-purpose{
+    width: 60rem;
+    height: 30rem;
+  }
+  #title-purpose{
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text1{
+    font-size: 45px;
+    letter-spacing: 3px;
+  }
+  #text2{
+    font-size: 30px;
+    word-spacing: 5px;
+  }
+  #text-btn{
+    font-size: 30px;
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+}
+@media screen and (max-width : 1399px) and (min-width:1300px) {
+    #navscroll{
+        height: 80px;
+        padding: 0 200px;
+    }
+    #logo-img{
+        width: 35%;
+    }
+    #btn-nav{
+        font-size: 21px;
+    }
+  #box-purpose{
+    width: 60rem;
+    height: 30rem;
+  }
+  #title-purpose{
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text1{
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+  #text2{
+    font-size: 40px;
+    word-spacing: 5px;
+  }
+  #text-btn{
+    font-size: 30px;
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+}
+@media screen and (max-width : 1299px) and (min-width:1200px) {
+    #navscroll{
+        height: 80px;
+        padding: 0 110px;
+    }
+    #logo-img{
+        width: 32%;
+    }
+    #btn-nav{
+        font-size: 21px;
+    }
+  #box-purpose{
+    width: 60rem;
+    height: 30rem;
+  }
+  #title-purpose{
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text1{
+    font-size: 35px;
+    letter-spacing: 3px;
+  }
+  #text2{
+    font-size: 30px;
+    word-spacing: 5px;
+  }
+  #text-btn{
+    font-size: 30px;
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+}
+@media screen and (max-width : 1199px) and (min-width:1100px) {
+    #navscroll{
+        height: 75px;
+        padding: 0 120px;
+    }
+    #logo-img{
+        width: 34%;
     }
     #btn-nav{
         font-size: 20px;
     }
+  #box-purpose{
+    width: 60rem;
+    height: 30rem;
+  }
+  #title-purpose{
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text1{
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  #text2{
+    font-size: 30px;
+    word-spacing: 5px;
+  }
+  #text-btn{
+    font-size: 30px;
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
 }
-@media screen and (max-width : 1699px) and (min-width:1600px) {
+@media screen and (max-width : 1099px) and (min-width:1018px) {
     #navscroll{
-        height: 120px;
-        padding: 5px 200px;
-      }
-      #logo-img{
-        width: 54%;
-      }
-      #btn-nav{
+        height: 75px;
+        padding: 0 80px;
+    }
+    #logo-img{
+        width: 35%;
+    }
+    #btn-nav{
         font-size: 19px;
     }
+  #box-purpose{
+    width: 60rem;
+    height: 30rem;
+  }
+  #title-purpose{
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text1{
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  #text2{
+    font-size: 30px;
+    word-spacing: 5px;
+  }
+  #text-btn{
+    font-size: 30px;
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
 }
-@media screen and (max-width : 1599px) and (min-width:1500px) {
+@media screen and (max-width : 1017px) and (min-width:992px) {
     #navscroll{
-        height: 120px;
-        padding: 5px 200px;
-    }
-    #logo-img{
-        width: 60%;
-    }
-    #btn-nav{
-        font-size: 18px;
-    }
-}
-@media screen and (max-width : 1499px) and (min-width:1400px) {
-    #navscroll{
-        height: 120px;
-        padding: 5px 200px;
-    }
-    #logo-img{
-        width: 65%;
-    }
-    #btn-nav{
-        font-size: 17px;
-    }
-}
-@media screen and (max-width : 1399px) and (min-width:1300px) {
-    #navscroll{
-        height: 120px;
-        padding: 5px 200px;
-    }
-    #logo-img{
-        width: 75%;
-    }
-    #btn-nav{
-        font-size: 17px;
-    }
-}
-@media screen and (max-width : 1299px) and (min-width:1200px) {
-    #navscroll{
-        height: 120px;
-        padding: 5px 110px;
-    }
-    #logo-img{
-        width: 70%;
-    }
-    #btn-nav{
-        font-size: 17px;
-    }
-}
-@media screen and (max-width : 1199px) and (min-width:1100px) {
-    #navscroll{
-        height: 120px;
-        padding: 5px 120px;
-    }
-    #logo-img{
-        width: 78%;
-    }
-    #btn-nav{
-        font-size: 17px;
-    }
-}
-@media screen and (max-width : 1099px) and (min-width:1010px) {
-    #navscroll{
-        height: 120px;
-        padding: 5px 50px;
-    }
-    #logo-img{
-        width: 78%;
-    }
-    #btn-nav{
-        font-size: 16px;
-    }
-}
-@media screen and (max-width : 1009px) and (min-width:900px) {
-    #navscroll{
-        height: 110px;
-        padding: 5px 40px;
-    }
-    #logo-img{
-        width: 75%;
-    }
-    #btn-nav{
-        font-size: 15px;
-    }
-}
-@media screen and (max-width : 899px) and (min-width:800px) {
-    #navscroll{
-        height: 80px;
+        height: 70px;
         padding: 0 50px;
     }
+    #logo-img{
+        width: 33%;
+    }
+  #btn-nav{
+    font-size: 18px;
+  }
+  #box-purpose{
+    width: 60rem;
+    height: 30rem;
+  }
+  #title-purpose{
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text1{
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+  #text2{
+    font-size: 30px;
+    word-spacing: 5px;
+  }
+  #text-btn{
+    font-size: 30px;
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+}
+@media screen and (max-width : 991px) and (min-width:800px) {
+    #navscroll{
+        height: 60px;
+        padding: 0 90px;
+    }
     #btn-nav{
-        font-size: 11px;
+        font-size: 17px;
+    }
+    #box-purpose{
+      width: 60rem;
+      height: 30rem;
+    }
+    #title-purpose{
+      font-size: 50px;
+    }
+    #img-member{
+      width: 150px;
+    }
+    #text1{
+      font-size: 35px;
+      letter-spacing: 3px;
+    }
+    #text2{
+      font-size: 30px;
+      word-spacing: 5px;
+    }
+    #text-btn{
+      font-size: 30px;
+    }
+    #text-viewAll{
+      font-size: 20px;
+    }
+    #sub-title1{
+      font-size: 20px;
+    }
+    #title1{
+    font-size: 35px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
     }
 }
 @media screen and (max-width : 799px) and (min-width:700px) {
     #navscroll{
-        height: 65px;
+        height: 55px;
         padding: 5px 80px;
+    }
+    #box-purpose{
+      width: 60rem;
+      height: 30rem;
+    }
+    #title-purpose{
+      font-size: 50px;
+    }
+    #img-member{
+      width: 150px;
+    }
+    #text1{
+      font-size: 35px;
+      letter-spacing: 3px;
+    }
+    #text2{
+      font-size: 30px;
+      word-spacing: 5px;
+    }
+    #text-btn{
+      font-size: 30px;
+    }
+    #text-viewAll{
+      font-size: 20px;
+    }
+    #sub-title1{
+      font-size: 20px;
+    }
+    #title1{
+    font-size: 35px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
     }
 }
 @media screen and (max-width : 699px) and (min-width:600px) {
     #navscroll{
-        height: 60px;
-        padding: 5px 50px;
+        height: 50px;
+        padding: 5px 70px;
+    }
+    #box-purpose{
+      width: 60rem;
+      height: 30rem;
+    }
+    #title-purpose{
+      font-size: 50px;
+    }
+    #img-member{
+      width: 150px;
+    }
+    #text1{
+      font-size: 35px;
+      letter-spacing: 3px;
+    }
+    #text2{
+      font-size: 30px;
+      word-spacing: 5px;
+    }
+    #text-btn{
+      font-size: 30px;
+    }
+    #text-viewAll{
+      font-size: 20px;
+    }
+    #sub-title1{
+      font-size: 20px;
+    }
+    #title1{
+    font-size: 35px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
     }
 }
 @media screen and (max-width : 599px) and (min-width:500px) {
     #navscroll{
-        height: 60px;
-        padding: 5px 40px;
+        height: 55px;
+        padding: 5px 60px;
     }
     #background-space{
-        margin-top: 60px;
+        margin-top: 55px;
+    }
+    #box-purpose{
+      width: 60rem;
+      height: 30rem;
+    }
+    #title-purpose{
+      font-size: 50px;
+    }
+    #img-member{
+      width: 150px;
+    }
+    #text1{
+      font-size: 35px;
+      letter-spacing: 3px;
+    }
+    #text2{
+      font-size: 30px;
+      word-spacing: 5px;
+    }
+    #text-btn{
+      font-size: 30px;
+    }
+    #text-viewAll{
+      font-size: 20px;
+    }
+    #sub-title1{
+      font-size: 20px;
+    }
+    #title1{
+    font-size: 35px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
     }
 }
 @media screen and (max-width : 499px) and (min-width:400px) {
     #navscroll{
-        height: 55px;
-        padding: 0px 25px;
+        height: 50px;
+        padding: 0px 40px;
     }
     #background-space{
-        margin-top: 55px;
+        margin-top: 50px;
+    }
+    #box-purpose{
+      width: 60rem;
+      height: 30rem;
+    }
+    #title-purpose{
+      font-size: 50px;
+    }
+    #img-member{
+      width: 150px;
+    }
+    #text1{
+      font-size: 35px;
+      letter-spacing: 3px;
+    }
+    #text2{
+      font-size: 30px;
+      word-spacing: 5px;
+    }
+    #text-btn{
+      font-size: 30px;
+    }
+    #text-viewAll{
+      font-size: 20px;
+    }
+    #sub-title1{
+      font-size: 20px;
+    }
+    #title1{
+    font-size: 35px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
     }
 }
 @media screen and (max-width : 399px) and (min-width:350px) {
     #navscroll{
-        height: 55px;
-        padding: 0px 7px;
+        height: 45px;
+        padding: 0px 30px;
     }
     #background-space{
-        margin-top: 55px;
+        margin-top: 45px;
+    }
+    #box-purpose{
+      width: 60rem;
+      height: 30rem;
+    }
+    #title-purpose{
+      font-size: 50px;
+    }
+    #img-member{
+      width: 150px;
+    }
+    #text1{
+      font-size: 35px;
+      letter-spacing: 3px;
+    }
+    #text2{
+      font-size: 30px;
+      word-spacing: 5px;
+    }
+    #text-btn{
+      font-size: 30px;
+    }
+    #text-viewAll{
+      font-size: 20px;
+    }
+    #sub-title1{
+      font-size: 20px;
+    }
+    #title1{
+    font-size: 35px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
     }
 }
 @media screen and (max-width : 349px) and (min-width:320px) {
     #navscroll{
-        height: 55px;
-        padding: 0px 1px;
+        height: 42px;
+        padding: 0px 20px;
     }
+    #background-space{
+      margin-top: 40px;
+  }
+  #box-purpose{
+    width: 60rem;
+    height: 30rem;
+  }
+  #title-purpose{
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text1{
+    font-size: 35px;
+    letter-spacing: 3px;
+  }
+  #text2{
+    font-size: 30px;
+    word-spacing: 5px;
+  }
+  #text-btn{
+    font-size: 30px;
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+}
+@media screen and (max-width:319px) and (min-width:100px) {
+  #navscroll{
+      height: 40px;
+      padding: 0px 5px;
+  }
+  #background-space{
+    margin-top: 40px;
+  }
+  #box-purpose{
+    width: 60rem;
+    height: 30rem;
+  }
+  #title-purpose{
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text1{
+    font-size: 35px;
+    letter-spacing: 3px;
+  }
+  #text2{
+    font-size: 30px;
+    word-spacing: 5px;
+  }
+  #text-btn{
+    font-size: 30px;
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
 }
 
 

@@ -8,15 +8,14 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <!-- bootstrap -->
        <link rel="stylesheet" href="plugins/css/bootstrap.min.css">
-       <link rel="stylesheet" href="app.css">
-       <link rel="stylesheet" href="responsive.css">
-       <link rel="stylesheet" href="search.php">
+       <link rel="stylesheet" type="text/css" href="app.css">
+       <link rel="stylesheet" type="text/css" href="responsive.css">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
        <!-- font awesome -->
-       <script src="darkMode.js"></script>
        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
         <script src="plugins/js/bootstrap.bundle.min.js"></script>
 
-       <title>Document</title>
+       <title>Homepage</title>
 </head>
 <body style="background-color: #F1EEE9;">
         <div id="banner">
@@ -24,10 +23,9 @@
                 <!-- navigation -->
                 <div class="col-3 d-flex align-items-center position-relative">
                     <!-- logo -->
-                    <a class="navbar-brand d-xxl-flex d-xl-flex d-lg-flex d-md-none d-sm-none d-none align-self-center" href="index.html">
-                        <img id="logo-img" class="img-fluid rounded rounded-circle bg-light" src="./images/Logo htcam-01.png" alt="">
+                    <a class="navbar-brand d-xxl-flex d-xl-flex d-lg-flex d-md-none d-sm-none d-none" href="index.html">
+                        <img id="logo-img" class="img-fluid rounded rounded-circle" src="./images/Logo htcam-01.png" alt="">
                     </a>
-                    <p class="d-block position-absolute py-2 fw-bold text-break text-light" style="top: 25px; right:0; font-size:20px;">ប្រវត្តិប្រាសាទក្នុងប្រទេសកម្ពុជា1</p>
                     <!-- end logo -->
                     <!-- offcanvas show when md and sm screen-->
                     <button  class="d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-flex d-flex btn btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
@@ -55,8 +53,9 @@
                             <!-- btn close -->
                         </div>
                         <div class="offcanvas-body bg-secondary">
-                            <div class="col-12">
                             <!-- search  -->
+                            <!-- <div class="col-12">
+                            
                                 <form action="">
                                     <div class="d-block position-absolute w-100" style="z-index: 1;">
                                         <input id="search-offcanvas" class="btn btn-sm bg-transparent"  type="search" name="search" placeholder=" &nbsp;Search.." autocomplete="off">
@@ -67,7 +66,7 @@
                                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                                     </svg>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="col-12">
                                 <!-- navigation in offcanvas-->
                                 <ul class="nav nav-pills flex-column justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center align-items-center gap-2">
@@ -75,10 +74,10 @@
                                         <a class="nav-link btn text-light btn-success btn-lg" href="index.html" role="button">ទំព័រដើម</a>
                                     </li>
                                     <li class="col-12 nav-item bg-success rounded">
-                                        <a class="nav-link btn text-light btn-success" href="#" role="button">គោលបំណង</a>
+                                        <a class="nav-link btn text-light btn-success" href="#purpose" role="button">គោលបំណង</a>
                                     </li>
                                     <li class="col-12 nav-item bg-success rounded">
-                                        <a class="nav-link btn text-light btn-success" href="#" role="button">អំពីយើង</a>
+                                        <a class="nav-link btn text-light btn-success" href="#about_us" role="button">អំពីយើង</a>
                                     </li>
                                 </ul>
                                 <!-- navigation in offcanvas-->
@@ -89,21 +88,21 @@
                 </div>
 
                 <!-- navigation -->
-                <div class="col-5 d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" id="main_nav" style="font-family: NidaOdorMeanChey;">
-                    <ul id="navbar" class="nav nav-pills justify-content-xxl-end justify-content-xl-end justify-content-lg-end justify-content-md-center ms-auto mt-2 gap-3">
+                <div class="col-6 d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" id="main_nav" style="font-family: NidaOdorMeanChey;">
+                    <ul id="navbar" class="nav nav-pills justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center ms-auto mt-2 gap-3">
                         <li class="nav-item">
-                            <a id="btn-nav" class="nav-link fs-4" href="index.html" role="button">ទំព័រដើម</a>
+                            <a id="btn-nav" class="nav-link" href="index.html" role="button">ទំព័រដើម</a>
                         </li>
                         <li class="nav-item">
-                            <a id="btn-nav" class="nav-link fs-4" href="#purpose" role="button">គោលបំណង</a>
+                            <a id="btn-nav" class="nav-link" href="#purpose" role="button">គោលបំណង</a>
                         </li>
                         <li class="nav-item">
-                            <a id="btn-nav" class="nav-link fs-4" href="#us" role="button">អំពីយើង</a>
+                            <a id="btn-nav" class="nav-link" href="#about_us" role="button">អំពីយើង</a>
                         </li>
                     </ul>
                 </div>
                 <!-- end navigation -->
-                <div class="col-2 d-flex justify-content-start">
+                <!-- <div class="col-2 d-flex justify-content-start">
                     <form action="">
                         <div class="d-block position-absolute" style="z-index: 1;">
                             <input class="btn" onkeyup="showResult(this.value)"  type="search" name="search" placeholder=" &nbsp;ស្វែងរក.." autocomplete="off">
@@ -114,11 +113,11 @@
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                         </svg>
                     </div>
-                </div>
-                <div class="col-1 d-flex align-items-center justify-content-end mt-1">
+                </div> -->
+                <div class="col-2 d-flex align-items-center justify-content-end mt-1">
 
                     <div>
-                        <button id="theme-toggle" class="btn">
+                        <button id="theme-toggle" class="btn ps-1">
                             <svg id="dark-svg" width="30" height="30" fill="white" stroke="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4.5 9.5a7.5 7.5 0 1 1 12.718 5.388c-.254.245-.45.5-.567.773l-.952 2.212a.626.626 0 0 1-.574.377h-6.25a.625.625 0 0 1-.575-.377l-.951-2.213a2.454 2.454 0 0 0-.567-.772A7.48 7.48 0 0 1 4.5 9.5Zm3.75 10.625a.625.625 0 0 1 .625-.625h6.25a.625.625 0 1 1 0 1.25l-.28.559a1.25 1.25 0 0 1-1.118.691h-3.454a1.25 1.25 0 0 1-1.118-.691l-.28-.559a.625.625 0 0 1-.625-.625Z"></path>
                                </svg>
@@ -129,38 +128,36 @@
             </div>
             <!-- end navigation -->
         </div>
-        <p class="text-center">test</p>
     <div class="row " id="background-space">
         <div class="col-12">
             <div class="background">
                 <img id="bg-img" class="img-fluid mx-auto d-block" src="./images/cambodia-original.jpg" alt="" >
                 <div class="center-left text-light w-100 h-auto offset-3" style="font-family: NidaAngkor;">
                     <h1 id="text1" class="text-capitalize pb-xxl-5 pb-xl-5 pb-lg-4 pb-md-4 pb-sm-3 pb-2">ប្រវត្តិប្រាសាទ<br>ក្នុងប្រទេសកម្ពុជា</h1>
-                    <p id="text2" class="border-3 border-start border-success">&nbsp;&nbsp;History Of Temple<br>&nbsp;&nbsp;In Cambodia</p>
+                    <p id="text2" class="border-5 border-start border-success overflow-hidden">&nbsp;&nbsp;History Of Temple<br>&nbsp;&nbsp;In Cambodia</p>
                     <a id="text-btn" href="#space" class="btn rounded-0 btn-success p-2 mt-xxl-3 mt-xl-3 mt-lg-1 align-middle shadow shadow-sm">
                         ចាប់ផ្តើមមើលប្រវត្តិ
-                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                            <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                        </svg>
+                        <svg id="arrow-down" fill="white" viewBox="2 2 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M18.848 5.152a1.2 1.2 0 0 1 0 1.696l-6 6a1.2 1.2 0 0 1-1.696 0l-6-6a1.2 1.2 0 0 1 1.696-1.696L12 10.303l5.152-5.151a1.2 1.2 0 0 1 1.696 0Zm0 7.2a1.2 1.2 0 0 1 0 1.696l-6 6a1.2 1.2 0 0 1-1.696 0l-6-6a1.2 1.2 0 1 1 1.696-1.696L12 17.503l5.152-5.151a1.2 1.2 0 0 1 1.696 0Z" clip-rule="evenodd"></path>
+                           </svg>
                     </a>
                 </div>
             </div>
         </div>
     </div>
-    <main>
-        <div class="container mt-5">
+    <main id="space">
+        <div  class="container mt-5">
             <div class="row">
                 <div class="col-6">
-                    <p id="title1" class=" fw-semibold">ប្រវត្តិនៃប្រាសាទ</p>
+                    <p id="title1" class="fw-semibold pt-2">ប្រវត្តិនៃប្រាសាទ</p>
                     <p id="sub-title1" class="text-uppercase text-success"><small>History of Temple</small></p>
                 </div>
                 <div class="col-6 d-flex justify-content-end align-items-start mt-xxl-5 mt-xl-5 mt-lg-4 mt-sm-4 mt-3 ">
-                    <button onclick="javascript:window.open('all-temple.html', '_parent');" id="text-viewAll" href="#" class="btn rounded-0 btn-success shadow">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 1 16 16">
-                            <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
-                            <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
-                        </svg>
+                    <button onclick="javascript:window.open('all-temple.html', '_parent');" id="text-viewAll" href="#" class="btn rounded-2 btn-success shadow">
+                        <svg width="30" height="30" fill="white" viewBox="0 2 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 14.4a2.4 2.4 0 1 0 0-4.8 2.4 2.4 0 0 0 0 4.8Z"></path>
+                            <path fill-rule="evenodd" d="M.55 12C2.078 7.132 6.626 3.6 12 3.6s9.922 3.532 11.45 8.4c-1.528 4.868-6.076 8.4-11.45 8.4S2.078 16.868.55 12Zm16.25 0a4.8 4.8 0 1 1-9.6 0 4.8 4.8 0 0 1 9.6 0Z" clip-rule="evenodd"></path>
+                           </svg>
                         មើលទាំងអស់
                     </button>
                 </div>
@@ -168,7 +165,7 @@
             <div class="row">
                 <div class="col-xxl-4 col-xl-4 col-lg-6">
                     <a id="modal-bg" class="text-decoration-none text-dark" data-bs-toggle="modal" href="#popup1" role="button">
-                        <div class="card shadow border-0 mb-3 rounded-4">
+                        <div id="bg-card" class="card shadow border-0 mb-3 rounded-4">
                             <img id="img-card" class="card-img-top img-fluid" src="./images/Cambodia-Angkor-Wat-Temple-Siem-Reap-1024x682.jpg" alt="">
                             <div class="card-body">
                                 <h4 class="card-title py-2 text-center fw-bold " style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទអង្គរវត្ត</h4>
@@ -210,7 +207,7 @@
                                           </div>
                                         <div class="position-absolute top-0 d-flex justify-self-end pt-1" style="right: 0; z-index: 1;">
                                             <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close">
-                                                <svg width="45" height="45" fill="darkgreen" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <svg id="btn-close" width="45" height="45" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
                                                     <path d="m15 9-6 6"></path>
                                                     <path d="m9 9 6 6"></path>
@@ -226,7 +223,7 @@
                                         <p class="overflow-hidden px-5 pb-4 text-secondary" style="font-family:khmer; line-height: 25px;">ប្រាសាទអង្គរវត្ត ឬប្រាសាទអង្គរតូចមានទីតាំងស្ថិតនៅភាគខាងជើងនៃក្រុងសៀមរាបនៃខេត្តសៀមរាប។ ប្រាសាទអង្គរវត្តជាប្រាសាទព្រហ្មញ្ញសាសនាធំបំផុត និងជាវិមានសាសនាដ៏ធំបំផុតនៅក្នុងលោក។ ប្រាសាទនេះត្រូវបានកសាងឡើងដោយ<b>ព្រះបាទសូរ្យវរ្ម័នទី២</b> ដែលជាស្នាដៃដ៏ធំអស្ចារ្យ និងមានឈ្មោះល្បីល្បាញរន្ទឺសុះសាយទៅគ្រប់ទិសទីលើពិភពលោក។ ប្រាសាទនេះសាងសង់ឡើងនៅដើមសតវត្សទី១២ ដែលស្ថិតនៅក្នុងរាជធានី<b>យសោធរបុរៈ</b>។ ប្រាសាទអង្គរវត្តជាប្រាសាទកសាងឡើង ដើម្បីឧទ្ទិសដល់<b>ព្រះវិស្ណុ</b>។
                                         </p>
                                     <div class="d-flex flex-column">
-                                        <button onclick="javascript:window.open('angkor_wat.html', '_parent');" class="btn btn-success btn-lg text-light">ព័ត៌មានលម្អិត</button>
+                                        <button onclick="javascript:window.open('angkor_wat.html', '_parent');" class="btn btn-success btn-lg text-light stretched-link">ព័ត៌មានលម្អិត</button>
                                     </div>
                                 </div>
                             </div>
@@ -262,7 +259,7 @@
                                           </div>
                                         <div class="position-absolute top-0 d-flex justify-self-end pt-1" style="right: 0; z-index: 1;">
                                             <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close">
-                                                <svg width="45" height="45" fill="darkgreen" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <svg id="btn-close" width="45" height="45" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
                                                     <path d="m15 9-6 6"></path>
                                                     <path d="m9 9 6 6"></path>
@@ -278,7 +275,7 @@
                                         <p class="overflow-hidden px-5 pb-4 text-secondary" style="font-family:khmer; line-height: 25px;">ប្រាសាទកោះកេរ្តិ៍ ឬ​កោះកែរស្ថិតនៅក្នុងភូមិស្រយ៉ង់ខាងជើង ឃុំស្រយ៉ង់ ស្រុកគូលែន ខេត្តព្រះវិហារ។ ប្រាសាទកោះកេរមានចម្ងាយប្រមាណ ១២០គីឡូម៉ែត្រពីទីរួមខេត្តសៀមរាប និងមានចម្ងាយប្រមាណ ៦០គីឡូម៉ែត្រពីទីរួមខេត្តព្រះវិហារ។ ចំណែកឯចម្ងាយពីរាជធានីភ្នំពេញមានចម្ងាយ ៤៦០គីឡូម៉ែត្រ។សព្វថៃ្ងនេះ យ៉ាងហោចណាស់ក្នុងមួយថៃ្ង មានភ្ញៀវទេសចរណ៍បរទេស ពី២០ ទៅ៤០នាក់ ដែលបានទៅទស្សនាតំបន់ប្រវត្តិសាស្រ្តកោះកេរ្តិ៍ នៅឃុំស្រយង់ ស្រុកគូលែន ខេត្តព្រះវិហារ បន្ទាប់ពីក្រុមហ៊ុនខាំសូមេធបានវិនិយោគទុនធ្វើផ្លូវល្អស្អាតរួចមក។ 
                                         </p>
                                     <div class="d-flex flex-column">
-                                        <button onclick="javascript:window.open('/test.html', '_blink');" class="btn btn-success btn-lg text-light">ព័ត៌មានលម្អិត</button>
+                                        <button onclick="javascript:window.open('koh-ker.html', '_parent');" class="btn btn-success btn-lg text-light">ព័ត៌មានលម្អិត</button>
                                     </div>
                                 </div>
                             </div>
@@ -286,7 +283,7 @@
                     </div>
         
                     <a id="modal-bg" class="text-decoration-none text-dark" data-bs-toggle="modal" href="#popup2" role="button">
-                        <div class="card shadow border-0 mb-3 rounded-4">
+                        <div id="bg-card" class="card shadow border-0 mb-3 rounded-4">
                             <img id="img-card" class="card-img-top img-fluid" src="./images/lon-Koh-Ker-temple.jpg" alt="">
                             <div class="card-body">
                                 <h4 class="card-title py-2 text-lg-center fw-bold" style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទកោះកេរ្តិ៍ ឬ​កោះកែរ</h4>
@@ -330,7 +327,7 @@
                                           </div>
                                         <div class="position-absolute top-0 d-flex justify-self-end pt-1" style="right: 0; z-index: 1;">
                                             <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close">
-                                                <svg width="45" height="45" fill="darkgreen" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <svg id="btn-close" width="45" height="45" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
                                                     <path d="m15 9-6 6"></path>
                                                     <path d="m9 9 6 6"></path>
@@ -346,7 +343,7 @@
                                         <p class="overflow-hidden px-5 pb-4 text-secondary" style="font-family:khmer; line-height: 25px;">ប្រាសាទបន្ទាយស្រីមានឈ្មោះល្បី ព្រោះវាត្រូវបានសាងសង់ឡើងពី ថ្មផ្កាឈូកជាមួយ នឹងក្បាច់ចម្លាក់ យ៉ាងល្អិតឆ្មាររស់រវើកជាងគេ ដោយមានតួប្រាង្គបី ដែលមានសភាពល្អឆើតឆាយដូចស្រីគ្រប់លក្ខណ៍។ ប្រាសាទនេះសង់លើដីរាបស្មើមានរាងតូចច្រឡឹងដោយថ្មភក់ផ្កាឈូក និង ឥដ្ឋរាង៤ជ្រុងទ្រវែង ហើយមានគូទឹកព័ទ្ធជុំវិញ ប្រាង្គទាំងបីនៃ ប្រាសាទសង់បែរមុខទៅទិសខាងកើត ហើយប្រាង្គកណ្តាលមានតម្កល់ លិង្គព្រះឥសូរ ខាងត្បូងឧទ្ទិសថ្វាយដល់ព្រហ្មញ្ញសាសនា និងខាងជើងឧទ្ទិសថ្វាយដល់ព្រះវិស្ណុ។
                                         </p>
                                     <div class="d-flex flex-column">
-                                        <button onclick="javascript:window.open('/test.html', '_blink');" class="btn btn-success btn-lg text-light">ព័ត៌មានលម្អិត</button>
+                                        <button onclick="javascript:window.open('bun_teay_srey.html', '_parent');" class="btn btn-success btn-lg text-light">ព័ត៌មានលម្អិត</button>
                                     </div>
                                 </div>
                             </div>
@@ -354,7 +351,7 @@
                     </div>
         
                     <a id="modal-bg" class="text-decoration-none text-dark" data-bs-toggle="modal" href="#popup3" role="button">
-                        <div class="card shadow border-0 mb-3 rounded-4">
+                        <div id="bg-card" class="card shadow border-0 mb-3 rounded-4">
                             <img id="img-card" class="card-img-top img-fluid" src="./images/Central_SUite_Banteay_Srei-1.jpeg" alt="">
                             <div class="card-body">
                                 <h4 class="card-title py-2 text-center fw-bold" style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទបន្ទាយស្រី</h4>
@@ -386,60 +383,77 @@
             </div>
         </div>
     </div>
-    <div id="us" class="row mt-5">
+    <div id="about_us" class="row mt-5">
+        <center>
+            <h1 class="text-center border-bottom border-2 border-secondary w-50 pb-3">Members Role</h1>
+        </center>
         <div class="col-12 d-flex justify-content-center p-5 gap-3">
             <div class="card border-0 bg-transparent">
-                <img id="img-member" class="card-img-top rounded rounded-circle img-thumbnail" src="./images/bpp.png" alt="">
-                <div class="card-body">
-                    <h1 class="card-title">Name</h1>
-                    <p class="card-text">text........</p>
-                </div>
+                <center>
+                    <img id="img-member" class="card-img-top rounded rounded-circle img-thumbnail" src="./images/bpp.png" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Van Rithy</h2>
+                        <p class="card-text">UX UI Designer</p>
+                    </div>
+                </center>
             </div>
             <div class="card border-0 bg-transparent">
-                <img id="img-member" class="card-img-top rounded rounded-circle img-thumbnail" src="./images/bpp.png" alt="">
-                <div class="card-body">
-                    <h1 class="card-title">Name</h1>
-                    <p class="card-text">text........</p>
-                </div>
+                <center>
+                    <img id="img-member" class="card-img-top rounded rounded-circle img-thumbnail" src="./images/bpp.png" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Chheoun Chhay</h2>
+                        <p class="card-text">Slider & Researcher Temples</p>
+                    </div>
+                </center>
             </div>
             <div class="card border-0 bg-transparent">
-                <img id="img-member" class="card-img-top rounded rounded-circle img-thumbnail" src="./images/bpp.png" alt="">
-                <div class="card-body">
-                    <h1 class="card-title">Name</h1>
-                    <p class="card-text">text........</p>
-                </div>
+                <center>
+                    <img id="img-member" class="card-img-top rounded rounded-circle img-thumbnail" src="./images/bpp.png" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Mech Tong</h2>
+                        <p class="card-text">Researcher Temples</p>
+                    </div>
+                </center>
             </div>
             <div class="card border-0 bg-transparent">
-                <img id="img-member" class=" card-img-top rounded rounded-circle img-thumbnail" src="./images/bpp.png" alt="">
-                <div class="card-body">
-                    <h1 class="card-title">Name</h1>
-                    <p class="card-text">text........</p>
-                </div>
+                <center>
+                    <img id="img-member" class=" card-img-top rounded rounded-circle img-thumbnail" src="./images/bpp.png" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Khim Kimhor</h2>
+                        <p class="card-text">Writer Articles</p>
+                    </div>
+                </center>
             </div>
         </div>
     </div>
     <div class="row mb-5">
-        <div class="col-12 d-flex justify-content-center p-5 gap-3">
+        <div class="col-12 d-flex justify-content-center gap-3">
             <div class="card border-0 bg-transparent">
-                <img id="img-member" class="card-img-top rounded rounded-circle img-thumbnail" src="./images/bpp.png" alt="">
-                <div class="card-body">
-                    <h1 class="card-title">Name</h1>
-                    <p class="card-text">text........</p>
-                </div>
+                <center>
+                    <img id="img-member" class="card-img-top rounded rounded-circle img-thumbnail" src="./images/bpp.png" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Chen Senghout</h2>
+                        <p class="card-text">Writer Articles</p>
+                    </div>
+                </center>
             </div>
             <div class="card border-0 bg-transparent">
-                <img id="img-member" class="card-img-top rounded rounded-circle img-thumbnail" src="./images/bpp.png" alt="">
-                <div class="card-body">
-                    <h1 class="card-title">Name</h1>
-                    <p class="card-text">text........</p>
-                </div>
+                <center>
+                    <img id="img-member" class="card-img-top rounded rounded-circle img-thumbnail" src="./images/bpp.png" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Phim Soksamnang</h2>
+                        <p class="card-text">Writer Articles</p>
+                    </div>
+                </center>
             </div>
             <div class="card border-0 bg-transparent">
-                <img id="img-member" class="card-img-top rounded rounded-circle img-thumbnail" src="./images/bpp.png" alt="">
-                <div class="card-body">
-                    <h1 class="card-title">Name</h1>
-                    <p class="card-text">text........</p>
-                </div>
+                <center>
+                    <img id="img-member" class="card-img-top rounded rounded-circle img-thumbnail" src="./images/bpp.png" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Sok Chetra</h2>
+                        <p class="card-text">Coder</p>
+                    </div>
+                </center>
             </div>
         </div>
     </div>
