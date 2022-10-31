@@ -240,7 +240,41 @@ footer{
 }
 /* dark Mode */
 
+.MultiCarousel { 
+  float: left; 
+  overflow: hidden; 
+  padding: 15px; 
+  width: 100%; 
+  position:relative; 
+}
+.MultiCarousel .MultiCarousel-inner { 
+  transition: 1s ease all; 
+  float: left; }
+.MultiCarousel .MultiCarousel-inner .item { 
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+  text-align: center;  
+  background:#f1f1f1; 
+  color:#666;
+}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+   position:absolute; 
+   border-radius:50%;
+   top: calc(35% - 20px); 
+  }
+.MultiCarousel .leftLst {
+   left: 40px; 
+  }
 
+.MultiCarousel .rightLst {
+   right: 40px; 
+  }
+    
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+   pointer-events: none;
+    fill-opacity: 50%;
+  }
 
 
 @font-face {
