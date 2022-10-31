@@ -4,8 +4,11 @@
         height: 100px;
         padding: 0px 200px;
     }
+    #background-space{
+      margin-top: 30px;
+    }
     #logo-img{
-        width: 27%;
+        width: 28%;
     }
     #btn-nav{
         font-size: 27px;
@@ -22,19 +25,32 @@
       width: 150px;
     }
     #text1{
-      font-size: 80px;
+      font-size: 105px;
       letter-spacing: 1px;
     }
     #text2{
-      font-size: 30px;
-      word-spacing: 5px;
+      text-transform: uppercase;
+      font-size: 29px;
+      letter-spacing: 15px;
     }
     #text-btn{
       font-size: 27px;
     }
     #arrow-down{
-      width: 29px;
-      height: 29px;
+      width: 28px;
+      height: 28px;
+    }
+    #eye-icon{
+      width: 30px;
+      height: 30px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 880px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original.jpg');
     }
     #text-viewAll{
       font-size: 20px;
@@ -85,15 +101,23 @@
       color: azure;
       background-color: rgb(109, 109, 109);
     }
-
+    .center-left {
+      position: absolute;
+      top: 65.5%;
+      left: 27.9%;
+      transform: translate(-50%, -50%);
+    }
 }
 @media screen and (max-width : 1899px) and (min-width:1800px) {
     #navscroll{
         height: 100px;
         padding: 0 200px;
     }
+    #background-space{
+      margin-top: 90px;
+    }
     #logo-img{
-        width: 27.5%;
+        width: 28%;
     }
     #btn-nav{
         font-size: 26px;
@@ -109,19 +133,32 @@
       width: 150px;
     }
     #text1{
-      font-size: 75px;
-      letter-spacing: 0px;
+      font-size: 100px;
+      line-height: 115px;
     }
     #text2{
-      font-size: 27px;
-      word-spacing: 5px;
+      text-transform: uppercase;
+      font-size: 26px;
+      letter-spacing: 15px;
     }
     #text-btn{
-      font-size: 25px;
+      font-size: 30px;
     }
     #arrow-down{
+      width: 32px;
+      height: 32px;
+    }
+    #eye-icon{
       width: 30px;
       height: 30px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 820px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original.jpg');
     }
     #text-viewAll{
       font-size: 20px;
@@ -172,11 +209,20 @@
       color: azure;
       background-color: rgb(109, 109, 109);
     }
+    .center-left {
+      position: absolute;
+      top: 64%;
+      left: 28%;
+      transform: translate(-50%, -50%);
+    }
 }
 @media screen and (max-width : 1799px) and (min-width:1700px) {
     #navscroll{
         height: 95px;
         padding: 0 200px;
+    }
+    #background-space{
+      margin-top: 48px;
     }
     #logo-img{
         width: 29%;
@@ -195,19 +241,32 @@
     width: 150px;
   }
   #text1{
-    font-size: 60px;
-    letter-spacing: 1px;
+    font-size: 100px;
+    line-height: 119px;
   }
   #text2{
-    font-size: 25px;
-    word-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 15px;
   }
   #text-btn{
-    font-size: 23px;
+    font-size: 30px;
   }
   #arrow-down{
     width: 27px;
     height: 27px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -258,14 +317,23 @@
     color: azure;
     background-color: rgb(109, 109, 109);
   }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 27.9%;
+    transform: translate(-50%, -50%);
+  }
 }
 @media screen and (max-width : 1699px) and (min-width:1600px) {
   #navscroll{
-    height: 90px;
+    height: 93px;
     padding: 0 200px;
   }
+  #background-space{
+    margin-top: 50px;
+  }
   #logo-img{
-      width: 29.5%;
+      width: 31%;
   }
   #btn-nav{
       font-size: 24px;
@@ -281,19 +349,32 @@
     width: 150px;
   }
   #text1{
-    font-size: 55px;
-    letter-spacing: 1px;
+    font-size: 100px;
+    letter-spacing: 0px;
   }
   #text2{
-    font-size: 22px;
-    word-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 15px;
   }
   #text-btn{
-    font-size: 20px;
+    font-size: 29px;
   }
   #arrow-down{
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -344,14 +425,23 @@
     color: azure;
     background-color: rgb(109, 109, 109);
   }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 27.9%;
+    transform: translate(-50%, -50%);
+  }
 }
 @media screen and (max-width : 1599px) and (min-width:1500px) {
     #navscroll{
-        height: 85px;
+        height: 95px;
         padding: 0 200px;
     }
+    #background-space{
+      margin-top: 50px;
+    }
     #logo-img{
-        width: 30%;
+        width: 34.2%;
     }
     #btn-nav{
         font-size: 23px;
@@ -367,15 +457,32 @@
     width: 150px;
   }
   #text1{
-    font-size: 50px;
-    letter-spacing: 1px;
+    font-size: 100px;
+    line-height: 125px;
   }
   #text2{
-    font-size: 30px;
-    word-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
   }
   #text-btn{
-    font-size: 30px;
+    font-size: 28px;
+  }
+  #arrow-down{
+    width: 27px;
+    height: 27px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -426,14 +533,23 @@
     color: azure;
     background-color: rgb(109, 109, 109);
   }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
+  }
 }
 @media screen and (max-width : 1499px) and (min-width:1400px) {
     #navscroll{
-        height: 85px;
+        height: 95px;
         padding: 0 200px;
     }
+    #background-space{
+      margin-top: 50px;
+    }
     #logo-img{
-        width: 33%;
+        width: 37.5%;
     }
     #btn-nav{
         font-size: 22px;
@@ -449,15 +565,32 @@
     width: 150px;
   }
   #text1{
-    font-size: 45px;
-    letter-spacing: 3px;
+    font-size: 95px;
+    line-height: 125px;
   }
   #text2{
-    font-size: 30px;
-    word-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
   }
   #text-btn{
-    font-size: 30px;
+    font-size: 27px;
+  }
+  #arrow-down{
+    width: 25px;
+    height: 25px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -507,15 +640,24 @@
     font-size: 20px;
     color: azure;
     background-color: rgb(109, 109, 109);
+  }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
   }
 }
 @media screen and (max-width : 1399px) and (min-width:1300px) {
     #navscroll{
-        height: 80px;
+        height: 95px;
         padding: 0 200px;
     }
+    #background-space{
+      margin-top: 50px;
+    }
     #logo-img{
-        width: 35%;
+        width: 42%;
     }
     #btn-nav{
         font-size: 21px;
@@ -531,15 +673,32 @@
     width: 150px;
   }
   #text1{
-    font-size: 40px;
-    letter-spacing: 3px;
+    font-size: 95px;
+    line-height: 125px;
   }
   #text2{
-    font-size: 40px;
-    word-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
   }
   #text-btn{
-    font-size: 30px;
+    font-size: 28px;
+  }
+  #arrow-down{
+    width: 28px;
+    height: 28px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -589,15 +748,24 @@
     font-size: 20px;
     color: azure;
     background-color: rgb(109, 109, 109);
+  }
+  .center-left {
+    position: absolute;
+    top: 68%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
   }
 }
 @media screen and (max-width : 1299px) and (min-width:1200px) {
     #navscroll{
-        height: 80px;
+        height: 97px;
         padding: 0 110px;
     }
+    #background-space{
+      margin-top: 50px;
+    }
     #logo-img{
-        width: 32%;
+        width: 39%;
     }
     #btn-nav{
         font-size: 21px;
@@ -613,15 +781,32 @@
     width: 150px;
   }
   #text1{
-    font-size: 35px;
-    letter-spacing: 3px;
+    font-size: 95px;
+    line-height: 125px;
   }
   #text2{
-    font-size: 30px;
-    word-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
   }
   #text-btn{
-    font-size: 30px;
+    font-size: 28px;
+  }
+  #arrow-down{
+    width: 28px;
+    height: 28px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original-zin.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -672,14 +857,23 @@
     color: azure;
     background-color: rgb(109, 109, 109);
   }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
+  }
 }
 @media screen and (max-width : 1199px) and (min-width:1100px) {
     #navscroll{
-        height: 75px;
+        height: 90px;
         padding: 0 120px;
     }
+    #background-space{
+      margin-top: 50px;
+    }
     #logo-img{
-        width: 34%;
+        width: 41%;
     }
     #btn-nav{
         font-size: 20px;
@@ -695,15 +889,32 @@
     width: 150px;
   }
   #text1{
-    font-size: 30px;
-    letter-spacing: 3px;
+    font-size: 95px;
+    line-height: 125px;
   }
   #text2{
-    font-size: 30px;
-    word-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
   }
   #text-btn{
-    font-size: 30px;
+    font-size: 28px;
+  }
+  #arrow-down{
+    width: 28px;
+    height: 28px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original-zin.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -753,18 +964,27 @@
     font-size: 20px;
     color: azure;
     background-color: rgb(109, 109, 109);
+  }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
   }
 }
 @media screen and (max-width : 1099px) and (min-width:1018px) {
     #navscroll{
-        height: 75px;
+        height: 100px;
         padding: 0 80px;
     }
+    #background-space{
+      margin-top: 50px;
+    }
     #logo-img{
-        width: 35%;
+        width: 47%;
     }
     #btn-nav{
-        font-size: 19px;
+        font-size: 20px;
     }
   #box-purpose{
     width: 60rem;
@@ -777,15 +997,32 @@
     width: 150px;
   }
   #text1{
-    font-size: 25px;
-    letter-spacing: 3px;
+    font-size: 95px;
+    line-height: 125px;
   }
   #text2{
-    font-size: 30px;
-    word-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
   }
   #text-btn{
-    font-size: 30px;
+    font-size: 28px;
+  }
+  #arrow-down{
+    width: 25px;
+    height: 25px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original-zin.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -835,18 +1072,27 @@
     font-size: 20px;
     color: azure;
     background-color: rgb(109, 109, 109);
+  }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
   }
 }
 @media screen and (max-width : 1017px) and (min-width:992px) {
     #navscroll{
-        height: 70px;
+        height: 95px;
         padding: 0 50px;
     }
+    #background-space{
+      margin-top: 50px;
+    }
     #logo-img{
-        width: 33%;
+        width: 46%;
     }
   #btn-nav{
-    font-size: 18px;
+    font-size: 20px;
   }
   #box-purpose{
     width: 60rem;
@@ -859,15 +1105,32 @@
     width: 150px;
   }
   #text1{
-    font-size: 20px;
-    letter-spacing: 3px;
+    font-size: 95px;
+    line-height: 125px;
   }
   #text2{
-    font-size: 30px;
-    word-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
   }
   #text-btn{
-    font-size: 30px;
+    font-size: 28px;
+  }
+  #arrow-down{
+    width: 25px;
+    height: 25px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original-zin.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -918,11 +1181,20 @@
     color: azure;
     background-color: rgb(109, 109, 109);
   }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
+  }
 }
 @media screen and (max-width : 991px) and (min-width:800px) {
     #navscroll{
-        height: 60px;
-        padding: 0 90px;
+        height: 95px;
+        padding: 0 50px;
+    }
+    #background-space{
+      margin-top: 50px;
     }
     #btn-nav{
         font-size: 17px;
@@ -938,15 +1210,46 @@
       width: 150px;
     }
     #text1{
-      font-size: 35px;
-      letter-spacing: 3px;
+      font-size: 109px;
+      line-height: 132px;
+      color: rgb(243, 243, 243);
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
     #text2{
-      font-size: 30px;
-      word-spacing: 5px;
+      text-transform: uppercase;
+      padding-top: 10px;
+      font-size: 25px;
+      letter-spacing: 15px;
+    }
+    #text2 br{
+      display: none;
+    }
+    .center-left {
+      position: absolute;
+      top: 66%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      
     }
     #text-btn{
-      font-size: 30px;
+      font-size: 29px;
+    }
+    #arrow-down{
+      width: 28px;
+      height: 28px;
+    }
+    #eye-icon{
+      width: 30px;
+      height: 30px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 860px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original-zin.jpg') ;
     }
     #text-viewAll{
       font-size: 20px;
@@ -1000,8 +1303,11 @@
 }
 @media screen and (max-width : 799px) and (min-width:700px) {
     #navscroll{
-        height: 55px;
-        padding: 5px 80px;
+        height: 85px;
+        padding: 5px 50px;
+    }
+    #background-space{
+      margin-top: 50px;
     }
     #box-purpose{
       width: 60rem;
@@ -1014,24 +1320,54 @@
       width: 150px;
     }
     #text1{
-      font-size: 35px;
-      letter-spacing: 3px;
+      font-size: 97px;
+      line-height: 123px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
     #text2{
-      font-size: 30px;
-      word-spacing: 5px;
+      text-transform: uppercase;
+      padding-top: 10px;
+      font-size: 19px;
+      letter-spacing: 13px;
+    }
+    #text2 br{
+      display: none;
     }
     #text-btn{
-      font-size: 30px;
+      font-size: 28px;
+    }
+    #arrow-down{
+      width: 25px;
+      height: 25px;
+    }
+    #eye-icon{
+      width: 25px;
+      height: 25px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 860px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original-zin.jpg');
+    }
+    .center-left {
+      position: absolute;
+      top: 67%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      
     }
     #text-viewAll{
-      font-size: 20px;
+      font-size: 17px;
     }
     #sub-title1{
-      font-size: 20px;
+      font-size: 17px;
     }
     #title1{
-    font-size: 35px;
+    font-size: 32px;
     }
     #h-dis{
       font-family: khmer;
@@ -1076,8 +1412,11 @@
 }
 @media screen and (max-width : 699px) and (min-width:600px) {
     #navscroll{
-        height: 50px;
-        padding: 5px 70px;
+        height: 80px;
+        padding: 5px 45px;
+    }
+    #background-space{
+      margin-top: 50px;
     }
     #box-purpose{
       width: 60rem;
@@ -1090,24 +1429,55 @@
       width: 150px;
     }
     #text1{
-      font-size: 35px;
-      letter-spacing: 3px;
+      font-size: 84px;
+      line-height: 110px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    #text2 br{
+      display: none;
     }
     #text2{
-      font-size: 30px;
-      word-spacing: 5px;
+      text-transform: uppercase;
+      font-size: 20px;
+      letter-spacing: 10px;
+    }
+    #text2 br{
+      display: none;
+    }
+    .center-left {
+      position: absolute;
+      top: 68%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+      text-align: center;
     }
     #text-btn{
-      font-size: 30px;
+      font-size: 25px;
+    }
+    #arrow-down{
+      width: 25px;
+      height: 25px;
+    }
+    #eye-icon{
+      width: 23px;
+      height: 23px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 860px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original-zin.jpg');
     }
     #text-viewAll{
-      font-size: 20px;
+      font-size: 16px;
     }
     #sub-title1{
-      font-size: 20px;
+      font-size: 16px;
     }
     #title1{
-    font-size: 35px;
+    font-size: 28px;
     }
     #h-dis{
       font-family: khmer;
@@ -1152,87 +1522,8 @@
 }
 @media screen and (max-width : 599px) and (min-width:500px) {
     #navscroll{
-        height: 55px;
-        padding: 5px 60px;
-    }
-    #background-space{
-        margin-top: 55px;
-    }
-    #box-purpose{
-      width: 60rem;
-      height: 30rem;
-    }
-    #title-purpose{
-      font-size: 50px;
-    }
-    #img-member{
-      width: 150px;
-    }
-    #text1{
-      font-size: 35px;
-      letter-spacing: 3px;
-    }
-    #text2{
-      font-size: 30px;
-      word-spacing: 5px;
-    }
-    #text-btn{
-      font-size: 30px;
-    }
-    #text-viewAll{
-      font-size: 20px;
-    }
-    #sub-title1{
-      font-size: 20px;
-    }
-    #title1{
-    font-size: 35px;
-    }
-    #h-dis{
-      font-family: khmer;
-      line-height: 33px;
-      font-size: 20px;
-      text-indent: 3rem;
-    }
-    #list-text{
-      font-family: khmer;
-      line-height: 33px;
-      font-size: 19px;
-    }
-    #textftimg{
-      height: 100%; 
-      width: 30%;
-    }
-    .title-topic{
-      font-family: KST;
-    }
-    .title-head{
-      font-family: khmer;
-    }
-    .nav-btn{
-      font-size: 18px;
-      font-family: khmer;
-    }
-    .nav-btn:hover{
-      font-size: 20px;
-      color: azure !important;
-      background-color: rgb(109, 109, 109) !important;
-    }
-    .nav-btn:focus{
-      font-size: 20px;
-      color: azure;
-      background-color: rgb(109, 109, 109);
-    }
-    .nav-btn:active{
-      font-size: 20px;
-      color: azure;
-      background-color: rgb(109, 109, 109);
-    }
-}
-@media screen and (max-width : 499px) and (min-width:400px) {
-    #navscroll{
-        height: 50px;
-        padding: 0px 40px;
+        height: 80px;
+        padding: 5px 45px;
     }
     #background-space{
         margin-top: 50px;
@@ -1248,24 +1539,54 @@
       width: 150px;
     }
     #text1{
-      font-size: 35px;
-      letter-spacing: 3px;
+      font-size: 67px;
+      line-height: 85px;
+      letter-spacing: 2px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
     #text2{
-      font-size: 30px;
-      word-spacing: 5px;
+      text-transform: uppercase;
+      padding-top: 3px;
+      font-size: 16px;
+      letter-spacing: 7.5px;
+    }
+    #text2 br{
+      display: none;
+    }
+    .center-left {
+      position: absolute;
+      top: 69%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+      text-align: center;
     }
     #text-btn{
-      font-size: 30px;
+      font-size: 21px;
+    }
+    #arrow-down{
+      width: 22px;
+      height: 22px;
+    }
+    #eye-icon{
+      width: 21px;
+      height: 21px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 860px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original-zin.jpg');
     }
     #text-viewAll{
-      font-size: 20px;
+      font-size: 16px;
     }
     #sub-title1{
-      font-size: 20px;
+      font-size: 16px;
     }
     #title1{
-    font-size: 35px;
+    font-size: 29px;
     }
     #h-dis{
       font-family: khmer;
@@ -1307,14 +1628,18 @@
       color: azure;
       background-color: rgb(109, 109, 109);
     }
+    .container{
+      padding-left: 40px !important;
+      padding-right: 40px !important;
+    }
 }
-@media screen and (max-width : 399px) and (min-width:350px) {
+@media screen and (max-width : 499px) and (min-width:400px) {
     #navscroll{
-        height: 45px;
-        padding: 0px 30px;
+        height: 80px;
+        padding: 0px 35px;
     }
     #background-space{
-        margin-top: 45px;
+        margin-top: 50px;
     }
     #box-purpose{
       width: 60rem;
@@ -1327,24 +1652,52 @@
       width: 150px;
     }
     #text1{
-      font-size: 35px;
-      letter-spacing: 3px;
+      font-size: 55px;
+      line-height: 70px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
     #text2{
-      font-size: 30px;
-      word-spacing: 5px;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 5.3px;
+    }
+    #text2 br{
+      display: none;
+    }
+    .center-left {
+      position: absolute;
+      top: 55%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+      text-align: center;
     }
     #text-btn{
-      font-size: 30px;
+      font-size: 20px;
+    }
+    #arrow-down{
+      width: 20px;
+      height: 19px;
+    }
+    #eye-icon{
+      width: 20px;
+      height: 20px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 860px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original-zin.jpg');
     }
     #text-viewAll{
-      font-size: 20px;
+      font-size: 15px;
     }
     #sub-title1{
-      font-size: 20px;
+      font-size: 15px;
     }
     #title1{
-    font-size: 35px;
+    font-size: 20px;
     }
     #h-dis{
       font-family: khmer;
@@ -1386,14 +1739,131 @@
       color: azure;
       background-color: rgb(109, 109, 109);
     }
+    .container{
+      padding-left: 35px !important;
+      padding-right: 35px !important;
+    }
+}
+@media screen and (max-width : 399px) and (min-width:350px) {
+    #navscroll{
+        height: 75px;
+        padding: 0px 10px;
+    }
+    #background-space{
+        margin-top: 75px;
+    }
+    #box-purpose{
+      width: 60rem;
+      height: 30rem;
+    }
+    #title-purpose{
+      font-size: 50px;
+    }
+    #img-member{
+      width: 150px;
+    }
+    #text1{
+      padding-bottom: 10px !important;
+      font-size: 49px;
+      line-height: 60px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    #text2{
+      text-transform: uppercase;
+      margin-bottom: 10px !important;
+      font-size: 11px;
+      letter-spacing: 5.2px;
+    }
+    #text2 br{
+      display: none;
+    }
+    .center-left {
+      position: absolute;
+      top: 55%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    #text-btn{
+      font-size: 16px;
+    }
+    #arrow-down{
+      width: 16px;
+      height: 16px;
+    }
+    #eye-icon{
+      width: 20px;
+      height: 20px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 806px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original-zin.jpg');
+    }
+    #text-viewAll{
+      font-size: 12px;
+    }
+    #sub-title1{
+      font-size: 11px;
+    }
+    #title1{
+    font-size: 21px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .container{
+      padding-left: 28px !important;
+      padding-right: 28px !important;
+    }
 }
 @media screen and (max-width : 349px) and (min-width:320px) {
     #navscroll{
-        height: 42px;
-        padding: 0px 20px;
+        height: 70px;
+        padding: 0px 5px;
     }
     #background-space{
-      margin-top: 40px;
+      margin-top: 50px;
   }
   #box-purpose{
     width: 60rem;
@@ -1406,24 +1876,53 @@
     width: 150px;
   }
   #text1{
-    font-size: 35px;
-    letter-spacing: 3px;
+    padding-bottom: 13px !important;
+    font-size: 45px;
+    line-height: 55px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
   #text2{
-    font-size: 30px;
-    word-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3.3px;
+  }
+  #text2 br{
+    display: none;
+  }
+  .center-left {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
   #text-btn{
-    font-size: 30px;
+    font-size: 16px;
+  }
+  #arrow-down{
+    width: 15px;
+    height: 15px;
+  }
+  #eye-icon{
+    width: 16px;
+    height: 16px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original-zin.jpg');
   }
   #text-viewAll{
-    font-size: 20px;
+    font-size: 11px;
   }
   #sub-title1{
-    font-size: 20px;
+    font-size: 11px;
   }
   #title1{
-  font-size: 35px;
+  font-size: 20px;
   }
   #h-dis{
     font-family: khmer;
@@ -1468,11 +1967,11 @@
 }
 @media screen and (max-width:319px) and (min-width:100px) {
   #navscroll{
-      height: 40px;
-      padding: 0px 5px;
+      height: 65px;
+      padding: 0px 3px;
   }
   #background-space{
-    margin-top: 40px;
+    margin-top: 50px;
   }
   #box-purpose{
     width: 60rem;
@@ -1485,24 +1984,53 @@
     width: 150px;
   }
   #text1{
-    font-size: 35px;
-    letter-spacing: 3px;
+    padding-bottom: 14px !important;
+    font-size: 41px;
+    line-height: 59px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
   #text2{
-    font-size: 30px;
-    word-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+  #text2 br{
+    display: none;
+  }
+  .center-left {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
   #text-btn{
-    font-size: 30px;
+    font-size: 16px;
+  }
+  #arrow-down{
+    width: 19px;
+    height: 18px;
+  }
+  #eye-icon{
+    width: 16px;
+    height: 16px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original-zin.jpg');
   }
   #text-viewAll{
-    font-size: 20px;
+    font-size: 10px;
   }
   #sub-title1{
-    font-size: 20px;
+    font-size: 10px;
   }
   #title1{
-  font-size: 35px;
+  font-size: 18px;
   }
   #h-dis{
     font-family: khmer;
