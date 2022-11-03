@@ -45,25 +45,25 @@
 } */
 
 /* search style */
-input[type=search] {
+input[type=text] {
   color: white;
-    width: 25px;
+    width: 31px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
   }
   
   /* When the input field gets focus, change its width to 100% */  
-input[type=search]:focus{
+input[type=text]:focus{
     width: 100% !important;
     border-bottom: 2px solid rgb(247, 247, 247) !important;
     background-color: rgba(0, 0, 0, 0.205) !important;
     color: rgb(255, 255, 255) !important;
     border-radius: 50px;
 }
-input[type=search]::placeholder{
+input[type=text]::placeholder{
   color: #e2e2e2;
 }
-input[type=search]:hover {
+input[type=text]:hover {
     width: 100% !important;
     cursor: text;
     border-bottom: 2px solid rgb(248, 248, 248) !important;
@@ -71,24 +71,24 @@ input[type=search]:hover {
     color: rgb(255, 255, 255) !important;
     border-radius: 50px;
 }
-input[type=search]:hover::selection {
+input[type=text]:hover::selection {
   background-color: #3b3b3b;
   color: white;
 }
-input[type=search]:focus::selection {
+input[type=text]:focus::selection {
   background-color: #3b3b3b;
   color: white;
 }
-input[type=search]:active::selection {
+input[type=text]:active::selection {
   background-color: #3b3b3b;
   color: white;
 }
-input[type=search]::selection {
+input[type=text]::selection {
   background-color: #3b3b3b;
   color: white;
 } 
 
-input[type=search]:active {
+input[type=text]:active {
   border: 2px solid;
   border-top-color: transparent !important;
   border-left-color: transparent !important;
@@ -97,6 +97,13 @@ input[type=search]:active {
   width: 100% !important;
   background-color: rgba(0, 0, 0, 0.205);
   color: black;
+}
+input[type=text]:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 20px 0 0 30px rgb(5, 134, 255) inset !important;
+    border-radius: 50px;
 }
 
 /* position text backgorund */
@@ -168,7 +175,9 @@ input[type=search]:active {
 .scrolled-up{
   transform:translateY(0); transition: all 0.3s ease-in-out;
 }
-
+.modal-body{
+  color: #30475E !important;
+}
 footer{
   background-image: linear-gradient(rgba(3, 3, 3, 0.24), rgba(0, 0, 0, 0.226)),url('./images/footer-bg.jpg');
 }
@@ -336,6 +345,29 @@ footer{
 }
 .dark #row-left{
   background-color: #30475E;
+}
+.dark .modal-content{
+  background-color: #222831 !important;
+  border-color: #30475E !important;
+}
+.dark .modal-body{
+  color: #DDDDDD !important;
+}
+.dark #more-info:hover{
+  background-color: #F05454 !important;
+  color: #DDDDDD;
+}
+.dark #more-info:active{
+  background-color: #F05454 !important;
+  color: #DDDDDD;
+}
+.dark #more-info:focus{
+  background-color: #F05454 !important;
+  color: #DDDDDD;
+}
+.dark #more-info{
+  background-color: #30475E !important;
+  color: #DDDDDD;
 }
 .dark #search{
   fill: darkgreen;
