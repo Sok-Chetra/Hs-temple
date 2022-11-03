@@ -2,7 +2,7 @@
 *{
   margin: 0;
     overflow-x: hidden;
-    -ms-overflow-style: none;;
+    -ms-overflow-style: none;
 }
 *::-webkit-scrollbar{
   display: none;
@@ -37,8 +37,8 @@
   width: 100%;
 }
 #btn-close{
-  fill: red;
-  stroke: white;
+  fill: #F05454;
+  stroke: #DDDDDD;
 }
 /* #btn-nav:hover{
   color: darkred;
@@ -176,40 +176,166 @@ footer{
 
 
 
+
+
+
 /* dark Mode */
-.dark{
-  background-color: #000000;
-  color: aliceblue;
+.dark body{
+  color: #DDDDDD;
 }
+
+.dark #navscroll{
+  background-image: none;
+  background-color: #30475E;
+}
+
 .dark #btn-nav{
-  color: darkgreen;
+  color: #DDDDDD;
+  background-color: none;
 }
 .dark #btn-nav:hover {
-  color: green;
+  color: #F05454;
 }
 .dark #btn-nav::after {
   content: '';
   display: block;
   width: 0;
   height: 3px;
-  background: darkgreen;
-  color: darkgreen;
+  background: #F05454;
+  color: #F05454;
   transition: width .4s;
 }
 .dark #btn-nav:hover::after {
-  color: darkgreen;
+  color: #F05454;
   width: 100%;
-}
-.dark #btn-nav:hover{
-  color: green;
-}
-.dark #navscroll{
-  background-color: #000000 !important;
-  color: aqua;
 }
 .dark #dark-svg{
   fill: black;
   stroke: lightgrey;
+}
+.dark #text1{
+  color: #DDDDDD !important;
+}
+.dark #text2{
+  border-left-color: #30475E !important;
+  color: #DDDDDD;
+}
+.dark #text-btn{
+  background-color: #30475E !important;
+  color: #DDDDDD !important;
+}
+.dark #text-btn:hover{
+  background-color: #F05454 !important;
+  color: #DDDDDD !important;
+}
+.dark #space{
+  color: #DDDDDD;
+  background-color: #222831;
+}
+.dark #sub-title1{
+  color: #F05454 !important; 
+}
+.dark #text-viewAll{
+  background-color: #30475E;
+  color: #DDDDDD;
+}
+.dark #text-viewAll:hover{
+  background-color: #F05454;
+  color: #DDDDDD;
+}
+.dark #bg-card{
+  background-color: #30475E;
+  color: #DDDDDD;
+}
+.dark #bg-card:hover{
+  background-color: #F05454;
+  width: 100%;
+  height: 100%;
+  color: #DDDDDD;
+}
+.dark #bg-card:active{
+  background-color: #F05454;
+  width: 100%;
+  height: 100%;
+  color: #DDDDDD;
+}
+.dark #bg-card:focus{
+  background-color: #F05454;
+  width: 100%;
+  height: 100%;
+  color: #DDDDDD;
+}
+.dark #hr-card{
+  border-color: #DDDDDD !important;
+}
+.dark #purpose{
+  background-color: #222831;
+}
+.dark #box-purpose{
+  background-color: #222831 !important;
+}
+.dark #title-purpose{
+  color: #DDDDDD !important;
+  background-color: #30475E !important;
+  border-bottom-color: #DDDDDD !important;
+}
+.dark #text-purpose{
+  color: #DDDDDD;
+}
+.dark #about_us{
+  color: #DDDDDD;
+  background-color: #222831;
+}
+.dark #header-off{
+  background-color: #30475E !important;
+}
+.dark #bg-btnOff{
+  background-color: #222831 !important;
+}
+.dark #btn-off{
+  color: #DDDDDD !important;
+  background-color: #30475E !important;
+}
+.dark #btn-off:hover{
+  color: #DDDDDD !important;
+  background-color: #F05454 !important;
+}
+.dark #btn-off:active{
+  color: #DDDDDD !important;
+  background-color: #F05454 !important;
+}
+.dark #btn-off:focus{
+  color: #DDDDDD !important;
+  background-color: #F05454 !important;
+}
+.dark #bg-color{
+  background-color: #222831;
+  color: #DDDDDD;
+}
+.dark .nav-btn{
+  color: #DDDDDD;
+}
+.dark .nav-btn:hover{
+  background-color: #F05454 !important;
+  color: #DDDDDD;
+}
+.dark .back-btn{
+  color: #DDDDDD;
+}
+.dark .back-btn:hover{
+  color: #F05454;
+}
+.dark .title-head{
+  color: #F05454;
+}
+.dark #hori{
+  border-color: #F05454 !important;
+}
+.dark #svg-back{
+  fill: #DDDDDD;
+}
+.dark #row-left{
+  background-color: #30475E;
 }
 .dark #search{
   fill: darkgreen;
@@ -240,23 +366,24 @@ footer{
 }
 /* dark Mode */
 
-.MultiCarousel { 
+
+
+
+
+
+
+/* .MultiCarousel { 
   float: left; 
   overflow: hidden; 
-  padding: 15px; 
   width: 100%; 
   position:relative; 
 }
 .MultiCarousel .MultiCarousel-inner { 
   transition: 1s ease all; 
-  float: left; }
+  float: left; 
+}
 .MultiCarousel .MultiCarousel-inner .item { 
   float: left;
-}
-.MultiCarousel .MultiCarousel-inner .item > div {
-  text-align: center;  
-  background:#f1f1f1; 
-  color:#666;
 }
 .MultiCarousel .leftLst, .MultiCarousel .rightLst {
    position:absolute; 
@@ -274,7 +401,7 @@ footer{
 .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
    pointer-events: none;
     fill-opacity: 50%;
-  }
+  } */
 
 
 @font-face {
