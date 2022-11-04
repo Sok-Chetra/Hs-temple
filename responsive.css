@@ -1,14 +1,17 @@
 /* 1920 1900  1600 1680 1536 1440 1400 1366 1280 1024 768 750 680 375 350  */
-@media  screen and (max-width: 1920px) and (min-width:1900px) {
+@media  screen and (min-width:1900px) {
     #navscroll{
         height: 100px;
         padding: 0px 200px;
     }
+    #background-space{
+      margin-top: 50px;
+    }
     #logo-img{
-        width: 25%;
+        width: 28%;
     }
     #btn-nav{
-        font-size: 22px;
+        font-size: 27px;
     }
     #box-purpose{
       width: 60rem;
@@ -16,185 +19,2169 @@
       background-color: aliceblue;
     }
     #title-purpose{
+      padding-top: 2rem;
       font-size: 50px;
     }
     #img-member{
       width: 150px;
     }
+    #text1{
+      font-size: 105px;
+      letter-spacing: 1px;
+    }
+    #text2{
+      text-transform: uppercase;
+      font-size: 29px;
+      letter-spacing: 15px;
+    }
+    #text-btn{
+      font-size: 27px;
+    }
+    #arrow-down{
+      width: 28px;
+      height: 28px;
+    }
+    #eye-icon{
+      width: 30px;
+      height: 30px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 930px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original.jpg');
+    }
+    #text-viewAll{
+      font-size: 20px;
+    }
+    #sub-title1{
+      font-size: 20px;
+    }
+    #title1{
+      font-size: 35px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .center-left {
+      position: absolute;
+      top: 60%;
+      left: 27.9%;
+      transform: translate(-50%, -50%);
+    }
 }
 @media screen and (max-width : 1899px) and (min-width:1800px) {
     #navscroll{
-        height: 120px;
-        padding: 5px 200px;
+        height: 100px;
+        padding: 0 200px;
+    }
+    #background-space{
+      margin-top: 90px;
     }
     #logo-img{
-        width: 46%;
+        width: 28%;
     }
     #btn-nav{
-        font-size: 20px;
+        font-size: 26px;
+    }
+    #box-purpose{
+      width: 60rem;
+      height: 30rem;
+    }
+    #title-purpose{
+      padding-top: 2rem;
+      font-size: 50px;
+    }
+    #img-member{
+      width: 150px;
+    }
+    #text1{
+      font-size: 100px;
+      line-height: 115px;
+    }
+    #text2{
+      text-transform: uppercase;
+      font-size: 26px;
+      letter-spacing: 15px;
+    }
+    #text-btn{
+      font-size: 30px;
+    }
+    #arrow-down{
+      width: 32px;
+      height: 32px;
+    }
+    #eye-icon{
+      width: 30px;
+      height: 30px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 820px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original.jpg');
+    }
+    #text-viewAll{
+      font-size: 20px;
+    }
+    #sub-title1{
+      font-size: 20px;
+    }
+    #title1{
+      font-size: 35px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .center-left {
+      position: absolute;
+      top: 64%;
+      left: 28%;
+      transform: translate(-50%, -50%);
     }
 }
 @media screen and (max-width : 1799px) and (min-width:1700px) {
     #navscroll{
-        height: 120px;
-        padding: 5px 200px;
+        height: 95px;
+        padding: 0 200px;
+    }
+    #background-space{
+      margin-top: 48px;
     }
     #logo-img{
-        width: 50%;
+        width: 29%;
+    }
+    #btn-nav{
+        font-size: 25px;
+    }
+  #box-purpose{
+    width: 60rem;
+    height: 30rem;
+  }
+  #title-purpose{
+    padding-top: 2rem;
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text1{
+    font-size: 100px;
+    line-height: 119px;
+  }
+  #text2{
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 15px;
+  }
+  #text-btn{
+    font-size: 30px;
+  }
+  #arrow-down{
+    width: 27px;
+    height: 27px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original.jpg');
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+    font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 27.9%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width : 1699px) and (min-width:1600px) {
+  #navscroll{
+    height: 93px;
+    padding: 0 200px;
+  }
+  #background-space{
+    margin-top: 50px;
+  }
+  #logo-img{
+      width: 31%;
+  }
+  #btn-nav{
+      font-size: 24px;
+  }
+  #box-purpose{
+    width: 55rem;
+    height: 30rem;
+  }
+  #title-purpose{
+    padding-top: 2rem;
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text1{
+    font-size: 100px;
+    letter-spacing: 0px;
+  }
+  #text2{
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 15px;
+  }
+  #text-btn{
+    font-size: 29px;
+  }
+  #arrow-down{
+    width: 28px;
+    height: 28px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original.jpg');
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 27.9%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width : 1599px) and (min-width:1500px) {
+    #navscroll{
+        height: 95px;
+        padding: 0 200px;
+    }
+    #background-space{
+      margin-top: 50px;
+    }
+    #logo-img{
+        width: 34.2%;
+    }
+    #btn-nav{
+        font-size: 23px;
+    }
+  #box-purpose{
+    width: 55rem;
+    height: 28rem;
+  }
+  #title-purpose{
+    padding-top: 2rem;
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text1{
+    font-size: 100px;
+    line-height: 125px;
+  }
+  #text2{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
+  }
+  #text-btn{
+    font-size: 28px;
+  }
+  #arrow-down{
+    width: 27px;
+    height: 27px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original.jpg');
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width : 1499px) and (min-width:1400px) {
+    #navscroll{
+        height: 95px;
+        padding: 0 200px;
+    }
+    #background-space{
+      margin-top: 50px;
+    }
+    #logo-img{
+        width: 37.5%;
+    }
+    #btn-nav{
+        font-size: 22px;
+    }
+  #box-purpose{
+    width: 55rem;
+    height: 28rem;
+  }
+  #title-purpose{
+    padding-top: 2rem;
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text-name{
+    font-size: 25px;
+  }
+  #text-role{
+    font-size: 15px;
+  }
+  #text1{
+    font-size: 95px;
+    line-height: 125px;
+  }
+  #text2{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
+  }
+  #text-btn{
+    font-size: 27px;
+  }
+  #arrow-down{
+    width: 25px;
+    height: 25px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original.jpg');
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width : 1399px) and (min-width:1300px) {
+    #navscroll{
+        height: 95px;
+        padding: 0 200px;
+    }
+    #background-space{
+      margin-top: 50px;
+    }
+    #logo-img{
+        width: 42%;
+    }
+    #btn-nav{
+        font-size: 21px;
+    }
+  #box-purpose{
+    width: 55rem;
+    height: 27rem;
+  }
+  #title-purpose{
+    padding-top: 2rem;
+    font-size: 50px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text-name{
+    font-size: 25px;
+  }
+  #text-role{
+    font-size: 15px;
+  }
+  #text1{
+    font-size: 95px;
+    line-height: 125px;
+  }
+  #text2{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
+  }
+  #text-btn{
+    font-size: 28px;
+  }
+  #arrow-down{
+    width: 28px;
+    height: 28px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original.jpg');
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .center-left {
+    position: absolute;
+    top: 68%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width : 1299px) and (min-width:1200px) {
+    #navscroll{
+        height: 97px;
+        padding: 0 110px;
+    }
+    #background-space{
+      margin-top: 50px;
+    }
+    #logo-img{
+        width: 39%;
+    }
+    #btn-nav{
+        font-size: 21px;
+    }
+  #box-purpose{
+    width: 50rem;
+    height: 25rem;
+  }
+  #title-purpose{
+    padding-top: 2rem;
+    font-size: 45px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text-name{
+    font-size: 25px;
+  }
+  #text-role{
+    font-size: 15px;
+  }
+  #text1{
+    font-size: 95px;
+    line-height: 125px;
+  }
+  #text2{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
+  }
+  #text-btn{
+    font-size: 28px;
+  }
+  #arrow-down{
+    width: 28px;
+    height: 28px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original-zin.jpg');
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width : 1199px) and (min-width:1100px) {
+    #navscroll{
+        height: 90px;
+        padding: 0 120px;
+    }
+    #background-space{
+      margin-top: 50px;
+    }
+    #logo-img{
+        width: 41%;
     }
     #btn-nav{
         font-size: 20px;
     }
+  #box-purpose{
+    width: 50rem;
+    height: 24rem;
+  }
+  #title-purpose{
+    padding-top: 2rem;
+    font-size: 44px;
+  }
+  #img-member{
+    width: 130px;
+  }
+  #text-name{
+    font-size: 22px;
+  }
+  #text-role{
+    font-size: 15px;
+  }
+  #text1{
+    font-size: 95px;
+    line-height: 125px;
+  }
+  #text2{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
+  }
+  #text-btn{
+    font-size: 28px;
+  }
+  #arrow-down{
+    width: 28px;
+    height: 28px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original-zin.jpg');
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
+  }
 }
-@media screen and (max-width : 1699px) and (min-width:1600px) {
+@media screen and (max-width : 1099px) and (min-width:1018px) {
     #navscroll{
-        height: 120px;
-        padding: 5px 200px;
-      }
-      #logo-img{
-        width: 54%;
-      }
-      #btn-nav{
-        font-size: 19px;
+        height: 100px;
+        padding: 0 80px;
     }
-}
-@media screen and (max-width : 1599px) and (min-width:1500px) {
-    #navscroll{
-        height: 120px;
-        padding: 5px 200px;
+    #background-space{
+      margin-top: 50px;
     }
     #logo-img{
-        width: 60%;
+        width: 47%;
     }
     #btn-nav{
-        font-size: 18px;
+        font-size: 20px;
     }
+  #box-purpose{
+    width: 45rem;
+    height: 24rem;
+  }
+  #title-purpose{
+    padding-top: 1.5rem;
+    font-size: 44px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text-name{
+    font-size: 21px;
+  }
+  #text-role{
+    font-size: 15px;
+  }
+  #text1{
+    font-size: 95px;
+    line-height: 125px;
+  }
+  #text2{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
+  }
+  #text-btn{
+    font-size: 28px;
+  }
+  #arrow-down{
+    width: 25px;
+    height: 25px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original-zin.jpg');
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
+  }
 }
-@media screen and (max-width : 1499px) and (min-width:1400px) {
+@media screen and (max-width : 1017px) and (min-width:992px) {
     #navscroll{
-        height: 120px;
-        padding: 5px 200px;
-    }
-    #logo-img{
-        width: 65%;
-    }
-    #btn-nav{
-        font-size: 17px;
-    }
-}
-@media screen and (max-width : 1399px) and (min-width:1300px) {
-    #navscroll{
-        height: 120px;
-        padding: 5px 200px;
-    }
-    #logo-img{
-        width: 75%;
-    }
-    #btn-nav{
-        font-size: 17px;
-    }
-}
-@media screen and (max-width : 1299px) and (min-width:1200px) {
-    #navscroll{
-        height: 120px;
-        padding: 5px 110px;
-    }
-    #logo-img{
-        width: 70%;
-    }
-    #btn-nav{
-        font-size: 17px;
-    }
-}
-@media screen and (max-width : 1199px) and (min-width:1100px) {
-    #navscroll{
-        height: 120px;
-        padding: 5px 120px;
-    }
-    #logo-img{
-        width: 78%;
-    }
-    #btn-nav{
-        font-size: 17px;
-    }
-}
-@media screen and (max-width : 1099px) and (min-width:1010px) {
-    #navscroll{
-        height: 120px;
-        padding: 5px 50px;
-    }
-    #logo-img{
-        width: 78%;
-    }
-    #btn-nav{
-        font-size: 16px;
-    }
-}
-@media screen and (max-width : 1009px) and (min-width:900px) {
-    #navscroll{
-        height: 110px;
-        padding: 5px 40px;
-    }
-    #logo-img{
-        width: 75%;
-    }
-    #btn-nav{
-        font-size: 15px;
-    }
-}
-@media screen and (max-width : 899px) and (min-width:800px) {
-    #navscroll{
-        height: 80px;
+        height: 95px;
         padding: 0 50px;
     }
+    #background-space{
+      margin-top: 50px;
+    }
+    #logo-img{
+        width: 46%;
+    }
+  #btn-nav{
+    font-size: 20px;
+  }
+  #box-purpose{
+    width: 42rem;
+    height: 23rem;
+  }
+  #title-purpose{
+    padding-top: 1rem;
+    font-size: 42px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #text-name{
+    font-size: 20px;
+  }
+  #text-role{
+    font-size: 15px;
+  }
+  #text1{
+    font-size: 95px;
+    line-height: 125px;
+  }
+  #text2{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
+  }
+  #text-btn{
+    font-size: 28px;
+  }
+  #arrow-down{
+    width: 25px;
+    height: 25px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original-zin.jpg');
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .center-left {
+    position: absolute;
+    top: 67%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width : 991px) and (min-width:800px) {
+    #navscroll{
+        height: 95px;
+        padding: 0 50px;
+    }
+    #background-space{
+      margin-top: 50px;
+    }
     #btn-nav{
-        font-size: 11px;
+        font-size: 17px;
+    }
+    #box-purpose{
+      width: 45rem;
+      height: 22rem;
+    }
+    #title-purpose{
+      padding-top: 1rem;
+      font-size: 40px;
+    }
+    #img-member{
+      width: 100px;
+    }
+    #text-name{
+      font-size: 18px;
+    }
+    #text-role{
+      font-size: 15px;
+    }
+    #text1{
+      font-size: 109px;
+      line-height: 132px;
+      color: rgb(243, 243, 243);
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    #text2{
+      text-transform: uppercase;
+      padding-top: 10px;
+      font-size: 21px;
+      letter-spacing: 15px;
+    }
+    #text2 br{
+      display: none;
+    }
+    .center-left {
+      position: absolute;
+      top: 66%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      
+    }
+    #text-btn{
+      font-size: 29px;
+    }
+    #arrow-down{
+      width: 28px;
+      height: 28px;
+    }
+    #eye-icon{
+      width: 30px;
+      height: 30px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 860px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original-zin.jpg') ;
+    }
+    #text-viewAll{
+      font-size: 20px;
+    }
+    #sub-title1{
+      font-size: 20px;
+    }
+    #title1{
+    font-size: 35px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
     }
 }
 @media screen and (max-width : 799px) and (min-width:700px) {
     #navscroll{
-        height: 65px;
-        padding: 5px 80px;
+        height: 85px;
+        padding: 5px 50px;
     }
+    #background-space{
+      margin-top: 50px;
+    }
+    #box-purpose{
+      width: 38rem;
+      height: 19rem;
+    }
+    #title-purpose{
+      padding-top: 1rem;
+      font-size: 35px;
+    }
+    #img-member{
+      width: 100px;
+    }
+    #text-name{
+      font-size: 20px;
+    }
+    #text-role{
+      font-size: 15px;
+    }
+    #text1{
+      font-size: 97px;
+      line-height: 123px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    #text2{
+      text-transform: uppercase;
+      padding-top: 10px;
+      font-size: 19px;
+      letter-spacing: 13px;
+    }
+    #text2 br{
+      display: none;
+    }
+    #text-btn{
+      font-size: 28px;
+    }
+    #arrow-down{
+      width: 25px;
+      height: 25px;
+    }
+    #eye-icon{
+      width: 25px;
+      height: 25px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 860px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original-zin.jpg');
+    }
+    .center-left {
+      position: absolute;
+      top: 67%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      
+    }
+    #text-viewAll{
+      font-size: 17px;
+    }
+    #sub-title1{
+      font-size: 17px;
+    }
+    #title1{
+    font-size: 32px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    
 }
 @media screen and (max-width : 699px) and (min-width:600px) {
     #navscroll{
-        height: 60px;
-        padding: 5px 50px;
+        height: 80px;
+        padding: 5px 45px;
+    }
+    #background-space{
+      margin-top: 50px;
+    }
+    #box-purpose{
+      width: 32rem;
+      height: 17rem;
+    }
+    #title-purpose{
+      padding-top: 1rem;
+      font-size: 30px;
+    }
+    #img-member{
+      width: 110px;
+    }
+    #text-name{
+      font-size: 15px;
+    }
+    #text-role{
+      font-size: 15px;
+    }
+    #text1{
+      font-size: 84px;
+      line-height: 110px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    #text2 br{
+      display: none;
+    }
+    #text2{
+      text-transform: uppercase;
+      font-size: 20px;
+      letter-spacing: 10px;
+    }
+    #text2 br{
+      display: none;
+    }
+    .center-left {
+      position: absolute;
+      top: 68%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    #text-btn{
+      font-size: 25px;
+    }
+    #arrow-down{
+      width: 25px;
+      height: 25px;
+    }
+    #eye-icon{
+      width: 23px;
+      height: 23px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 860px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original-zin.jpg');
+    }
+    #text-viewAll{
+      font-size: 16px;
+    }
+    #sub-title1{
+      font-size: 16px;
+    }
+    #title1{
+    font-size: 28px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
     }
 }
 @media screen and (max-width : 599px) and (min-width:500px) {
     #navscroll{
-        height: 60px;
-        padding: 5px 40px;
+        height: 80px;
+        padding: 5px 45px;
     }
     #background-space{
-        margin-top: 60px;
+        margin-top: 50px;
+    }
+    #box-purpose{
+      width: 27rem;
+      height: 14rem;
+    }
+    #title-purpose{
+      padding-top: 1rem;
+      font-size: 25px;
+    }
+    #img-member{
+      width: 110px;
+    }
+    #text-name{
+      font-size: 12px;
+    }
+    #text-role{
+      font-size: 15px;
+    }
+    #text1{
+      font-size: 67px;
+      line-height: 85px;
+      letter-spacing: 2px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    #text2{
+      text-transform: uppercase;
+      padding-top: 3px;
+      font-size: 16px;
+      letter-spacing: 7.5px;
+    }
+    #text2 br{
+      display: none;
+    }
+    .center-left {
+      position: absolute;
+      top: 69%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    #text-btn{
+      font-size: 21px;
+    }
+    #arrow-down{
+      width: 22px;
+      height: 22px;
+    }
+    #eye-icon{
+      width: 21px;
+      height: 21px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 860px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original-zin.jpg');
+    }
+    #text-viewAll{
+      font-size: 16px;
+    }
+    #sub-title1{
+      font-size: 16px;
+    }
+    #title1{
+    font-size: 29px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .container{
+      padding-left: 40px !important;
+      padding-right: 40px !important;
     }
 }
 @media screen and (max-width : 499px) and (min-width:400px) {
     #navscroll{
-        height: 55px;
-        padding: 0px 25px;
+        height: 80px;
+        padding: 0px 35px;
     }
     #background-space{
-        margin-top: 55px;
+        margin-top: 50px;
+    }
+    #box-purpose{
+      width: 22rem;
+      height: 12rem;
+    }
+    #title-purpose{
+      padding-top: 1rem;
+      font-size: 20px;
+    }
+    #img-member{
+      width: 80px;
+    }
+    #text-name{
+      font-size: 8px;
+    }
+    #text-role{
+      font-size: 10px;
+    }
+    #text1{
+      font-size: 55px;
+      line-height: 70px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    #text2{
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 5.3px;
+    }
+    #text2 br{
+      display: none;
+    }
+    .center-left {
+      position: absolute;
+      top: 50%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    #text-btn{
+      font-size: 20px;
+    }
+    #arrow-down{
+      width: 20px;
+      height: 19px;
+    }
+    #eye-icon{
+      width: 20px;
+      height: 20px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 860px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original-zin.jpg');
+    }
+    #text-viewAll{
+      font-size: 15px;
+    }
+    #sub-title1{
+      font-size: 15px;
+    }
+    #title1{
+    font-size: 20px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .container{
+      padding-left: 35px !important;
+      padding-right: 35px !important;
     }
 }
 @media screen and (max-width : 399px) and (min-width:350px) {
     #navscroll{
-        height: 55px;
-        padding: 0px 7px;
+        height: 75px;
+        padding: 0px 10px;
     }
     #background-space{
-        margin-top: 55px;
+        margin-top: 75px;
+    }
+    #box-purpose{
+      width: 18rem;
+      height: 10rem;
+    }
+    #title-purpose{
+      padding-top: 1rem;
+      font-size: 15px;
+    }
+    #img-member{
+      width: 80px;
+    }
+    #text-name{
+      font-size: 10px;
+    }
+    #text-role{
+      font-size: 7px;
+    }
+    #text1{
+      padding-bottom: 10px !important;
+      font-size: 49px;
+      line-height: 60px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    #text2{
+      text-transform: uppercase;
+      margin-bottom: 10px !important;
+      font-size: 11px;
+      letter-spacing: 5.2px;
+    }
+    #text2 br{
+      display: none;
+    }
+    .center-left {
+      position: absolute;
+      top: 50%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    #text-btn{
+      font-size: 16px;
+    }
+    #arrow-down{
+      width: 16px;
+      height: 16px;
+    }
+    #eye-icon{
+      width: 20px;
+      height: 20px;
+    }
+    #bg-img{
+      width: 100%;
+      height: 806px;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      background-image: url('images/cambodia-original-zin.jpg');
+    }
+    #text-viewAll{
+      font-size: 12px;
+    }
+    #sub-title1{
+      font-size: 11px;
+    }
+    #title1{
+    font-size: 21px;
+    }
+    #h-dis{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 20px;
+      text-indent: 3rem;
+    }
+    #list-text{
+      font-family: khmer;
+      line-height: 33px;
+      font-size: 19px;
+    }
+    #textftimg{
+      height: 100%; 
+      width: 30%;
+    }
+    .title-topic{
+      font-family: KST;
+    }
+    .title-head{
+      font-family: khmer;
+    }
+    .nav-btn{
+      font-size: 18px;
+      font-family: khmer;
+    }
+    .nav-btn:hover{
+      font-size: 20px;
+      color: azure !important;
+      background-color: rgb(109, 109, 109) !important;
+    }
+    .nav-btn:focus{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .nav-btn:active{
+      font-size: 20px;
+      color: azure;
+      background-color: rgb(109, 109, 109);
+    }
+    .container{
+      padding-left: 28px !important;
+      padding-right: 28px !important;
     }
 }
 @media screen and (max-width : 349px) and (min-width:320px) {
     #navscroll{
-        height: 55px;
-        padding: 0px 1px;
+        height: 70px;
+        padding: 0px 5px;
     }
+    #background-space{
+      margin-top: 50px;
+  }
+  #box-purpose{
+    width: 15rem;
+    height: 8rem;
+  }
+  #title-purpose{
+    padding-top: 1rem;
+    font-size: 15px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #img-member{
+    width: 70px;
+  }
+  #text-name{
+    font-size: 7px;
+  }
+  #text-role{
+    font-size: 6px;
+  }
+  #text1{
+    padding-bottom: 13px !important;
+    font-size: 45px;
+    line-height: 55px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  #text2{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3.3px;
+  }
+  #text2 br{
+    display: none;
+  }
+  .center-left {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #text-btn{
+    font-size: 16px;
+  }
+  #arrow-down{
+    width: 15px;
+    height: 15px;
+  }
+  #eye-icon{
+    width: 16px;
+    height: 16px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original-zin.jpg');
+  }
+  #text-viewAll{
+    font-size: 11px;
+  }
+  #sub-title1{
+    font-size: 11px;
+  }
+  #title1{
+  font-size: 20px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+}
+@media screen and (max-width:319px) and (min-width:100px) {
+  #navscroll{
+      height: 65px;
+      padding: 0px 3px;
+  }
+  #background-space{
+    margin-top: 50px;
+  }
+  #box-purpose{
+    width: 15rem;
+    height: 7rem;
+  }
+  #title-purpose{
+    padding-top: 1rem;
+    font-size: 13px;
+  }
+  #img-member{
+    width: 150px;
+  }
+  #img-member{
+    width: 80px;
+  }
+  #text-name{
+    font-size: 5px;
+  }
+  #text-role{
+    font-size: 3px;
+  }
+  #text1{
+    padding-bottom: 14px !important;
+    font-size: 41px;
+    line-height: 59px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  #text2{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+  #text2 br{
+    display: none;
+  }
+  .center-left {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #text-btn{
+    font-size: 16px;
+  }
+  #arrow-down{
+    width: 19px;
+    height: 18px;
+  }
+  #eye-icon{
+    width: 16px;
+    height: 16px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/cambodia-original-zin.jpg');
+  }
+  #text-viewAll{
+    font-size: 10px;
+  }
+  #sub-title1{
+    font-size: 10px;
+  }
+  #title1{
+  font-size: 18px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 20px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 18px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    font-size: 20px;
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    font-size: 20px;
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
 }
 
 
