@@ -1,22 +1,33 @@
 /* 1920 1900  1600 1680 1536 1440 1400 1366 1280 1024 768 750 680 375 350  */
 @media  screen and (min-width:1900px) {
     #navscroll{
-        height: 100px;
+        height: 80px;
         padding: 0px 200px;
     }
     #background-space{
-      margin-top: 50px;
+      margin-top: 45px;
     }
     #logo-img{
-        width: 28%;
+        width: 22%;
     }
     #btn-nav{
-        font-size: 27px;
+        font-size: 25px;
     }
     #box-purpose{
-      width: 60rem;
-      height: 30rem;
+      width: 53rem;
+      height: 39rem;
       background-color: aliceblue;
+    }
+    #bg-purpose {
+      height: 980px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+    }
+    #text-purpose{
+      font-size: 20px;
+      line-height: 40px;
     }
     #title-purpose{
       padding-top: 2rem;
@@ -49,9 +60,9 @@
       width: 100%;
       height: 930px;
       background-size: cover;
-      background-position: center;
+      background-position: top;
       border: none;
-      background-image: url('images/cambodia-original.jpg');
+      background-image: url('images/Angkorwat-imgs/ak-evening2.jpg');
     }
     #text-viewAll{
       font-size: 20px;
@@ -75,7 +86,10 @@
     }
     #textftimg{
       height: 100%; 
-      width: 30%;
+      width: 40%;
+    }
+    #slide-img{
+      height: 980px !important;
     }
     .title-topic{
       font-family: KST;
@@ -88,7 +102,7 @@
       font-family: khmer;
     }
     .nav-btn:hover{
-      font-size: 20px;
+      font-size: 18px;
       color: azure !important;
       background-color: rgb(109, 109, 109) !important;
     }
@@ -104,28 +118,86 @@
     }
     .center-left {
       position: absolute;
-      top: 60%;
+      top: 68%;
       left: 27.9%;
       transform: translate(-50%, -50%);
+    }
+    #title-angkor{
+      font-size: 50px !important;
+      padding: 2px 10px 4px 10px !important;
+    }
+    #title-kohke{
+      font-size: 50px !important;
+      padding: 8px 10px 4px 10px !important;
+    }
+    #title-srey{
+      font-size: 50px !important;
+      padding: 6px 10px 4px 10px !important;
+    }
+    #title-bayon{
+      font-size: 50px !important;
+      padding: 5px 10px 4px 10px !important;
+    }
+    #title-chmar{
+      font-size: 50px !important;
+      padding: 0 10px 3px 10px !important;
+    }
+    #title-prum{
+      font-size: 50px !important;
+      padding: 0 10px 3px 10px !important;
+    }
+    #title-vihear{
+      font-size: 50px !important;
+      padding: 5px 10px 3px 10px;
+    }
+    #title-jrab{
+      font-size: 50px !important;
+      padding: 0 10px 3px 10px;
+    }
+    #title-domrei{
+      font-size: 50px !important;
+      padding: 10px 10px 3px 10px;
+    }
+    #modal-text{
+      font-size: 17px;
+      line-height: 30px;
+      padding: 2px 10px 10px 10px !important;
+    }
+    #img-slide{
+      width: 100% !important;
+      height: 450px !important;
+    }
+    #ke-slide{
+      height: 980px !important;
     }
 }
 @media screen and (max-width : 1899px) and (min-width:1800px) {
     #navscroll{
-        height: 100px;
+        height: 80px;
         padding: 0 200px;
     }
     #background-space{
-      margin-top: 90px;
+      margin-top: 70px;
     }
     #logo-img{
-        width: 28%;
+        width: 23%;
     }
     #btn-nav{
         font-size: 26px;
     }
     #box-purpose{
-      width: 60rem;
-      height: 30rem;
+      width: 50rem;
+      height: 34rem;
+    }
+    #bg-purpose {
+      height: 920px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+    }
+    #text-purpose{
+      font-size: 20px;
     }
     #title-purpose{
       padding-top: 2rem;
@@ -158,9 +230,9 @@
       width: 100%;
       height: 820px;
       background-size: cover;
-      background-position: center;
+      background-position: top;
       border: none;
-      background-image: url('images/cambodia-original.jpg');
+      background-image: url('images/Angkorwat-imgs/ak-evening2.jpg');
     }
     #text-viewAll{
       font-size: 20px;
@@ -186,6 +258,9 @@
       height: 100%; 
       width: 30%;
     }
+    #slide-img{
+      height: 890px !important;
+    }
     .title-topic{
       font-family: KST;
     }
@@ -197,7 +272,6 @@
       font-family: khmer;
     }
     .nav-btn:hover{
-      font-size: 20px;
       color: azure !important;
       background-color: rgb(109, 109, 109) !important;
     }
@@ -213,28 +287,87 @@
     }
     .center-left {
       position: absolute;
-      top: 64%;
+      top: 66%;
       left: 28%;
       transform: translate(-50%, -50%);
+    }
+    #title-angkor{
+      font-size: 49px !important;
+      padding: 2px 10px 4px 10px !important;
+    }
+    #title-kohke{
+      font-size: 49px !important;
+      padding: 2px 10px 4px 10px !important;
+    }
+    #title-srey{
+      font-size: 49px !important;
+      padding: 6px 10px 4px 10px !important;
+    }
+    #title-bayon{
+      font-size: 49px !important;
+      padding: 5px 10px 4px 10px !important;
+    }
+    #title-chmar{
+      font-size: 49px !important;
+      padding: 0 10px 3px 10px !important;
+    }
+    #title-prum{
+      font-size: 49px !important;
+      padding: 0 10px 3px 10px !important;
+    }
+    #title-vihear{
+      font-size: 49px !important;
+      padding: 5px 10px 3px 10px;
+    }
+    #title-jrab{
+      font-size: 49px !important;
+      padding: 0 10px 3px 10px;
+    }
+    #title-domrei{
+      font-size: 49px !important;
+      padding: 11px 10px 3px 10px;
+    }
+    #modal-text{
+      font-size: 17px;
+      line-height: 29px;
+      padding: 2px 10px 10px 10px !important;
+    }
+    #img-slide{
+      width: 100% !important;
+      height: 440px !important;
+    }
+    #ke-slide{
+      height: 890px !important;
     }
 }
 @media screen and (max-width : 1799px) and (min-width:1700px) {
     #navscroll{
-        height: 95px;
+        height: 80px;
         padding: 0 200px;
     }
     #background-space{
-      margin-top: 48px;
+      margin-top: 30px;
     }
     #logo-img{
-        width: 29%;
+        width: 24.5%;
     }
     #btn-nav{
         font-size: 25px;
     }
   #box-purpose{
-    width: 60rem;
-    height: 30rem;
+    width: 50rem;
+    height: 40rem;
+  }
+  #bg-purpose {
+    height: 888px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+  }
+  #text-purpose{
+    font-size: 20px;
+    line-height: 40px;
   }
   #title-purpose{
     padding-top: 2rem;
@@ -267,9 +400,9 @@
     width: 100%;
     height: 860px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     border: none;
-    background-image: url('images/cambodia-original.jpg');
+    background-image: url('images/Angkorwat-imgs/ak-evening2.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -295,6 +428,9 @@
     height: 100%; 
     width: 30%;
   }
+  #slide-img{
+    height: 890px !important;
+  }
   .title-topic{
     font-family: KST;
   }
@@ -306,7 +442,6 @@
     font-family: khmer;
   }
   .nav-btn:hover{
-    font-size: 20px;
     color: azure !important;
     background-color: rgb(109, 109, 109) !important;
   }
@@ -326,24 +461,84 @@
     left: 27.9%;
     transform: translate(-50%, -50%);
   }
+  #title-angkor{
+    font-size: 48px !important;
+    padding: 2px 10px 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 48px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 48px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 48px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 48px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 48px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 48px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 48px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 48px !important;
+    padding: 11px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 17px;
+    line-height: 29px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 430px !important;
+  }
+  #ke-slide{
+    height: 870px !important;
+  }
 }
 @media screen and (max-width : 1699px) and (min-width:1600px) {
   #navscroll{
-    height: 93px;
+    height: 80px;
     padding: 0 200px;
   }
   #background-space{
-    margin-top: 50px;
+    margin-top: 30px;
   }
   #logo-img{
-      width: 31%;
+      width: 26.7%;
   }
   #btn-nav{
       font-size: 24px;
   }
   #box-purpose{
-    width: 55rem;
-    height: 30rem;
+    width: 50rem;
+    height: 38rem;
+  }
+  #bg-purpose {
+    height: 888px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+  }
+  #text-purpose{
+    font-size: 19px;
+    line-height: 40px;
+    padding: 40px !important;
   }
   #title-purpose{
     padding-top: 2rem;
@@ -376,9 +571,9 @@
     width: 100%;
     height: 860px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     border: none;
-    background-image: url('images/cambodia-original.jpg');
+    background-image: url('images/Angkorwat-imgs/ak-evening2.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -404,6 +599,10 @@
     height: 100%; 
     width: 30%;
   }
+  #slide-img{
+    margin-top: 2rem;
+    height: 865px !important;
+  }
   .title-topic{
     font-family: KST;
   }
@@ -415,7 +614,6 @@
     font-family: khmer;
   }
   .nav-btn:hover{
-    font-size: 20px;
     color: azure !important;
     background-color: rgb(109, 109, 109) !important;
   }
@@ -435,24 +633,84 @@
     left: 27.9%;
     transform: translate(-50%, -50%);
   }
+  #title-angkor{
+    font-size: 47px !important;
+    padding: 2px 10px 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 47px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 47px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 47px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 47px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 47px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 47px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 47px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 47px !important;
+    padding: 11px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 16px;
+    line-height: 29px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 430px !important;
+  }
+  #ke-slide{
+    height: 770px !important;
+  }
 }
 @media screen and (max-width : 1599px) and (min-width:1500px) {
     #navscroll{
-        height: 95px;
+        height: 75px;
         padding: 0 200px;
     }
     #background-space{
-      margin-top: 50px;
+      margin-top: 30px;
     }
     #logo-img{
-        width: 34.2%;
+        width: 27%;
     }
     #btn-nav{
         font-size: 23px;
     }
   #box-purpose{
-    width: 55rem;
-    height: 28rem;
+    width: 50rem;
+    height: 38rem;
+  }
+  #bg-purpose {
+    height: 886px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+  }
+  #text-purpose{
+    font-size: 19px;
+    line-height: 40px;
+    padding: 40px !important;
   }
   #title-purpose{
     padding-top: 2rem;
@@ -485,9 +743,9 @@
     width: 100%;
     height: 860px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     border: none;
-    background-image: url('images/cambodia-original.jpg');
+    background-image: url('images/Angkorwat-imgs/ak-evening2.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -512,6 +770,11 @@
   #textftimg{
     height: 100%; 
     width: 30%;
+    image-rendering: pixelated;
+  }
+  #slide-img{
+    margin-top: 2rem;
+    height: 870px !important;
   }
   .title-topic{
     font-family: KST;
@@ -524,7 +787,6 @@
     font-family: khmer;
   }
   .nav-btn:hover{
-    font-size: 20px;
     color: azure !important;
     background-color: rgb(109, 109, 109) !important;
   }
@@ -544,24 +806,84 @@
     left: 28.5%;
     transform: translate(-50%, -50%);
   }
+  #title-angkor{
+    font-size: 46px !important;
+    padding: 2px 10px 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 46px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 46px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 46px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 46px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 46px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 46px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 46px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 46px !important;
+    padding: 11px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 16px;
+    line-height: 29px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 430px !important;
+  }
+  #ke-slide{
+    height: 760px !important;
+  }
 }
 @media screen and (max-width : 1499px) and (min-width:1400px) {
     #navscroll{
-        height: 95px;
+        height: 75px;
         padding: 0 200px;
     }
     #background-space{
-      margin-top: 50px;
+      margin-top: 30px;
     }
     #logo-img{
-        width: 37.5%;
+        width: 30%;
     }
     #btn-nav{
         font-size: 22px;
     }
   #box-purpose{
-    width: 55rem;
-    height: 28rem;
+    width: 50rem;
+    height: 38rem;
+  }
+  #bg-purpose {
+    height: 886px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+  }
+  #text-purpose{
+    font-size: 19px;
+    line-height: 40px;
+    padding: 40px !important;
   }
   #title-purpose{
     padding-top: 2rem;
@@ -600,9 +922,9 @@
     width: 100%;
     height: 860px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     border: none;
-    background-image: url('images/cambodia-original.jpg');
+    background-image: url('images/Angkorwat-imgs/ak-evening2.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -628,6 +950,10 @@
     height: 100%; 
     width: 30%;
   }
+  #slide-img{
+    margin-top: 3rem;
+    height: 860px !important;
+  }
   .title-topic{
     font-family: KST;
   }
@@ -639,7 +965,6 @@
     font-family: khmer;
   }
   .nav-btn:hover{
-    font-size: 20px;
     color: azure !important;
     background-color: rgb(109, 109, 109) !important;
   }
@@ -659,25 +984,86 @@
     left: 28.5%;
     transform: translate(-50%, -50%);
   }
+  #title-angkor{
+    font-size: 45px !important;
+    padding: 2px 10px 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 45px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 45px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 45px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 45px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 45px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 45px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 45px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 45px !important;
+    padding: 11px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 16px;
+    line-height: 29px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 420px !important;
+  }
+  #ke-slide{
+    margin-top: 1rem;
+    height: 710px !important;
+  }
 }
 @media screen and (max-width : 1399px) and (min-width:1300px) {
     #navscroll{
-        height: 95px;
+        height: 73px;
         padding: 0 200px;
     }
     #background-space{
-      margin-top: 50px;
+      margin-top: 30px;
     }
     #logo-img{
-        width: 42%;
+        width: 32.3%;
     }
     #btn-nav{
         font-size: 21px;
     }
-  #box-purpose{
-    width: 55rem;
-    height: 27rem;
-  }
+    #box-purpose{
+      width: 50rem;
+      height: 38rem;
+    }
+    #bg-purpose {
+      height: 886px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+    }
+    #text-purpose{
+      font-size: 19px;
+      line-height: 40px;
+      padding: 40px !important;
+    }
   #title-purpose{
     padding-top: 2rem;
     font-size: 50px;
@@ -686,7 +1072,7 @@
     width: 150px;
   }
   #text-name{
-    font-size: 25px;
+    font-size: 23px;
   }
   #text-role{
     font-size: 15px;
@@ -715,9 +1101,9 @@
     width: 100%;
     height: 860px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     border: none;
-    background-image: url('images/cambodia-original.jpg');
+    background-image: url('images/Angkorwat-imgs/ak-evening2.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -743,6 +1129,10 @@
     height: 100%; 
     width: 30%;
   }
+  #slide-img{
+    margin-top: 4rem;
+    height: 850px !important;
+  }
   .title-topic{
     font-family: KST;
   }
@@ -754,7 +1144,6 @@
     font-family: khmer;
   }
   .nav-btn:hover{
-    font-size: 20px;
     color: azure !important;
     background-color: rgb(109, 109, 109) !important;
   }
@@ -770,150 +1159,96 @@
   }
   .center-left {
     position: absolute;
-    top: 68%;
+    top: 69%;
     left: 28.5%;
     transform: translate(-50%, -50%);
+  }
+  #title-angkor{
+    font-size: 44px !important;
+    padding: 2px 10px 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 44px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 44px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 44px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 44px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 44px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 44px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 44px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 44px !important;
+    padding: 11px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 15.5px;
+    line-height: 25px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 410px !important;
+  }
+  #ke-slide{
+    margin-top: 1rem;
+    height: 660px !important;
   }
 }
 @media screen and (max-width : 1299px) and (min-width:1200px) {
     #navscroll{
-        height: 97px;
+        height:72px;
         padding: 0 110px;
     }
     #background-space{
-      margin-top: 50px;
+      margin-top: 30px;
     }
     #logo-img{
-        width: 39%;
+        width: 29%;
     }
     #btn-nav{
-        font-size: 21px;
+        font-size: 20px;
     }
-  #box-purpose{
-    width: 50rem;
-    height: 25rem;
-  }
+    #box-purpose{
+      width: 50rem;
+      height: 38rem;
+    }
+    #bg-purpose {
+      height: 886px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+    }
+    #text-purpose{
+      font-size: 19px;
+      line-height: 40px;
+      padding: 40px !important;
+    }
   #title-purpose{
     padding-top: 2rem;
     font-size: 45px;
   }
   #img-member{
     width: 150px;
-  }
-  #text-name{
-    font-size: 25px;
-  }
-  #text-role{
-    font-size: 15px;
-  }
-  #text1{
-    font-size: 95px;
-    line-height: 125px;
-  }
-  #text2{
-    text-transform: uppercase;
-    font-size: 25px;
-    letter-spacing: 14px;
-  }
-  #text-btn{
-    font-size: 28px;
-  }
-  #arrow-down{
-    width: 28px;
-    height: 28px;
-  }
-  #eye-icon{
-    width: 30px;
-    height: 30px;
-  }
-  #bg-img{
-    width: 100%;
-    height: 860px;
-    background-size: cover;
-    background-position: center;
-    border: none;
-    background-image: url('images/cambodia-original-zin.jpg');
-  }
-  #text-viewAll{
-    font-size: 20px;
-  }
-  #sub-title1{
-    font-size: 20px;
-  }
-  #title1{
-  font-size: 35px;
-  }
-  #h-dis{
-    font-family: khmer;
-    line-height: 33px;
-    font-size: 20px;
-    text-indent: 3rem;
-  }
-  #list-text{
-    font-family: khmer;
-    line-height: 33px;
-    font-size: 19px;
-  }
-  #textftimg{
-    height: 100%; 
-    width: 30%;
-  }
-  .title-topic{
-    font-family: KST;
-  }
-  .title-head{
-    font-family: khmer;
-  }
-  .nav-btn{
-    font-size: 18px;
-    font-family: khmer;
-  }
-  .nav-btn:hover{
-    font-size: 20px;
-    color: azure !important;
-    background-color: rgb(109, 109, 109) !important;
-  }
-  .nav-btn:focus{
-    font-size: 20px;
-    color: azure;
-    background-color: rgb(109, 109, 109);
-  }
-  .nav-btn:active{
-    font-size: 20px;
-    color: azure;
-    background-color: rgb(109, 109, 109);
-  }
-  .center-left {
-    position: absolute;
-    top: 67%;
-    left: 28.5%;
-    transform: translate(-50%, -50%);
-  }
-}
-@media screen and (max-width : 1199px) and (min-width:1100px) {
-    #navscroll{
-        height: 90px;
-        padding: 0 120px;
-    }
-    #background-space{
-      margin-top: 50px;
-    }
-    #logo-img{
-        width: 41%;
-    }
-    #btn-nav{
-        font-size: 20px;
-    }
-  #box-purpose{
-    width: 50rem;
-    height: 24rem;
-  }
-  #title-purpose{
-    padding-top: 2rem;
-    font-size: 44px;
-  }
-  #img-member{
-    width: 130px;
   }
   #text-name{
     font-size: 22px;
@@ -945,9 +1280,9 @@
     width: 100%;
     height: 860px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     border: none;
-    background-image: url('images/cambodia-original-zin.jpg');
+    background-image: url('images/Angkorwat-imgs/ak-evening2.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -961,7 +1296,7 @@
   #h-dis{
     font-family: khmer;
     line-height: 33px;
-    font-size: 20px;
+    font-size: 18px;
     text-indent: 3rem;
   }
   #list-text{
@@ -973,18 +1308,216 @@
     height: 100%; 
     width: 30%;
   }
+  #slide-img{
+    margin-top: 2rem;
+    height: 750px !important;
+  }
+  #svg-back{
+    width: 25px !important;
+  }
+  .back-btn{
+    font-size: 19px !important;
+  }
   .title-topic{
     font-family: KST;
   }
   .title-head{
+    font-size: 30px;
     font-family: khmer;
   }
   .nav-btn{
-    font-size: 18px;
+    font-size: 15px;
     font-family: khmer;
   }
   .nav-btn:hover{
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .center-left {
+    position: absolute;
+    top: 69%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
+  }
+  #title-angkor{
+    font-size: 43px !important;
+    padding: 2px 10px 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 43px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 43px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 43px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 43px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 43px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 43px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 43px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 43px !important;
+    padding: 9px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 15px;
+    line-height: 25px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 400px !important;
+  }
+  #more-info{
     font-size: 20px;
+  }
+  #ke-slide{
+    margin-top: 2rem;
+    height: 610px !important;
+  }
+}
+@media screen and (max-width : 1199px) and (min-width:1100px) {
+    #navscroll{
+        height: 80px;
+        padding: 0 120px;
+    }
+    #background-space{
+      margin-top: 30px;
+    }
+    #logo-img{
+        width: 32%;
+        padding-bottom: 4px;
+    }
+    #btn-nav{
+        font-size: 20px;
+    }
+    #box-purpose{
+      width: 47rem;
+      height: 35rem;
+    }
+    #bg-purpose {
+      height: 886px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+    }
+    #text-purpose{
+      font-size: 18px;
+      line-height: 40px;
+      padding: 15px 30px !important;
+    }
+  #title-purpose{
+    padding-top: 2rem;
+    font-size: 44px;
+  }
+  #img-member{
+    width: 130px;
+  }
+  #text-name{
+    font-size: 20px;
+  }
+  #text-role{
+    font-size: 15px;
+  }
+  #text1{
+    font-size: 95px;
+    line-height: 125px;
+  }
+  #text2{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 14px;
+  }
+  #text-btn{
+    font-size: 28px;
+  }
+  #arrow-down{
+    width: 28px;
+    height: 28px;
+  }
+  #eye-icon{
+    width: 30px;
+    height: 30px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: top;
+    border: none;
+    background-image: url('images/Angkorwat-imgs/ak-evening2.jpg');
+  }
+  #text-viewAll{
+    font-size: 20px;
+  }
+  #sub-title1{
+    font-size: 20px;
+  }
+  #title1{
+  font-size: 35px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 17px;
+    text-indent: 3rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 30%;
+  }
+  #slide-img{
+    margin-top: 5rem;
+    height: 710px !important;
+  }
+  #svg-back{
+    width: 25px !important;
+  }
+  .back-btn{
+    font-size: 19px !important;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-size: 27px;
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 13px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
     color: azure !important;
     background-color: rgb(109, 109, 109) !important;
   }
@@ -1000,38 +1533,102 @@
   }
   .center-left {
     position: absolute;
-    top: 67%;
+    top: 69%;
     left: 28.5%;
     transform: translate(-50%, -50%);
+  }
+  #title-angkor{
+    font-size: 42px !important;
+    padding: 2px 10px 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 42px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 42px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 42px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 42px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 42px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-jrab{
+    font-size: 42px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 42px !important;
+    padding: 8px 10px 3px 10px;
+  }
+  #title-vihear{
+    font-size: 42px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 14.5px;
+    line-height: 24px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 390px !important;
+  }
+  #more-info{
+    font-size: 20px;
+  }
+  #ke-slide{
+    margin-top: 3rem;
+    height: 560px !important;
   }
 }
 @media screen and (max-width : 1099px) and (min-width:1018px) {
     #navscroll{
-        height: 100px;
+        height: 70px;
         padding: 0 80px;
     }
     #background-space{
-      margin-top: 50px;
+      margin-top: 30px;
     }
     #logo-img{
-        width: 47%;
+        width: 33%;
     }
     #btn-nav{
         font-size: 20px;
     }
-  #box-purpose{
-    width: 45rem;
-    height: 24rem;
-  }
+    #box-purpose{
+      width: 43rem;
+      height: 35rem;
+    }
+    #bg-purpose {
+      height: 886px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+    }
+    #text-purpose{
+      font-size: 17px;
+      line-height: 40px;
+      padding: 15px 30px !important;
+    }
   #title-purpose{
     padding-top: 1.5rem;
     font-size: 44px;
   }
   #img-member{
-    width: 150px;
+    width: 130px;
   }
   #text-name{
-    font-size: 21px;
+    font-size: 18px;
   }
   #text-role{
     font-size: 15px;
@@ -1060,9 +1657,9 @@
     width: 100%;
     height: 860px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     border: none;
-    background-image: url('images/cambodia-original-zin.jpg');
+    background-image: url('images/Angkorwat-imgs/ak-evening2.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -1075,8 +1672,8 @@
   }
   #h-dis{
     font-family: khmer;
-    line-height: 33px;
-    font-size: 20px;
+    line-height: 31px;
+    font-size: 16px;
     text-indent: 3rem;
   }
   #list-text{
@@ -1088,18 +1685,28 @@
     height: 100%; 
     width: 30%;
   }
+  #slide-img{
+    margin-top: 3rem;
+    height: 650px !important;
+  }
+  #svg-back{
+    width: 23px !important;
+  }
+  .back-btn{
+    font-size: 17px !important;
+  }
   .title-topic{
     font-family: KST;
   }
   .title-head{
+    font-size: 25px;
     font-family: khmer;
   }
   .nav-btn{
-    font-size: 18px;
+    font-size: 12px;
     font-family: khmer;
   }
   .nav-btn:hover{
-    font-size: 20px;
     color: azure !important;
     background-color: rgb(109, 109, 109) !important;
   }
@@ -1115,41 +1722,106 @@
   }
   .center-left {
     position: absolute;
-    top: 67%;
+    top: 70%;
     left: 28.5%;
     transform: translate(-50%, -50%);
+  }
+  #title-angkor{
+    font-size: 41px !important;
+    padding: 2px 0 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 41px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 41px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+      font-size: 41px !important;
+      padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 41px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 41px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 41px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 41px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 41px !important;
+    padding: 8px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 14.3px;
+    line-height: 23.7px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 390px !important;
+  }
+  #more-info{
+    font-size: 19px;
+  }
+  #ke-slide{
+    margin-top: 3rem;
+    height: 518px !important;
   }
 }
 @media screen and (max-width : 1017px) and (min-width:992px) {
     #navscroll{
-        height: 95px;
+        height: 68px;
         padding: 0 50px;
     }
     #background-space{
-      margin-top: 50px;
+      margin-top: 30px;
     }
     #logo-img{
-        width: 46%;
+        width: 32.5%;
+        margin-bottom:5px;
     }
   #btn-nav{
-    font-size: 20px;
+    font-size: 19px;
   }
   #box-purpose{
-    width: 42rem;
-    height: 23rem;
+    width: 40rem;
+    height: 34rem;
+  }
+  #bg-purpose {
+    height: 886px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+  }
+  #text-purpose{
+    font-size: 16px;
+    line-height: 40px;
+    padding: 15px 30px !important;
   }
   #title-purpose{
     padding-top: 1rem;
-    font-size: 42px;
+    font-size: 40px;
   }
   #img-member{
-    width: 150px;
+    width: 125px;
   }
   #text-name{
-    font-size: 20px;
+    font-size: 17px;
   }
   #text-role{
-    font-size: 15px;
+    font-size: 14px;
   }
   #text1{
     font-size: 95px;
@@ -1175,9 +1847,9 @@
     width: 100%;
     height: 860px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     border: none;
-    background-image: url('images/cambodia-original-zin.jpg');
+    background-image: url('images/Angkorwat-imgs/ak-evening2.jpg');
   }
   #text-viewAll{
     font-size: 20px;
@@ -1190,8 +1862,8 @@
   }
   #h-dis{
     font-family: khmer;
-    line-height: 33px;
-    font-size: 20px;
+    line-height: 29px;
+    font-size: 15px;
     text-indent: 3rem;
   }
   #list-text{
@@ -1203,18 +1875,28 @@
     height: 100%; 
     width: 30%;
   }
+  #slide-img{
+    margin-top: 3rem;
+    height:640px !important;
+  }
+  #svg-back{
+    width: 20px !important;
+  }
+  .back-btn{
+    font-size: 15px !important;
+  }
   .title-topic{
     font-family: KST;
   }
   .title-head{
+    font-size: 20px;
     font-family: khmer;
   }
   .nav-btn{
-    font-size: 18px;
+    font-size: 11px;
     font-family: khmer;
   }
   .nav-btn:hover{
-    font-size: 20px;
     color: azure !important;
     background-color: rgb(109, 109, 109) !important;
   }
@@ -1234,34 +1916,96 @@
     left: 28.5%;
     transform: translate(-50%, -50%);
   }
+  #title-angkor{
+    font-size: 40px !important;
+    padding: 2px 0 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 40px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 40px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 40px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 40px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 40px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 40px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 40px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 40px !important;
+    padding: 7px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 14.2px;
+    line-height: 25.3px;
+    padding: 0 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 390px !important;
+  }
+  #more-info{
+    font-size: 18.5px;
+  }
+  #ke-slide{
+    margin-top: 3rem;
+    height: 510px !important;
+  }
+
 }
 @media screen and (max-width : 991px) and (min-width:800px) {
     #navscroll{
-        height: 95px;
+        height: 65px;
         padding: 0 50px;
     }
     #background-space{
-      margin-top: 50px;
-    }
-    #btn-nav{
-        font-size: 17px;
+      margin-top: 30px;
     }
     #box-purpose{
-      width: 45rem;
-      height: 22rem;
+      width: 42rem;
+      height: 33rem;
+    }
+    #bg-purpose {
+      height: 886px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+    }
+    #text-purpose{
+      font-size: 16px;
+      line-height: 40px;
+      padding: 15px 30px !important;
     }
     #title-purpose{
       padding-top: 1rem;
       font-size: 40px;
     }
     #img-member{
-      width: 100px;
+      width: 120px;
     }
     #text-name{
-      font-size: 18px;
+      font-size: 13px;
     }
     #text-role{
-      font-size: 15px;
+      font-size: 12px;
     }
     #text1{
       font-size: 109px;
@@ -1303,7 +2047,7 @@
       background-size: cover;
       background-position: center;
       border: none;
-      background-image: url('images/cambodia-original-zin.jpg') ;
+      background-image: url('images/Angkorwat-imgs/ak-evening.jpg') ;
     }
     #text-viewAll{
       font-size: 20px;
@@ -1317,7 +2061,7 @@
     #h-dis{
       font-family: khmer;
       line-height: 33px;
-      font-size: 20px;
+      font-size: 16px;
       text-indent: 3rem;
     }
     #list-text{
@@ -1329,18 +2073,28 @@
       height: 100%; 
       width: 30%;
     }
+    #slide-img{
+      margin-top: 4rem;
+    height: 520px !important;
+  }
+  #svg-back{
+    width: 25px !important;
+  }
+  .back-btn{
+    font-size: 20px !important;
+  }
     .title-topic{
       font-family: KST;
     }
     .title-head{
+      font-size: 23px;
       font-family: khmer;
     }
     .nav-btn{
-      font-size: 18px;
+      font-size: 14px;
       font-family: khmer;
     }
     .nav-btn:hover{
-      font-size: 20px;
       color: azure !important;
       background-color: rgb(109, 109, 109) !important;
     }
@@ -1354,18 +2108,99 @@
       color: azure;
       background-color: rgb(109, 109, 109);
     }
+    #title-angkor{
+      font-size: 45px;
+      padding: 0 0 4px 0;
+      text-align: center;
+    }
+    #title-kohke{
+      font-size: 45px !important;
+      padding: 8px 10px 3px 10px !important;
+      text-align: center;
+    }
+    #title-srey{
+      font-size: 45px;
+      padding: 6px 0 4px 0 !important;
+      text-align: center;
+    }
+    #title-bayon{
+      font-size: 45px;
+      padding: 5px 0 4px 0;
+      text-align: center;
+    }
+    #title-chmar{
+      font-size: 45px;
+      padding: 0 0 3px 0 !important;
+      text-align: center;
+    }
+    #title-prum{
+      font-size: 45px;
+      padding: 0 10px 3px 10px !important;
+      text-align: center;
+    }
+    #title-vihear{
+      font-size: 45px;
+      padding: 5px 0 3px 0;
+      text-align: center;
+    }
+    #title-jrab{
+      font-size: 45px;
+      padding: 0 0 3px 0;
+      text-align: center;
+    }
+    #title-domrei{
+      font-size: 45px;
+      padding: 8px 0 3px 0;
+      text-align: center;
+    }
+    #modal-text{
+      font-size: 15px;
+      line-height: 24px;
+      padding: 0 4px 0 4px;
+    }
+    #more-info{
+      font-size: 18px;
+    }
+    #ke-slide{
+      margin-top: 4rem;
+      height: 405px !important;
+    }
+    #btn-close{
+      width: 33px;
+      height: 33px;
+    }
 }
 @media screen and (max-width : 799px) and (min-width:700px) {
     #navscroll{
-        height: 85px;
-        padding: 5px 50px;
+        height: 64px;
+        padding: 0 50px;
     }
     #background-space{
-      margin-top: 50px;
+      margin-top: 30px;
     }
     #box-purpose{
-      width: 38rem;
-      height: 19rem;
+      width: 35rem;
+      height: 34rem;
+    }
+    #bg-purpose {
+      height: 886px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+    }
+    #text-purpose{
+      font-size: 16px;
+      line-height: 35px;
+      padding: 15px 30px !important;
+    }
+    #menu-svg{
+      width: 60px !important;
+      padding-bottom: 5px;
+    }
+    #dark-svg{
+      width: 60px;
+      padding-bottom: 9px;
     }
     #title-purpose{
       padding-top: 1rem;
@@ -1375,10 +2210,10 @@
       width: 100px;
     }
     #text-name{
-      font-size: 20px;
+      font-size: 11px;
     }
     #text-role{
-      font-size: 15px;
+      font-size: 11px;
     }
     #text1{
       font-size: 97px;
@@ -1411,7 +2246,7 @@
       background-size: cover;
       background-position: center;
       border: none;
-      background-image: url('images/cambodia-original-zin.jpg');
+      background-image: url('images/Angkorwat-imgs/ak-evening.jpg');
     }
     .center-left {
       position: absolute;
@@ -1419,7 +2254,10 @@
       left: 25%;
       transform: translate(-50%, -50%);
       text-align: center;
-      
+    }
+    #back-top-icon {
+      width: 40px !important;
+      height: 40px !important;
     }
     #text-viewAll{
       font-size: 17px;
@@ -1432,8 +2270,8 @@
     }
     #h-dis{
       font-family: khmer;
-      line-height: 33px;
-      font-size: 20px;
+      line-height: 27px;
+      font-size: 14px;
       text-indent: 3rem;
     }
     #list-text{
@@ -1445,18 +2283,28 @@
       height: 100%; 
       width: 30%;
     }
+    #slide-img{
+      margin-top: 4rem;
+    height: 450px !important;
+  }
+  #svg-back{
+    width: 20px !important;
+  }
+  .back-btn{
+    font-size: 15px !important;
+  }
     .title-topic{
       font-family: KST;
     }
     .title-head{
+      font-size: 19px;
       font-family: khmer;
     }
     .nav-btn{
-      font-size: 18px;
+      font-size: 12px;
       font-family: khmer;
     }
     .nav-btn:hover{
-      font-size: 20px;
       color: azure !important;
       background-color: rgb(109, 109, 109) !important;
     }
@@ -1470,32 +2318,111 @@
       color: azure;
       background-color: rgb(109, 109, 109);
     }
-    
+    #title-angkor{
+      font-size: 48px;
+      padding: 0 0 4px 0;
+      text-align: center;
+    }
+    #title-kohke{
+      font-size: 48px;
+      padding: 8px 0 4px 0;
+      text-align: center;
+    }
+    #title-srey{
+      font-size: 48px;
+      padding: 6px 0 4px 0 !important;
+      text-align: center;
+    }
+    #title-bayon{
+      font-size: 48px;
+      padding: 5px 0 4px 0;
+      text-align: center;
+    }
+    #title-chmar{
+      font-size: 48px;
+      padding: 0 0 3px 0 !important;
+      text-align: center;
+    }
+    #title-prum{
+      font-size: 48px;
+      padding: 0 10px 3px 10px !important;
+      text-align: center;
+    }
+    #title-vihear{
+      font-size: 48px;
+      padding: 5px 0 3px 0;
+      text-align: center;
+    }
+    #title-jrab{
+      font-size: 48px;
+      padding: 0 0 3px 0;
+      text-align: center;
+    }
+    #title-domrei{
+      font-size: 48px;
+      padding: 9px 0 3px 0;
+      text-align: center;
+    }
+    #modal-text{
+      font-size: 14px;
+      line-height: 21px;
+      padding: 0 5px 0 5px;
+    }
+    #more-info{
+      font-size: 18px;
+    }
+    #ke-slide{
+      margin-top: 4rem;
+      height: 358px !important;
+    }
+    #btn-close{
+      width: 31px;
+      height: 31px;
+    }
 }
 @media screen and (max-width : 699px) and (min-width:600px) {
     #navscroll{
-        height: 80px;
-        padding: 5px 45px;
+        height: 60px;
+        padding: 0px 45px;
     }
     #background-space{
-      margin-top: 50px;
+      margin-top: 30px;
     }
     #box-purpose{
-      width: 32rem;
-      height: 17rem;
+      width: 30rem;
+      height: 36rem;
+    }
+    #bg-purpose {
+      height: 886px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+    }
+    #text-purpose{
+      font-size: 16px;
+      line-height: 33px;
+      padding: 15px 30px !important;
+    }
+    #menu-svg{
+      width: 30px;
+      padding-bottom: 10px;
+    }
+    #dark-svg{
+      padding-bottom: 5px;
     }
     #title-purpose{
       padding-top: 1rem;
       font-size: 30px;
     }
     #img-member{
-      width: 110px;
+      width: 90px;
     }
     #text-name{
-      font-size: 15px;
+      font-size: 9px;
     }
     #text-role{
-      font-size: 15px;
+      font-size: 7px;
     }
     #text1{
       font-size: 84px;
@@ -1537,7 +2464,7 @@
       background-size: cover;
       background-position: center;
       border: none;
-      background-image: url('images/cambodia-original-zin.jpg');
+      background-image: url('images/Angkorwat-imgs/ak-evening.jpg');
     }
     #text-viewAll{
       font-size: 16px;
@@ -1550,8 +2477,8 @@
     }
     #h-dis{
       font-family: khmer;
-      line-height: 33px;
-      font-size: 20px;
+      line-height: 25px;
+      font-size: 13px;
       text-indent: 3rem;
     }
     #list-text{
@@ -1563,18 +2490,32 @@
       height: 100%; 
       width: 30%;
     }
+    #slide-img{
+      margin-top: 3rem;
+    height: 390px !important;
+  }
+  #svg-back{
+    width: 21px !important;
+  }
+  .back-btn{
+    font-size: 16px !important;
+  }
+  #back-top-icon {
+    width: 35px !important;
+    height: 35px !important;
+  }
     .title-topic{
       font-family: KST;
     }
     .title-head{
-      font-family: khmer;
-    }
-    .nav-btn{
       font-size: 18px;
       font-family: khmer;
     }
+    .nav-btn{
+      font-size: 9px;
+      font-family: khmer;
+    }
     .nav-btn:hover{
-      font-size: 20px;
       color: azure !important;
       background-color: rgb(109, 109, 109) !important;
     }
@@ -1588,31 +2529,121 @@
       color: azure;
       background-color: rgb(109, 109, 109);
     }
+    #title-angkor{
+      font-size: 47px;
+      padding: 0 0 4px 0;
+      text-align: center;
+    }
+    #title-kohke{
+      font-size: 47px;
+      padding: 8px 0 4px 0;
+      text-align: center;
+    }
+    #title-srey{
+      font-size: 47px;
+      padding: 6px 0 4px 0 !important;
+      text-align: center;
+    }
+    #title-bayon{
+      font-size: 47px;
+      padding: 5px 0 4px 0;
+      text-align: center;
+    }
+    #title-chmar{
+      font-size: 47px;
+      padding: 0 0 3px 0 !important;
+      text-align: center;
+    }
+    #title-prum{
+      font-size: 47px;
+      padding: 0 10px 3px 10px !important;
+      text-align: center;
+    }
+    #title-vihear{
+      font-size: 47px;
+      padding: 5px 0 3px 0;
+      text-align: center;
+    }
+    #title-jrab{
+      font-size: 47px;
+      padding: 0 0 3px 0;
+      text-align: center;
+    }
+    #title-domrei{
+      font-size: 47px;
+      padding: 11px 0 3px 0;
+      text-align: center;
+    }
+    #modal-text{
+      font-size: 13px;
+      line-height: 21px;
+      padding: 0 4px 0 4px;
+    }
+    #more-info{
+      font-size: 17px;
+    }
+    #img-slide{
+      width: 100% !important;
+      height: 250px !important;
+    }
+    #ke-slide{
+      margin-top: 3.7rem;
+      height: 305px !important;
+    }
+    #btn-close{
+      width: 30px;
+      height: 30px;
+    }
+    #logo-of{
+      width: 350px;
+    }
 }
 @media screen and (max-width : 599px) and (min-width:500px) {
     #navscroll{
-        height: 80px;
-        padding: 5px 45px;
+        height: 60px;
+        padding: 0 45px 5px 45px;
     }
     #background-space{
-        margin-top: 50px;
+        margin-top: 30px;
+    }
+    #logo-of{
+      width: 350px;
     }
     #box-purpose{
-      width: 27rem;
-      height: 14rem;
+      width: 25rem;
+      height: 32rem;
+    }
+    #bg-purpose {
+      height: 886px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+    }
+    #text-purpose{
+      font-size: 15px;
+      line-height: 27px;
+      padding: 15px 20px !important;
+    }
+    #menu-svg{
+      width: 30px;
+      padding-bottom: 10px;
+    }
+    #dark-svg{
+      padding-bottom: 5px;
     }
     #title-purpose{
       padding-top: 1rem;
       font-size: 25px;
     }
     #img-member{
-      width: 110px;
+      width: 80px;
     }
     #text-name{
-      font-size: 12px;
+      font-size: 8px;
     }
     #text-role{
-      font-size: 15px;
+      font-size: 7px;
     }
     #text1{
       font-size: 67px;
@@ -1636,6 +2667,10 @@
       transform: translate(-50%, -50%);
       text-align: center;
     }
+    #back-top-icon {
+      width: 35px !important;
+      height: 35px !important;
+    }
     #text-btn{
       font-size: 21px;
     }
@@ -1653,22 +2688,22 @@
       background-size: cover;
       background-position: center;
       border: none;
-      background-image: url('images/cambodia-original-zin.jpg');
+      background-image: url('images/Angkorwat-imgs/ak-evening.jpg');
     }
     #text-viewAll{
-      font-size: 16px;
+      font-size: 13px;
     }
     #sub-title1{
-      font-size: 16px;
+      font-size: 13px;
     }
     #title1{
-    font-size: 29px;
+    font-size: 25px;
     }
     #h-dis{
       font-family: khmer;
-      line-height: 33px;
-      font-size: 20px;
-      text-indent: 3rem;
+      line-height: 21px;
+      font-size: 11px;
+      text-indent: 1.5rem;
     }
     #list-text{
       font-family: khmer;
@@ -1677,20 +2712,30 @@
     }
     #textftimg{
       height: 100%; 
-      width: 30%;
+      width: 45%;
     }
+    #slide-img{
+    margin-top: 3rem;
+    height: 310px !important;
+  }
+  #svg-back{
+    width: 20px !important;
+  }
+  .back-btn{
+    font-size: 15px !important;
+  }
     .title-topic{
       font-family: KST;
     }
     .title-head{
+      font-size: 16px;
       font-family: khmer;
     }
     .nav-btn{
-      font-size: 18px;
+      font-size: 10px;
       font-family: khmer;
     }
     .nav-btn:hover{
-      font-size: 20px;
       color: azure !important;
       background-color: rgb(109, 109, 109) !important;
     }
@@ -1708,28 +2753,121 @@
       padding-left: 40px !important;
       padding-right: 40px !important;
     }
+    #title-angkor{
+      font-size: 46px;
+      padding: 0 0 4px 0;
+      text-align: center;
+    }
+    #title-kohke{
+      font-size: 46px;
+      padding: 8px 0 4px 0;
+      text-align: center;
+    }
+    #title-srey{
+      font-size: 46px;
+      padding: 6px 0 4px 0 !important;
+      text-align: center;
+    }
+    #title-bayon{
+      font-size: 46px;
+      padding: 5px 0 4px 0;
+      text-align: center;
+    }
+    #title-chmar{
+      font-size: 46px;
+      padding: 0 0 3px 0 !important;
+      text-align: center;
+    }
+    #title-prum{
+      font-size: 46px;
+      padding: 0 10px 3px 10px !important;
+      text-align: center;
+    }
+    #title-vihear{
+      font-size: 46px;
+      padding: 3px 0 3px 0;
+      text-align: center;
+    }
+    #title-jrab{
+      font-size: 46px;
+      padding: 0 0 3px 0;
+      text-align: center;
+    }
+    #title-domrei{
+      font-size: 46px;
+      padding: 10px 0 3px 0;
+      text-align: center;
+    }
+    #modal-text{
+      font-size: 13px;
+      line-height: 21px;
+      padding: 0 4px 0 4px;
+    }
+    #more-info{
+      font-size: 16px;
+    }
+    #img-slide{
+      width: 100% !important;
+      height: 270px !important;
+    }
+    #ke-slide{
+      margin-top: 3.7rem;
+      height: 255px !important;
+    }
+    #btn-close{
+      width: 27px;
+      height: 27px;
+    }
+    .name{
+      font-size: 25px;
+    }
+    .group{
+      font-size: 20px;
+    }
 }
 @media screen and (max-width : 499px) and (min-width:400px) {
     #navscroll{
-        height: 80px;
+        height: 55px;
         padding: 0px 35px;
     }
     #background-space{
-        margin-top: 50px;
+        margin-top: 30px;
+    }
+    #logo-of{
+      width: 350px;
     }
     #box-purpose{
       width: 22rem;
-      height: 12rem;
+      height: 34rem;
+    }
+    #bg-purpose {
+      height: 886px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+    }
+    #text-purpose{
+      font-size: 15px;
+      line-height: 25px;
+      padding: 15px 19px !important;
+    }
+    #menu-svg{
+      width: 30px;
+      padding-bottom: 12px;
+    }
+    #dark-svg{
+      padding-bottom: 10px;
     }
     #title-purpose{
       padding-top: 1rem;
-      font-size: 20px;
+      font-size: 25px;
     }
     #img-member{
-      width: 80px;
+      width: 85px;
     }
     #text-name{
-      font-size: 8px;
+      font-size: 9px;
     }
     #text-role{
       font-size: 10px;
@@ -1754,6 +2892,10 @@
       transform: translate(-50%, -50%);
       text-align: center;
     }
+    #back-top-icon {
+      width: 35px !important;
+      height: 35px !important;
+    }
     #text-btn{
       font-size: 20px;
     }
@@ -1771,22 +2913,23 @@
       background-size: cover;
       background-position: center;
       border: none;
-      background-image: url('images/cambodia-original-zin.jpg');
+      background-image: url('images/Angkorwat-imgs/ak-evening.jpg');
     }
     #text-viewAll{
-      font-size: 15px;
+      font-size: 10px;
+      margin-bottom: 15px;
     }
     #sub-title1{
-      font-size: 15px;
+      font-size: 11px;
     }
     #title1{
     font-size: 20px;
     }
     #h-dis{
       font-family: khmer;
-      line-height: 33px;
-      font-size: 20px;
-      text-indent: 3rem;
+      line-height: 20px;
+      font-size: 11px;
+      text-indent: 1.5rem;
     }
     #list-text{
       font-family: khmer;
@@ -1795,20 +2938,30 @@
     }
     #textftimg{
       height: 100%; 
-      width: 30%;
+      width: 45%;
     }
+    #slide-img{
+      margin-top: 3rem;
+    height: 240px !important;
+  }
+  #svg-back{
+    width: 10px !important;
+  }
+  .back-btn{
+    font-size: 10px !important;
+  }
     .title-topic{
       font-family: KST;
     }
     .title-head{
+      font-size: 16px;
       font-family: khmer;
     }
     .nav-btn{
-      font-size: 18px;
+      font-size: 7px;
       font-family: khmer;
     }
     .nav-btn:hover{
-      font-size: 20px;
       color: azure !important;
       background-color: rgb(109, 109, 109) !important;
     }
@@ -1826,31 +2979,127 @@
       padding-left: 35px !important;
       padding-right: 35px !important;
     }
+    #title-angkor{
+      font-size: 45px;
+      padding: 0 0 4px 0;
+      text-align: center;
+    }
+    #title-kohke{
+      font-size: 45px;
+      padding: 8px 0 4px 0;
+      text-align: center;
+    }
+    #title-srey{
+      font-size: 45px;
+      padding: 6px 0 4px 0 !important;
+      text-align: center;
+    }
+    #title-bayon{
+      font-size: 45px;
+      padding: 5px 0 4px 0;
+      text-align: center;
+    }
+    #title-chmar{
+      font-size: 45px;
+      padding: 0 0 3px 0 !important;
+      text-align: center;
+    }
+    #title-prum{
+      font-size: 45px;
+      padding: 0 10px 3px 10px !important;
+      text-align: center;
+    }
+    #title-vihear{
+      font-size: 45px;
+      padding: 2px 0 3px 0;
+      text-align: center;
+    }
+    #title-jrab{
+      font-size: 45px;
+      padding: 0 0 3px 0;
+      text-align: center;
+    }
+    #title-domrei{
+      font-size: 45px;
+      padding: 8px 0 3px 0;
+      text-align: center;
+    }
+    #modal-text{
+      font-size: 13px;
+      line-height: 21px;
+      padding: 2px 4px 0 4px;
+    }
+    #more-info{
+      font-size: 16px;
+    }
+    #img-slide{
+      width: 100% !important;
+      height: 230px !important;
+    }
+    #ke-slide{
+      margin-top: 3.4rem;
+      height: 205px !important;
+    }
+    #btn-close{
+      width: 25px;
+      height: 25px;
+    }
+    .name{
+      font-size: 19px;
+    }
+    .group{
+      font-size: 17px;
+    }
 }
 @media screen and (max-width : 399px) and (min-width:350px) {
     #navscroll{
-        height: 75px;
-        padding: 0px 10px;
+        height: 55px;
+        padding: 0px 20px;
+    }
+    #logo-of{
+      width: 400px;
     }
     #background-space{
-        margin-top: 75px;
+        margin-top: 55px;
     }
     #box-purpose{
       width: 18rem;
-      height: 10rem;
+      height: 33rem;
+    }
+    #bg-purpose {
+      height: 886px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+    }
+    #text-purpose{
+      font-size: 14px;
+      line-height: 20px;
+      padding: 15px 20px !important;
+    }
+    #menu-svg{
+      width: 30px;
+      padding-bottom: 14px;
+    }
+    #dark-svg{
+      padding-bottom: 12px;
     }
     #title-purpose{
       padding-top: 1rem;
-      font-size: 15px;
+      font-size: 23px;
     }
     #img-member{
       width: 80px;
     }
     #text-name{
-      font-size: 10px;
+      font-size: 7px;
     }
     #text-role{
       font-size: 7px;
+    }
+    #member-role{
+      font-size: 25px;
     }
     #text1{
       padding-bottom: 10px !important;
@@ -1874,6 +3123,10 @@
       transform: translate(-50%, -50%);
       text-align: center;
     }
+    #back-top-icon {
+      width: 30px !important;
+      height: 30px !important;
+    }
     #text-btn{
       font-size: 16px;
     }
@@ -1887,26 +3140,27 @@
     }
     #bg-img{
       width: 100%;
-      height: 806px;
+      height: 830px;
       background-size: cover;
       background-position: center;
       border: none;
-      background-image: url('images/cambodia-original-zin.jpg');
+      background-image: url('images/Angkorwat-imgs/ak-evening.jpg');
     }
     #text-viewAll{
-      font-size: 12px;
+      font-size: 11px;
+      margin-bottom: 15px;
     }
     #sub-title1{
-      font-size: 11px;
+      font-size: 10px;
     }
     #title1{
-    font-size: 21px;
+    font-size: 20px;
     }
     #h-dis{
       font-family: khmer;
-      line-height: 33px;
-      font-size: 20px;
-      text-indent: 3rem;
+      line-height: 18px;
+      font-size: 10px;
+      text-indent: 1.5rem;
     }
     #list-text{
       font-family: khmer;
@@ -1915,20 +3169,30 @@
     }
     #textftimg{
       height: 100%; 
-      width: 30%;
+      width: 50%;
     }
+    #slide-img{
+      margin-top: 3rem;
+    height: 220px !important;
+  }
+  #svg-back{
+    width: 9px !important;
+  }
+  .back-btn{
+    font-size: 8px !important;
+  }
     .title-topic{
       font-family: KST;
     }
     .title-head{
+      font-size: 12px;
       font-family: khmer;
     }
     .nav-btn{
-      font-size: 18px;
+      font-size: 6px;
       font-family: khmer;
     }
     .nav-btn:hover{
-      font-size: 20px;
       color: azure !important;
       background-color: rgb(109, 109, 109) !important;
     }
@@ -1946,34 +3210,125 @@
       padding-left: 28px !important;
       padding-right: 28px !important;
     }
+    #title-angkor{
+      font-size: 40px;
+      padding: 0 0 4px 0;
+      text-align: center;
+    }
+    #title-kohke{
+      font-size: 40px;
+      padding: 8px 0 4px 0;
+      text-align: center;
+    }
+    #title-srey{
+      text-align: center;
+      padding: 6px 0 4px 0 !important;
+      font-size: 36px;
+    }
+    #title-bayon{
+      font-size: 40px;
+      padding: 5px 0 4px 0;
+      text-align: center;
+    }
+    #title-chmar{
+      font-size: 40px;
+      padding: 0 0 3px 0 !important;
+      text-align: center;
+    }
+    #title-prum{
+      font-size: 40px;
+      padding: 0 10px 3px 10px !important;
+      text-align: center;
+    }
+    #title-vihear{
+      font-size: 40px;
+      padding: 2px 0 3px 0;
+      text-align: center;
+    }
+    #title-jrab{
+      font-size: 40px;
+      padding: 0 0 3px 0;
+      text-align: center;
+    }
+    #title-domrei{
+      font-size: 40px;
+      padding: 7px 0 3px 0;
+      text-align: center;
+    }
+    #modal-text{
+      font-size: 12px;
+      line-height: 20px;
+      padding: 2px 4px 0 4px;
+    }
+    #more-info{
+      font-size: 15px;
+    }
+    #img-slide{
+      width: 100% !important;
+      height: 190px !important;
+    }
+    #ke-slide{
+      margin-top: 3.4rem;
+      height: 180px !important;
+    }
+    #btn-close{
+      width: 20px;
+      height: 20px;
+    }
+    .name{
+      font-size: 15px;
+    }
+    .group{
+      font-size: 14px;
+    }
 }
 @media screen and (max-width : 349px) and (min-width:320px) {
     #navscroll{
-        height: 70px;
-        padding: 0px 5px;
+        height: 55px;
+        padding: 0px 20px;
     }
     #background-space{
-      margin-top: 50px;
+      margin-top: 40px;
   }
   #box-purpose{
     width: 15rem;
-    height: 8rem;
+    height: 30rem;
+  }
+  #bg-purpose {
+    height: 886px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+  }
+  #text-purpose{
+    font-size: 12px;
+    line-height: 17px;
+    padding: 15px 20px !important;
+  }
+  #menu-svg{
+    width: 30px;
+    padding-bottom: 15px;
+  }
+  #dark-svg{
+    width: 50px;
+    padding-bottom: 9px;
   }
   #title-purpose{
     padding-top: 1rem;
     font-size: 15px;
   }
   #img-member{
-    width: 150px;
-  }
-  #img-member{
     width: 70px;
   }
   #text-name{
-    font-size: 7px;
+    font-size: 6px;
   }
   #text-role{
-    font-size: 6px;
+    font-size: 5px;
+  }
+  #member-role{
+    font-size: 22px;
   }
   #text1{
     padding-bottom: 13px !important;
@@ -1996,6 +3351,10 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  #back-top-icon {
+    width: 30px !important;
+    height: 30px !important;
+  }
   #text-btn{
     font-size: 16px;
   }
@@ -2013,7 +3372,7 @@
     background-size: cover;
     background-position: center;
     border: none;
-    background-image: url('images/cambodia-original-zin.jpg');
+    background-image: url('images/Angkorwat-imgs/ak-evening.jpg');
   }
   #text-viewAll{
     font-size: 11px;
@@ -2026,9 +3385,9 @@
   }
   #h-dis{
     font-family: khmer;
-    line-height: 33px;
-    font-size: 20px;
-    text-indent: 3rem;
+    line-height: 13px;
+    font-size: 7px;
+    text-indent: 1rem;
   }
   #list-text{
     font-family: khmer;
@@ -2037,20 +3396,30 @@
   }
   #textftimg{
     height: 100%; 
-    width: 30%;
+    width: 43%;
+  }
+  #slide-img{
+    margin-top: 3rem;
+    height: 200px !important;
+  }
+  #svg-back{
+    width: 7px !important;
+  }
+  .back-btn{
+    font-size: 7px !important;
   }
   .title-topic{
     font-family: KST;
   }
   .title-head{
+    font-size: 13px;
     font-family: khmer;
   }
   .nav-btn{
-    font-size: 18px;
+    font-size: 6px;
     font-family: khmer;
   }
   .nav-btn:hover{
-    font-size: 20px;
     color: azure !important;
     background-color: rgb(109, 109, 109) !important;
   }
@@ -2064,34 +3433,134 @@
     color: azure;
     background-color: rgb(109, 109, 109);
   }
+  #title-angkor{
+    font-size: 38px;
+    padding: 0 0 4px 0;
+    text-align: center;
+  }
+  #title-kohke{
+    font-size: 38px;
+    padding: 8px 0 4px 0;
+    text-align: center;
+  }
+  #title-srey{
+    font-size: 35px;
+    padding: 6px 0 4px 0 !important;
+    text-align: center;
+  }
+  #title-bayon{
+    font-size: 38px;
+    padding: 5px 0 4px 0;
+    text-align: center;
+  }
+  #title-chmar{
+    font-size: 35px;
+    padding: 0 0 3px 0 !important;
+    text-align: center;
+  }
+  #title-prum{
+    font-size: 37px;
+    padding: 0 10px 3px 10px !important;
+    text-align: center;
+  }
+  #title-vihear{
+    font-size: 35px;
+    padding: 2px 0 3px 0;
+    text-align: center;
+  }
+  #title-jrab{
+    font-size: 38px;
+    padding: 0 0 3px 0;
+    text-align: center;
+  }
+  #title-domrei{
+    font-size: 38px;
+    padding: 8px 0 3px 0;
+    text-align: center;
+  }
+  #modal-text{
+    font-size: 11px;
+    line-height: 19px;
+    padding: 2px 4px 0 4px;
+  }
+  #more-info{
+    font-size: 14px;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 140px !important;
+  }
+  .card-text{
+    font-size: 12px;
+  }
+  #ke-slide{
+    margin-top: 3.4rem;
+    height: 174px !important;
+  }
+  #btn-close{
+    width: 17px;
+    height: 17px;
+  }
+  #btn-off{
+    font-size: 14px !important;
+  }
+  .name{
+    font-size: 12px;
+  }
+  .group{
+    font-size: 11px;
+  }
 }
 @media screen and (max-width:319px) and (min-width:100px) {
   #navscroll{
-      height: 65px;
+      height: 55px;
       padding: 0px 3px;
   }
   #background-space{
-    margin-top: 50px;
+    margin-top: 30px;
   }
   #box-purpose{
-    width: 15rem;
-    height: 7rem;
+    width: 13rem;
+    height: 28rem;
+  }
+  #bg-purpose {
+    height: 886px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+  }
+  #text-purpose{
+    font-size: 10px;
+    line-height: 17px;
+    padding: 15px 15px !important;
+  }
+  #menu-svg{
+    width: 30px;
+    padding-bottom: 15px;
+  }
+  .card-text{
+    font-size: 11px;
+  }
+  #dark-svg{
+    width: 50px;
+    padding-bottom: 9px;
   }
   #title-purpose{
     padding-top: 1rem;
     font-size: 13px;
   }
   #img-member{
-    width: 150px;
-  }
-  #img-member{
-    width: 80px;
+    width: 60px;
   }
   #text-name{
     font-size: 5px;
   }
   #text-role{
-    font-size: 3px;
+    font-size: 4px;
+  }
+  #member-role{
+    font-size: 15px;
   }
   #text1{
     padding-bottom: 14px !important;
@@ -2114,6 +3583,10 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  #back-top-icon {
+    width: 30px !important;
+    height: 30px !important;
+  }
   #text-btn{
     font-size: 16px;
   }
@@ -2131,7 +3604,7 @@
     background-size: cover;
     background-position: center;
     border: none;
-    background-image: url('images/cambodia-original-zin.jpg');
+    background-image: url('images/Angkorwat-imgs/ak-evening.jpg');
   }
   #text-viewAll{
     font-size: 10px;
@@ -2144,9 +3617,9 @@
   }
   #h-dis{
     font-family: khmer;
-    line-height: 33px;
-    font-size: 20px;
-    text-indent: 3rem;
+    line-height: 13px;
+    font-size: 7px;
+    text-indent: 1.1rem;
   }
   #list-text{
     font-family: khmer;
@@ -2155,20 +3628,30 @@
   }
   #textftimg{
     height: 100%; 
-    width: 30%;
+    width: 40%;
+  }
+  #slide-img{
+    margin-top: 3rem;
+    height: 200px !important;
+  }
+  #svg-back{
+    width: 6px !important;
+  }
+  .back-btn{
+    font-size: 5px !important;
   }
   .title-topic{
     font-family: KST;
   }
   .title-head{
+    font-size: 11px;
     font-family: khmer;
   }
   .nav-btn{
-    font-size: 18px;
+    font-size: 4px;
     font-family: khmer;
   }
   .nav-btn:hover{
-    font-size: 20px;
     color: azure !important;
     background-color: rgb(109, 109, 109) !important;
   }
@@ -2181,6 +3664,81 @@
     font-size: 20px;
     color: azure;
     background-color: rgb(109, 109, 109);
+  }
+  #title-angkor{
+    font-size: 33px;
+    text-align: center;
+    padding: 0px 0 4px 0 !important;
+  }
+  #title-kohke{
+    font-size: 30px;
+    padding: 8px 0 4px 0;
+    text-align: center;
+  }
+  #title-srey{
+    font-size: 26px;
+    padding: 6px 0 4px 0 !important;
+    text-align: center;
+  }
+  #title-bayon{
+    font-size: 30px;
+    padding: 5px 0 4px 0;
+    text-align: center;
+  }
+  #title-chmar{
+    font-size: 26px;
+    padding: 0 0 3px 0 !important;
+    text-align: center;
+  }
+  #title-prum{
+    font-size: 27px;
+    padding: 0 10px 3px 10px !important;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  #title-vihear{
+    font-size: 23px;
+    padding: 2px 0 3px 0;
+    text-align: center;
+  }
+  #title-jrab{
+    font-size: 28px;
+    padding: 0 0 3px 0;
+    text-align: center;
+  }
+  #title-domrei{
+    font-size: 29px;
+    padding: 5px 0 3px 0;
+    text-align: center;
+  }
+  #modal-text{
+    font-size: 10px;
+    line-height: 16px !important;
+    padding: 0 3px 3px 3px !important;
+  }
+  #more-info{
+    font-size: 11px;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 115px !important;
+  }
+  #ke-slide{
+    margin-top: 3.4rem;
+    height: 160px !important;
+  }
+  #btn-close{
+    width: 15px;
+    height: 15px;
+  }
+  #btn-off{
+    font-size: 12px !important;
+  }
+  .name{
+    font-size: 8px;
+  }
+  .group{
+    font-size: 7px;
   }
 }
 

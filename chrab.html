@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="color-scheme" content="light dark" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angkor Wat</title>
+    <link rel="stylesheet" href="./plugins/css/bootstrap.min.css">
+       <script src="./plugins/js/bootstrap.bundle.min.js"></script>
+       <link rel="stylesheet" href="app.css">
+       <link rel="stylesheet" href="responsive.css" />
+       <script src="darkMode.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body style="background-color: #F1EEE9;">
+    <div class="main" id="banner">
+        <div class="row d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-between justify-content-sm-between justify-content-between align-items-center fixed-top shadow overflow-hidden" id="navscroll">
+            <!-- navigation -->
+            <div id="naviga" class="col-3 d-flex align-items-center position-relative">
+                <!-- logo -->
+                <a class="d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" href="index.html">
+                    <img id="logo-img" class="img-fluid rounded rounded-circle" src="./images/Logo htcam-01.png" alt="">
+                </a>
+                <!-- end logo -->
+                <!-- offcanvas show when md and sm screen-->
+                <button  class="d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-block d-block btn btn-sm rounded" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                    <svg id="menu-svg" width="40" height="40" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 18h14M5 6h14H5Zm0 4h14H5Zm0 4h14H5Z"></path>
+                        </svg>
+                </button>
+                <div class="offcanvas w-50 offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div id="header-off" class="offcanvas-header bg-success bg-opacity-75">
+                        <!-- logo in offcanvas -->  
+                        <div class="col-8 d-flex align-self-center">
+                            <a class="navbar-brand d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-flex d-flex justify-content-md-end justify-content-sm-start" href="#">
+                                <img class="img-fluid w-50 rounded rounded-circle" src="./images/Logo htcam-01.png" alt="">
+                            </a>
+                        </div>
+                        <!-- logo in offcanvas -->
+                        <!-- btn Close -->
+                        <div class="col-4 d-flex justify-content-end align-self-start">
+                            <a type="button" class="text-reset d-flex align-items-start" data-bs-dismiss="offcanvas" aria-label="Close">
+                                <svg id="btn-close" width="40" height="40" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10ZM8.11 15.89a.5.5 0 0 1 0-.708L11.294 12 8.11 8.818a.5.5 0 0 1 .707-.707L12 11.293l3.182-3.182a.5.5 0 0 1 .707.707L12.707 12l3.182 3.182a.5.5 0 1 1-.707.707L12 12.707 8.818 15.89a.5.5 0 0 1-.707 0Z" clip-rule="evenodd"></path>
+                          </svg>
+                            </a>
+                        </div>
+                        <!-- btn close -->
+                    </div>
+                    <div id="bg-btnOff" class="offcanvas-body bg-secondary">
+                        <!-- search  -->
+                        <!-- <div class="col-12">
+                        
+                            <form action="">
+                                <div class="d-block position-absolute w-100" style="z-index: 1;">
+                                    <input id="search-offcanvas" class="btn btn-sm bg-transparent"  type="search" name="search" placeholder=" &nbsp;Search.." autocomplete="off">
+                                </div>
+                            </form>
+                            <div class="d-block position-relative">
+                                <svg id="search" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-search" viewBox="-5 0 25 13">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                </svg>
+                            </div>
+                        </div> -->
+                        <div class="col-12">
+                            <!-- navigation in offcanvas-->
+                            <ul class="nav nav-pills flex-column justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center align-items-center gap-2">
+                                <li  class="col-12 nav-item bg-success rounded" style="margin-top: 150px;">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success btn-lg" href="index.html" role="button">ទំព័រដើម</a>
+                                </li>
+                                <li  class="col-12 nav-item bg-success rounded">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success" href="#box-purpose" role="button">គោលបំណង</a>
+                                </li>
+                                <li  class="col-12 nav-item bg-success rounded">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success" href="#about_us" role="button">អំពីយើង</a>
+                                </li>
+                                <li  class="col-12 nav-item bg-success rounded">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success" href="#view-all" role="button">ប្រាសាទនានា</a>
+                                </li>
+                            </ul>
+                            <!-- navigation in offcanvas-->
+                        </div>
+                    </div>
+                </div>
+                <!-- end offcanvas -->
+            </div>
+
+            <!-- navigation -->
+            <div class="col-8 d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" id="main_nav" style="font-family: NidaOdorMeanChey;">
+                <ul id="navbar" class="nav nav-pills justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center ms-auto gap-3">
+                    <li class="nav-item">
+                        <a id="btn-nav" class="nav-link" href="index.html" role="button">ទំព័រដើម</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="btn-nav" class="nav-link" href="#bg-purpose" role="button">គោលបំណង</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="btn-nav" class="nav-link" href="#about_us" role="button">អំពីយើង</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="btn-nav" class="nav-link" href="all-temple.html" role="button">ប្រាសាទនានា</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end navigation -->
+            <!-- <div class="col-2 d-flex justify-content-start">
+                <form action="">
+                    <div class="d-block position-absolute" style="z-index: 1;">
+                        <input class="btn" onkeyup="showResult(this.value)"  type="search" name="search" placeholder=" &nbsp;ស្វែងរក.." autocomplete="off">
+                    </div>
+                </form>
+                <div class="d-block position-relative bg-transparent">
+                    <svg id="search" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-search " viewBox="-5 0 25 13">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </div>
+            </div> -->
+            <div class="col-3 col-xxl-1 col-xl-1 col-lg-1 col-md-3 col-sm-3 d-flex align-items-center justify-content-end">
+
+                    <button id="theme-toggle" class="btn ps-1">
+                          <svg id="dark-svg" width="60" height="60" fill="white" viewBox="0 0 32 26" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.8 12a4.8 4.8 0 1 1-9.6 0 4.8 4.8 0 0 1 9.6 0Zm-4.2-6.6a.6.6 0 1 1-1.2 0 .6.6 0 0 1 1.2 0Zm0 13.2a.6.6 0 1 1-1.199 0 .6.6 0 0 1 1.199 0Zm6-6a.6.6 0 1 1 0-1.199.6.6 0 0 1 0 1.199Zm-13.2 0a.6.6 0 1 1 0-1.2.6.6 0 0 1 0 1.2Zm11.69-4.843a.602.602 0 0 1-1.031-.422.601.601 0 1 1 1.032.422Zm-9.334 9.335a.6.6 0 1 1-.864-.835.6.6 0 0 1 .864.834Zm8.486 0a.603.603 0 0 1-.007-.856.6.6 0 1 1 .007.855ZM6.908 7.756a.6.6 0 1 1 .834-.863.6.6 0 0 1-.834.863Z"></path>
+                          </svg>
+                    </button>
+
+            </div>
+        </div>
+        <!-- end navigation -->
+    </div>
+
+
+    <!-- slide -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade d-block position-relative mt-2" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        <div class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px; height: 966px;">
+            <div class="carousel-item active">
+                <img src="./images/jrab-imgs/jrab-full.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/jrab-imgs/jrab1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/jrab-imgs/chrab_behind.jpeg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        
+    </div>
+    <!-- end slide -->
+    <!-- articles and images -->
+    <div id="bg-color" class="container-fluid px-4 pb-3">
+        
+        <div class="row pt-5 ">
+            <div id="row-left" class="col-2 border border-2 d-block sticky-top" style="border-color: #DDDDDD !important;">
+                <div  class="row  position-sticky">
+                    <div id="test" class="col-12 d-flex justify-content-start mt-3">
+                        <button class="btn back-btn fw-bold fs-4" onclick="location.href='all-temple.html'">
+                            <svg id="svg-back" width="30" height="30" fill="black" viewBox="0 2 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M18.848 18.848a1.2 1.2 0 0 1-1.696 0l-6-6a1.2 1.2 0 0 1 0-1.696l6-6a1.2 1.2 0 1 1 1.696 1.696L13.697 12l5.151 5.152a1.2 1.2 0 0 1 0 1.696Zm-7.2 0a1.2 1.2 0 0 1-1.696 0l-6-6a1.2 1.2 0 0 1 0-1.696l6-6a1.2 1.2 0 0 1 1.696 1.696L6.497 12l5.151 5.152a1.2 1.2 0 0 1 0 1.696Z" clip-rule="evenodd"></path>
+                               </svg>
+                                Back
+                        </button>
+                    </div>
+                    <div id="test" class="col-12 gap-5 mt-5">
+                        <div class="d-grid gap-3" id="myDIV">
+                                <a class="show btn nav-btn" data-title="About" href="#history">ប្រវត្តិប្រាសាទ</a>
+                                <a onclick="location.href='#idea'" class="ajax_link nav-btn btn active">មតិយោបល់</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content col-10 px-3">
+                <div  class="row">
+                    <div class="col-12 justify-content-center ">
+                        <h4 id="history" class="title-head fw-bold py-2">ប្រវត្តិប្រាសាទ</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class=" float-start overflow-hidden pt-1">
+                            ច្រាបមានន័យថាអំណាយភ័យ(ឧទាហរណ៍ច្រាបជាន់)ដីប្រៃ(ដីច្រាប) និងជាផ្សិតដែលដុះនៅលើដីប្រៃ(ផ្សិតច្រាប)។ ប្រាសាទនេះគ្មានឈ្មោះដើមនៅក្នុងសិលាចារឹកឡើយ រហូតពេលលោក អេជែន លុយណេដឺឡាហ៊្សុងគែ មកស្រាវជ្រាវនិងចុះបញ្ជីសារពើភណ្ឌនោះ មិនបានចុះលេខនិងឈ្មោះដែរ។ ទើបអ្នកស្រាវជ្រាវសម័យក្រោយមកនិងក្រសួងវប្បធម៌ និងវិចិត្រសិល្បៈហៅថាប្រាសាទច្រាបជាផ្លូវការជារៀងរហូតមកដល់បច្ចុប្បន្ននេះ ដោយមានចុះលេខ CISARK.685។ សព្វថ្ងៃប្រាសាទនេះស្ថិតនៅចម្ងាយ ៣គីឡូម៉ែត្រទិសអាគ្នេយ៍ភូមិកោះកេរ ៤០០ម៉ែត្រខាងកើតឆៀងខាងត្បូងបន្តិចពីជ្រុងអាគ្នេយ៍នៃរហាល និង ៤០០ម៉ែត្រទិសអាគ្នេយ៍នៃ ប្រាសាទចម្រេះ។ គេឃើញថាវាមានកំពែងការពារព័ន្ធជុំវិញចំនួនពីរជាន់ធ្វើអំពីថ្មបាយក្រៀមដូចគ្នា ដោយកំពែងទី១ឬកំពែងខាងក្នុងរត់ជួរជើងទៅត្បូង បែរមុខទៅរកទិសខាងលិចតាមស៊ុមទ្វារអំពីថ្មភក់។ ប្រាសាទនេះមានតួប៉មបី ធ្វើអំពីថ្មបាយក្រៀមត្រូវរលុះអស់ពាក់កណ្តាលផ្នែកខាងលិច ជាទិសដែលប្រាសាទបែរមុខរក តួប៉មទាំងនេះលំអដោយទ្វារបញ្ឆោតពីខាងជើង កើត និងត្បូង សង់លើខឿនថ្មបាយក្រៀមតែមួយដោយមានជណ្តើរបីចូលខាងលិចមុខប្រាសាទតែម្តង។ បដិមាព្រះសិវមួយអង្គត្រូវបានដឹកចេញពីប្រាសាទនេះតម្កល់ទុកនៅសារមន្ទីរជាតិភ្នំពេញសព្វថ្ងៃ។ ក្នុងធ្លានៃកំពែងទីមួយ មានហោត្រៃពីរមានប្លង់រាងចតុកោណដោយបណ្ណាល័យខាងជើងស្ថាបនាឡើងដោយថ្មបានក្រៀម ចំណែកបណ្ណាល័យខាងត្បូងធ្វើអំពីឥដ្ឋតាន់បែរមុខទៅរកទិសខាងលិចដូចប្រាសាទដែរ ក៏ប៉ុន្តែត្រូវរលំទាំងស្រុងលើដី។ កំពែងទី២ឬកំពែងខាងក្រៅបង្អស់សង់អំពីថ្មបាយក្រៀម ដោយមានគោបុរៈពីរគឺទិសខាងលិចមានប្លង់រាងកាកបាទ និងច្រកខាងកើតដែររលុះទាំងស្រុង។
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="idea" class="title-head fw-bold py-2 ">មតិយោបល់អំពីប្រាសាទ</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            ប្រាសាទនេះគឺជាប្រាសាទមួយក្នុងចំណោមប្រាសាទតូចៗជាច្រើនទៀតនៅជុំវិញប្រាសាទកោះកេរ្តិ៍ ដែលយើងមើលទៅវាបាក់បែកខ្លាំង ឬក៍សាងសងមិនទាន់រួចរាល់ក៍ថាបាន។​ ប្រាសាទនេះដែរ​ គឺព័ត៌មានអំពីប្រាសាទនេះគឺមានតិចតួចមែនទែន សូម្បីតែរូបថតអំពីប្រាសាទនេះ។
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <!-- end articles and images -->
+    <div class="fixed-bottom d-flex justify-content-end" style="bottom: 3rem; right: 5rem;">
+        <a class="bg-light rounded-circle p-2 border border-secondary" href="#top">
+            <svg width="30" height="30" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 12H5.414a1 1 0 0 1-.707-1.707l6.586-6.586a1 1 0 0 1 1.414 0l6.586 6.586A1 1 0 0 1 18.586 12H15v3H9v-3 0Z"></path>
+                <path d="M9 21h6"></path>
+                <path d="M9 18h6"></path>
+               </svg>
+        </a>
+    </div>
+    <div id="theme" hidden>
+        <p>test</p>
+    </div>
+<script>
+    function getTheme() {
+        return localStorage.getItem('theme') || 'light';
+    }
+    function saveTheme(theme) {
+        localStorage.setItem('theme', theme);
+    }
+
+    const colorScheme = document.querySelector('meta[name="color-scheme"]');
+    function applyTheme(theme) {
+        document.body.className = theme;
+        colorScheme.content = theme;
+    }
+
+    function rotateTheme(theme) {
+        if (theme === 'light') {
+            return 'dark'
+        }else{
+            return 'light';
+        }
+        
+    }
+
+    const themeDisplay = document.getElementById('theme');
+    const themeToggler = document.getElementById('theme-toggle');
+
+// Mimic heavy load done by other JS scripts
+    setTimeout(() => {
+        let theme = getTheme();
+        applyTheme(theme);
+        themeDisplay.innerText = theme;
+
+        themeToggler.onclick = () => {
+            const newTheme = rotateTheme(theme);
+            applyTheme(newTheme);
+            themeDisplay.innerText = newTheme;
+            saveTheme(newTheme);
+
+            theme = newTheme;
+        }
+    }, 100);
+</script>
+<script>
+    $(document).ready(function() {
+    var banner_height = $("#navscroll").height();
+    var lastScrollTop = 0;
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        var currScrollTop = $(this).scrollTop();
+        if (scroll >= banner_height && currScrollTop > lastScrollTop) {
+        $("#banner").hide();
+        } else {
+        $("#banner").show();
+        }
+        lastScrollTop = currScrollTop;
+
+    });
+
+    });
+</script>
+</body>
+</html>

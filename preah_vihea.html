@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="color-scheme" content="light dark" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angkor Wat</title>
+    <link rel="stylesheet" href="./plugins/css/bootstrap.min.css">
+       <script src="./plugins/js/bootstrap.bundle.min.js"></script>
+       <link rel="stylesheet" href="app.css">
+       <link rel="stylesheet" href="responsive.css" />
+       <script src="darkMode.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body style="background-color: #F1EEE9;">
+    <div class="main" id="banner">
+        <div class="row d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-between justify-content-sm-between justify-content-between align-items-center fixed-top shadow overflow-hidden" id="navscroll">
+            <!-- navigation -->
+            <div id="naviga" class="col-3 d-flex align-items-center position-relative">
+                <!-- logo -->
+                <a class="d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" href="index.html">
+                    <img id="logo-img" class="img-fluid rounded rounded-circle" src="./images/Logo htcam-01.png" alt="">
+                </a>
+                <!-- end logo -->
+                <!-- offcanvas show when md and sm screen-->
+                <button  class="d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-block d-block btn btn-sm rounded" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                    <svg id="menu-svg" width="40" height="40" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 18h14M5 6h14H5Zm0 4h14H5Zm0 4h14H5Z"></path>
+                        </svg>
+                </button>
+                <div class="offcanvas w-50 offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div id="header-off" class="offcanvas-header bg-success bg-opacity-75">
+                        <!-- logo in offcanvas -->  
+                        <div class="col-8 d-flex align-self-center">
+                            <a class="navbar-brand d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-flex d-flex justify-content-md-end justify-content-sm-start" href="#">
+                                <img class="img-fluid w-50 rounded rounded-circle" src="./images/Logo htcam-01.png" alt="">
+                            </a>
+                        </div>
+                        <!-- logo in offcanvas -->
+                        <!-- btn Close -->
+                        <div class="col-4 d-flex justify-content-end align-self-start">
+                            <a type="button" class="text-reset d-flex align-items-start" data-bs-dismiss="offcanvas" aria-label="Close">
+                                <svg id="btn-close" width="40" height="40" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10ZM8.11 15.89a.5.5 0 0 1 0-.708L11.294 12 8.11 8.818a.5.5 0 0 1 .707-.707L12 11.293l3.182-3.182a.5.5 0 0 1 .707.707L12.707 12l3.182 3.182a.5.5 0 1 1-.707.707L12 12.707 8.818 15.89a.5.5 0 0 1-.707 0Z" clip-rule="evenodd"></path>
+                          </svg>
+                            </a>
+                        </div>
+                        <!-- btn close -->
+                    </div>
+                    <div id="bg-btnOff" class="offcanvas-body bg-secondary">
+                        <!-- search  -->
+                        <!-- <div class="col-12">
+                        
+                            <form action="">
+                                <div class="d-block position-absolute w-100" style="z-index: 1;">
+                                    <input id="search-offcanvas" class="btn btn-sm bg-transparent"  type="search" name="search" placeholder=" &nbsp;Search.." autocomplete="off">
+                                </div>
+                            </form>
+                            <div class="d-block position-relative">
+                                <svg id="search" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-search" viewBox="-5 0 25 13">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                </svg>
+                            </div>
+                        </div> -->
+                        <div class="col-12">
+                            <!-- navigation in offcanvas-->
+                            <ul class="nav nav-pills flex-column justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center align-items-center gap-2">
+                                <li  class="col-12 nav-item bg-success rounded" style="margin-top: 150px;">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success btn-lg" href="index.html" role="button">ទំព័រដើម</a>
+                                </li>
+                                <li  class="col-12 nav-item bg-success rounded">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success" href="#box-purpose" role="button">គោលបំណង</a>
+                                </li>
+                                <li  class="col-12 nav-item bg-success rounded">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success" href="#about_us" role="button">អំពីយើង</a>
+                                </li>
+                                <li  class="col-12 nav-item bg-success rounded">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success" href="#view-all" role="button">ប្រាសាទនានា</a>
+                                </li>
+                            </ul>
+                            <!-- navigation in offcanvas-->
+                        </div>
+                    </div>
+                </div>
+                <!-- end offcanvas -->
+            </div>
+
+            <!-- navigation -->
+            <div class="col-8 d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" id="main_nav" style="font-family: NidaOdorMeanChey;">
+                <ul id="navbar" class="nav nav-pills justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center ms-auto gap-3">
+                    <li class="nav-item">
+                        <a id="btn-nav" class="nav-link" href="index.html" role="button">ទំព័រដើម</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="btn-nav" class="nav-link" href="#bg-purpose" role="button">គោលបំណង</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="btn-nav" class="nav-link" href="#about_us" role="button">អំពីយើង</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="btn-nav" class="nav-link" href="all-temple.html" role="button">ប្រាសាទនានា</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end navigation -->
+            <!-- <div class="col-2 d-flex justify-content-start">
+                <form action="">
+                    <div class="d-block position-absolute" style="z-index: 1;">
+                        <input class="btn" onkeyup="showResult(this.value)"  type="search" name="search" placeholder=" &nbsp;ស្វែងរក.." autocomplete="off">
+                    </div>
+                </form>
+                <div class="d-block position-relative bg-transparent">
+                    <svg id="search" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-search " viewBox="-5 0 25 13">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </div>
+            </div> -->
+            <div class="col-3 col-xxl-1 col-xl-1 col-lg-1 col-md-3 col-sm-3 d-flex align-items-center justify-content-end">
+
+                    <button id="theme-toggle" class="btn ps-1">
+                          <svg id="dark-svg" width="60" height="60" fill="white" viewBox="0 0 32 26" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.8 12a4.8 4.8 0 1 1-9.6 0 4.8 4.8 0 0 1 9.6 0Zm-4.2-6.6a.6.6 0 1 1-1.2 0 .6.6 0 0 1 1.2 0Zm0 13.2a.6.6 0 1 1-1.199 0 .6.6 0 0 1 1.199 0Zm6-6a.6.6 0 1 1 0-1.199.6.6 0 0 1 0 1.199Zm-13.2 0a.6.6 0 1 1 0-1.2.6.6 0 0 1 0 1.2Zm11.69-4.843a.602.602 0 0 1-1.031-.422.601.601 0 1 1 1.032.422Zm-9.334 9.335a.6.6 0 1 1-.864-.835.6.6 0 0 1 .864.834Zm8.486 0a.603.603 0 0 1-.007-.856.6.6 0 1 1 .007.855ZM6.908 7.756a.6.6 0 1 1 .834-.863.6.6 0 0 1-.834.863Z"></path>
+                          </svg>
+                    </button>
+
+            </div>
+        </div>
+        <!-- end navigation -->
+    </div>
+
+
+    <!-- slide -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade d-block position-relative mt-2" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        <div class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px; height: 966px;">
+            <div class="carousel-item active">
+                <img src="./images/preas_vihea-imgs/preah_vihear-slide-img1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/preas_vihea-imgs/preah_vihea-slide-img1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/preas_vihea-imgs/preah_vihearslide-img2-.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        
+    </div>
+    <!-- end slide -->
+    <!-- articles and images -->
+    <div id="bg-color" class="container-fluid px-4 pb-3">
+        
+        <div class="row pt-5 ">
+            <div id="row-left" class="col-2 border border-2 d-block sticky-top" style="border-color: #DDDDDD !important;">
+                <div  class="row  position-sticky">
+                    <div id="test" class="col-12 d-flex justify-content-start mt-3">
+                        <button class="btn back-btn fw-bold fs-4" onclick="location.href='all-temple.html'">
+                            <svg id="svg-back" width="30" height="30" fill="black" viewBox="0 2 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M18.848 18.848a1.2 1.2 0 0 1-1.696 0l-6-6a1.2 1.2 0 0 1 0-1.696l6-6a1.2 1.2 0 1 1 1.696 1.696L13.697 12l5.151 5.152a1.2 1.2 0 0 1 0 1.696Zm-7.2 0a1.2 1.2 0 0 1-1.696 0l-6-6a1.2 1.2 0 0 1 0-1.696l6-6a1.2 1.2 0 0 1 1.696 1.696L6.497 12l5.151 5.152a1.2 1.2 0 0 1 0 1.696Z" clip-rule="evenodd"></path>
+                               </svg>
+                                Back
+                        </button>
+                    </div>
+                    <div id="test" class="col-12 gap-5 mt-5">
+                        <div class="d-grid gap-3" id="myDIV">
+                                <a class="show btn nav-btn" data-title="About" href="#location">ទីតាំងភូមិសាស្រ</a>
+                                <a onclick="location.href='#history'" class="ajax_link nav-btn btn active">ប្រវត្តិប្រាសាទ</a>
+                                <a onclick="location.href='#importance'" class="nav-btn btn">តម្លៃនៃប្រាសាទ</a>
+                                <a onclick="location.href='#sekla'" class="nav-btn btn">សិលាចារឹក</a>
+                                <a onclick="location.href='#stairs'" class="nav-btn btn">ជណ្តើរនិងបង្កាន់</a>
+                                <a onclick="location.href='#kovirak5'" class="nav-btn btn">គោបុរៈទី៥</a>
+                                <a onclick="location.href='#sras'" class="nav-btn btn">ស្រះទឹកឬស្រះស្រង់</a>
+                                <a onclick="location.href='#kovirak4'" class="nav-btn btn">គោបុរៈទី៤</a>
+                                <a onclick="location.href='#kovirak3'" class="nav-btn btn">គោបុរៈទី៣</a>
+                                <a onclick="location.href='#kovirak2'" class="nav-btn btn">គោបុរៈទី២</a>
+                                <a onclick="location.href='#kovirak1'" class="nav-btn btn">គោបុរៈទី១</a>
+                                <a onclick="location.href='#purpose'" class="nav-btn btn">គោលបំណង</a>
+                                <a onclick="location.href='#steps'" class="nav-btn btn">ដំណាក់កាល</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content col-10 px-3">
+                <div  class="row">
+                    <div class="col-12 justify-content-center ">
+                        <h4 id="location" class="title-head fw-bold py-2">ទីតាំងភូមិសាស្រ្ត</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class=" float-start overflow-hidden pt-1">
+                            ប្រាសាទព្រះវិហារ ស្ថិតនៅភាគខាងជើងនៃប្រទេសកម្ពុជាក្នុងភូមិសាស្ត្រ ភូមិធម្មជាតិ ឃុំស្រអែម ស្រុកជាំក្សាន្ត ខេត្តព្រះវិហារ។ប្រាសាទព្រះវិហារជាប្រាសាទភ្នំដែលកសាងនៅលើកំពូលភ្នំព្រះវិហារនៃជួរភ្នំដងរែក ដែលមានរយៈកម្ពស់ ៦២៥ម៉ែត្រ ធៀបទៅនិងទឹកសមុទ្យ។ប្រាសាទព្រះវិហារស្ថិតនៅជាប់នឹងព្រំប្រទល់ខេត្តស៊ីសាកេត នៃប្រទេសថៃ។ ប្រាសាទព្រះវិហារមានចម្ងាយប្រមាណ ៥៥គីឡូម៉ែត្រពីសាលាស្រុកជាំក្សាន្ត ១០០គីឡូម៉ែត្រពីទីរួមខេត្តព្រះវិហារ ជាង ១៥០គីឡូម៉ែត្រពីទីរួម ខេត្តសៀមរាប និងចម្ងាយប្រមាណ ៤០០គីឡូម៉ែត្រពី រាជធានីភ្នំពេញ ។ ជួរភ្នំដងរែកជាខណ្ឌសីមាព្រំប្រទល់ធម្មជាតិអន្តរជាតិរវាងប្រទេសកម្ពុជា និងប្រទេសថៃ។ ប្រាសាទព្រះវិហារស្ថិតនៅលើចំណុចខ្សែស្រប១៤.២៤ ទៅ១៨នៃរយៈទទឹងខាងកើត និងចំណុចខ្សែស្រប១០៤ ទៅ៤១.០២នៃរយៈបណ្តោយខាងជើង។ ប្រាសាទព្រះវិហារមានទីតាំងស្ថិតនៅលើខ្នងភ្នំព្រះវិហារ ស្ថិតនៅលើផ្ទៃដីទំហំ៨០០ គុណនឹង ៤០០ ម៉ែត្រការ៉េ។ ភ្នំប្រាសាទព្រះវិហារនេះមានលក្ខណៈចោទខ្លាំងពីខាងប្រទេសកម្ពុជា និងជម្រាលពីខាងប្រទេសថៃ។ សព្វថ្ងៃនេះអ្នកលក់ដូរ និងប្រជាជនតំបន់នោះភាគច្រើនតែងតែឡើងទៅលើភ្នំតាមផ្លូវស៊ី១ ពីព្រោះថាផ្លូវនោះវាងាយស្រួលក្នុងការធ្វើដំណើរ។ ម្យ៉ាងទៀតអ្នកទេសចរអាចឡើងភ្នំព្រះវិហារតាមរយៈជណ្តើរបុរាណនៅផ្នែកខាងកើតនៃភ្នំ ដែលត្រូវបានកសាងតាំងពីសម័យជាមួយប្រាសាទមកម្លេះ តែត្រូវបានខូចខាតយ៉ាខ្លាំង តែនៅពេលបច្ចុប្បន្នមានការជួសជុលនិងយកឈើធ្វើជាជណ្តើរជំនួសវិញក្រោមការជួសជុលរបស់ អាជ្ញាធរជាតិព្រះវិហារ។ ក្នុងការធ្វើដំណើរទៅកាន់ប្រាសាទព្រះវិហារគេអាចជ្រើសរើសតាមរយៈផ្លូវពីរគឺ៖
+                            ចេញពី ខេត្តសៀមរាបតាមផ្លូវទៅកាន់ ប្រាសាទបន្ទាយស្រី ឆ្ពោះទៅកាន់ ស្រុកអន្លង់វែង រហូតមកដល់វង្វង់មូលស្រអែម រួចបន្តដំណើរប្រហែល ២០គីឡូម៉ែត្រទៀត និងដល់ចំណតគ១ ដែលជាកន្លែងលក់សំបុត្រឡើងប្រាសាទព្រះវិហារ។
+                            ចេញដំណើរពី រាជធានីភ្នំពេញ ទៅ ខេត្តកំពង់ធំ បន្ទាប់មកដល់ថ្នល់បំបែកសៀមរាប-ព្រះវិហារ រួចបត់ស្តាំកាត់តាម រមណីយដ្ឋានសំបូរព្រៃគុក ឬប្រាសាទសំបូរព្រៃគុក រហូតដល់ផ្លូវបំបែកភ្នំដែករួចបត់ឆ្វេងមកទីរួម ខេត្តព្រះវិហារ ហើយបន្តដំណើររហូតដល់វង្វង់មូលស្រអែម។
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="history" class="title-head fw-bold py-2 ">ប្រវត្តិប្រាសាទ</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            ក្រុមអ្នកបុរាណវិទ្យាតែងបានគិតថា ជាប្រាសាទដែលមានរបៀបសង់សឹងតែដូចៗគ្នាទៅនឹងសំណង់ដទៃទៀតដែលសិ្ថតក្នុងស្ថាបត្យកម្មរបស់ស្ថេចសូរ្យវរ្មម៌ទី១ គឺបែបប្រាសាទសណ្តូកលើភ្នំ ចាំងច្រិតថ្មភ្នំសាងជាប្រាសាទ ដូចគ្នាទៅនឹងប្រាសាទវត្តភូ ប្រាសាទភ្នំជីសូរ ប្រាសាទជើងព្រៃ ប្រាសាទវត្តត្រាច....ជាដើម។ល។ រីចម្លាក់នៅលើហោរជាងមានទំរង់ដូចនៅប្រាសាទបន្ទាយស្រី និង កោះកេរ ដូច្នោះដែរ។
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="importance" class="title-head fw-bold py-2 ">តម្លៃនៃប្រាសាទ</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            ការសិក្សាស្រាវជ្រាវប្រៀបធៀបប្រដូចចម្លាក់រចនាបថ សិល្បៈខ្មែរ ដើម្បីស្វែងយល់ស្គាល់អំពីការវិវត្តិរបស់វប្បធម៌ខ្មែរ និងអរិយធម៌ខ្មែរអាចជាកត្តាមួយដើម្បីធ្វើឱ្យយើងមានមោទភាពក្រៃលែងចំពោះការប៉ិបប្រសប់ ចំណេះដឹងដ៏ខ្ពង់ខ្ពស់ និងភាពឧស្សាណ៍ព្យាយាម តស៊ូរបស់ដូនតាយើង។ ប្រាសាទព្រះវិហារមិនគ្រាន់តែជាមោទភាពក្នុងផ្នែកសិល្បៈវប្បធម៌ប៉ុណ្ណោះទេ ប្រាសាទព្រះវិហារជាមោទភាពដល់ធំធេង ឧត្តុងឧត្តមរបស់ខ្មែរក្នុងវិស័យទ្រឹស្តី គំនិត បញ្ញាញាណ នយោបាយ សេដ្ឋកិច្ច កសិកម្ម យោធា គ្រប់គ្រង និងប្រវត្តិសាស្រ្ត។ល។ ប្រាសាទព្រះវិហារជាសក្ខីភាពនៃមហាអំណាចរបស់ខ្មែរជាសក្ខីភាពនៃការគ្រប់គ្រងនយោបាយដ៏ល្អប្រសើរមួយ ដែលមានទ្រឹស្តីពិតប្រាកដនិយម មានចក្ខុវិស័យល្អខ្ពង់ខ្ពស់ ចេះកសាងស្ថាបនាជាតិតាមផ្លូវល្អប្រសើរ ប្រត្យកនិយម និងជាសក្ខីភាពនៃសេចក្តីអង់អាចក្លាហាន ពូកែរបស់ខ្មែរចេះបន្តវេណគ្នាឱ្យមានចីរភាព។ កត្តានេះហើយដែលធ្វើឱ្យប្រទេសខ្មែរមានទឹកដីដល់ធំទូលាយក្លាយជាអាណាចក្រមួយយ៉ាងធំនៅអាស៊ីអាគ្នេយ៍។ ក្រុមអ្នកបុរាណវិទ្យាតែងបានគិតថា ជាប្រាសាទដែលមានរបៀបសង់សឹងតែដូចៗគ្នាទៅនឹងសំណង់ដទៃទៀតដែលសិ្ថតក្នុងស្ថាបត្យកម្មរបស់ស្ថេចសូរ្យវរ្មម៌ទី១ គឺបែបប្រាសាទសណ្តូកលើភ្នំ ចាំងច្រិតថ្មភ្នំសាងជាប្រាសាទ ដូចគ្នាទៅនឹងប្រាសាទវត្តភូ ប្រាសាទភ្នំជីសូរ ប្រាសាទជើងព្រៃ ប្រាសាទវត្តត្រាច....ជាដើម។ល។ រីចម្លាក់នៅលើហោរជាងមានទំរង់ដូចនៅប្រាសាទបន្ទាយស្រី និង កោះកេរ ដូច្នោះដែរ ។តាមរយៈការសិក្សាស្រាវជ្រាវអាចសន្មតថា សំណង់ប្រាសាទព្រះវិហារត្រូវបានចាប់ផ្តើមកសាងឡើងដំបូងនៅដើមសតវត្សទី៩ ក្នុងរជ្ជកាលព្រះបាទជ័យវរ្ម័នទី២ (៨០២-៨៥០)។ តាមរយៈសិលាចារឹកលេខ K-៥៨៣ នៅប្រាសាទបាពួន ចារក្នុងរជ្ជកាលព្រះបាទរាជេន្ទ្រវរ្ម័នទី២ (៨៤៤-៩៦៨) និយាយថាព្រះអម្ចាស់ឥន្រ្ទាយុទ្ធជាព្រះបុត្រារបស់ព្រះបាទជ័យវរ្ម័នទី២ បានទៅធ្វើតបៈនៅភ្នំលិង្គបព៌ត(ប្រាសាទវត្តភូចំប៉ាសាក់ប្រទេសឡាវ) ហើយបាននាំយកលិង្គព្រះឥសូរពីថ្មលិង្គភ្នំធម្មជាតិ (ស្វយម្ភូលិង្គ) មកតម្កល់នៅលើភ្នំព្រះវិហារក្នុងព្រះនាមអាទិទេព ព្រះស្រីសិខរីស្វរៈ ដែលមានន័យថាអាទិទេពនៃកំពូលភ្នំ។ ស្រីសិខរីស្វរៈនេះហើយដែលហៅចំពោះលិង្គព្រះឥសូរតម្កល់នៅប្រាសាទព្រះវិហារ និងជាឈ្មោះប្រាសាទព្រះវិហារសម័យបុរាណផង។ ប្រាសាទព្រះវិហារសាងសង់សម្រាប់ឧទ្ទិសចំពោះព្រះឥសូរ ក្នុងសាសនាព្រាហ្មណ៍។ <br><br><b class="text-danger fs-4">*</b> ព្រះមហាក្សត្រខ្មែរដែលកសាងប្រាសាទព្រះវិហារមានដូចជា៖
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ព្រះអង្គម្ចាស់ឥន្រ្ទាយុទ្ធបុត្រារបស់ព្រះបាទជ័យវរ្ម័នទី២(៨០២-៨៥០)
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ព្រះបាទយសោវរ្ម័នទី១ (៨៨៩-៩០០)
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ព្រះបាទរាជេន្ទ្រវរ្ម័នទី២ (៩៤៤-៩៦៨)
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ព្រះបាទសូរ្យវរ្ម័នទី១ (១០០២ -១០៥០)
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ព្រះបាទទ័យទិត្យវរ្ម័នទី១ (១០៥៦-១០៦០)
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ពព្រះបាទហស៌វរ្ម័នទី២ (១០៦០-១០៨០)
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ព្រះបាទជ័យវរ្ម័នទី៦ (១០៨០-១១០៩)
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ព្រះបាទសូរ្យវរ្ម័នទី២ (១១១៣-១១៥០)
+                            <br>
+                            <br><b class="text-danger fs-4">*</b> ព្រះមហាក្សត្រដែលបានកសាងប្រាសាទព្រះវិហារ និងជួសជុលប្រាសាទ ដែលលេចធ្លោមានដូចជា៖
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ព្រះបាទយសោវរ្ម័នទី១៖ ព្រះអង្គបានសាងសង់ប្រាសាទកណ្តាល
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ព្រះបាទសូរ្យវរ្ម័នទី១៖ ព្រះអង្គបានសាងសង់អគារដ៏វែងនៅជិតប្រាង្គកណ្តាល កំពែងព័ន្ធជុំវិញ និងគោបុរៈទី៣។ យោងតាមសិលាចារឹករបស់ប្រាសាទ ព្រះបាទសូរ្យវរ្ម័នទី១ បានរៀបចំពិធីដើម្បីអញ្ចើញទេវៈ ភទ្រស្វរៈ ដែលគង់នៅវត្តភូ (ប្រទេសឡាវ) មកគង់នៅជាមួយនិងទេវៈ ស្រីសិខរិស្វរៈ ដើម្បីជួយការពារ និងថែរក្សាអាណាចក្រខ្មែរ និងប្រជារាស្រ្ត
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ព្រះបាទជ័យវរ្ម័នទី៦៖ ព្រះអង្គបានសាងសង់ហោត្រៃ ឬបណ្ណាល័យពីរ និងជួសជុលផ្នែកមួយចំនួននៃប្រាសាទ
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ព្រះបាទសូរ្យវរ្ម័នទី២៖ ព្រអង្គបានសាងសង់ព្រះលាន ដែលមាននាគក្បាលប្រាំពីរ រូបតោតាមផ្លូវ និងនាគជាច្រើនទៀតតាមជណ្តើរឡើង។ ព្រះអង្គបានរៀបចំពិធីសម្ពោធប្រាសាទ និងចាត់ទុកជាកន្លែងគោរពសម្រាប់ព្រះមហាក្សត្រគ្រប់រូប៕<br><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;តាមការស្រាវជ្រាវពីឯកសារប្រវត្តិសាស្រ្តខ្មែរជាច្រើន បានឱ្យដឹងថា ប្រាសាទព្រះវិហារត្រូវបានស្ថាបនាឡើងពីថ្មភក់ ចាប់តាំងពីរជ្ជកាល ព្រះបាទសូរ្យវរ្ម័នទី១ ។ ព្រះបាទសូរ្យវរ្ម័នទី១ សោយរាជ្យ នៅពាក់កណ្តាលទីមួយនៃសតវត្សទី១១។ ទីតាំងធ្វើប្រាសាទ ដែលស្ថិតនៅលើទីខ្ពស់ជាងគេ នោះមានកំពស់ ៦២៥ម៉ែត្រ (ឯកសារបារាំង) ឬ៦១៥ម៉ែត្រ (ឯកសារអង់គ្លេស) ។ ប្រវត្តិនៃការកសាងប្រាសាទព្រះវិហារ មាននៅលើសិលាចារឹកខ្មែរនៅ ប្រាសាទបាពួន ក្នុងខេត្តសៀមរាប គឺK-៥៨៣ ៖ អ្នកដែលចារសិលាចារឹកគឺមានឈ្មោះ ហរិវាហៈ នៅក្នុងរជ្ជកាលព្រះបាទរាជេន្រ្ទវរ្ម័នទី១ ឆ្នាំ៩៤៤ ដល់ ឆ្នាំ៩៦៨ នៃគ.ស ។ បានចារជាភាសាសំស្រ្កឹត និងជាភាសាខ្មែរបុរាណ ។ បានចារថា មានព្រះអង្គម្ចាស់មួយអង្គព្រះនាម ឥន្រ្ទាយុទ្ធ លោកបានយកលិង្គមួយ ឈ្មោះ ស្រីសិខរិស្វរៈ មកតាំងនៅ និងមកប្រតិស្ឋនៅទីនេះ គឺប្រាសាទព្រះវិហារនេះ។ ព្រះអង្គលោកខ្លាំងពូកែខ្លាំងណាស់ ។ លោកមានមហិទ្ធិឫទ្ធិ ទៅច្បាំងជាមួយនឹងស្តេចចាម ហើយចាប់ស្តេចចាមនោះបានទៀត ។ ចំពោះសេចក្តីសិលាចារឹកនេះ អ្នកប្រាជ្ញខាងប្រវត្តិសាស្ត្រគិតថា មិនមានសិលាចារឹកឯណាទៀត និយាយពីចម្បាំងទៅចាប់ស្តេចចាមនោះទេ ក៏ប៉ុន្តែស្តេចដែលលោកចាប់បាននោះ ប្រហែលជាមិនមែនជាស្តេចចាម ដែលត្រួតប្រទេសចាមទាំងមូលនោះទេ ។ ប្រហែលជាស្តេចអង្គតូចមួយ ដែលត្រួតនៅនគរមួយ ដែលមានព្រំប្រទល់នៅជាប់នឹងប្រទេសខ្មែរ។ ប្រាសាទព្រះវិហារ ត្រូវបានបារាំងប្រគល់ទៅឱ្យប្រទេសថៃកាន់កាប់នៅឆ្នាំ១៩៥៤ ហើយត្រូវបានប្រគល់ឱ្យព្រះរាជាណាចក្រកម្ពុជាវិញតាមសាលក្រមចុះថ្ងៃទី១៥ ខែមិថុនា ឆ្នាំ១៩៦២ នៅតុលាការអន្តរជាតិនៅ ទីក្រុងឡាអេប្រទេសហូឡង់។
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="sekla" class="title-head fw-bold py-2 ">សិលាចារឹក</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            <img id="textftimg" class="float-end clearfix px-3 pb-1" src="./images/preas_vihea-imgs/preah_vihear-sek-la-jarek.jpg" alt="">
+                            សិលាចារឹក ដែលមានចារនៅក្នុងប្រាសាទព្រះវិហារមានចំនួន ៤ផ្ទាំងដូចជាសិលាចារឹកលេខ K-៣៨០ K-៣៨១ K-៣៨២ និង K-៣៨៣។ សិលាចារឹកលេខ K-៣៨០ សិលាចារឹកនេះមានទីតាំងស្ថិតនៅសងខាងនៃមេទ្វារនៃគោបុរៈទី៤នៃប្រាសាទព្រះវិហារ ដែលចារជាភាសាសំស្រឹ្តត និងភាសាខ្មែរបុរាណនៅចន្លោះឆ្នាំ១០៣៨ និងឆ្នាំ១០៤៩នៃគ.ស។ សិលាចារឹកនេះមានសារៈប្រយោជន៍ជាប្រវត្តិសាស្រ្តនៃប្រាសាទព្រះវិហារ និងនិយាយពីស្រីសុកៈរាម ដែលបរិយាយនៅក្នុងអត្តបទខាងក្រោម។ សិលាចារឹកលេខ K-៣៨១ សិលាចារឹកនេះចារនៅក្លោងទ្វារព្រះបរមរាជវាំងក្នុងគោបុរៈទី៣នៃប្រាសាទព្រះវិហារ ដែលចារជាភាសាសំស្រ្តឹត និងភាសាខ្មែរបុរាណ ចារក្នុងអំឡុងឆ្នាំ១០២៤ សិលាចារឹកនេះនិយាយពីព្រាហ្មណ៍តៈបៈស្វិន្រ្ទបណ្ឌិតនៅក្នុងអត្តបទខាងក្រោម។ សិលាចារឹកលេខ K-៣៨២ សិចារឹកនេះបានចារនៅលើសសរមួយ និងមានលក្ខណខូចខាតយ៉ាងខ្លាំង ដែលនៅពីមុខប្រាង្គសំខាន់នៃប្រាសាទព្រះវិហារ តែសព្វថ្ងៃត្រូវបានទុកនៅក្នងសារមន្ទីរជាតិនៅក្នុងទីក្រុងបាំកក។ សិលាចារឹកនេះចារនៅក្នុងឆ្នាំ១០៤៧ ក្នុងរាជ្ជកាលព្រះបាទសូរ្យវរ្ម័នទី១ និយាយពីការអនុញ្ញាតិក្នុងការចារសិលាចារឹក និងព័ត៌មានតិចតួចពីប្រាសាទព្រះវិហារ។ សិលាចារឹកលេខ K-៣៨៣ ជាសិលាចារឹកនិយាយពីព្រាហ្មណ៍ទិវាការៈ ឬទិវាក។ សិលាចារឹកនេះចារជាភាសាសំស្រ្តឹត និងភាសាខ្មែរបុរាណ ចារក្នុងចន្លោះឆ្នាំ១១១៩ ដល់ ឆ្នាំ១១២១ ដោយមានការបញ្ជាពីព្រះបាទសូរ្យវរ្ម័នទី២។ សិលាចារឹកនេះ បានបរិយាយនៅខាងក្រោម។ សិលាចារឹកទាំងបួននេះ ត្រូវបានរកឃើញដោយលោក អេទីជែនអាយម៉ូណីញេ (Etienne Aymonier) រកឃើញនៅចុងសតវត្សរ៍ទី១៩ ហើយត្រូវបានបោះពុម្ពផ្សាយនៅដើមសតវត្សរ៍ទី២០ និងសិក្សាជាបន្តបន្ទាប់ដោយលោក បាថ (Barth) និងលោក ប៊ែរហ្គែន (Bergaine) លោក ឡុយណេឌឺឡាស្ហុងគីជែរ (Lunet de Lajonquére) លោក ហ្វីណូ (Fino) លោក ប៉ាម៉ង់ទីជេរ (Parmentier) លោកម៉ាសាល់ (Marchal) លោកសឺដេស (Coedés) ជាដើម។ តាមសិលាចារឹកលេខ K-៣៨០ បានឱ្យដឹងថាប្រាសាទព្រះវិហារកសាងឡើងសម្រាប់ជាទីសក្ការៈឧទ្ទិសថ្វាយចំពោះទៅដល់ព្រះសិវៈ ឬព្រះឥសូរ និងបារមីនៅទីនោះដែលមានព្រះនាមថា ស្រីសិខារិស្វរៈ។
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="stairs" class="title-head fw-bold py-2 ">ជណ្តើរនិងបង្កាន់</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            <img id="textftimg" class="float-end clearfix px-3 pb-1" src="./images/preas_vihea-imgs/preah_vihear-bong-kan-dai.jpg" alt="">
+                            ជណ្តើរខាងជើងគឺជាជណ្តើរស្ថិតនៅក្បែរព្រំដែនថៃនិងែរ ដែលពីមុនភ្ញៀវទេសចរអន្តរជាតិអាចចូលតាមច្រកពីប្រទេសថៃបាន តែបច្ចុប្បន្នមិនអាចចូលទស្សនាបានទេ។ ជណ្តើរនេះមានចំនួន ១៦០កាំ។ ជណ្តើរនេះមានទទឹង ៨ម៉ែត្រ និងបណ្តោយ ៧៨,៨ម៉ែត្រ អមដោយរូបចម្លាក់តោនៅសងខាងជណ្តើរ ដែលបច្ចុប្បន្ននៅសល់តែរូបចម្លាក់តោពីរបីប៉ុណ្ណោ។ បន្ទាប់ពីជណ្តើរបុរាណខាងជើងគឺបង្កាន់ដៃនាគដែលមានទទឹង ៧ម៉ែត្រ និងបណ្តោយប្រវែង ៣១,៨ម៉ែត្រ អមដោយរូបចម្លាក់នាគក្បាល៧អមសាងខាងផ្លូវ និងបន្ទាប់ទៀតមានកាំជណ្តើរ ២៥កាំ ដើម្បីឡើងទៅកាន់គោបុរៈទី៥។
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="kovirak5" class="title-head fw-bold py-2 ">គោបុរៈទី៥</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            <img id="textftimg" class="float-end clearfix px-3 pb-1" src="./images/preas_vihea-imgs/preah_vihea1.jpeg" alt="">
+                            គោបុរៈទី៥គឺជាសំណង់ប្រាសាទដែលមានទំហំតូចជាងគោបុរៈដទៃទៀតនៃប្រាសាទព្រះវិហារ។ គោបុរៈនេះសាងសង់ជារាងចតុកោណកែងនៅលើខឿនដែលតម្រៀបថ្មខ្ពស់ផុតពីថ្មធម្មជាតិ ហើយមានជណ្តើរឡើងទៅទ្វារប្រាសាទខាងលើទាំងបួនទិស។ បច្ចុប្បន្ននេះមានតែទ្វារខាងត្បូងមួយគត់ដែលនៅមានរាងពេញលេញ ជារចនាបទសិល្បៈប្រាសាទព្រះវិហារ។ ចំណែកទ្វារផ្សេងទៀតបានរលំបាក់បែកអស់។​ គោបុរៈទី៥ ជាប្រាសាទដែលមានទ្វារចំហទាំងបួនទិស (ទ្វារចតុមុខ) ហើយមានដំបូលប្រក់ពីលើអំពីក្បឿងដែលទ្រដោយសសរធំៗប្រវែងប្រមាណ ៣.៥ម៉ែត្រ។ ហើយដែលសព្វថ្ងៃយើងឃើញមានសសរខ្លះនៅឈរនៅឡើយ ប៉ុន្តែចំពោះដំបូលបានរលំបាក់បែកអស់។នៅខាងកើតគោបុរៈទី៥ មានជណ្តើរបុរាណដែលមានប្រវែងប្រមាណ ១៥០០ម៉ែត្រឡើងពីជើងភ្នំមកដល់ខាងលើ ចំណែកនៅខាងជើងមានជណ្តើរថ្មឡើងពីក្រោមមកដល់លើភ្ជាប់តាមស្ពាននាគដែលមាននាគធំៗពីរអមសងខាងដងផ្លូវទើបឡើងមកដល់គោបុរៈទី៥។ យោងតាមសិលាចារឹកបាននិយាយថាមានតែព្រះមហាក្សត្រទេដែលអាចឆ្លងកាត់បាននិងព្រះគ្រូ ព្រាហ្មណ៍​ ឥសី និងទីប្រឹក្សា អ្នកមុខអ្នកការ ដែលឆ្លងកាត់តាមខ្លោងទ្វារនេះត្រូវដោះគ្រឿងលម្អចេញទាំងអស់។
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="sras" class="title-head fw-bold py-2 ">ស្រះទឹកឬស្រះស្រង់</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            <img id="textftimg" class="float-end px-3 pb-1" src="./images/preas_vihea-imgs/preah_vihear-sras-terk.jpg" alt="">
+                            ស្រះទឹកបុរាណមួយនេះមានទីតាំងស្ថិតនៅខាងឆ្វេងនៃព្រះថ្នល់ ដែលនៅចន្លោះគោបុរៈទី៥ និងគោបុរៈទី៤ ស្រះទឹកនេះជាស្រះទឹកខ្នាតធំដែលមានទទឹងប្រវែង ១៦.៨០ម៉ែត្រនិងបណ្តោយប្រវែង ៣៧.៨០ម៉ែត្រនិងមានកាំជណ្តើរចុះក្រោមជាថ្នាក់។   
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="kovirak4" class="title-head fw-bold py-2 ">គោបុរៈទី៤</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <div>
+                            <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                                <img id="textftimg" class="float-end px-3 pb-1" src="./images/preas_vihea-imgs/preah_vihea-slide-img1.jpg" alt="">
+                                គោបុរៈ៤ តាមផ្លូវសក្ការៈ (វ្រះថ្នល់) មានទទឹងប្រវែង ១០ម៉ែត្រ និងបណ្តោយប្រវែង ២៧៥ម៉ែត្រ អមដោយបង្គោលមានលម្អជារាងផ្កាឈូក្រពុំម្ខាងមានចំនួន ៦៧បង្គោលសីមា ទាំងសងខាងមានចំនួន ១៣៤បង្គោលសីមា។ បង្គោលសីមាមួយមានកម្ពស់ ២ម៉ែត្រ បង្គោលសីមានេះមានលក្ខណៈស្រដៀងនិងបង្គោលសីមានៅប្រាសាទវត្តភូ និងប្រាសាទភ្នំរូងដែរ។ បន្ទាប់ពីព្រះថ្នល់ ដែលអមដោយបង្គោលសីមា មានជណ្តើរឡើងទៅកាន់គោបុរៈទី៤ ដែលជណ្តើរនេះមាន៤ថ្នាក់ មានទទឹងប្រវែង ៣,៥ម៉ែត្រ និងមាន ៣៧កាំ ដែលមានចម្លាក់តោអមសងខាង។ នៅជិតព្រះថ្នល់មានស្រះទឹកមួយមានទំហំទទឹងប្រវែង ១៨,៣ម៉ែត្រ និងបណ្តោយប្រវែង៣៦,៨ម៉ែត្រ ស្រះមានលក្ខណៈជាថ្នាក់ទៅខាងក្រោម និងមានចម្លាក់តោពីរនៅខាងមុខ។ បន្ទាប់មកគឺទៅដល់ល្បាក់ថ្មមួយជាន់ទៀតដែលមានប្រាសាទសង់រាងជាកាកបាទនៅលើខឿនដែលតំរៀបថ្មភក់បន្ទាប់ពីថ្មធម្មជាតិ។ សំណង់គោបុរៈទី៤ មិនមែនមានទ្វារចំហរទាមងបួនទិស (ទ្វារចតុមុខ) ដូចគោបុរៈទី៥ទេ។ សំណង់ប្រាសាទសាងសង់នៅលើខឿនតាមជ្រុងទាមងបួន។ ចំណែកជញ្ជាំងខ័ណ្ឌចំកណ្តាលច្រកចូលពីទិសទាំងបួនប្រៀបដូចជារនាំងបាំងមិនអោយមើលឃើញទៅដល់ប្រាសាទនៅខាងក្នុងទេ។ ក្បាច់ចម្លាក់លើហោជាង និងផ្តែរតាមច្រកចូលនីមួយៗពិពណ៌នាអំពីអាទិទេពក្នុងព្រហ្មញ្ញសាសនា។ ផ្តែរច្រកចូលពីផ្នែកខាងកើតនិយាយអំពី ព្រះក្រឹស្ហាកៃវល្យ (នាគមានក្បាលប្រាំមួយ)។ ចំណែកនៅលើហោជាង និងផ្តែរច្រកទ្វារខាងត្បូងនិយាយអំពី ទេវកថា កូសមុទ្រទឹកដោះ និងទេវកថា ព្រះនារាយណ៍ផ្ទុំលើនាគអនន្តនៅកណ្តាលសាគរដែលជានិមិត្តរូបនៃការបង្កើតពិភពលោកសាជាថ្មី និងនៅគង់វង្សជាអមតៈ តាមរយៈទឹកអម្រឹតដែលទទួលបានពីការកូរសមុទ្រទឹកដោះរវាងពួកអសុរា និងទេវតា។ នៅក្បែរគោបុរៈទី២ ខាងកើតប្រហែល៥០ម៉ែត្រមានស្រះតោមួយ ដែលមានទទឹងប្រវែង៩,៤ម៉ែត្រ។
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="kovirak3" class="title-head fw-bold py-2 ">គោបុរៈទី៣</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            <img id="textftimg" class="float-end rounded rounded-5 p-2" src="./images/preas_vihea-imgs/preah_vihea-outside.jpg" alt="">
+                            គោបុរៈទី៣ឡើងទៅល្បាក់ភ្នំខាងលើតាមវ្រះថ្នល់មានទទឹងប្រវែង ១១ម៉ែត្រ និងបណ្តោយប្រវែង១៤៨ម៉ែត្រ ដែលមានបង្គោលសីមាអមសងខាងចំនួន៨០ និងមានជណ្តើរឡើងកម្ពស់២៩កាំ ទើបទៅដល់គោបុរៈទី៣។ គោបុរៈ៣ ជាសំណង់ប្រាសាទដែលធំទូលាយ សាងសង់សន្ធឹងពីលិចទៅកើត លើខឿនមួយខ្ពស់(នៅផ្នែកខាងកើត)។ ក្រៅពីសំណង់ប្រាសាទធំនៅកណ្តាលមានប្រាសាទសង់ជារាងថែវវែងពីរទៀតនៅសងខាង។នៅលើខឿនទីធ្លាខាងកើតមានកូនប្រាសាទតូចមួយ ដែលមានដើមជ្រៃដុះស៊ុបទ្រុបលម្អពីលើ។ ប្រាសាទតូចនេះប្រហែលកសាងឡើងមុនពេលកសាងគោបុរៈផ្សេងៗនៃប្រាសាទព្រះវិហារ។ ចំណែកនៅផ្នែកខាងត្បូងមានសង់បន្ថែមថែវវែងពីរទៀតដែលគេហៅថា រាជវាំង។តាមរយៈសិលាចារឹកដែលមានចារនៅលើស៊ុមទ្វារថែវខាងកើតហើយថែវទាំងពីរនេះជាអាស្រមរបស់ព្រាហ្ម”វិរ” ហើយដែលគេយល់ថាជាកន្លែងព្រះរាជគ្រូរបស់ព្រះមហាក្សត្រសម័យអង្គរ ឫអ្នកមានឋានៈខ្ពង់ខ្ពស់មកគោរពបូជាដល់ ព្រះសិខរេស្វរៈ នៅប្រាសាទព្រះវិហារ។ សិលាចារឹកបានអោយដឹងទៀតថា សិខរេស្វរៈសាងសង់ក្នុងរាជ្ជកាលព្រះបាទសូរ្យវរ្ម័នទី១។
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="kovirak2" class="title-head fw-bold py-2 ">គោបុរៈទី២</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            គោបុរៈទី២ មានសភាពទ្រុឌទ្រោមខ្លាំងជាងគោបុរៈផ្សេងៗទៀត។ គោបុរៈនេះបានផ្តល់ជាផ្លូវមួយយ៉ាងធំចូលទៅកាន់ទីលាន និងតួប៉មកណ្តាលដែលជាបូជនីយដ្ឋានធំ និងជាកន្លែងចុងក្រោយនៃដំណើរធម្មយាត្រាទៅព្រះវិហារ។ ថែវខាងកើត និងថែវខាងលិចមានជញ្ជាំងផ្ទៃលាត និងបិទជិតនៅផ្នែកខាងក្រៅ ចំណែកឯផ្នែកខាងក្នុងមានសរសរស្តម្ភចំនួន១០ដែលមានលក្ខណៈទោល និងមានតួនាទីសម្រាប់ទ្រដំបូលខាងលើ ហើយដែលសព្វថ្ងៃនេះបានខូចខាតនិងបាត់បង់អស់ហើយ។នៅក្នុងទីលានកណ្តាលផ្នែកខាងជើងមានបណ្ណាល័យចំនួនពីរ(២)មានរាងបួនជ្រុងទ្រវែងដែលមានទទឹង ៦.៥ម៉ែត្រ និងបណ្តោយ១១ម៉ែត្រឈរបើកចំហនៅលើអាកាស ហើយស្ថិតនៅលើអក្សទិសខាងលិច និងទិសខាងកើត។ នៅក្នុងអាគារកណ្តាលមានសិលាចារឹកដែលចុះកាលបរិច្ឆេទ ក្នុងរាជព្រះបាទ សូរ្យវរ្ម័នទី១ ហើយតាមសិលាចារឹកនេះដែរយើងអាចដឹងថាព្រះអង្គបានជ្រើសរើសយកប្រាសាទព្រះវិហារជាទីសក្ការៈក្នុងចំណោមទីសក្ការៈបីដើម្បីតម្កល់ព្រះសិវលិង្គ ដ៏មានអានុភាពមួយដែលភ្ជាប់នឹងឈ្មោះព្រះអង្គថា សូរិយាមិស្វារៈជាម្ចាស់របស់ព្រះអង្គ។ សិលាចារឹកនេះក៏បានលើកឡើងអំពីក្រុមប្រឆាំងនិងរាជព្រះបាទសូរ្យវរ្ម័នទី១ ដែលមានឈ្មោះថាក្រុម បាសខ្មៅ។ នៅគ្រឹស្គសករាជឆ្នាំ១០៣៨ ព្រះបាទសូរ្យវរ្ម័នទី១បានប្រកាសថាព្រះអាទិទេព (Sri Bhadresvara)បានយាងមកប្រាសាទព្រះវិហារហើយបានលើក ទឹកចិត្តដល់ប្រជានុរាស្រ្តធ្វើសច្ចាប្រណិធានអោយស្មោះភក្តីដល់ព្រះសិវៈជាអ្នកការពារទឹកដីដែលតំណាងអោយព្រះអង្គផ្ទាល់។ ក្នុងកំឡុងពេលនោះគ្រួសាររបស់អ្នកតវ៉ា ប៉ះបោរក៏ត្រូវបានដោះស្រាយដោយព្រះអង្គផ្ទាល់។
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="kovirak1" class="title-head fw-bold py-2 ">គោបុរៈទី១</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            គោបុរៈទី១ ជាសំណង់មានប្លង់រាងចតុកោណកែង ដែលមានបន្ទប់វែង(ថែវ)ប្រវែង២៥ម៉ែត្រនិងទទឹង៥.៥ម៉ែត្រព័ទ្ធជុំវិញនិងមានជញ្ជាំងបិទផ្នែកខាងក្រៅ ប៉ុន្តែនៅចំកណ្តាលមណ្តោយថែវខាងលិច និងខាងកើតមានក្លោងទ្វារចូលពីខាងក្រៅមកវិញ។ ចំណែកទ្វារខាងក្នុងពុំមានទ្វារចេញឫចូលទេ មានតែបង្អួចបើកចំហរទាំងអស់ចំនួន៤២និងមានបង្អួចបញ្ឆោតចំនួន៦នៅផ្នែកខាងត្បូង។ ដោយឡែកនៅជញ្ជាំងខាងត្បូងមានក្លោងទ្វារចូលថែវ ប៉ុន្តែពុំមានទ្វារចេញទៅក្រៅទេ។
+                            នៅចំកណ្តាលនៃថែវព័ទ្ធជុំវិញ គឺជាតួប្រាសាទកណ្តាលដែលរលំបាក់បែកមួយចំនួនដែលជាកន្លែងដាក់តម្កល់លិង្គ សិខរេស្វរៈ ដែលជាអាទិទេពព្រហ្មញ្ញសាសនា ដែលព្រះមហាក្សត្រខ្មែរសម័យអង្គរគោរពបូជាយ៉ាងជ្រាលជ្រៅ។ បន្ទាប់ពីប្រាសាទកណ្តាលទៅខាងជើងមាន បណ្ឌប ដែលមានឆ្លាក់លម្អយ៉ាងវិចិត្រនៃតួប្រាសាទ។ នៅខាងលើនៃទ្វារចូលពីខាងជើងនៃបណ្ឌបនោះមានឆ្លាក់លម្អលើហោជាង នូវចម្លាក់ព្រះឥសូររាំលើក្បាលដំរីជានិមិត្តរូបនៃការបំផ្លាញនូវសភាវអាក្រក់ហើយបង្កើតឡើងវិញនូវសភាវល្អ។ នៅខាងកើត និងខាងលិចគោបុរៈទី១ មានសំណង់ប្រាសាទពីរទៀតដែលប្រហែលជាសាងសង់នៅពេលក្រោយ ដែលយើងពុំបានដឹងពិតប្រាកដអំពីតម្រូវការសាងសង់ប្រាសាទទាំងពីនេះនៅឡើយ។ 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="purpose" class="title-head fw-bold py-2 ">គោលបំណង</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            ប្រាសាទព្រះវិហារត្រូវបានស្ថាបនាឡើងក្នុងបំណងពិសេស ខុសប្លែកពីការកសាងប្រាសាទអង្គរវត្ត ដែលស្ថាបនាឡើងដើម្បីរំឭកគុណព្រះវិស្ណុ ប្រាសាទបាពួន រំឭកគុណព្រះឥសូរ ។ប្រាសាទព្រះវិហារត្រូវបានស្ថាបនាឡើង ដើម្បីធ្វើជាទីដែលគេរក្សាទុកលិង្គព្រះអាទិទេព ស្រីសិខៈរិស្វរៈ ពីព្រោះតាមជំនឿរបស់ព្រះបាទសូរ្យវរ្ម័នទី១ ជាពិសេសព្រះបាទសូរ្យវរ្ម័នទី២ ក៏អ៊ីចឹងដែរ លោកនៅតែគាំទ្រគំនិតដែលថា មហិទ្ធិឫទ្ធិធំណាស់អាទិទេពនេះ ដូច្នេះត្រូវធ្វើម៉េច បន់ស្រន់ គោរពបូជា យ៉ាងដាច់ខាត ។<br><br>
+                            <b class="text-danger fs-4">*</b>ទីតាំងប្រាសាទភ្នំព្រះវិហារនេះ៖
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ទី១៖ គឺគេទុកអាទិទេព ស្រីសិខៈរិស្វរៈ ជួនកាលគេសរសេរ ខរៈស្វារៈ ជួនកាលគេសរសេរ សិខៈរិស្វារៈ ប៉ុន្តែគឺជាឈ្មោះតែមួយទេ ។ គឺជាកន្លែងដែរគេរក្សាទុក ពីព្រោះអាទិទេពនេះ ដែលមានលិង្គជាតំណាង មានមហិទ្ធិឫទ្ធិធំណាស់ ។ គេជឿថា នាំភោគផល នាំសេចក្តីសុខមកដល់ប្រទេសខ្មែរ ។
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ទី២៖ ប្រាសាទភ្នំព្រះវិហារ ទីកន្លែងនេះមិនមែនជាទីកន្លែងសម្រាប់ព្រះរាជាគង់នៅទេ ។ មិនមែនមានទីភូមិសម្រាប់ប្រជាពលរដ្ឋនោះទេ។ គឺមានតែកន្លែងសម្រាប់អ្នកបួស ឱ្យចូលមកតាំងសីល ហើយនិងដើម្បីនឹងជួយបន្តពិធីគោរពបូជានេះ តទៅទៀត ។ បើពិនិត្យទៅ គឺត្រូវពិនិត្យមើលនៅប្រាសាទ ដែលជាប់នឹងខ្លោងទ្វារទី៣ ឬគោបុរៈទី៣ នៅគោបុរៈទី៣ មានសិលាចារឹក K- ៣៨១ នោះ ត្រូវបានសង្ស័យថា នៅត្រង់កន្លែងនោះ គឺជាកន្លែងដែលគេបំបួសឱ្យទៅជាព្រាហ្មណ៍ ដើម្បីនឹងបន្តកិច្ចការគោរពនិងថែរក្សាអាទិទេព ស្រីសិខៈរិស្វរៈ នោះតទៅទៀត។
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="steps" class="title-head fw-bold py-2 ">ដំណាក់កាលនៃការសាងសង់</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            <b class="text-danger fs-4">*</b>ការសាងសង់ប្រាសាទព្រះវិហារ មានបីដំណាក់កាលធំៗ៖
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ទី១៖ ដែលក្រុមអ្នកប្រវត្តិវិទូគិតសង្ស័យថា កាលពីជំនាន់ព្រះអង្គម្ចាស់ ឥន្រ្ទាយុទ្ធ គឺអាស្រមប្រហែលធ្វើអំពីឈើ
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ទី២៖ តែមកដល់រជ្ជកាល ព្រះបាទសូរ្យវរ្ម័នទី១ គឺគេឈូសភ្នំយកថ្មភ្នំ ធ្វើជាកាំជណ្តើរធ្វើផ្លូវឡើងទៅលើភ្នំនិងយកថ្មភ្នំ ទៅកសាងជាទីតាំងប្រាសាទផ្សេងៗ នៅក្នុងដែនដីនៃប្រាសាទព្រះវិហារ ។
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="text-danger fs-2">.</b> ទី៣៖ បន្ទាប់មក គឺក្នុងរជ្ជកាល ព្រះបាទសូរ្យវរ្ម័នទី២ ពេលនោះហើយដែលគេគិតថា ប្រាសាទភ្នំព្រះវិហារ គឺបានស្ថាបនាឱ្យកាន់តែល្អឡើង នៅពាក់កណ្តាលសតវត្សទី១២ ។ ព្រះបាទសូរ្យវរ្ម័នទី២ នោះហើយ ដែលព្រះអង្គបានសាងប្រាង្គប្រាសាទអង្គរវត្ត ដែលស្ថិតនៅក្នុងខេត្តសៀមរាប សព្វថ្ងៃនេះ ។
+                            <br><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ប្រាសាទព្រះវិហារបែបមុខទៅទិសខាងជើងសង់នៅលើខ្នងភ្នំដងរែក ដែលជាភ្នំធម្មជាតិលើជម្រាលចោទពីត្បូងទៅជើងប្រាសាទព្រះវិហារមានជណ្តើរបុរាណពីរគឺជណ្តើរខាងជើង ឡើងចំគោបុរៈទាំងប្រាំ ដែលគោបុរៈទាំងប្រាំមានជណ្តើរនិងក្លោងទ្វារចូល និងជណ្តើរមួយទៀតឡើងពីខាងកើត(ជណ្តើរបុរាណ)។ ពីគោបុរៈទី៥ទៅគោបុរៈទី៤ និងគោបុរៈទី៤ទៅគោបុរៈទី៣ មានដាំបង្កោល(គោលសីមា) ថ្មភក់អមសងខាងព្រះថ្នល់។ ចំណែកឯពីគោបុរៈទី៣ទៅគោបុរៈទី២មានដាំបង្គោលសីមា និងនាគក្បាលប្រាំពីរបើកពពេរនៅសងខាងជាលំអ។ រីឯនៅកើតផ្លូវចូលនៅចន្លោះពីគោបុរៈទី៥ និងគោបុរៈទី៤មានស្រះទឹកបុរាណធំមួយ និងនៅពីខាងកើតព្រះថ្នល់នៅចន្លោះគោបុរៈទី៤និងគោបុរៈ៣ក៏មានស្រះទឹកបុរាណតូចមួយផងដែរ។ នៅផ្នែកឥសាននៃគោបុរៈទី៣មានសំណងើប្រាសាទទោលមួយធ្វើអំពីថ្មភក់។ នៅចន្លោះនៃគោបុរៈ២ និងគោបុរៈទី១ មានសំណង់ប្រាសាទពីទៀតសង់បញ្ច្រាសពីគ្នាមួយបែរទៅទិសខាងកើត មួយទៀតបែបទៅទិសខាងលិច ដែលអ្នកស្រាវជ្រាវបារាំងយល់ថា ជាហោត្រ័យ ឬហោត្រៃ ឬបណ្ណាល័យ។ ប្រាង្គកណ្តាល ឬប្រាង្គសំខាន់មានតួនាទីសំខាន់ជាងគេ សម្រាប់ជាទីតាំងសក្ការៈគោរពបូជាដ៏ពិសិដ្ឋដែលសម្រាប់តម្កល់លិង្គស្រី សិខរិស្វរៈ។ ប្រាង្គកណ្តាលមានកំផែងជារោងទង (រោងថែវ) ព័ន្ធជុំវិញមានប្រក់ដំបូលធ្វើពីថ្មភក់។ កំផែងរោងទងអាចដើរពីខាងក្នុងបានលើកលែងជ្រុងរោងខាងឥសាន និងពាយ័ព្យខណ្ឌបិទជិតមិនអាចឆ្លងកាត់បាន។ ចំណែករោងទងខាងត្បូងខណ្ឌជាជញ្ជាំងដោយរៀបឥដ្ឋបិទបន្ថែមជិត ដោយយកឥដ្ឋរបស់ប្រាសាទចាស់មកប្រើ។ រោងទងខាងលិច និងរោងទងខាងកើតមានទ្វារមួយសម្រាប់ចេញចូល។ នៃខាងកើតនិងខាងលិចនៃរោងទងប្រាង្គកណ្តាលមានសំណង់ពីទៀតគឺជញ្ជាំងសម្រាប់ដាក់សម្ភារៈប្រើដល់ប្រាសាទ។ បន្តពីរោងទងខាងត្បូងនៃប្រាង្គកណ្តាលដល់ចុងចម្រាក់ភ្នំចុងខាងត្បូងបំផុតគឺជាទីលានមានផ្ទាំងថ្មដែលបន្សល់ទុកជាស្នាមដាប់យកថ្មមកសងប្រាសាទ។ នៅចុងខាងត្បូងបំផុតជាប៉ើយតាឌី។
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;បើគិតចាប់ពីដីទំនាប ពីផ្លូវឡើងទៅដល់ប្រាសាទដែលនៅលើកំពូលភ្នំខ្ពស់ជាងគេនោះ គឺគេត្រូវដើរឡើងតាមជណ្តើរជាច្រើនកាំ ដែលមានចម្ងាយទាំងអស់ ៨០៤ម៉ែត្រ។ មុននឹងឡើងពីដីទំនាប ទៅដល់ប្រាង្គប្រាសាទលើកំពូលភ្នំ គេត្រូវឆ្លងកាត់ខ្លោងទ្វារ៥ ។ ទីតាំងដែលធ្វើប្រាសាទនៅលើកំពូលភ្នំខ្ពស់ជាងគេ មានកម្ពស់ ៥២៥ម៉ែត្រ ។ តួប្រាសាទសំខាន់នោះមានទំហំ ៣៥ម៉ែត្រគុណនឹង ៤៥ម៉ែត្រ ដែលគេគិតសង្ស័យថា ជាកន្លែងរក្សាទុកលិង្គអាទិទេព ឈ្មោះ ស្រីសិខៈរិស្វរៈ ។ ទីមួយពីជើងភ្នំគឺមានចម្ងាយ ៥៤ម៉ែត្រគេធ្វើជាជណ្តើរៗ ទាំងអស់មាន ១៥៩កាំ ។ យើងធ្វើដំណើរឡើងជណ្តើរមានលក្ខណៈជម្រាលបន្តិចចម្ងាយ ២៥ម៉ែត្រចូលមកខ្លោងទ្វានៃគោបុរៈទី៥ ។
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;បន្ទាប់ពីធ្វើដំណើរមកដល់ខ្លោងទ្វារនៃគោបុរៈទី៥ គេត្រូវធ្វើដំណើរតាមផ្លូវព្រះថ្នល់ឡើងមកទៀតប្រហែលចម្ងាយ ២៤៤ម៉ែត្រ ។ នៅតាមព្រះថ្នល់ គេមានបោះគោលតាមសងខាងផ្លូវ ដើរមកបានចូលខ្លោងទ្វារនៃគោបុរៈទី៤ ។ នៅខ្លោងទ្វារនៃគោបុរៈទី៤នេះ មានហោជាងឆ្លាក់ពិពណ៌នាពីរឿងទេវកថាគីរឿងកូរសមុទ្រទឹកដោះ គឺជារឿងនៃការបង្កើតសត្វលោក និងនៅខាងក្រោមមានផ្តែរជារូបព្រះវិស្ណុផ្ទំ ។ នៅពេលដែលឡើងជណ្តើរនៅខាងឆ្វេងដៃ មានស្រះបុរាណមួយ ។ ស្រះនេះគឺមានន័យសំខាន់ណាស់ ព្រោះថា កាលពីពេលដែលព្រះមហាក្សត្រថៃ សព្វថ្ងៃគឺ ព្រះបាទភូមិផុន អាឌុល យ៉ាដេត ឡើងគ្រងរាជ្យនៅថ្ងៃទី៩ ខែមិថុនា ឆ្នាំ១៩៤៦ ថៃបានមកយកទឹកពីស្រះនេះទៅ ដើម្បីបំពេញពិធីអភិសេកព្រះមហាក្សត្រថៃ នៅឯទីក្រុងបាងកក ប្រទេសថៃ ។
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ឡើងមកទៀត ហើយចម្ងាយ ១៥០ម៉ែត្រ មានបោះគោលតាមផ្លូវដូចមុន ។ នៅខាងឆ្វេងដៃមានតួប្រាសាទទោលតូចមួយ ឡើងមក១៥០ម៉ែត្រ បានមកដល់ខ្លោងទ្វារនៃគោបុរៈទី៣ មានសិលាចារឹក ដែលនិយាយអំពីការកសាងប្រាសាទ គឺនៅក្នុងជំនាន់រជ្ជកាលព្រះបាទសូរ្យវរ្ម័នទី១ ប្រហែលជាទីកន្លែងអ្នកចូលទៅបួស គេឱ្យតាំងសីល គេឱ្យរៀនធម៌ នៅទីកន្លែនេះ ចូលផុតពីខ្លោងទ្វារនៃគោបុរៈទី៣មកនេះ ។
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;នៅចន្លោះពីខ្លោងទ្វារនៃគោបុរៈទី៣ និងខ្លោងទ្វារនៃគោបុរៈទី២ មានផ្លូវដើរ ប្រហែល ៤០ម៉ែត្រ ។ ផ្លូវដើរ ៤០ម៉ែត្រនេះឯង ដែលមានធ្វើជានាគបើកពរពេរ ដូចជាបង្កាន់ដៃ ហើយនិងបោះគោលតាមផ្លូវនេះផងដែរ ។ យើងដើរតាមផ្លូវនាគមក បានមកដល់ខ្លោងទ្វារនៃគោបុរៈទី២ ។ មកដល់ខ្លោងទ្វារនៃគោបុរៈទី២ ប្រាសាទបែរមុខទៅទិសខាងជើង ។ នៅទិសខាងលិចឬក៏នៅស្តាំដៃមានអគារ​មួយ នៅខាងឆ្វេងដៃមិនមានទេ ។ អគារនេះឯងប្រហែលគេទុកឱ្យសម្រាប់ឥសីធំៗសំណាក់ឬក៏តាំងសីលនៅត្រង់កន្លែងនេះ» ។ ចម្ងាយពីខ្លោងទ្វារនៃគោបុរៈ២ទៅដល់ខ្លោងទ្វារនៃគោបុរៈទី១នោះ មានប្រមាណពី៤០ម៉ែត្រ ទៅ៥០ម៉ែត្រ ។ គេត្រូវដើរឆ្លងខ្លោងទ្វារនៃគោបុរៈទី២ នេះ ទើបទៅដល់ប្រាង្គប្រាសាទចុងក្រោយបង្អស់ ដែលស្ថិតនៅលើកំពូលភ្នំខ្ពស់ជាងគេ ។ ទីតាំងដែលធ្វើប្រាសាទនៅលើកំពូលភ្នំខ្ពស់ជាងគេនោះ មានកំពស់ ៥២៥ម៉ែត្រ ។ កន្លែងនេះឯង គឺជាកន្លែងដែលប្រហែលគេដាក់លិង្គ ដែលគេថា ជាអាទិទេពប្រចាំប្រាសាទព្រះវិហារ បើយើងគិតតែតួប្រាសាទធំចុងក្រោយនេះ គឺមានទំហំ ៣៥ម៉ែត្រគុណនឹង ៤៥ម៉ែត្រ តែប៉ុណ្ណោះ ហើយបើយើងដើរទៅខាងក្រោយប្រាសាទហ្នឹង ប្រយ័ត្នព្រោះហ្នឹងដល់ចុងភ្នំហើយ គឺកន្លែងដែលចោទហើយ ផុតត្រឹមប៉ុណ្ណឹង ។ ដូច្នេះចុងខាងក្រោយនេះឯង ប្រហែលជាគេទុកលិង្គអាទិទេព ឈ្មោះ ស្រីសិខៈរិស្វរៈ នោះ ។ មកដល់ឆ្នាំ២០០៨ នេះ មានបាត់បង់ក៏ច្រើន បាក់បែកក៏ច្រើន អ្វីដែលនៅឃើញសល់សព្វថ្ងៃនេះ យើងមើលទៅតាំងពីក្បាច់ចម្លាក់ គួរឱ្យស្រលាញ់ជាទីបំផុត ពីព្រោះស្អាតណាស់ ធ្វើហ្នឹង ធ្វើល្អខ្លាំងណាស់» ។
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <!-- end articles and images -->
+    <div class="fixed-bottom d-flex justify-content-end" style="bottom: 3rem; right: 5rem;">
+        <a class="bg-light rounded-circle p-2 border border-secondary" href="#top">
+            <svg width="30" height="30" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 12H5.414a1 1 0 0 1-.707-1.707l6.586-6.586a1 1 0 0 1 1.414 0l6.586 6.586A1 1 0 0 1 18.586 12H15v3H9v-3 0Z"></path>
+                <path d="M9 21h6"></path>
+                <path d="M9 18h6"></path>
+               </svg>
+        </a>
+    </div>
+    <div id="theme" hidden>
+        <p>test</p>
+    </div>
+<script>
+    function getTheme() {
+        return localStorage.getItem('theme') || 'light';
+    }
+    function saveTheme(theme) {
+        localStorage.setItem('theme', theme);
+    }
+
+    const colorScheme = document.querySelector('meta[name="color-scheme"]');
+    function applyTheme(theme) {
+        document.body.className = theme;
+        colorScheme.content = theme;
+    }
+
+    function rotateTheme(theme) {
+        if (theme === 'light') {
+            return 'dark'
+        }else{
+            return 'light';
+        }
+        
+    }
+
+    const themeDisplay = document.getElementById('theme');
+    const themeToggler = document.getElementById('theme-toggle');
+
+// Mimic heavy load done by other JS scripts
+    setTimeout(() => {
+        let theme = getTheme();
+        applyTheme(theme);
+        themeDisplay.innerText = theme;
+
+        themeToggler.onclick = () => {
+            const newTheme = rotateTheme(theme);
+            applyTheme(newTheme);
+            themeDisplay.innerText = newTheme;
+            saveTheme(newTheme);
+
+            theme = newTheme;
+        }
+    }, 100);
+</script>
+<script>
+    $(document).ready(function() {
+    var banner_height = $("#navscroll").height();
+    var lastScrollTop = 0;
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        var currScrollTop = $(this).scrollTop();
+        if (scroll >= banner_height && currScrollTop > lastScrollTop) {
+        $("#banner").hide();
+        } else {
+        $("#banner").show();
+        }
+        lastScrollTop = currScrollTop;
+
+    });
+
+    });
+</script>
+</body>
+</html>
