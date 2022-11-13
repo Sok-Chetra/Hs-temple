@@ -19,46 +19,47 @@
 </head>
 <body>
 
-    <div id="banner">
-        <div class="row d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-between justify-content-sm-between justify-content-between align-items-center  fixed-top shadow overflow-hidden" id="navscroll">
+    <div class="main" id="banner">
+        <div class="row d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-between justify-content-sm-between justify-content-between align-items-center fixed-top shadow overflow-hidden" id="navscroll">
             <!-- navigation -->
-            <div class="col-3 d-flex align-items-center position-relative">
+            <div id="naviga" class="col-3 d-flex align-items-center position-relative">
                 <!-- logo -->
-                <a class="navbar-brand d-xxl-flex d-xl-flex d-lg-flex d-md-none d-sm-none d-none align-self-center" href="index.html">
-                    <img id="logo-img" class="img-fluid rounded rounded-circle float-start clearfix" src="./images/Logo htcam-01.png" alt="">
+                <a class="d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" href="index.html">
+                    <img id="logo-img" class="img-fluid rounded rounded-circle" src="./images/Logo htcam-01.png" alt="">
                 </a>
                 <!-- end logo -->
                 <!-- offcanvas show when md and sm screen-->
-                <button  class="d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-flex d-flex btn btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
-                    <svg id="chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" stroke-width="10" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5z"/>
-                    </svg>
+                <button  class="d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-block d-block btn btn-sm rounded" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                    <svg id="menu-svg" width="40" height="40" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 18h14M5 6h14H5Zm0 4h14H5Zm0 4h14H5Z"></path>
+                        </svg>
                 </button>
-                <div class="offcanvas w-50 bg-secondary offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-                    <div class="offcanvas-header bg-success bg-opacity-75">
+                <div class="offcanvas w-50 offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div id="header-off" class="offcanvas-header bg-success bg-opacity-75">
                         <!-- logo in offcanvas -->  
                         <div class="col-8 d-flex align-self-center">
                             <a class="navbar-brand d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-flex d-flex justify-content-md-end justify-content-sm-start" href="#">
-                                <img class="img-fluid w-50 rounded rounded-circle" src="./images/LOGO HTCAM-01.jpg" alt="">
+                                <img class="img-fluid w-50 rounded rounded-circle" src="./images/Logo htcam-01.png" alt="">
                             </a>
                         </div>
                         <!-- logo in offcanvas -->
                         <!-- btn Close -->
                         <div class="col-4 d-flex justify-content-end align-self-start">
                             <a type="button" class="text-reset d-flex align-items-start" data-bs-dismiss="offcanvas" aria-label="Close">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
-                                </svg>
+                                <svg id="btn-close" width="40" height="40" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10ZM8.11 15.89a.5.5 0 0 1 0-.708L11.294 12 8.11 8.818a.5.5 0 0 1 .707-.707L12 11.293l3.182-3.182a.5.5 0 0 1 .707.707L12.707 12l3.182 3.182a.5.5 0 1 1-.707.707L12 12.707 8.818 15.89a.5.5 0 0 1-.707 0Z" clip-rule="evenodd"></path>
+                          </svg>
                             </a>
                         </div>
                         <!-- btn close -->
                     </div>
-                    <div class="offcanvas-body bg-secondary">
-                        <div class="col-12">
+                    <div id="bg-btnOff" class="offcanvas-body bg-secondary">
                         <!-- search  -->
+                        <!-- <div class="col-12">
+                        
                             <form action="">
                                 <div class="d-block position-absolute w-100" style="z-index: 1;">
-                                    <input id="search-offcanvas" class="btn btn-sm bg-transparent"  type="text" name="search" placeholder=" &nbsp;Search.." autocomplete="on">
+                                    <input id="search-offcanvas" class="btn btn-sm bg-transparent"  type="search" name="search" placeholder=" &nbsp;Search.." autocomplete="off">
                                 </div>
                             </form>
                             <div class="d-block position-relative">
@@ -66,18 +67,18 @@
                                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                                 </svg>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-12">
                             <!-- navigation in offcanvas-->
                             <ul class="nav nav-pills flex-column justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center align-items-center gap-2">
-                                <li class="col-12 nav-item bg-success rounded" style="margin-top: 150px;">
-                                    <a class="nav-link btn text-light btn-success btn-lg" href="index.html" role="button">ទំព័រដើម</a>
+                                <li  class="col-12 nav-item bg-success rounded" style="margin-top: 150px;">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success btn-lg" href="index.html" role="button">ទំព័រដើម</a>
                                 </li>
-                                <li class="col-12 nav-item bg-success rounded">
-                                    <a class="nav-link btn text-light btn-success" href="#" role="button">គោលបំណង</a>
+                                <li  class="col-12 nav-item bg-success rounded">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success" href="#box-purpose" role="button">គោលបំណង</a>
                                 </li>
-                                <li class="col-12 nav-item bg-success rounded">
-                                    <a class="nav-link btn text-light btn-success" href="#" role="button">អំពីយើង</a>
+                                <li  class="col-12 nav-item bg-success rounded">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success" href="#about_us" role="button">អំពីយើង</a>
                                 </li>
                                 <li  class="col-12 nav-item bg-success rounded">
                                     <a id="btn-off" class="nav-link btn text-light btn-success" href="#view-all" role="button">ប្រាសាទនានា</a>
@@ -91,19 +92,19 @@
             </div>
 
             <!-- navigation -->
-            <div class="col-6 d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" id="main_nav" style="font-family: NidaOdorMeanChey;">
-                <ul id="navbar" class="nav nav-pills justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center ms-auto mt-2 gap-3">
+            <div class="col-8 d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" id="main_nav" style="font-family: NidaOdorMeanChey;">
+                <ul id="navbar" class="nav nav-pills justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center ms-auto gap-3">
                     <li class="nav-item">
-                        <a id="btn-nav" class="nav-link fs-4" href="index.html" role="button">ទំព័រដើម</a>
+                        <a id="btn-nav" class="nav-link" href="index.html" role="button">ទំព័រដើម</a>
                     </li>
                     <li class="nav-item">
-                        <a id="btn-nav" class="nav-link fs-4" href="http://127.0.0.1:5501/index.html#purpose" role="button">គោលបំណង</a>
+                        <a id="btn-nav" class="nav-link" href="#bg-purpose" role="button">គោលបំណង</a>
                     </li>
                     <li class="nav-item">
-                        <a id="btn-nav" class="nav-link fs-4" href="http://127.0.0.1:5501/index.html#about_us" role="button">អំពីយើង</a>
+                        <a id="btn-nav" class="nav-link" href="#about_us" role="button">អំពីយើង</a>
                     </li>
                     <li class="nav-item">
-                        <a id="btn-nav" class="nav-link fs-4" href="all-temple.html" role="button">ប្រាសាទនានា</a>
+                        <a id="btn-nav" class="nav-link" href="all-temple.html" role="button">ប្រាសាទនានា</a>
                     </li>
                 </ul>
             </div>
@@ -111,7 +112,7 @@
             <!-- <div class="col-2 d-flex justify-content-start">
                 <form action="">
                     <div class="d-block position-absolute" style="z-index: 1;">
-                        <input class="btn" onkeyup="showResult(this.value)"  type="text" name="search" placeholder=" &nbsp;ស្វែងរក.." autocomplete="on">
+                        <input class="btn" onkeyup="showResult(this.value)"  type="search" name="search" placeholder=" &nbsp;ស្វែងរក.." autocomplete="off">
                     </div>
                 </form>
                 <div class="d-block position-relative bg-transparent">
@@ -120,15 +121,13 @@
                     </svg>
                 </div>
             </div> -->
-            <div class="col-1 d-flex align-items-center justify-content-end mt-1">
+            <div class="col-3 col-xxl-1 col-xl-1 col-lg-1 col-md-3 col-sm-3 d-flex align-items-center justify-content-end">
 
-                <div>
                     <button id="theme-toggle" class="btn ps-1">
-                        <svg id="dark-svg" width="60" height="60" fill="white" viewBox="5 0 32 26" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M16.8 12a4.8 4.8 0 1 1-9.6 0 4.8 4.8 0 0 1 9.6 0Zm-4.2-6.6a.6.6 0 1 1-1.2 0 .6.6 0 0 1 1.2 0Zm0 13.2a.6.6 0 1 1-1.199 0 .6.6 0 0 1 1.199 0Zm6-6a.6.6 0 1 1 0-1.199.6.6 0 0 1 0 1.199Zm-13.2 0a.6.6 0 1 1 0-1.2.6.6 0 0 1 0 1.2Zm11.69-4.843a.602.602 0 0 1-1.031-.422.601.601 0 1 1 1.032.422Zm-9.334 9.335a.6.6 0 1 1-.864-.835.6.6 0 0 1 .864.834Zm8.486 0a.603.603 0 0 1-.007-.856.6.6 0 1 1 .007.855ZM6.908 7.756a.6.6 0 1 1 .834-.863.6.6 0 0 1-.834.863Z"></path>
-                        </svg>
-                  </button>
-                </div>
+                          <svg id="dark-svg" width="60" height="60" fill="white" viewBox="0 0 32 26" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.8 12a4.8 4.8 0 1 1-9.6 0 4.8 4.8 0 0 1 9.6 0Zm-4.2-6.6a.6.6 0 1 1-1.2 0 .6.6 0 0 1 1.2 0Zm0 13.2a.6.6 0 1 1-1.199 0 .6.6 0 0 1 1.199 0Zm6-6a.6.6 0 1 1 0-1.199.6.6 0 0 1 0 1.199Zm-13.2 0a.6.6 0 1 1 0-1.2.6.6 0 0 1 0 1.2Zm11.69-4.843a.602.602 0 0 1-1.031-.422.601.601 0 1 1 1.032.422Zm-9.334 9.335a.6.6 0 1 1-.864-.835.6.6 0 0 1 .864.834Zm8.486 0a.603.603 0 0 1-.007-.856.6.6 0 1 1 .007.855ZM6.908 7.756a.6.6 0 1 1 .834-.863.6.6 0 0 1-.834.863Z"></path>
+                          </svg>
+                    </button>
 
             </div>
         </div>
@@ -138,7 +137,7 @@
 
     <div id="bg-color">
         <div class="container" style="padding-top: 150px;">
-            <h1 class="text-center py-5 display-3" style="font-family: NidaAngkor;">ប្រាសាទទាំងអស់</h1>
+            <h1 class="text-center py-5 display-3 overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទទាំងអស់</h1>
             <div class="row d-flex">
     
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 pb-5">
@@ -146,10 +145,10 @@
                         <div id="bg-card" class="card card- shadow border-0 rounded-4">
                             <img id="img-card" class="card-img-top img-fluid" src="./images/Angkorwat-imgs/ak.jpg" alt="">
                             <div class="card-body">
-                                <h4 class="card-title pt-2 text-center fw-bold " style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទអង្គរវត្ត</h4>
+                                <h4 class="card-title pt-2 text-center fw-bold overflow-hidden" style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទអង្គរវត្ត</h4>
                                 <hr id="hr-card" class="border-success">
                                 <br>
-                                <p class="card-text text-start text-break pb-2 pt-2 ps-3" style="font-family: khmer;">
+                                <p class="card-text text-start text-break pb-2 pt-2 ps-3 overflow-hidden" style="font-family: khmer;">
                                     <b>កាលបរិច្ឆេទកសាង : </b>នៅដើមសតវត្សទី១២<br>
                                     <b>អ្នកកសាង : </b>ព្រះបាទសូរ្យវរ្ម័នទី២<br>
                                     <b>ទីតាំង</b> : ស្ថិតនៅភាគខាងជើងនៃក្រុងសៀមរាបនៃខេត្តសៀមរាប
@@ -163,7 +162,7 @@
                                 <div class="modal-header row border-0">
                                     <div class="col-12 justify-self-start">
                                         <div id="carouselExampleFade1" class="carousel slide carousel-fade d-block position-relative" >
-                                            <div class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
+                                            <div id="img-slide" class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
                                                 <div class="carousel-item active">
                                                     <img src="./images/Angkorwat-imgs/golden-ak.jpg" class="d-block w-100" alt="Golden Angkor_Wat">
                                                   </div>
@@ -196,9 +195,9 @@
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1 id="title-angkor" class="py-2 px-3 overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទអង្គវត្ត</h1>
+                                    <h1 id="title-angkor" class="overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទអង្គវត្ត</h1>
                                     <br>
-                                        <p id="modal-text" class="overflow-hidden px-3 pb-4" style="font-family:khmer; line-height: 28px;">ប្រាសាទអង្គរវត្ត ឬប្រាសាទអង្គរតូចមានទីតាំងស្ថិតនៅភាគខាងជើងនៃក្រុងសៀមរាបនៃខេត្តសៀមរាប។ ប្រាសាទអង្គរវត្តជាប្រាសាទព្រហ្មញ្ញសាសនាធំបំផុត និងជាវិមានសាសនាដ៏ធំបំផុតនៅក្នុងលោក។ ប្រាសាទនេះត្រូវបានកសាងឡើងដោយ<b>ព្រះបាទសូរ្យវរ្ម័នទី២</b> ដែលជាស្នាដៃដ៏ធំអស្ចារ្យ និងមានឈ្មោះល្បីល្បាញរន្ទឺសុះសាយទៅគ្រប់ទិសទីលើពិភពលោក។ ប្រាសាទនេះសាងសង់ឡើងនៅដើមសតវត្សទី១២ ដែលស្ថិតនៅក្នុងរាជធានី<b>យសោធរបុរៈ</b>។ ប្រាសាទអង្គរវត្តជាប្រាសាទកសាងឡើង ដើម្បីឧទ្ទិសដល់<b>ព្រះវិស្ណុ</b>។
+                                        <p id="modal-text" class="overflow-hidden" style="font-family:khmer;">ប្រាសាទអង្គរវត្ត ឬប្រាសាទអង្គរតូចមានទីតាំងស្ថិតនៅភាគខាងជើងនៃក្រុងសៀមរាបនៃខេត្តសៀមរាប។ ប្រាសាទអង្គរវត្តជាប្រាសាទព្រហ្មញ្ញសាសនាធំបំផុត និងជាវិមានសាសនាដ៏ធំបំផុតនៅក្នុងលោក។ ប្រាសាទនេះត្រូវបានកសាងឡើងដោយ<b>ព្រះបាទសូរ្យវរ្ម័នទី២</b> ដែលជាស្នាដៃដ៏ធំអស្ចារ្យ និងមានឈ្មោះល្បីល្បាញរន្ទឺសុះសាយទៅគ្រប់ទិសទីលើពិភពលោក។ ប្រាសាទនេះសាងសង់ឡើងនៅដើមសតវត្សទី១២ ដែលស្ថិតនៅក្នុងរាជធានី<b>យសោធរបុរៈ</b>។ ប្រាសាទអង្គរវត្តជាប្រាសាទកសាងឡើង ដើម្បីឧទ្ទិសដល់<b>ព្រះវិស្ណុ</b>។
                                         </p>
                                     <div class="d-flex flex-column">
                                         <button id="more-info" onclick="javascript:window.open('angkor_wat.html', '_parent');" class="btn btn-success btn-lg text-light">ព័ត៌មានលម្អិត</button>
@@ -214,10 +213,10 @@
                         <div id="bg-card" class="card card- shadow border-0 rounded-4">
                             <img id="img-card" class="card-img-top img-fluid" src="images/koh_ker-imgs/koh_ker.jpg" alt="">
                             <div class="card-body">
-                                <h4 class="card-title pt-2 text-center fw-bold " style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទកោះកេរ្តិ៍</h4>
+                                <h4 class="card-title pt-2 text-center fw-bold overflow-hidden" style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទកោះកេរ្តិ៍</h4>
                                 <hr id="hr-card" class="border-success">
                                 <br>
-                                <p class="card-text text-start text-break pb-2 pt-2 ps-3" style="font-family: khmer;">
+                                <p class="card-text text-start text-break pb-2 pt-2 ps-3 overflow-hidden" style="font-family: khmer;">
                                     <b>កាលបរិច្ឆេទកសាង : </b>នៅ​ទស​វ​ត្យ​ន៍ទី​៩២៨<br>
                                     <b>អ្នកកសាង : </b>ព្រះបាទជ័យវរ័្មនទី៤<br>
                                     <b>ទីតាំង</b> : ភូមិស្រយ៉ង់ខាងជើង ឃុំស្រយ៉ង់ ស្រុកគូលែន ខេត្តព្រះវិហារ
@@ -231,7 +230,7 @@
                                 <div class="modal-header row border-0">
                                     <div class="col-12 justify-self-start">
                                         <div id="carouselExampleFade2" class="carousel slide carousel-fade d-block position-relative" >
-                                            <div class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
+                                            <div id="img-slide" class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
                                                 <div class="carousel-item active">
                                                     <img src="./images/koh_ker-imgs/koh-ker-from-above.jpg" class="d-block w-100" alt="...">
                                                   </div>
@@ -264,9 +263,9 @@
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1 id="title-kohke" class="py-2 px-3 overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទកោះកេរ្តិ៍</h1>
+                                    <h1 id="title-kohke" class="overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទកោះកេរ្តិ៍</h1>
                                     <br>
-                                        <p id="modal-text" class="overflow-hidden px-3 pb-4" style="font-family:khmer; line-height: 28px;">ប្រាសាទកោះកេរ្តិ៍ ឬ​កោះកែរ (​ធោ​ក​គ​គ្យិ៍​រ​) ដែល​បន្សល់​ទុក​ស្លាកស្នាម​ជា​ប្រវត្តិសាស្ត្រ​មាន​អាយុកាល​ជាង​១​ពាន់​ឆ្នាំ ហើយ​មិន​ធ្លាប់​ដឹង​ឮ​ពី​មុន​មក​នោះ ពេល​នេះ​កំពុង​លេច​រូបរាង​នៅ​ខាងកើត​តំបន់​រាជធានី​អង្គរ (​អង្គរវត្ត​) ដែល​ស្ថិត​នៅ​ក្នុងភូមិ​ស្រ​យ៉ង់​ជើង ឃុំ​ស្រ​យ៉ង់ ស្រុក​គូលែន ខេត្តព្រះវិហារ ចម្ងាយ​ពី​ទីរួមខេត្ត​ប្រមាណ​៥០​គីឡូម៉ែត្រ មាន​ព្រំប្រទល់​ស្រុក​ជាប់​ជាមួយ និង​ស្រុក​ស្វាយ​លើ ខេត្តសៀមរាប ដែល​មាន​ចម្ងាយ​៧២​គីឡូម៉ែត្រ​ពី​ក្រុង​សៀមរាប និង​ចម្ងាយ​១៦០​គីឡូម៉ែត្រ ពី​ទិសអាគ្នេយ៍​នៃ​ស្រុក​អន្លង់​វែង ខេត្តឧត្តរមានជ័យ។
+                                        <p id="modal-text" class="overflow-hidden" style="font-family:khmer;">ប្រាសាទកោះកេរ្តិ៍ ឬ​កោះកែរ (​ធោ​ក​គ​គ្យិ៍​រ​) ដែល​បន្សល់​ទុក​ស្លាកស្នាម​ជា​ប្រវត្តិសាស្ត្រ​មាន​អាយុកាល​ជាង​១​ពាន់​ឆ្នាំ ហើយ​មិន​ធ្លាប់​ដឹង​ឮ​ពី​មុន​មក​នោះ ពេល​នេះ​កំពុង​លេច​រូបរាង​នៅ​ខាងកើត​តំបន់​រាជធានី​អង្គរ (​អង្គរវត្ត​) ដែល​ស្ថិត​នៅ​ក្នុងភូមិ​ស្រ​យ៉ង់​ជើង ឃុំ​ស្រ​យ៉ង់ ស្រុក​គូលែន ខេត្តព្រះវិហារ ចម្ងាយ​ពី​ទីរួមខេត្ត​ប្រមាណ​៥០​គីឡូម៉ែត្រ មាន​ព្រំប្រទល់​ស្រុក​ជាប់​ជាមួយ និង​ស្រុក​ស្វាយ​លើ ខេត្តសៀមរាប ដែល​មាន​ចម្ងាយ​៧២​គីឡូម៉ែត្រ​ពី​ក្រុង​សៀមរាប និង​ចម្ងាយ​១៦០​គីឡូម៉ែត្រ ពី​ទិសអាគ្នេយ៍​នៃ​ស្រុក​អន្លង់​វែង ខេត្តឧត្តរមានជ័យ។
                                         </p>
                                     <div class="d-flex flex-column">
                                         <button id="more-info" onclick="javascript:window.open('koh-ker.html', '_parent');" class="btn btn-success btn-lg text-light">ព័ត៌មានលម្អិត</button>
@@ -282,10 +281,10 @@
                         <div id="bg-card" class="card card- shadow border-0 rounded-4">
                             <img id="img-card" class="card-img-top img-fluid" src="images/bt_srey-imgs/Banteay-Srei2.webp" alt="">
                             <div class="card-body">
-                                <h4 class="card-title pt-2 text-center fw-bold " style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទបន្ទាយស្រី</h4>
+                                <h4 class="card-title pt-2 text-center fw-bold overflow-hidden" style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទបន្ទាយស្រី</h4>
                                 <hr id="hr-card" class="border-success">
                                 <br>
-                                <p class="card-text text-start text-break pb-2 pt-2 ps-3" style="font-family: khmer;">
+                                <p class="card-text text-start text-break pb-2 pt-2 ps-3 overflow-hidden" style="font-family: khmer;">
                                     <b>កាលបរិច្ឆេទកសាង : </b>គ្រិស្តសករាជ ៩៦៧<br>
                                     <b>អ្នកកសាង : </b>ព្រះបាទរាជេន្ទ្រវរ្ម័នទី២<br>
                                     <b>ទីតាំង</b> : ភូមិបន្ទាយស្រី ឃុំបន្ទាយស្រី ស្រុកបន្ទាយស្រី ខេត្តសៀមរាប
@@ -299,7 +298,7 @@
                                 <div class="modal-header row border-0">
                                     <div class="col-12 justify-self-start">
                                         <div id="carouselExampleFade3" class="carousel slide carousel-fade d-block position-relative" >
-                                            <div class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
+                                            <div id="img-slide" class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
                                                 <div class="carousel-item active">
                                                     <img src="./images/bt_srey-imgs/bt_srey-from_above1.jpg" class="d-block w-100" alt="...">
                                                   </div>
@@ -332,9 +331,9 @@
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1 id="title-srey" class="py-2 px-3 overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទបន្ទាយស្រី</h1>
+                                    <h1 id="title-srey" class="overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទបន្ទាយស្រី</h1>
                                     <br>
-                                        <p id="modal-text" class="overflow-hidden px-3 pb-4" style="font-family:khmer; line-height: 28px;">ប្រាសាទបន្ទាយស្រី ស្ថិតនៅក្នុងភូមិបន្ទាយស្រី ឃុំបន្ទាយស្រី ស្រុកបន្ទាយស្រី ខេត្តសៀមរាប ដែលចម្ងាយប្រមាណ ៣៩គីឡូម៉ែត្រភាគខាងជើងទីរួមខេត្តសៀមរាប ឃ្លាតពីស្រះស្រង់ ២៧គីឡូម៉ែត្រនិងមានចំងាយ៣២គីឡូម៉ែត្រពីប្រាសាទអង្គរវត្តតាមផ្លូវឆ្ពោះទៅ ភ្នំគូលេន។
+                                        <p id="modal-text" class="overflow-hidden" style="font-family:khmer;">ប្រាសាទបន្ទាយស្រី ស្ថិតនៅក្នុងភូមិបន្ទាយស្រី ឃុំបន្ទាយស្រី ស្រុកបន្ទាយស្រី ខេត្តសៀមរាប ដែលចម្ងាយប្រមាណ ៣៩គីឡូម៉ែត្រភាគខាងជើងទីរួមខេត្តសៀមរាប ឃ្លាតពីស្រះស្រង់ ២៧គីឡូម៉ែត្រនិងមានចំងាយ៣២គីឡូម៉ែត្រពីប្រាសាទអង្គរវត្តតាមផ្លូវឆ្ពោះទៅ ភ្នំគូលេន។
                                         </p>
                                     <div class="d-flex flex-column">
                                         <button id="more-info" onclick="javascript:window.open('bun_teay_srey.html', '_parent');" class="btn btn-success btn-lg text-light">ព័ត៌មានលម្អិត</button>
@@ -354,10 +353,10 @@
                         <div id="bg-card" class="card card- shadow border-0 rounded-4">
                             <img id="img-card" class="card-img-top img-fluid" src="./images/bayond-imgs/bayond.jpg" alt="">
                             <div class="card-body">
-                                <h4 class="card-title pt-2 text-center fw-bold " style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទបាយ័ន</h4>
+                                <h4 class="card-title pt-2 text-center fw-bold overflow-hidden" style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទបាយ័ន</h4>
                                 <hr id="hr-card" class="border-success">
                                 <br>
-                                <p class="card-text text-start text-break pb-2 pt-2 ps-3" style="font-family: khmer;">
+                                <p class="card-text text-start text-break pb-2 pt-2 ps-3 overflow-hidden" style="font-family: khmer;">
                                     <b>កាលបរិច្ឆេទកសាង : </b>នៅដើមស.តទី១២ និងដើមស.ត១៣<br>
                                     <b>អ្នកកសាង : </b>ព្រះបាទជ័យវរ្ម័នទី៧<br>
                                     <b>ទីតាំង</b> : ស្ថិតនៅចំកណ្តាលនៃរាជធានីអង្គរធំ បច្ចុប្បន្នខេត្តសៀមរាប
@@ -371,7 +370,7 @@
                                 <div class="modal-header row border-0">
                                     <div class="col-12 justify-self-start">
                                         <div id="carouselExampleFade4" class="carousel slide carousel-fade d-block position-relative" >
-                                            <div class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
+                                            <div id="img-slide" class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
                                               <div class="carousel-item active">
                                                 <img src="./images/bayond-imgs/bayon-inside.jpg" class="d-block w-100" alt="...">
                                               </div>
@@ -404,9 +403,9 @@
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1 id="title-bayon" class="py-2 px-3 overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទបាយ័ន</h1>
+                                    <h1 id="title-bayon" class="overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទបាយ័ន</h1>
                                     <br>
-                                        <p id="modal-text" class=" px-3 pb-4" style="font-family:khmer; line-height: 28px;">ប្រាសាទនេះមាន តួប៉មនីមួយៗ មានមុខបួន ដែលមានកំពូល ៤៩ និងកំពូលក្លោងទ្វារចូល៥ ទៀត សរុបទាំងអស់ ៥៤ កំពូល ដែលតំណាងឲ្យខេត្តក្រុងខ្មែរ ទាំង ៥៤ នៅសម័យកាលនោះ។ មានអ្នកប្រាជ្ញមួយចំនួនបានគិតថា មុខទាំង ៤ នោះតំណាងឲ្យព្រះពោធិសត្វលោកេស្វរៈនៃព្រះពុទ្ធសាសនាមហាយាន អ្នកខ្លះទៀត គិតថា ជារូបតំណាងព្រះបាទជ័យវរ្ម័នទី៧។ ប្រាសាទបាយ័នមានប្លង់បីជាន់។
+                                        <p id="modal-text" class="overflow-hidden" style="font-family:khmer;">ប្រាសាទនេះមាន តួប៉មនីមួយៗ មានមុខបួន ដែលមានកំពូល ៤៩ និងកំពូលក្លោងទ្វារចូល៥ ទៀត សរុបទាំងអស់ ៥៤ កំពូល ដែលតំណាងឲ្យខេត្តក្រុងខ្មែរ ទាំង ៥៤ នៅសម័យកាលនោះ។ មានអ្នកប្រាជ្ញមួយចំនួនបានគិតថា មុខទាំង ៤ នោះតំណាងឲ្យព្រះពោធិសត្វលោកេស្វរៈនៃព្រះពុទ្ធសាសនាមហាយាន អ្នកខ្លះទៀត គិតថា ជារូបតំណាងព្រះបាទជ័យវរ្ម័នទី៧។ ប្រាសាទបាយ័នមានប្លង់បីជាន់។
                                         </p>
                                     <div class="d-flex flex-column">
                                         <button id="more-info" onclick="javascript:window.open('bayond.html', '_parent');" class="btn btn-success btn-lg text-light">ព័ត៌មានលម្អិត</button>
@@ -422,10 +421,10 @@
                         <div id="bg-card" class="card card- shadow border-0 rounded-4">
                             <img id="img-card" class="card-img-top img-fluid" src="images/bt_chma-img/Banteay-Chhmar.webp" alt="">
                             <div class="card-body">
-                                <h4 class="card-title pt-2 text-center fw-bold " style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទបន្ទាយឆ្មា</h4>
+                                <h4 class="card-title pt-2 text-center fw-bold overflow-hidden" style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទបន្ទាយឆ្មា</h4>
                                 <hr id="hr-card" class="border-success">
                                 <br>
-                                <p class="card-text text-start text-break pb-2 pt-2 ps-3" style="font-family: khmer;">
+                                <p class="card-text text-start text-break pb-2 pt-2 ps-3 overflow-hidden" style="font-family: khmer;">
                                     <b>កាលបរិច្ឆេទកសាង : </b>ចុងស.តទី១២ដល់ដើមស.តទី១៣ <br>
                                     <b>អ្នកកសាង : </b>ព្រះបាទជ័យវរ្ម័នទី៧<br>
                                     <b>ទីតាំង</b> : ភូមិបន្ទាយឆ្មារ ឃុំបន្ទាយឆ្មារ ស្រុកថ្មពួក ខេត្តបន្ទាយមានជ័យ
@@ -439,7 +438,7 @@
                                 <div class="modal-header row border-0">
                                     <div class="col-12 justify-self-start">
                                         <div id="carouselExampleFade5" class="carousel slide carousel-fade d-block position-relative" >
-                                            <div class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
+                                            <div id="img-slide" class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
                                               <div class="carousel-item active">
                                                 <img src="images/bt_chma-img/bt_chmar.jpg" class="d-block w-100" alt="...">
                                               </div>
@@ -472,9 +471,9 @@
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1 id="title-chmar" class="py-2 px-3 overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទបន្ទាយឆ្មា</h1>
+                                    <h1 id="title-chmar" class="overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទបន្ទាយឆ្មា</h1>
                                     <br>
-                                        <p id="modal-text" class="overflow-hidden px-3 pb-4" style="font-family:khmer; line-height: 28px;">ប្រាសាទបន្ទាយឆ្មារ ជាប្រាសាទដែលត្រូវបានកសាងឡើងនៅចុងសតវត្សរ៍ទី១២ដល់ដើមសតវត្សរ៍ទី១៣ ក្នុងរជ្ជកាលព្រះបាទជ័យវរ្ម័នទី៧ ដើម្បីឧទ្ទិសដល់បុត្រា ព្រះអគ្គមហេសីជ័យទេវី និងសេនាជំនិត៤នាក់ របស់ព្រះអង្គដែលបានពលីនៅក្នុងសមរភូមិដេញចាមនៅឆ្នាំ១១៧៧។
+                                        <p id="modal-text" class="overflow-hidden" style="font-family:khmer;">ប្រាសាទបន្ទាយឆ្មារ ជាប្រាសាទដែលត្រូវបានកសាងឡើងនៅចុងសតវត្សរ៍ទី១២ដល់ដើមសតវត្សរ៍ទី១៣ ក្នុងរជ្ជកាលព្រះបាទជ័យវរ្ម័នទី៧ ដើម្បីឧទ្ទិសដល់បុត្រា ព្រះអគ្គមហេសីជ័យទេវី និងសេនាជំនិត៤នាក់ របស់ព្រះអង្គដែលបានពលីនៅក្នុងសមរភូមិដេញចាមនៅឆ្នាំ១១៧៧។
                                         </p>
                                     <div class="d-flex flex-column">
                                         <button id="more-info" onclick="javascript:window.open('bun_teay_chma.html', '_parent');" class="btn btn-success btn-lg text-light">ព័ត៌មានលម្អិត</button>
@@ -490,10 +489,10 @@
                         <div id="bg-card" class="card card- shadow border-0 rounded-4">
                             <img id="img-card" class="card-img-top img-fluid" src="images/ta_prum-imgs/ta_prum.webp" alt="">
                             <div class="card-body">
-                                <h4 class="card-title pt-2 text-center fw-bold " style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទតាព្រហ្ម</h4>
+                                <h4 class="card-title pt-2 text-center fw-bold overflow-hidden" style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទតាព្រហ្ម</h4>
                                 <hr id="hr-card" class="border-success">
                                 <br>
-                                <p class="card-text text-start text-break pb-2 pt-2 ps-3" style="font-family: khmer;">
+                                <p class="card-text text-start text-break pb-2 pt-2 ps-3 overflow-hidden" style="font-family: khmer;">
                                     <b>កាលបរិច្ឆេទកសាង : </b>កសាងនៅឆ្នាំ១១៨៦នៃគ្រិស្តសករាជ<br>
                                     <b>អ្នកកសាង : </b>ព្រះបាទជ័យវរ្ម័នទី៧<br>
                                     <b>ទីតាំង</b> : ភូមិបន្ទាយស្រី ឃុំបន្ទាយស្រី ស្រុកបន្ទាយស្រី ខេត្តសៀមរាប
@@ -507,7 +506,7 @@
                                 <div class="modal-header row border-0">
                                     <div class="col-12 justify-self-start">
                                         <div id="carouselExampleFade6" class="carousel slide carousel-fade d-block position-relative" >
-                                            <div class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
+                                            <div id="img-slide" class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
                                               <div class="carousel-item active">
                                                 <img src="./images/ta_prum-imgs/ta_prum-full.jpg" class="d-block w-100" alt="...">
                                               </div>
@@ -540,9 +539,9 @@
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1 id="title-prum" class="py-2 px-3 overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទតាព្រហ្ម</h1>
+                                    <h1 id="title-prum" class="overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទតាព្រហ្ម</h1>
                                     <br>
-                                        <p id="modal-text" class="overflow-hidden px-3 pb-4" style="font-family:khmer; line-height: 28px;">ឈ្មោះដើមរបស់ប្រាសាទតាព្រហ្មគឺ រាជវិហារ។ ប្រាសាទតាព្រហ្មមានទីតាំងនៅតាមផ្លូវវង់តូចទៅតាមទារជ័យគឺ បន្ទាប់ពីប្រាសាទតាកែវ ប្រហែល១គ.ម ហើយមានកំពែងបន្ទាយក្តីផ្នែកពាយ័ព្យ។ ប្រាសាទនេះកសាងឡើយនៅក្នុងឆ្នាំ១១៨៦នៃគ្រឹស្តរាជ ដោយព្រះបាទជ័យវរ្ម័នទី៧ ដើម្បីឧទ្ទិសថ្វាយព្រះមាតារបស់ព្រះអង្គក្រោមរូបភាពប្រាជ្ញាបារមី។
+                                        <p id="modal-text" class="overflow-hidden" style="font-family:khmer;">ឈ្មោះដើមរបស់ប្រាសាទតាព្រហ្មគឺ រាជវិហារ។ ប្រាសាទតាព្រហ្មមានទីតាំងនៅតាមផ្លូវវង់តូចទៅតាមទារជ័យគឺ បន្ទាប់ពីប្រាសាទតាកែវ ប្រហែល១គ.ម ហើយមានកំពែងបន្ទាយក្តីផ្នែកពាយ័ព្យ។ ប្រាសាទនេះកសាងឡើយនៅក្នុងឆ្នាំ១១៨៦នៃគ្រឹស្តរាជ ដោយព្រះបាទជ័យវរ្ម័នទី៧ ដើម្បីឧទ្ទិសថ្វាយព្រះមាតារបស់ព្រះអង្គក្រោមរូបភាពប្រាជ្ញាបារមី។
                                         </p>
                                     <div class="d-flex flex-column">
                                         <button id="more-info" onclick="javascript:window.open('ta_prum.html', '_parent');" class="btn btn-success btn-lg text-light">ព័ត៌មានលម្អិត</button>
@@ -561,10 +560,10 @@
                         <div id="bg-card" class="card card- shadow border-0 rounded-4">
                             <img id="img-card" class="card-img-top img-fluid" src="./images/preas_vihea-imgs/preah_vihea1.jpeg" alt="">
                             <div class="card-body">
-                                <h4 class="card-title pt-2 text-center fw-bold " style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទព្រះវិហារ</h4>
+                                <h4 class="card-title pt-2 text-center fw-bold overflow-hidden" style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទព្រះវិហារ</h4>
                                 <hr id="hr-card" class="border-success">
                                 <br>
-                                <p class="card-text text-start text-break pb-2 pt-2 ps-3" style="font-family: khmer;">
+                                <p class="card-text text-start text-break pb-2 pt-2 ps-3 overflow-hidden" style="font-family: khmer;">
                                     <b>កាលបរិច្ឆេទកសាង : </b>កសាងនៅសតវត្សទី ៩-១២<br>
                                     <b>អ្នកកសាង : </b>ព្រះបាទជ័យវរ្ម័នទី២<br>
                                     <b>ទីតាំង</b> : ស្ថិតនៅភូមិធម្មជាតិ ឃុំស្រអែម ស្រុកជាំក្សាន្ត ខេត្តព្រះវិហារ
@@ -578,7 +577,7 @@
                                 <div class="modal-header row border-0">
                                     <div class="col-12 justify-self-start">
                                         <div id="carouselExampleFade7" class="carousel slide carousel-fade d-block position-relative" >
-                                            <div class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
+                                            <div id="img-slide" class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
                                               <div class="carousel-item active">
                                                 <img src="./images/preas_vihea-imgs/preah_vihea-outside.jpg" class="d-block w-100" alt="...">
                                               </div>
@@ -611,9 +610,9 @@
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1 id="title-vihear" class="py-2 px-3 overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទព្រះវិហារ</h1>
+                                    <h1 id="title-vihear" class="overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទព្រះវិហារ</h1>
                                     <br>
-                                        <p id="modal-text" class="overflow-hidden px-3 pb-4" style="font-family:khmer; line-height: 28px;">ប្រាសាទព្រះវិហារ ស្ថិតនៅភាគខាងជើងនៃប្រទេសកម្ពុជាក្នុងភូមិសាស្ត្រ ភូមិធម្មជាតិ ឃុំស្រអែម ស្រុកជាំក្សាន្ត ខេត្តព្រះវិហារ។ប្រាសាទព្រះវិហារជាប្រាសាទភ្នំដែលកសាងនៅលើកំពូលភ្នំព្រះវិហារនៃជួរភ្នំដងរែក ដែលមានរយៈកម្ពស់ ៦២៥ម៉ែត្រ ធៀបទៅនិងទឹកសមុទ្យ។
+                                        <p id="modal-text" class="overflow-hidden" style="font-family:khmer;">ប្រាសាទព្រះវិហារ ស្ថិតនៅភាគខាងជើងនៃប្រទេសកម្ពុជាក្នុងភូមិសាស្ត្រ ភូមិធម្មជាតិ ឃុំស្រអែម ស្រុកជាំក្សាន្ត ខេត្តព្រះវិហារ។ប្រាសាទព្រះវិហារជាប្រាសាទភ្នំដែលកសាងនៅលើកំពូលភ្នំព្រះវិហារនៃជួរភ្នំដងរែក ដែលមានរយៈកម្ពស់ ៦២៥ម៉ែត្រ ធៀបទៅនិងទឹកសមុទ្យ។
                                         </p>
                                     <div class="d-flex flex-column">
                                         <button id="more-info" onclick="javascript:window.open('preah_vihea.html', '_parent');" class="btn btn-success btn-lg text-light">ព័ត៌មានលម្អិត</button>
@@ -629,10 +628,10 @@
                         <div id="bg-card" class="card card- shadow border-0 rounded-4">
                             <img id="img-card" class="card-img-top img-fluid" src="images/jrab-imgs/jrab1.jpg" alt="">
                             <div class="card-body">
-                                <h4 class="card-title pt-2 text-center fw-bold " style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទច្រាប</h4>
+                                <h4 class="card-title pt-2 text-center fw-bold overflow-hidden" style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទច្រាប</h4>
                                 <hr id="hr-card" class="border-success">
                                 <br>
-                                <p class="card-text text-start text-break pb-2 pt-2 ps-3" style="font-family: khmer;">
+                                <p class="card-text text-start text-break pb-2 pt-2 ps-3 overflow-hidden" style="font-family: khmer;">
                                     <b>កាលបរិច្ឆេទកសាង : </b>កសាងនៅសតវត្សរ៍ទី១០<br>
                                     <b>អ្នកកសាង : </b>ព្រះបាទជ័យវរ្ម័នទី៤<br>
                                     <b>ទីតាំង</b> : ស្ថិតនៅភូមិកោះកេរ ឃុំស្រយ៉ង់ ស្រុកគូលែន ខេត្តព្រះវិហារ
@@ -646,7 +645,7 @@
                                 <div class="modal-header row border-0">
                                     <div class="col-12 justify-self-start">
                                         <div id="carouselExampleFade8" class="carousel slide carousel-fade d-block position-relative" >
-                                            <div class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
+                                            <div id="img-slide" class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
                                               <div class="carousel-item active">
                                                 <img src="./images/jrab-imgs/jrab1.jpg" class="d-block w-100" alt="...">
                                               </div>
@@ -679,9 +678,9 @@
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1 id="title-jrab" class="py-2 px-3 overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទច្រាប</h1>
+                                    <h1 id="title-jrab" class="overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទច្រាប</h1>
                                     <br>
-                                        <p id="modal-text" class="overflow-hidden px-3 pb-4" style="font-family:khmer; line-height: 28px;">
+                                        <p id="modal-text" class="overflow-hidden" style="font-family:khmer;">
                                             ច្រាបមានន័យថាអំណាយភ័យ(ឧទាហរណ៍ច្រាបជាន់)ដីប្រៃ(ដីច្រាប) និងជាផ្សិតដែលដុះនៅលើដីប្រៃ(ផ្សិតច្រាប)។ ប្រាសាទនេះគ្មានឈ្មោះដើមនៅក្នុងសិលាចារឹកឡើយ រហូតពេលលោក អេជែន លុយណេដឺឡាហ៊្សុងគែ មកស្រាវជ្រាវនិងចុះបញ្ជីសារពើភណ្ឌនោះ មិនបានចុះលេខនិងឈ្មោះដែរ។ 
                                         </p>
                                     <div class="d-flex flex-column">
@@ -698,10 +697,10 @@
                         <div id="bg-card" class="card card- shadow border-0 rounded-4">
                             <img id="img-card" class="card-img-top img-fluid" src="images/domrey-imgs/domrey.jpg" alt="">
                             <div class="card-body">
-                                <h4 class="card-title pt-2 text-center fw-bold " style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទដំរី</h4>
+                                <h4 class="card-title pt-2 text-center fw-bold overflow-hidden" style="font-family: khmer; letter-spacing: 1px;">ប្រាសាទដំរី</h4>
                                 <hr id="hr-card" class="border-success">
                                 <br>
-                                <p class="card-text text-start text-break pb-2 pt-2 ps-3" style="font-family: khmer;">
+                                <p class="card-text text-start text-break pb-2 pt-2 ps-3 overflow-hidden" style="font-family: khmer;">
                                     <b>កាលបរិច្ឆេទកសាង : </b>កសាងនៅសតវត្សរ៍ទី១០<br>
                                     <b>អ្នកកសាង : </b>ព្រះបាទជ័យវរ្ម័នទី៤<br>
                                     <b>ទីតាំង</b> : ស្ថិតនៅភូមិកោះកេរ ឃុំស្រយ៉ង់ ស្រុកគូលែន ខេត្តព្រះវិហារ
@@ -715,7 +714,7 @@
                                 <div class="modal-header row border-0">
                                     <div class="col-12 justify-self-start">
                                         <div id="carouselExampleFade9" class="carousel slide carousel-fade d-block position-relative" >
-                                            <div class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
+                                            <div id="img-slide" class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px;">
                                               <div class="carousel-item active">
                                                 <img src="./images/domrey-imgs/domrey-with-statue.jpg" class="d-block w-100" alt="...">
                                               </div>
@@ -748,9 +747,9 @@
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1 id="title-domrei" class="py-2 px-3 overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទដំរី</h1>
+                                    <h1 id="title-domrei" class="overflow-hidden" style="font-family: NidaAngkor;">ប្រាសាទដំរី</h1>
                                     <br>
-                                        <p id="modal-text" class="overflow-hidden px-3 pb-4" style="font-family:khmer; line-height: 28px;">ប្រាសាទបន្ទាយស្រី .ស្ថិតនៅក្នុងភូមិបន្ទាយស្រី ឃុំបន្ទាយស្រី ស្រុកបន្ទាយស្រី ខេត្តសៀមរាប ដែលចម្ងាយប្រមាណ ៣៩គីឡូម៉ែត្រភាគខាងជើងទីរួមខេត្តសៀមរាប ឃ្លាតពីស្រះស្រង់ ២៧គីឡូម៉ែត្រនិងមានចំងាយ៣២គីឡូម៉ែត្រពីប្រាសាទអង្គរវត្តតាមផ្លូវឆ្ពោះទៅ ភ្នំគូលេន ។ប្រាសាទបន្ទាយស្រីគឺជាប្រាង្គប្រាសាទមួយក្នុងចំណោមប្រាសាទជាច្រើននៅ ខេត្តសៀមរាប អង្គរដ៏ល្បីល្បាញនៅក្នុង ប្រទេសកម្ពុជា ក៏ដូចជានៅលើ ពិភពលោកដែរ ដែលបានទាក់ទាញភ្ញៀវទេសចរជាតិ និងអន្តរជាតិយ៉ាងច្រើនកុះករមកពីតំបន់ជាច្រើន។
+                                        <p id="modal-text" class="overflow-hidden" style="font-family:khmer;">ប្រាសាទបន្ទាយស្រី .ស្ថិតនៅក្នុងភូមិបន្ទាយស្រី ឃុំបន្ទាយស្រី ស្រុកបន្ទាយស្រី ខេត្តសៀមរាប ដែលចម្ងាយប្រមាណ ៣៩គីឡូម៉ែត្រភាគខាងជើងទីរួមខេត្តសៀមរាប ឃ្លាតពីស្រះស្រង់ ២៧គីឡូម៉ែត្រនិងមានចំងាយ៣២គីឡូម៉ែត្រពីប្រាសាទអង្គរវត្តតាមផ្លូវឆ្ពោះទៅ ភ្នំគូលេន ។ប្រាសាទបន្ទាយស្រីគឺជាប្រាង្គប្រាសាទមួយក្នុងចំណោមប្រាសាទជាច្រើននៅ ខេត្តសៀមរាប អង្គរដ៏ល្បីល្បាញនៅក្នុង ប្រទេសកម្ពុជា ក៏ដូចជានៅលើ ពិភពលោកដែរ ដែលបានទាក់ទាញភ្ញៀវទេសចរជាតិ និងអន្តរជាតិយ៉ាងច្រើនកុះករមកពីតំបន់ជាច្រើន។
                                         </p>
                                     <div class="d-flex flex-column">
                                         <button id="more-info" onclick="javascript:window.open('domrey.html', '_parent');" class="btn btn-success btn-lg text-light">ព័ត៌មានលម្អិត</button>

@@ -168,10 +168,9 @@ input:-webkit-autofill:active{
 }
 /* Navbar Scroll hide and show */
 #navscroll{
-  height: 80px;
-  padding: 5px 200px;
   background-image: url('./images/banner.jpg'); 
   background-position: center;
+  background-size: cover;
 }
 .scrolled-down{
   transform:translateY(-100%); transition: all 0.3s ease-in-out;
@@ -186,7 +185,10 @@ input:-webkit-autofill:active{
   height: 950px !important;
 }
 #modal-text{
-  text-indent: 30px;
+  text-indent: 20px;
+}
+#more-info{
+  font-weight: bold;
 }
 .title-head{
   font-size: 30px;
@@ -207,10 +209,10 @@ footer{
 .dark body{
   color: #DDDDDD;
 }
-
 .dark #navscroll{
-  background-image: url('images/banner-02-02.png');
+  background-image: url('images/banner23-01.png'); 
   background-position: center;
+  background-size: cover;
 }
 
 .dark #btn-nav{

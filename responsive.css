@@ -86,7 +86,7 @@
     }
     #textftimg{
       height: 100%; 
-      width: 30%;
+      width: 40%;
     }
     #slide-img{
       height: 980px !important;
@@ -121,6 +121,54 @@
       top: 68%;
       left: 27.9%;
       transform: translate(-50%, -50%);
+    }
+    #title-angkor{
+      font-size: 50px !important;
+      padding: 2px 10px 4px 10px !important;
+    }
+    #title-kohke{
+      font-size: 50px !important;
+      padding: 8px 10px 4px 10px !important;
+    }
+    #title-srey{
+      font-size: 50px !important;
+      padding: 6px 10px 4px 10px !important;
+    }
+    #title-bayon{
+      font-size: 50px !important;
+      padding: 5px 10px 4px 10px !important;
+    }
+    #title-chmar{
+      font-size: 50px !important;
+      padding: 0 10px 3px 10px !important;
+    }
+    #title-prum{
+      font-size: 50px !important;
+      padding: 0 10px 3px 10px !important;
+    }
+    #title-vihear{
+      font-size: 50px !important;
+      padding: 5px 10px 3px 10px;
+    }
+    #title-jrab{
+      font-size: 50px !important;
+      padding: 0 10px 3px 10px;
+    }
+    #title-domrei{
+      font-size: 50px !important;
+      padding: 10px 10px 3px 10px;
+    }
+    #modal-text{
+      font-size: 17px;
+      line-height: 30px;
+      padding: 2px 10px 10px 10px !important;
+    }
+    #img-slide{
+      width: 100% !important;
+      height: 450px !important;
+    }
+    #ke-slide{
+      height: 980px !important;
     }
 }
 @media screen and (max-width : 1899px) and (min-width:1800px) {
@@ -243,6 +291,54 @@
       left: 28%;
       transform: translate(-50%, -50%);
     }
+    #title-angkor{
+      font-size: 49px !important;
+      padding: 2px 10px 4px 10px !important;
+    }
+    #title-kohke{
+      font-size: 49px !important;
+      padding: 2px 10px 4px 10px !important;
+    }
+    #title-srey{
+      font-size: 49px !important;
+      padding: 6px 10px 4px 10px !important;
+    }
+    #title-bayon{
+      font-size: 49px !important;
+      padding: 5px 10px 4px 10px !important;
+    }
+    #title-chmar{
+      font-size: 49px !important;
+      padding: 0 10px 3px 10px !important;
+    }
+    #title-prum{
+      font-size: 49px !important;
+      padding: 0 10px 3px 10px !important;
+    }
+    #title-vihear{
+      font-size: 49px !important;
+      padding: 5px 10px 3px 10px;
+    }
+    #title-jrab{
+      font-size: 49px !important;
+      padding: 0 10px 3px 10px;
+    }
+    #title-domrei{
+      font-size: 49px !important;
+      padding: 11px 10px 3px 10px;
+    }
+    #modal-text{
+      font-size: 17px;
+      line-height: 29px;
+      padding: 2px 10px 10px 10px !important;
+    }
+    #img-slide{
+      width: 100% !important;
+      height: 440px !important;
+    }
+    #ke-slide{
+      height: 890px !important;
+    }
 }
 @media screen and (max-width : 1799px) and (min-width:1700px) {
     #navscroll{
@@ -364,6 +460,54 @@
     top: 67%;
     left: 27.9%;
     transform: translate(-50%, -50%);
+  }
+  #title-angkor{
+    font-size: 48px !important;
+    padding: 2px 10px 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 48px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 48px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 48px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 48px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 48px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 48px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 48px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 48px !important;
+    padding: 11px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 17px;
+    line-height: 29px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 430px !important;
+  }
+  #ke-slide{
+    height: 870px !important;
   }
 }
 @media screen and (max-width : 1699px) and (min-width:1600px) {
@@ -489,6 +633,54 @@
     left: 27.9%;
     transform: translate(-50%, -50%);
   }
+  #title-angkor{
+    font-size: 47px !important;
+    padding: 2px 10px 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 47px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 47px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 47px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 47px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 47px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 47px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 47px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 47px !important;
+    padding: 11px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 16px;
+    line-height: 29px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 430px !important;
+  }
+  #ke-slide{
+    height: 770px !important;
+  }
 }
 @media screen and (max-width : 1599px) and (min-width:1500px) {
     #navscroll{
@@ -613,6 +805,54 @@
     top: 67%;
     left: 28.5%;
     transform: translate(-50%, -50%);
+  }
+  #title-angkor{
+    font-size: 46px !important;
+    padding: 2px 10px 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 46px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 46px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 46px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 46px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 46px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 46px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 46px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 46px !important;
+    padding: 11px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 16px;
+    line-height: 29px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 430px !important;
+  }
+  #ke-slide{
+    height: 760px !important;
   }
 }
 @media screen and (max-width : 1499px) and (min-width:1400px) {
@@ -744,6 +984,55 @@
     left: 28.5%;
     transform: translate(-50%, -50%);
   }
+  #title-angkor{
+    font-size: 45px !important;
+    padding: 2px 10px 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 45px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 45px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 45px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 45px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 45px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 45px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 45px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 45px !important;
+    padding: 11px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 16px;
+    line-height: 29px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 420px !important;
+  }
+  #ke-slide{
+    margin-top: 1rem;
+    height: 710px !important;
+  }
 }
 @media screen and (max-width : 1399px) and (min-width:1300px) {
     #navscroll{
@@ -873,6 +1162,55 @@
     top: 69%;
     left: 28.5%;
     transform: translate(-50%, -50%);
+  }
+  #title-angkor{
+    font-size: 44px !important;
+    padding: 2px 10px 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 44px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 44px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 44px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 44px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 44px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 44px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 44px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 44px !important;
+    padding: 11px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 15.5px;
+    line-height: 25px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 410px !important;
+  }
+  #ke-slide{
+    margin-top: 1rem;
+    height: 660px !important;
   }
 }
 @media screen and (max-width : 1299px) and (min-width:1200px) {
@@ -1008,6 +1346,58 @@
     top: 69%;
     left: 28.5%;
     transform: translate(-50%, -50%);
+  }
+  #title-angkor{
+    font-size: 43px !important;
+    padding: 2px 10px 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 43px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 43px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 43px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 43px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 43px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 43px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 43px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 43px !important;
+    padding: 9px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 15px;
+    line-height: 25px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 400px !important;
+  }
+  #more-info{
+    font-size: 20px;
+  }
+  #ke-slide{
+    margin-top: 2rem;
+    height: 610px !important;
   }
 }
 @media screen and (max-width : 1199px) and (min-width:1100px) {
@@ -1147,6 +1537,58 @@
     left: 28.5%;
     transform: translate(-50%, -50%);
   }
+  #title-angkor{
+    font-size: 42px !important;
+    padding: 2px 10px 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 42px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 42px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 42px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 42px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 42px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-jrab{
+    font-size: 42px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 42px !important;
+    padding: 8px 10px 3px 10px;
+  }
+  #title-vihear{
+    font-size: 42px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 14.5px;
+    line-height: 24px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 390px !important;
+  }
+  #more-info{
+    font-size: 20px;
+  }
+  #ke-slide{
+    margin-top: 3rem;
+    height: 560px !important;
+  }
 }
 @media screen and (max-width : 1099px) and (min-width:1018px) {
     #navscroll{
@@ -1283,6 +1725,58 @@
     top: 70%;
     left: 28.5%;
     transform: translate(-50%, -50%);
+  }
+  #title-angkor{
+    font-size: 41px !important;
+    padding: 2px 0 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 41px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 41px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+      font-size: 41px !important;
+      padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 41px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 41px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 41px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 41px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 41px !important;
+    padding: 8px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 14.3px;
+    line-height: 23.7px;
+    padding: 2px 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 390px !important;
+  }
+  #more-info{
+    font-size: 19px;
+  }
+  #ke-slide{
+    margin-top: 3rem;
+    height: 518px !important;
   }
 }
 @media screen and (max-width : 1017px) and (min-width:992px) {
@@ -1422,6 +1916,59 @@
     left: 28.5%;
     transform: translate(-50%, -50%);
   }
+  #title-angkor{
+    font-size: 40px !important;
+    padding: 2px 0 4px 10px !important;
+  }
+  #title-kohke{
+    font-size: 40px !important;
+    padding: 8px 10px 4px 10px !important;
+  }
+  #title-srey{
+    font-size: 40px !important;
+    padding: 6px 10px 4px 10px !important;
+  }
+  #title-bayon{
+    font-size: 40px !important;
+    padding: 5px 10px 4px 10px !important;
+  }
+  #title-chmar{
+    font-size: 40px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-prum{
+    font-size: 40px !important;
+    padding: 0 10px 3px 10px !important;
+  }
+  #title-vihear{
+    font-size: 40px !important;
+    padding: 5px 10px 3px 10px;
+  }
+  #title-jrab{
+    font-size: 40px !important;
+    padding: 0 10px 3px 10px;
+  }
+  #title-domrei{
+    font-size: 40px !important;
+    padding: 7px 10px 3px 10px;
+  }
+  #modal-text{
+    font-size: 14.2px;
+    line-height: 25.3px;
+    padding: 0 10px 10px 10px !important;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 390px !important;
+  }
+  #more-info{
+    font-size: 18.5px;
+  }
+  #ke-slide{
+    margin-top: 3rem;
+    height: 510px !important;
+  }
+
 }
 @media screen and (max-width : 991px) and (min-width:800px) {
     #navscroll{
@@ -1563,47 +2110,69 @@
     }
     #title-angkor{
       font-size: 45px;
+      padding: 0 0 4px 0;
       text-align: center;
     }
     #title-kohke{
-      font-size: 50px;
+      font-size: 45px !important;
+      padding: 8px 10px 3px 10px !important;
       text-align: center;
     }
     #title-srey{
       font-size: 45px;
+      padding: 6px 0 4px 0 !important;
       text-align: center;
     }
     #title-bayon{
-      font-size: 50px;
+      font-size: 45px;
+      padding: 5px 0 4px 0;
       text-align: center;
     }
     #title-chmar{
-      font-size: 50px;
+      font-size: 45px;
+      padding: 0 0 3px 0 !important;
       text-align: center;
     }
     #title-prum{
-      font-size: 50px;
+      font-size: 45px;
+      padding: 0 10px 3px 10px !important;
       text-align: center;
     }
     #title-vihear{
-      font-size: 50px;
+      font-size: 45px;
+      padding: 5px 0 3px 0;
       text-align: center;
     }
     #title-jrab{
-      font-size: 50px;
+      font-size: 45px;
+      padding: 0 0 3px 0;
       text-align: center;
     }
     #title-domrei{
-      font-size: 50px;
+      font-size: 45px;
+      padding: 8px 0 3px 0;
       text-align: center;
     }
     #modal-text{
       font-size: 15px;
+      line-height: 24px;
+      padding: 0 4px 0 4px;
+    }
+    #more-info{
+      font-size: 18px;
+    }
+    #ke-slide{
+      margin-top: 4rem;
+      height: 405px !important;
+    }
+    #btn-close{
+      width: 33px;
+      height: 33px;
     }
 }
 @media screen and (max-width : 799px) and (min-width:700px) {
     #navscroll{
-        height: 63px;
+        height: 64px;
         padding: 0 50px;
     }
     #background-space{
@@ -1750,43 +2319,65 @@
       background-color: rgb(109, 109, 109);
     }
     #title-angkor{
-      font-size: 50px;
+      font-size: 48px;
+      padding: 0 0 4px 0;
       text-align: center;
     }
     #title-kohke{
-      font-size: 50px;
+      font-size: 48px;
+      padding: 8px 0 4px 0;
       text-align: center;
     }
     #title-srey{
-      font-size: 45px;
+      font-size: 48px;
+      padding: 6px 0 4px 0 !important;
       text-align: center;
     }
     #title-bayon{
-      font-size: 50px;
+      font-size: 48px;
+      padding: 5px 0 4px 0;
       text-align: center;
     }
     #title-chmar{
-      font-size: 50px;
+      font-size: 48px;
+      padding: 0 0 3px 0 !important;
       text-align: center;
     }
     #title-prum{
-      font-size: 50px;
+      font-size: 48px;
+      padding: 0 10px 3px 10px !important;
       text-align: center;
     }
     #title-vihear{
-      font-size: 50px;
+      font-size: 48px;
+      padding: 5px 0 3px 0;
       text-align: center;
     }
     #title-jrab{
-      font-size: 50px;
+      font-size: 48px;
+      padding: 0 0 3px 0;
       text-align: center;
     }
     #title-domrei{
-      font-size: 50px;
+      font-size: 48px;
+      padding: 9px 0 3px 0;
       text-align: center;
     }
     #modal-text{
       font-size: 14px;
+      line-height: 21px;
+      padding: 0 5px 0 5px;
+    }
+    #more-info{
+      font-size: 18px;
+    }
+    #ke-slide{
+      margin-top: 4rem;
+      height: 358px !important;
+    }
+    #btn-close{
+      width: 31px;
+      height: 31px;
     }
 }
 @media screen and (max-width : 699px) and (min-width:600px) {
@@ -1939,43 +2530,72 @@
       background-color: rgb(109, 109, 109);
     }
     #title-angkor{
-      font-size: 50px;
+      font-size: 47px;
+      padding: 0 0 4px 0;
       text-align: center;
     }
     #title-kohke{
-      font-size: 50px;
+      font-size: 47px;
+      padding: 8px 0 4px 0;
       text-align: center;
     }
     #title-srey{
-      font-size: 45px;
+      font-size: 47px;
+      padding: 6px 0 4px 0 !important;
       text-align: center;
     }
     #title-bayon{
-      font-size: 50px;
+      font-size: 47px;
+      padding: 5px 0 4px 0;
       text-align: center;
     }
     #title-chmar{
-      font-size: 50px;
+      font-size: 47px;
+      padding: 0 0 3px 0 !important;
       text-align: center;
     }
     #title-prum{
-      font-size: 50px;
+      font-size: 47px;
+      padding: 0 10px 3px 10px !important;
       text-align: center;
     }
     #title-vihear{
-      font-size: 50px;
+      font-size: 47px;
+      padding: 5px 0 3px 0;
       text-align: center;
     }
     #title-jrab{
-      font-size: 50px;
+      font-size: 47px;
+      padding: 0 0 3px 0;
       text-align: center;
     }
     #title-domrei{
-      font-size: 50px;
+      font-size: 47px;
+      padding: 11px 0 3px 0;
       text-align: center;
     }
     #modal-text{
-      font-size: 14px;
+      font-size: 13px;
+      line-height: 21px;
+      padding: 0 4px 0 4px;
+    }
+    #more-info{
+      font-size: 17px;
+    }
+    #img-slide{
+      width: 100% !important;
+      height: 250px !important;
+    }
+    #ke-slide{
+      margin-top: 3.7rem;
+      height: 305px !important;
+    }
+    #btn-close{
+      width: 30px;
+      height: 30px;
+    }
+    #logo-of{
+      width: 350px;
     }
 }
 @media screen and (max-width : 599px) and (min-width:500px) {
@@ -1985,6 +2605,9 @@
     }
     #background-space{
         margin-top: 30px;
+    }
+    #logo-of{
+      width: 350px;
     }
     #box-purpose{
       width: 25rem;
@@ -2131,44 +2754,75 @@
       padding-right: 40px !important;
     }
     #title-angkor{
-      font-size: 48px;
+      font-size: 46px;
+      padding: 0 0 4px 0;
       text-align: center;
     }
     #title-kohke{
-      font-size: 50px;
+      font-size: 46px;
+      padding: 8px 0 4px 0;
       text-align: center;
     }
     #title-srey{
-      font-size: 45px;
+      font-size: 46px;
+      padding: 6px 0 4px 0 !important;
       text-align: center;
     }
     #title-bayon{
-      font-size: 50px;
+      font-size: 46px;
+      padding: 5px 0 4px 0;
       text-align: center;
     }
     #title-chmar{
-      font-size: 50px;
+      font-size: 46px;
+      padding: 0 0 3px 0 !important;
       text-align: center;
     }
     #title-prum{
-      font-size: 50px;
+      font-size: 46px;
+      padding: 0 10px 3px 10px !important;
       text-align: center;
     }
     #title-vihear{
-      font-size: 50px;
+      font-size: 46px;
+      padding: 3px 0 3px 0;
       text-align: center;
     }
     #title-jrab{
-      font-size: 50px;
+      font-size: 46px;
+      padding: 0 0 3px 0;
       text-align: center;
     }
     #title-domrei{
-      font-size: 50px;
+      font-size: 46px;
+      padding: 10px 0 3px 0;
       text-align: center;
     }
     #modal-text{
-      font-size: 14px;
-      word-wrap: none;
+      font-size: 13px;
+      line-height: 21px;
+      padding: 0 4px 0 4px;
+    }
+    #more-info{
+      font-size: 16px;
+    }
+    #img-slide{
+      width: 100% !important;
+      height: 270px !important;
+    }
+    #ke-slide{
+      margin-top: 3.7rem;
+      height: 255px !important;
+    }
+    #btn-close{
+      width: 27px;
+      height: 27px;
+    }
+    .name{
+      font-size: 25px;
+    }
+    .group{
+      font-size: 20px;
     }
 }
 @media screen and (max-width : 499px) and (min-width:400px) {
@@ -2178,6 +2832,9 @@
     }
     #background-space{
         margin-top: 30px;
+    }
+    #logo-of{
+      width: 350px;
     }
     #box-purpose{
       width: 22rem;
@@ -2281,7 +2938,7 @@
     }
     #textftimg{
       height: 100%; 
-      width: 30%;
+      width: 45%;
     }
     #slide-img{
       margin-top: 3rem;
@@ -2323,49 +2980,84 @@
       padding-right: 35px !important;
     }
     #title-angkor{
-      font-size: 47px;
+      font-size: 45px;
+      padding: 0 0 4px 0;
       text-align: center;
     }
     #title-kohke{
-      font-size: 47px;
+      font-size: 45px;
+      padding: 8px 0 4px 0;
       text-align: center;
     }
     #title-srey{
-      font-size: 41px;
+      font-size: 45px;
+      padding: 6px 0 4px 0 !important;
       text-align: center;
     }
     #title-bayon{
       font-size: 45px;
+      padding: 5px 0 4px 0;
       text-align: center;
     }
     #title-chmar{
-      font-size: 42px;
+      font-size: 45px;
+      padding: 0 0 3px 0 !important;
       text-align: center;
     }
     #title-prum{
-      font-size: 43px;
+      font-size: 45px;
+      padding: 0 10px 3px 10px !important;
       text-align: center;
     }
     #title-vihear{
-      font-size: 43px;
+      font-size: 45px;
+      padding: 2px 0 3px 0;
       text-align: center;
     }
     #title-jrab{
-      font-size: 43px;
+      font-size: 45px;
+      padding: 0 0 3px 0;
       text-align: center;
     }
     #title-domrei{
-      font-size: 43px;
+      font-size: 45px;
+      padding: 8px 0 3px 0;
       text-align: center;
     }
     #modal-text{
-      font-size: 14px;
+      font-size: 13px;
+      line-height: 21px;
+      padding: 2px 4px 0 4px;
+    }
+    #more-info{
+      font-size: 16px;
+    }
+    #img-slide{
+      width: 100% !important;
+      height: 230px !important;
+    }
+    #ke-slide{
+      margin-top: 3.4rem;
+      height: 205px !important;
+    }
+    #btn-close{
+      width: 25px;
+      height: 25px;
+    }
+    .name{
+      font-size: 19px;
+    }
+    .group{
+      font-size: 17px;
     }
 }
 @media screen and (max-width : 399px) and (min-width:350px) {
     #navscroll{
         height: 55px;
         padding: 0px 20px;
+    }
+    #logo-of{
+      width: 400px;
     }
     #background-space{
         margin-top: 55px;
@@ -2477,7 +3169,7 @@
     }
     #textftimg{
       height: 100%; 
-      width: 45%;
+      width: 50%;
     }
     #slide-img{
       margin-top: 3rem;
@@ -2519,44 +3211,75 @@
       padding-right: 28px !important;
     }
     #title-angkor{
-      font-size: 36px;
+      font-size: 40px;
+      padding: 0 0 4px 0;
       text-align: center;
     }
     #title-kohke{
       font-size: 40px;
+      padding: 8px 0 4px 0;
       text-align: center;
     }
     #title-srey{
       text-align: center;
-      font-size: 35px;
+      padding: 6px 0 4px 0 !important;
+      font-size: 36px;
     }
     #title-bayon{
       font-size: 40px;
+      padding: 5px 0 4px 0;
       text-align: center;
     }
     #title-chmar{
-      font-size: 35px;
+      font-size: 40px;
+      padding: 0 0 3px 0 !important;
       text-align: center;
     }
     #title-prum{
-      font-size: 37px;
+      font-size: 40px;
+      padding: 0 10px 3px 10px !important;
       text-align: center;
     }
     #title-vihear{
-      font-size: 37px;
+      font-size: 40px;
+      padding: 2px 0 3px 0;
       text-align: center;
     }
     #title-jrab{
-      font-size: 35px;
+      font-size: 40px;
+      padding: 0 0 3px 0;
       text-align: center;
     }
     #title-domrei{
-      font-size: 35px;
+      font-size: 40px;
+      padding: 7px 0 3px 0;
       text-align: center;
     }
     #modal-text{
       font-size: 12px;
-      line-height: 23px !important;
+      line-height: 20px;
+      padding: 2px 4px 0 4px;
+    }
+    #more-info{
+      font-size: 15px;
+    }
+    #img-slide{
+      width: 100% !important;
+      height: 190px !important;
+    }
+    #ke-slide{
+      margin-top: 3.4rem;
+      height: 180px !important;
+    }
+    #btn-close{
+      width: 20px;
+      height: 20px;
+    }
+    .name{
+      font-size: 15px;
+    }
+    .group{
+      font-size: 14px;
     }
 }
 @media screen and (max-width : 349px) and (min-width:320px) {
@@ -2711,44 +3434,81 @@
     background-color: rgb(109, 109, 109);
   }
   #title-angkor{
-    font-size: 32px;
+    font-size: 38px;
+    padding: 0 0 4px 0;
     text-align: center;
   }
   #title-kohke{
-    font-size: 35px;
+    font-size: 38px;
+    padding: 8px 0 4px 0;
     text-align: center;
   }
   #title-srey{
-    font-size: 31px;
+    font-size: 35px;
+    padding: 6px 0 4px 0 !important;
     text-align: center;
   }
   #title-bayon{
-    font-size: 35px;
+    font-size: 38px;
+    padding: 5px 0 4px 0;
     text-align: center;
   }
   #title-chmar{
-    font-size: 30px;
+    font-size: 35px;
+    padding: 0 0 3px 0 !important;
     text-align: center;
   }
   #title-prum{
-    font-size: 35px;
+    font-size: 37px;
+    padding: 0 10px 3px 10px !important;
     text-align: center;
   }
   #title-vihear{
-    font-size: 33px;
+    font-size: 35px;
+    padding: 2px 0 3px 0;
     text-align: center;
   }
   #title-jrab{
-    font-size: 35px;
+    font-size: 38px;
+    padding: 0 0 3px 0;
     text-align: center;
   }
   #title-domrei{
-    font-size: 35px;
+    font-size: 38px;
+    padding: 8px 0 3px 0;
     text-align: center;
   }
   #modal-text{
     font-size: 11px;
-    line-height: 22px !important;
+    line-height: 19px;
+    padding: 2px 4px 0 4px;
+  }
+  #more-info{
+    font-size: 14px;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 140px !important;
+  }
+  .card-text{
+    font-size: 12px;
+  }
+  #ke-slide{
+    margin-top: 3.4rem;
+    height: 174px !important;
+  }
+  #btn-close{
+    width: 17px;
+    height: 17px;
+  }
+  #btn-off{
+    font-size: 14px !important;
+  }
+  .name{
+    font-size: 12px;
+  }
+  .group{
+    font-size: 11px;
   }
 }
 @media screen and (max-width:319px) and (min-width:100px) {
@@ -2778,6 +3538,9 @@
   #menu-svg{
     width: 30px;
     padding-bottom: 15px;
+  }
+  .card-text{
+    font-size: 11px;
   }
   #dark-svg{
     width: 50px;
@@ -2903,48 +3666,79 @@
     background-color: rgb(109, 109, 109);
   }
   #title-angkor{
-    font-size: 22px;
+    font-size: 33px;
     text-align: center;
+    padding: 0px 0 4px 0 !important;
   }
   #title-kohke{
-    font-size: 25px;
+    font-size: 30px;
+    padding: 8px 0 4px 0;
     text-align: center;
   }
   #title-srey{
-    font-size: 22px;
+    font-size: 26px;
+    padding: 6px 0 4px 0 !important;
     text-align: center;
   }
   #title-bayon{
-    font-size: 25px;
+    font-size: 30px;
+    padding: 5px 0 4px 0;
     text-align: center;
   }
   #title-chmar{
-    font-size: 23px;
+    font-size: 26px;
+    padding: 0 0 3px 0 !important;
     text-align: center;
   }
   #title-prum{
-    font-size: 25px;
-    word-wrap: break-word;
+    font-size: 27px;
+    padding: 0 10px 3px 10px !important;
     text-align: center;
+    word-wrap: break-word;
   }
   #title-vihear{
     font-size: 23px;
+    padding: 2px 0 3px 0;
     text-align: center;
   }
   #title-jrab{
-    font-size: 25px;
-    word-wrap: break-word;
+    font-size: 28px;
+    padding: 0 0 3px 0;
     text-align: center;
   }
   #title-domrei{
-    font-size: 25px;
-    word-wrap: break-word;
+    font-size: 29px;
+    padding: 5px 0 3px 0;
     text-align: center;
   }
   #modal-text{
     font-size: 10px;
-    line-height: 20px !important;
-    word-break: break-all;
+    line-height: 16px !important;
+    padding: 0 3px 3px 3px !important;
+  }
+  #more-info{
+    font-size: 11px;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 115px !important;
+  }
+  #ke-slide{
+    margin-top: 3.4rem;
+    height: 160px !important;
+  }
+  #btn-close{
+    width: 15px;
+    height: 15px;
+  }
+  #btn-off{
+    font-size: 12px !important;
+  }
+  .name{
+    font-size: 8px;
+  }
+  .group{
+    font-size: 7px;
   }
 }
 

@@ -14,41 +14,41 @@
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <body style="background-color: #F1EEE9;">
-    <div id="banner">
+    <div class="main" id="banner">
         <div class="row d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-between justify-content-sm-between justify-content-between align-items-center fixed-top shadow overflow-hidden" id="navscroll">
             <!-- navigation -->
-            <div class="col-3 d-flex align-items-center position-relative">
+            <div id="naviga" class="col-3 d-flex align-items-center position-relative">
                 <!-- logo -->
-                <a class="navbar-brand d-xxl-flex d-xl-flex d-lg-flex d-md-none d-sm-none d-none align-self-center" href="index.html">
+                <a class="d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" href="index.html">
                     <img id="logo-img" class="img-fluid rounded rounded-circle" src="./images/Logo htcam-01.png" alt="">
                 </a>
                 <!-- end logo -->
                 <!-- offcanvas show when md and sm screen-->
-                <button  class="d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-flex d-flex btn btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
-                    <svg id="chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" stroke-width="10" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5z"/>
-                    </svg>
+                <button  class="d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-block d-block btn btn-sm rounded" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                    <svg id="menu-svg" width="40" height="40" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 18h14M5 6h14H5Zm0 4h14H5Zm0 4h14H5Z"></path>
+                        </svg>
                 </button>
-                <div class="offcanvas w-50 bg-secondary offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-                    <div class="offcanvas-header bg-success bg-opacity-75">
+                <div class="offcanvas w-50 offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div id="header-off" class="offcanvas-header bg-success bg-opacity-75">
                         <!-- logo in offcanvas -->  
                         <div class="col-8 d-flex align-self-center">
                             <a class="navbar-brand d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-flex d-flex justify-content-md-end justify-content-sm-start" href="#">
-                                <img class="img-fluid w-50 rounded rounded-circle" src="./images/LOGO HTCAM-01.jpg" alt="">
+                                <img class="img-fluid w-50 rounded rounded-circle" src="./images/Logo htcam-01.png" alt="">
                             </a>
                         </div>
                         <!-- logo in offcanvas -->
                         <!-- btn Close -->
                         <div class="col-4 d-flex justify-content-end align-self-start">
                             <a type="button" class="text-reset d-flex align-items-start" data-bs-dismiss="offcanvas" aria-label="Close">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
-                                </svg>
+                                <svg id="btn-close" width="40" height="40" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10ZM8.11 15.89a.5.5 0 0 1 0-.708L11.294 12 8.11 8.818a.5.5 0 0 1 .707-.707L12 11.293l3.182-3.182a.5.5 0 0 1 .707.707L12.707 12l3.182 3.182a.5.5 0 1 1-.707.707L12 12.707 8.818 15.89a.5.5 0 0 1-.707 0Z" clip-rule="evenodd"></path>
+                          </svg>
                             </a>
                         </div>
                         <!-- btn close -->
                     </div>
-                    <div class="offcanvas-body bg-secondary">
+                    <div id="bg-btnOff" class="offcanvas-body bg-secondary">
                         <!-- search  -->
                         <!-- <div class="col-12">
                         
@@ -66,14 +66,14 @@
                         <div class="col-12">
                             <!-- navigation in offcanvas-->
                             <ul class="nav nav-pills flex-column justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center align-items-center gap-2">
-                                <li class="col-12 nav-item bg-success rounded" style="margin-top: 150px;">
-                                    <a class="nav-link btn text-light btn-success btn-lg" href="index.html" role="button">ទំព័រដើម</a>
+                                <li  class="col-12 nav-item bg-success rounded" style="margin-top: 150px;">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success btn-lg" href="index.html" role="button">ទំព័រដើម</a>
                                 </li>
-                                <li class="col-12 nav-item bg-success rounded">
-                                    <a class="nav-link btn text-light btn-success" href="#" role="button">គោលបំណង</a>
+                                <li  class="col-12 nav-item bg-success rounded">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success" href="#box-purpose" role="button">គោលបំណង</a>
                                 </li>
-                                <li class="col-12 nav-item bg-success rounded">
-                                    <a class="nav-link btn text-light btn-success" href="#" role="button">អំពីយើង</a>
+                                <li  class="col-12 nav-item bg-success rounded">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success" href="#about_us" role="button">អំពីយើង</a>
                                 </li>
                                 <li  class="col-12 nav-item bg-success rounded">
                                     <a id="btn-off" class="nav-link btn text-light btn-success" href="#view-all" role="button">ប្រាសាទនានា</a>
@@ -87,44 +87,43 @@
             </div>
 
             <!-- navigation -->
-            <div class="col-7 d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" id="main_nav" style="font-family: NidaOdorMeanChey;">
-                <ul id="navbar" class="nav nav-pills justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center ms-auto mt-2 gap-3">
+            <div class="col-8 d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" id="main_nav" style="font-family: NidaOdorMeanChey;">
+                <ul id="navbar" class="nav nav-pills justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center ms-auto gap-3">
                     <li class="nav-item">
-                        <a id="btn-nav" class="nav-link fs-4" href="index.html" role="button">ទំព័រដើម</a>
+                        <a id="btn-nav" class="nav-link" href="index.html" role="button">ទំព័រដើម</a>
                     </li>
                     <li class="nav-item">
-                        <a id="btn-nav" class="nav-link fs-4" href="#" role="button">គោលបំណង</a>
+                        <a id="btn-nav" class="nav-link" href="#bg-purpose" role="button">គោលបំណង</a>
                     </li>
                     <li class="nav-item">
-                        <a id="btn-nav" class="nav-link fs-4" href="#" role="button">អំពីយើង</a>
+                        <a id="btn-nav" class="nav-link" href="#about_us" role="button">អំពីយើង</a>
                     </li>
                     <li class="nav-item">
-                        <a id="btn-nav" class="nav-link fs-4" href="all-temple.html" role="button">ប្រាសាទនានា</a>
+                        <a id="btn-nav" class="nav-link" href="all-temple.html" role="button">ប្រាសាទនានា</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <form action="">
-                            <div class="d-block position-absolute" style="z-index: 1;">
-                                <input class="btn" onkeyup="showResult(this.value)"  type="search" name="search" placeholder=" &nbsp;ស្វែងរក.." autocomplete="off">
-                            </div>
-                        </form>
-                        <div class="d-block position-relative bg-transparent">
-                            <svg id="search" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-search " viewBox="-5 0 25 13">
-                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                            </svg>
-                        </div>
-                    </li> -->
                 </ul>
             </div>
             <!-- end navigation -->
-            <div class="col-2 d-flex align-items-center justify-content-end mt-1">
-
-                <div>
-                    <button id="theme-toggle" class="btn ps-1">
-                        <svg id="dark-svg" width="60" height="60" fill="white" viewBox="5 0 32 26" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M16.8 12a4.8 4.8 0 1 1-9.6 0 4.8 4.8 0 0 1 9.6 0Zm-4.2-6.6a.6.6 0 1 1-1.2 0 .6.6 0 0 1 1.2 0Zm0 13.2a.6.6 0 1 1-1.199 0 .6.6 0 0 1 1.199 0Zm6-6a.6.6 0 1 1 0-1.199.6.6 0 0 1 0 1.199Zm-13.2 0a.6.6 0 1 1 0-1.2.6.6 0 0 1 0 1.2Zm11.69-4.843a.602.602 0 0 1-1.031-.422.601.601 0 1 1 1.032.422Zm-9.334 9.335a.6.6 0 1 1-.864-.835.6.6 0 0 1 .864.834Zm8.486 0a.603.603 0 0 1-.007-.856.6.6 0 1 1 .007.855ZM6.908 7.756a.6.6 0 1 1 .834-.863.6.6 0 0 1-.834.863Z"></path>
-                        </svg>
-                  </button>
+            <!-- <div class="col-2 d-flex justify-content-start">
+                <form action="">
+                    <div class="d-block position-absolute" style="z-index: 1;">
+                        <input class="btn" onkeyup="showResult(this.value)"  type="search" name="search" placeholder=" &nbsp;ស្វែងរក.." autocomplete="off">
+                    </div>
+                </form>
+                <div class="d-block position-relative bg-transparent">
+                    <svg id="search" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-search " viewBox="-5 0 25 13">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
                 </div>
+            </div> -->
+            <div class="col-3 col-xxl-1 col-xl-1 col-lg-1 col-md-3 col-sm-3 d-flex align-items-center justify-content-end">
+
+                    <button id="theme-toggle" class="btn ps-1">
+                          <svg id="dark-svg" width="60" height="60" fill="white" viewBox="0 0 32 26" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.8 12a4.8 4.8 0 1 1-9.6 0 4.8 4.8 0 0 1 9.6 0Zm-4.2-6.6a.6.6 0 1 1-1.2 0 .6.6 0 0 1 1.2 0Zm0 13.2a.6.6 0 1 1-1.199 0 .6.6 0 0 1 1.199 0Zm6-6a.6.6 0 1 1 0-1.199.6.6 0 0 1 0 1.199Zm-13.2 0a.6.6 0 1 1 0-1.2.6.6 0 0 1 0 1.2Zm11.69-4.843a.602.602 0 0 1-1.031-.422.601.601 0 1 1 1.032.422Zm-9.334 9.335a.6.6 0 1 1-.864-.835.6.6 0 0 1 .864.834Zm8.486 0a.603.603 0 0 1-.007-.856.6.6 0 1 1 .007.855ZM6.908 7.756a.6.6 0 1 1 .834-.863.6.6 0 0 1-.834.863Z"></path>
+                          </svg>
+                    </button>
+
             </div>
         </div>
         <!-- end navigation -->
@@ -133,15 +132,7 @@
 
     <!-- slide -->
     <div id="carouselExampleFade" class="carousel slide carousel-fade d-block position-relative" data-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-        </div>
-        <div id="slide-img" class="carousel-inner">
+        <div id="ke-slide" class="carousel-inner">
             <div class="carousel-item active">
                 <img src="./images/koh_ker-imgs/k_ker-slide-img3.jpg" class="d-block w-100" alt="...">
             </div>
@@ -176,7 +167,7 @@
     <div id="bg-color" class="container-fluid px-4 pb-3">
         
         <div class="row pt-5 ">
-            <div id="row-left" class="col-2 border border-2 d-block sticky-top" style="border-color: #DDDDDD !important;">
+            <div id="row-left" class="d-block d-xxl-block d-xl-block d-lg-block d-md-block d-sm-none d-none col-3 col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-3 border border-2 d-block sticky-top" style="border-color: #DDDDDD !important;">
                 <div  class="row  position-sticky">
                     <div id="test" class="col-12 d-flex justify-content-start mt-3">
                         <button class="btn back-btn fw-bold fs-4" onclick="location.href='all-temple.html'">
@@ -187,49 +178,31 @@
                         </button>
                     </div>
                     <div id="test" class="col-12 gap-5 mt-5">
-                        <div class="d-flex flex-column gap-3" id="myDIV">
-                            <div>
+                        <div class="d-grid gap-3" id="myDIV">
                                 <a class="show btn nav-btn" data-title="location" href="#location">ទីតាំងភូមិសាស្រ</a>
-                            </div>
-                            <div>
                                 <a onclick="location.href='#story'" class="ajax_link nav-btn btn active">រឿងរាវខ្លះៗមុនសាងសង</a>
-                            </div>
-                            <div>
                                 <a onclick="location.href='#templeInfo'" class="nav-btn btn">អំពីប្រាសាទ
                                 </a>
-                            </div>
-                            <div>
                                 <a onclick="location.href='#sekla'" class="nav-btn btn">អំពីសិលាចារឹក
                                 </a>
-                            </div>
-                            <div>
                                 <a onclick="location.href='#groupTemple'" class="nav-btn btn">ក្រុមប្រាសាទ
                                 </a>
-                            </div>
-                            <div>
                                 <a onclick="location.href='#oil-rig'" class="nav-btn btn">អំពីអណ្តូងប្រេង
                                 </a>
-                            </div>
-                            <div>
                                 <a onclick="location.href='#kompheang'" class="nav-btn btn">អំពីកំពែង
                                 </a>
-                            </div>
-                            <div>
                                 <a onclick="location.href='#destroy'" class="nav-btn btn ">ការរងខូចខាត់ដោយសង្គ្រាម
                                 </a>
-                            </div>
-                            <div>
                                 <a onclick="location.href='#landscape'" class="nav-btn btn">បរិយាកាស
                                 </a>
-                            </div>
                           </div>
                     </div>
                 </div>
             </div>
-            <div class="content col-10 px-3">
+            <div class="content col-12 col-xxl-10 col-xl-10 col-lg-10 col-md-9 col-sm-12 px-3">
                 <div  class="row">
                     <div class="col-12 justify-content-center ">
-                        <h4 id="location" class="title-head fw-bold py-2">ទីតាំងភូមិសាស្រ្ត</h4>
+                        <h4 id="location" class="title-head fw-bold py-2 overflow-hidden">ទីតាំងភូមិសាស្រ្ត</h4>
                         <hr id="hori" class="w-100 border border-1">
                         <p id="h-dis" class=" float-start overflow-hidden pt-1">
                             ប្រាសាទកោះកេរ្តិ៍ មានទីតាំងស្ថិតនៅ ក្នុងភូមិស្រយ៉ង់ជើង ឃុំស្រយ៉ង ស្រុកគូលេន មានចំងាយ ៧២គ.ម តាមផ្លូវជាតិលេខ ២៣គ.ម ពីទីរួមខេត្តសៀមរាប និង តាមផ្លូវលេខ ២១១ និង ផ្លូវលំ ចំងាយ ៤៩គ.ម ពីទីរួមខេត្តព្រះវិហារ។ ក្រុមប្រាសាទ កោះកេរ្តិ៍ សង់លើផ្ទៃដី ខ្ពង់រាប ដែលមានឈ្មោះថាឆកគគី។ នៅ​ទីនោះ​ព្រះបាទ​បាន​ចាប់ផ្តើម​ធ្វើ​សកម្មភាព​ធំ​ៗ​ដូច​ជា កសាង​សង់​ប្រាសាទ​ជា​ច្រើន និង​បារាយណ៍​មាន​លំនាំ​ដូច​នៅ​អង្គរ​ដែរ ។ នេះ​ជា​ការ​ស្តែង​ចេញ​នូវ​អំណាច​សេដ្ឋកិច្ច និង​ធនធានមនុស្ស​សម្រាប់​ធ្វើការ​នៃ​រជ្ជកាល​របស់​ព្រះ​អង្គរ និង​ព្រមទាំង​ជា​សញ្ញាណ​នៃ​កម្មវិធី​ថ្មី ។ 
@@ -239,7 +212,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-12">
-                        <h4 id="story" class="title-head fw-bold py-2 ">រឿងរាវខ្លះៗមុនសាងសងប្រាសាទកោះ​កេរ្តិ៍</h4>
+                        <h4 id="story" class="title-head fw-bold py-2 overflow-hidden">រឿងរាវខ្លះៗមុនសាងសងប្រាសាទកោះ​កេរ្តិ៍</h4>
                         <hr id="hori" class="w-100 border border-1">
                         <p id="h-dis" class="float-start pt-1 overflow-hidden">
                             តាម​ឯកសារយោង​របស់​អាជ្ញាធរ​ជាតិ​ព្រះ​វិហារ​បាន​ឲ្យ​ដឹង​ថា នៅ​ទស​វ​ត្យ​ន៍ទី​៩២១ ព្រះបាទ​ជ័យ​វរ្ម័ន​ទី​៤ បាន​ចាកចេញ​ចោល​អង្គរ (​យ​សោ​ធ​បុរី​) ហើយ​បាន​ប្តូរ​រាជធានី​ទៅ​តំបន់​មួយ​ចម្ងាយ​ប្រមាណ​ជា​១០០​គីឡូម៉ែត្រ​ភាគ​ឥ​សាន​ក្រុង​អង្គរ​ដែល​មានឈ្មោះ​ហៅ​ថា (​ធោ​ក​គ​គ្យិ៍​រ​) ប្រែ​ថា (​ស្រះ​គគីរ​) ហើយ​បាន​ប្រែ​ក្លាយទៅជា​កោះ​កេរ្តិ៍ ដែល​បច្ចុប្បន្ន​គេ​ហៅ​តំបន់​នេះ​ជា​ផ្លូវការ​ថា (​កោះកែរ​) ។ ក្នុង​ឆ្នាំ​៩២៨ ពេល​ដែល​មហាក្សត្រ​គ្រងរាជ្យ​នៅ​យ​សោ​ធរ​បុ​រៈ​បាន​សោយ​ទីវ​ង្គ​ត ព្រះបាទ​ជ័យ​វរ្ម័ន​ទី​៤ បាន​ប្រកាស​ព្រះ​កាយ​ជា​ស្តេច​ចក្រ​វា​ឡ​ព្រម​ជាមួយ និង​ជំនឿ​នៃ​ការ​គោរព​បូជា​ចំពោះ​ពិធី​ទេវរាជ​ពោល​គឺ (​កម្រ​តេ​ង ជគត ត​រាជ​) ។
@@ -248,28 +221,33 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-12">
-                        <h4 id="templeInfo" class="title-head fw-bold py-2 ">អំពីប្រាសាទ</h4>
+                        <h4 id="templeInfo" class="title-head fw-bold py-2 overflow-hidden">អំពីប្រាសាទ</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <div>
+                            <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                                កោះកេរ្តិ៍ ឬឆោកគគ៌្យរ គឺជារាជធានីចាស់បុរាណ មានអាយុប្រមាណជាង ១០០០ឆ្នាំ មកហើយ។ 
+                                ឆោកគគ៌្យរ ជាពាក្យខ្មែរបុរាណ បើនិយាយតាមសព្វថ្ងៃ គឺបឹងគគីរ ឬស្រះគគីរ។ ពាក្យឆោកគគ៌្យរនេះហើយដែលក្លាយមកជាពាក្យ កោះកេរ្តិ៍។ ប្រាសាទកោះកេរ្តិ៍នេះ សាងសង់ឡើង គឺសំរាប់ឧទ្ទិសដល់អាទិទេពមួយអង្គឈ្មោះ ត្រីភូវនេស្វរៈ ដែល សិលាចារិក ជាភាសាខ្មែរថា "កម្រតែងដ៏រាជា" ជាអាទិទេពធំ ឬ ផ្តល់សេចក្តីសុខ ក្នុងពិធីសក្ការៈទេវរាជមនុស្សលោក ដោយព្រះបាទជ័យវ័រ្មនទី៤ (៩២៨-៩៤២)។ ប្រាសាទកោះកេរ្តិ៍ មានលក្ខណៈ ជាប្រាសាទភ្នំ កំពស់ប្រមាណ ៣៥ម ចែកចេញជា ៧ ថ្នាក់ បីដូចជាមហាចេតិយ៍ បែរមុខនោះទៅទិសខាងលិច ទៅរករាជធានីអង្គរ។ ប្រាសាទនេះ មានរាងដូចជាមហាចេតីយ៍ មួយយ៉ាងធំសង់អំពីថ្មភក់ មានកំពស់ប្រមាណ ៣៥ម ចែកចេញជា ៧ថ្នាក់ មានកាំជណ្តើរប្រមាណ ៥៥កាំ។ តាមថ្នាក់ពីមួយទៅមួយ មានកំពស់៥ម មានផ្ទៃរាបប្រមាណ ២ម តាមចន្លោះថ្នាក់នីមួយៗ។ នៅលើកំពូលប្រាសាទនេះ បច្ចុប្បន្នមានរូបចំលាក់គ្រុឌ ធំៗជាច្រើន កំពុងសំដែងរិទ្ធ ទ្រនូវសិវលឹង្គ ត្រីភូវនេស្វរៈ នៅក្បែរគ្នានេះដែរ មានមាត់រន្ធអណ្តូង មួយទំហំ ៤x៤ម ជ្រុងមានជំរៅ ពីលើដល់បាតសព្វថ្ងៃ មានស្មៅដុះមើលពុំឃើញ ទេ (តាមតំណាលចាស់ៗ និយាយថា បើគេទំលាក់ផ្លែដូង ទុំពីទីនេះផ្លែដូងនេះ នឹងទៅផុសឯស្រះខាងមុខ ជិតប្រាសាទខ្មៅឯណោះ)។
+                                
+                            </p>
+                        </div>
+                        <div class="d-flex">
+                            <img id="textftimg" class="float-start px-3 pb-1" src="./images/koh_ker-imgs/lokeshvarak.jpg" alt="">
+                            <img id="textftimg" class="float-end px-3 pb-1" src="./images/koh_ker-imgs/k_ker-full.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="sekla" class="title-head fw-bold py-2 overflow-hidden">អំពីសិលាចារឹក</h4>
                         <hr id="hori" class="w-100 border border-1">
                         <p id="h-dis" class="float-start pt-1 overflow-hidden">
-                            <img id="textftimg" class="float-start rounded-5 px-3 pb-1" src="./images/koh_ker-imgs/lokeshvarak.jpg" alt=""><img id="textftimg" class="float-end rounded-5 px-3 pb-1" src="./images/koh_ker-imgs/k_ker-full.png" alt="">
-                            កោះកេរ្តិ៍ ឬឆោកគគ៌្យរ គឺជារាជធានីចាស់បុរាណ មានអាយុប្រមាណជាង ១០០០ឆ្នាំ មកហើយ។ 
-                            ឆោកគគ៌្យរ ជាពាក្យខ្មែរបុរាណ បើនិយាយតាមសព្វថ្ងៃ គឺបឹងគគីរ ឬស្រះគគីរ។ ពាក្យឆោកគគ៌្យរនេះហើយដែលក្លាយមកជាពាក្យ កោះកេរ្តិ៍។ ប្រាសាទកោះកេរ្តិ៍នេះ សាងសង់ឡើង គឺសំរាប់ឧទ្ទិសដល់អាទិទេពមួយអង្គឈ្មោះ ត្រីភូវនេស្វរៈ ដែល សិលាចារិក ជាភាសាខ្មែរថា "កម្រតែងដ៏រាជា" ជាអាទិទេពធំ ឬ ផ្តល់សេចក្តីសុខ ក្នុងពិធីសក្ការៈទេវរាជមនុស្សលោក ដោយព្រះបាទជ័យវ័រ្មនទី៤ (៩២៨-៩៤២)។ ប្រាសាទកោះកេរ្តិ៍ មានលក្ខណៈ ជាប្រាសាទភ្នំ កំពស់ប្រមាណ ៣៥ម ចែកចេញជា ៧ ថ្នាក់ បីដូចជាមហាចេតិយ៍ បែរមុខនោះទៅទិសខាងលិច ទៅរករាជធានីអង្គរ។ ប្រាសាទនេះ មានរាងដូចជាមហាចេតីយ៍ មួយយ៉ាងធំសង់អំពីថ្មភក់ មានកំពស់ប្រមាណ ៣៥ម ចែកចេញជា ៧ថ្នាក់ មានកាំជណ្តើរប្រមាណ ៥៥កាំ។ តាមថ្នាក់ពីមួយទៅមួយ មានកំពស់៥ម មានផ្ទៃរាបប្រមាណ ២ម តាមចន្លោះថ្នាក់នីមួយៗ។ នៅលើកំពូលប្រាសាទនេះ បច្ចុប្បន្នមានរូបចំលាក់គ្រុឌ ធំៗជាច្រើន កំពុងសំដែងរិទ្ធ ទ្រនូវសិវលឹង្គ ត្រីភូវនេស្វរៈ នៅក្បែរគ្នានេះដែរ មានមាត់រន្ធអណ្តូង មួយទំហំ ៤x៤ម ជ្រុងមានជំរៅ ពីលើដល់បាតសព្វថ្ងៃ មានស្មៅដុះមើលពុំឃើញ ទេ (តាមតំណាលចាស់ៗ និយាយថា បើគេទំលាក់ផ្លែដូង ទុំពីទីនេះផ្លែដូងនេះ នឹងទៅផុសឯស្រះខាងមុខ ជិតប្រាសាទខ្មៅឯណោះ)។
-                            
+                            <img id="textftimg" class="float-start px-3 pb-1" src="./images/koh_ker-imgs/sela-jarek.jpg" alt="">តាម​សិលាចារឹក​មួយ​បាន​ហៅ​ថា រាជធានី​កោះកែ​រថា (​លិង្គ​បុរី​) ពោល គឺ​សំដៅលើ​លិង្គ​មួយ​យ៉ាង​ធំ ដែល​បាន​ដាក​តម្កល់​លើ​កំពូល​ប្រាសាទ​ពីរ៉ាមីត​កាល​ជំនាន់​នោះ ។ សិលា​ច​រឹក​បាន​ចារ​លើក​សរសើរ​ពី​វីរភាព​របស់​ព្រះ​អង្គ​ថា គឺជា​ការ​ស្វែងរក​រាជ និង​អំណាច​គ្រប់គ្រង​សេដ្ឋកិច្ច​ពិតប្រាកដ និង​រាជធានី​ថ្កុំថ្កើង​លើ​អាណាចក្រ​ទាំងមូល ។ ភាព​រុងរឿង​ក្រៃ​លែង​របស់​ព្រះ​អង្គ​នៅ​ទី​នេះ មាន​រយៈពេល​តែ​២០​ឆ្នាំ ពោល គឺ​នៅ​ឆ្នាំ​៩៤១ ទើប​ព្រះ​អង្គ​សោយ​ទីវ​ង្គ​ត ហើយ​ទទួល​មរណៈនាម​ថា (​បរម​ស្វរ​បទ​) ព្រះរាជបុត្រ​របស់​ព្រះ​អង្គ​ព្រះ​នាម​(​ហ​រស​វរ្ម័ន​)​ទី​២ បាន​គ្រង​រាជ​បន្ត​រយៈពេល​ខ្លី​ដល់​ឆ្នាំ​៩៤៤ ទើប​ព្រះ​ភាគី​នេ​យ្យ​(​ក្មួយ​)​របស់​ព្រះ​អង្គ គឺ​ព្រះបាទ​រាជេន្ទ្រ​វរ្ម័ន​ទី​២ បាន​យាង​ត្រឡប់ និង​ប្តូរ​រាជធានី​ពី​ធោ​ក​គ​គ្យរ មក​សោយរាជ្យ​នៅ យ​សោ​ធ​បុ​រៈ​វិញ ។
                         </p>
                     </div>
                 </div>
                 <div class="row mt-5">
                     <div class="col-12">
-                        <h4 id="sekla" class="title-head fw-bold py-2 ">អំពីសិលាចារឹក</h4>
-                        <hr id="hori" class="w-100 border border-1">
-                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
-                            <img id="textftimg" class="float-start rounded-5 px-3 pb-1" src="./images/koh_ker-imgs/sela-jarek.jpg" alt="">តាម​សិលាចារឹក​មួយ​បាន​ហៅ​ថា រាជធានី​កោះកែ​រថា (​លិង្គ​បុរី​) ពោល គឺ​សំដៅលើ​លិង្គ​មួយ​យ៉ាង​ធំ ដែល​បាន​ដាក​តម្កល់​លើ​កំពូល​ប្រាសាទ​ពីរ៉ាមីត​កាល​ជំនាន់​នោះ ។ សិលា​ច​រឹក​បាន​ចារ​លើក​សរសើរ​ពី​វីរភាព​របស់​ព្រះ​អង្គ​ថា គឺជា​ការ​ស្វែងរក​រាជ និង​អំណាច​គ្រប់គ្រង​សេដ្ឋកិច្ច​ពិតប្រាកដ និង​រាជធានី​ថ្កុំថ្កើង​លើ​អាណាចក្រ​ទាំងមូល ។ ភាព​រុងរឿង​ក្រៃ​លែង​របស់​ព្រះ​អង្គ​នៅ​ទី​នេះ មាន​រយៈពេល​តែ​២០​ឆ្នាំ ពោល គឺ​នៅ​ឆ្នាំ​៩៤១ ទើប​ព្រះ​អង្គ​សោយ​ទីវ​ង្គ​ត ហើយ​ទទួល​មរណៈនាម​ថា (​បរម​ស្វរ​បទ​) ព្រះរាជបុត្រ​របស់​ព្រះ​អង្គ​ព្រះ​នាម​(​ហ​រស​វរ្ម័ន​)​ទី​២ បាន​គ្រង​រាជ​បន្ត​រយៈពេល​ខ្លី​ដល់​ឆ្នាំ​៩៤៤ ទើប​ព្រះ​ភាគី​នេ​យ្យ​(​ក្មួយ​)​របស់​ព្រះ​អង្គ គឺ​ព្រះបាទ​រាជេន្ទ្រ​វរ្ម័ន​ទី​២ បាន​យាង​ត្រឡប់ និង​ប្តូរ​រាជធានី​ពី​ធោ​ក​គ​គ្យរ មក​សោយរាជ្យ​នៅ យ​សោ​ធ​បុ​រៈ​វិញ ។
-                        </p>
-                    </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-12">
-                        <h4 id="groupTemple" class="title-head fw-bold py-2 ">ក្រុមប្រាសាទ</h4>
+                        <h4 id="groupTemple" class="title-head fw-bold py-2 overflow-hidden">ក្រុមប្រាសាទ</h4>
                         <hr id="hori" class="w-100 border border-1">
                         <p id="h-dis" class="float-start pt-1 overflow-hidden">
                             ក្រុមប្រាសាទកោះកេរ្តិ៍ ដែលបានរកឃើញសព្វថ្ងៃ មានចំនួន ៩៦ ប្រាសាទដូចជាៈ ប្រាសាទដាវ រំលំបី បឹងវែង ត្រពាំងព្រៃ ដីឆ្នាំង ស្រុងស្រឡៅ លិង្គ គុកស្រគំ ត្រពាំងតា សុភី ក្រហម អណ្តូង អង្គខ្នា  ទឹកក្រហម ដំរីស ក្ររាប់ បន្ទាយពីរជាន់ គុក ខ្មៅ ថ្នឹង ធំបល័ង្គ រហាល ចំនេះ  សំពេច ត្រពាំងស្វាយ នាងខ្មៅ ប្រាំ បាត់ ខ្នារចិន ឃ្លុំ ច្រាប ដងទង់ ប្រាង្គ កំផែង។ល។ ប្រាសាទទាំងនេះ ពុំបានសាងសង់ ជាប់គ្នាទេ គឺនៅដាច់ៗពីគ្នាពី ១គ.ម ទៅ ៣គ.ម ឬ ៤គ.ម បច្ចុប្បន្នប្រាសាទនេះត្រូវខូចខាត បាត់រូបរាង ខ្លះកប់ក្នុងដី។
@@ -278,7 +256,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-12">
-                        <h4 id="oil-rig" class="title-head fw-bold py-2 ">អំពីអណ្តូងប្រេង</h4>
+                        <h4 id="oil-rig" class="title-head fw-bold py-2 overflow-hidden">អំពីអណ្តូងប្រេង</h4>
                         <hr id="hori" class="w-100 border border-1">
                         <p id="h-dis" class="float-end pt-1 overflow-hidden">
                             ទៅមុខប្រមាណ ៨០០-៩០០ម គឺមានអណ្តូងប្រេងមួយនៅប្រាសាទកោះកេរ្តិ៍។ អណ្តូងនេះមានលក្ខណៈដូចស្រះ យើងដូច្នេះដែរ គឺមាត់លើប្រមាណ ២០មx ២០ម ជំរៅជ្រៅមានខឿនថ្ម រៀបជុំវិញពីផ្ទៃទឹក ឡើងទៅលើ ខ្ពស់ជាងផ្ទៃដីប្រមាណ៧-៨តឹក ថ្មមួយដុំៗ ទំហំ១មx ០,៧ម។ អណ្តូងនេះមានទឹកថ្លាឈ្វេង នៅក្រោមម្លប់ឈើ ត្រឈឹងត្រឈៃបច្ចុប្បន្ន ជាទីស្នាក់អាស្រ័យ របស់អ្នកដំណើរ ដែលធ្វើដំណើរកាត់ តាមទីនោះ។
@@ -289,7 +267,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-12">
-                        <h4 id="kompheang" class="title-head fw-bold py-2 ">អំពីកំពែង</h4>
+                        <h4 id="kompheang" class="title-head fw-bold py-2 overflow-hidden">អំពីកំពែង</h4>
                         <hr id="hori" class="w-100 border border-1">
                         <p id="h-dis" class="float-start pt-1 overflow-hidden">
                             ទៅមុខតាមផ្លូវដដែល ប្រមាណជិត ១គ.ម ទៀតគឺមានកំពែងមួយ។កំពែងនេះធ្វើអំពី ថ្មបាយក្រៀម ព័ទ្ធជុំវិញ ប្រមាណជាង ១គ.ម ជុំវិញ កំពស់ជាង២ម មានក្លោងទ្វារ ច្រកចូល។ នៅក្នុងនោះមានបណ្តាប្រាសាទ ប្រមាណជាង២០ទៀត។ ក្នុងនោះយើងលើកយកតែប្រាសាទ មួយចំនួនដែលមានរូបរាង ច្បាស់លាស់ស្គាល់ឈ្មោះខ្លះៗ មានជំរាបជូនដូចតទៅ៖
@@ -302,7 +280,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-12">
-                        <h4 id="destroy" class="title-head fw-bold py-2 ">ការរងខូចខាត់ដោយសង្គ្រាម</h4>
+                        <h4 id="destroy" class="title-head fw-bold py-2 overflow-hidden">ការរងខូចខាត់ដោយសង្គ្រាម</h4>
                         <hr id="hori" class="w-100 border border-1">
                         <p id="h-dis" class="float-start pt-1 overflow-hidden">
                             ដោយឆ្លងកាត់នូវសង្រ្គាមជាច្រើនសតវត្សរ៍ ប្រាសាទកោះកេរ្តិ៍ បានរងនូវការបំផ្លិចបំផ្លាញពីធម្មជាតិ និងពីមនុស្សយ៉ាងដំណំ។ តំបន់កោះកេរ្តិ៍ ធ្លាប់ជាសមរភូមិប្រយុទ្ធ នៅក្នុងសម័យសង្គ្រាមស៊ីវិលជាង៣០ឆ្នាំ (១៩៧០-១៩៩៨) រីឯការលួចវត្តុបុរាណ ការបំផ្លាញចំពោះសម្បត្តិបេតិកភណ្ឌជាតិ បានកើតឡើងយ៉ាងអនាធិបតេយ្យ និងមានសភាពធ្ងន់ធរបំផុត ដែលធ្វើអោយប្រាសាទមួយចំនួនធំ ត្រូវបានបាក់រលំធា្លក់ដល់ដី។​​ ចាប់ពីឆ្នាំ១៩៧០នៅតំបន់កោះកេរ្តិ៍ ត្រូវបានស្ថិតនៅក្នុងការកាន់កាប់របស់កងទ័ពខ្មែរក្រហម។ រហូតដល់ឆ្នាំ១៩៩៨ ក្រោយពីធ្វើសមាហរណកម្មកងទ័ពខ្មែរក្រហមមកក្នុងរាជរដ្ឋាភិបាល តំបន់កោះកេរ្តិ៍ ត្រូវបានបើកជាសាធារណៈឡើងវិញ តែនៅមានគ្រាប់មីនកប់ក្រោមដីស្ថិតនៅរាយប៉ាយពេញតំបន់ប្រាសាទនៅឡើយ។
@@ -312,7 +290,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-12">
-                        <h4 id="landscape" class="title-head fw-bold py-2 ">បរិយាកាស</h4>
+                        <h4 id="landscape" class="title-head fw-bold py-2 overflow-hidden">បរិយាកាស</h4>
                         <hr id="hori" class="w-100 border border-1">
                         <p id="h-dis" class="float-start pt-1 overflow-hidden">
                             នៅលើកំពូលប្រាសាទ មានព្រៃដុះបន្តិចបន្ទួច ខ្យល់ត្រជាក់ទេសភាពជុំវិញស្អាតល្អ មើលឃើញភ្នំដងរ៉ែក ភ្នំត្បែង និង ស្រុកគូលែន។ នៅខាងជើង មានប្រាសាទមួយទៀត ឈ្មោះប្រាសាទដំរីស តែប្រាសាទនេះ ខូចខាតច្រើន។ នៅខាងជើងឆៀងខាងកើត មានប្រាសាទមួយទៀត គឺប្រាសាទលឹង្គ ប្រាសាទនេះ តំកល់តែសិវលឹង្គប៉ុណ្ណោះ មានចំនួន ៣ តាមលំដាប់លំដោយ មានធំចុះមកតូច តែលឹង្គ១ ត្រូវខូចមួយកំណាត់ហើយ។
