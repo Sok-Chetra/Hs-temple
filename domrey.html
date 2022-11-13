@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="color-scheme" content="light dark" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angkor Wat</title>
+    <link rel="stylesheet" href="./plugins/css/bootstrap.min.css">
+       <script src="./plugins/js/bootstrap.bundle.min.js"></script>
+       <link rel="stylesheet" href="app.css">
+       <link rel="stylesheet" href="responsive.css" />
+       <script src="darkMode.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body style="background-color: #F1EEE9;">
+    <div id="banner">
+        <div class="row d-flex justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-between justify-content-sm-between justify-content-between align-items-center fixed-top shadow overflow-hidden" id="navscroll">
+            <!-- navigation -->
+            <div class="col-3 d-flex align-items-center position-relative">
+                <!-- logo -->
+                <a class="navbar-brand d-xxl-flex d-xl-flex d-lg-flex d-md-none d-sm-none d-none align-self-center" href="index.html">
+                    <img id="logo-img" class="img-fluid rounded rounded-circle " src="./images/Logo htcam-01.png" alt="">
+                </a>
+                <!-- end logo -->
+                <!-- offcanvas show when md and sm screen-->
+                <button  class="d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-flex d-flex btn btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                    <svg id="chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" stroke-width="10" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 2H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </button>
+                <div class="offcanvas w-50 bg-secondary offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header bg-success bg-opacity-75">
+                        <!-- logo in offcanvas -->  
+                        <div class="col-8 d-flex align-self-center">
+                            <a class="navbar-brand d-xxl-none d-xl-none d-lg-none d-md-flex d-sm-flex d-flex justify-content-md-end justify-content-sm-start" href="#">
+                                <img class="img-fluid w-50 rounded rounded-circle" src="./images/LOGO HTCAM-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <!-- logo in offcanvas -->
+                        <!-- btn Close -->
+                        <div class="col-4 d-flex justify-content-end align-self-start">
+                            <a type="button" class="text-reset d-flex align-items-start" data-bs-dismiss="offcanvas" aria-label="Close">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <!-- btn close -->
+                    </div>
+                    <div class="offcanvas-body bg-secondary">
+                        <!-- search  -->
+                        <!-- <div class="col-12">
+                        
+                            <form action="">
+                                <div class="d-block position-absolute w-100" style="z-index: 1;">
+                                    <input id="search-offcanvas" class="btn btn-sm bg-transparent"  type="search" name="search" placeholder=" &nbsp;Search.." autocomplete="off">
+                                </div>
+                            </form>
+                            <div class="d-block position-relative">
+                                <svg id="search" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-search" viewBox="-5 0 25 13">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                </svg>
+                            </div>
+                        </div> -->
+                        <div class="col-12">
+                            <!-- navigation in offcanvas-->
+                            <ul class="nav nav-pills flex-column justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center align-items-center gap-2">
+                                <li class="col-12 nav-item bg-success rounded" style="margin-top: 150px;">
+                                    <a class="nav-link btn text-light btn-success btn-lg" href="index.html" role="button">ទំព័រដើម</a>
+                                </li>
+                                <li class="col-12 nav-item bg-success rounded">
+                                    <a class="nav-link btn text-light btn-success" href="#" role="button">គោលបំណង</a>
+                                </li>
+                                <li class="col-12 nav-item bg-success rounded">
+                                    <a class="nav-link btn text-light btn-success" href="#" role="button">អំពីយើង</a>
+                                </li>
+                                <li  class="col-12 nav-item bg-success rounded">
+                                    <a id="btn-off" class="nav-link btn text-light btn-success" href="#view-all" role="button">ប្រាសាទនានា</a>
+                                </li>
+                            </ul>
+                            <!-- navigation in offcanvas-->
+                        </div>
+                    </div>
+                </div>
+                <!-- end offcanvas -->
+            </div>
+
+            <!-- navigation -->
+            <div class="col-7 d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none" id="main_nav" style="font-family: NidaOdorMeanChey;">
+                <ul id="navbar" class="nav nav-pills justify-content-xxl-center justify-content-xl-center justify-content-lg-center justify-content-md-center ms-auto mt-2 gap-3">
+                    <li class="nav-item">
+                        <a id="btn-nav" class="nav-link fs-4" href="index.html" role="button">ទំព័រដើម</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="btn-nav" class="nav-link fs-4" href="#" role="button">គោលបំណង</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="btn-nav" class="nav-link fs-4" href="#" role="button">អំពីយើង</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="btn-nav" class="nav-link fs-4" href="all-temple.html" role="button">ប្រាសាទនានា</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <form action="">
+                            <div class="d-block position-absolute" style="z-index: 1;">
+                                <input class="btn" onkeyup="showResult(this.value)"  type="search" name="search" placeholder=" &nbsp;ស្វែងរក.." autocomplete="off">
+                            </div>
+                        </form>
+                        <div class="d-block position-relative bg-transparent">
+                            <svg id="search" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-search " viewBox="-5 0 25 13">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+            <!-- end navigation -->
+            <div class="col-2 d-flex align-items-center justify-content-end mt-1">
+
+                <div>
+                    <button id="theme-toggle" class="btn ps-1">
+                        <svg id="dark-svg" width="60" height="60" fill="white" viewBox="5 0 32 26" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M16.8 12a4.8 4.8 0 1 1-9.6 0 4.8 4.8 0 0 1 9.6 0Zm-4.2-6.6a.6.6 0 1 1-1.2 0 .6.6 0 0 1 1.2 0Zm0 13.2a.6.6 0 1 1-1.199 0 .6.6 0 0 1 1.199 0Zm6-6a.6.6 0 1 1 0-1.199.6.6 0 0 1 0 1.199Zm-13.2 0a.6.6 0 1 1 0-1.2.6.6 0 0 1 0 1.2Zm11.69-4.843a.602.602 0 0 1-1.031-.422.601.601 0 1 1 1.032.422Zm-9.334 9.335a.6.6 0 1 1-.864-.835.6.6 0 0 1 .864.834Zm8.486 0a.603.603 0 0 1-.007-.856.6.6 0 1 1 .007.855ZM6.908 7.756a.6.6 0 1 1 .834-.863.6.6 0 0 1-.834.863Z"></path>
+                        </svg>
+                  </button>
+                </div>
+            </div>
+        </div>
+        <!-- end navigation -->
+    </div>
+
+
+    <!-- slide -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade d-block position-relative mt-2" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+        <div class="carousel-inner" style="border-top-right-radius: 15px; border-top-left-radius: 15px; height: 966px;">
+            <div class="carousel-item active">
+                <img src="./images/domrey-imgs/domrey.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/domrey-imgs/domrey-with-statue.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/domrey-imgs/domrey-statue1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/domrey-imgs/statue1.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        
+    </div>
+    <!-- end slide -->
+    <!-- articles and images -->
+    <div id="bg-color" class="container-fluid px-4 pb-3">
+        
+        <div class="row pt-5 ">
+            <div id="row-left" class="col-2 border border-2 d-block sticky-top" style="border-color: #DDDDDD !important;">
+                <div  class="row  position-sticky">
+                    <div id="test" class="col-12 d-flex justify-content-start mt-3">
+                        <button class="btn back-btn fw-bold fs-4" onclick="location.href='all-temple.html'">
+                            <svg id="svg-back" width="30" height="30" fill="black" viewBox="0 2 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M18.848 18.848a1.2 1.2 0 0 1-1.696 0l-6-6a1.2 1.2 0 0 1 0-1.696l6-6a1.2 1.2 0 1 1 1.696 1.696L13.697 12l5.151 5.152a1.2 1.2 0 0 1 0 1.696Zm-7.2 0a1.2 1.2 0 0 1-1.696 0l-6-6a1.2 1.2 0 0 1 0-1.696l6-6a1.2 1.2 0 0 1 1.696 1.696L6.497 12l5.151 5.152a1.2 1.2 0 0 1 0 1.696Z" clip-rule="evenodd"></path>
+                               </svg>
+                                Back
+                        </button>
+                    </div>
+                    <div id="test" class="col-12 gap-5 mt-5">
+                        <div class="d-grid gap-3" id="myDIV">
+                                <a class="show btn nav-btn" data-title="About" href="#generaly">លក្ខណៈទូទៅ</a>
+                                <a onclick="location.href='#architecture'" class="ajax_link nav-btn btn active">ស្ថាបត្យកម្ម</a>
+                                <a onclick="location.href='#hoa-trai'" class="nav-btn btn">ហោត្រៃ</a>
+                                <a onclick="location.href='#gate'" class="nav-btn btn">កំពែងនិងខ្លោងទ្វារ</a>
+                                <a onclick="location.href='#sekla'" class="nav-btn btn">សិលាចារឹក</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content col-10 px-3">
+                <div  class="row">
+                    <div class="col-12 justify-content-center ">
+                        <h4 id="generaly" class="title-head fw-bold py-2">លក្ខណៈទូទៅ</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class=" float-start overflow-hidden pt-1">
+                            ដំរីជាសត្វចតុប្បាទមានរូបធំសម្បើម ស្បែកក្រាស់ហើយដៃរបស់វាហៅថា ប្រមោយ មានខ្លះមានភ្លុក ខ្លះមានចែ[១]។ប្រាសាទនេះស្ថិតនៅចម្ងាយ ៣គីឡូម៉ែត្រទិសអាគ្នេយ៍ភូមិកោះកេរ ១.៨គីឡូម៉ែត្រខាងត្បូងនៃជ្រុងអាគ្នេយ៍នៃរហាល ចម្ងាយ២០០ម៉ែត្រខាងជើងត្រពាំងខ្នារ និងប្រមាណប្រហែល១០០ម៉ែត្រខាងជើងផ្លូវ[២]។ ប្រាសាទដំរីជាឈ្មោះផ្លូវការរបស់ប្រាសាទនេះ ត្បិតមានចម្លាក់ទោលសត្វដំរីនិងជើងទម្រធ្វើអំពីថ្មភក់មួយផ្ទាំងធំមានកម្ពស់ជិត២ម៉ែត្រ រីឯអ្នកខ្លះហៅថា ប្រាសាទដំរីចង់កណ្តឹង ពីព្រោះគេសង្កេតឃើញថាមានចម្លាក់សត្វដំរីមានឆ្លាក់តុបតែងកណ្តឹងជាមួយប្រឡៅក តម្កល់នៅតាមជ្រុងប្រាសាទនេះ។ ដំរីគឺជាយាន្តជំនិះសម្រាប់ព្រះឥន្ទ្រធិរាជដែលជាស្តេចនៃទេវតា ដែលស្ថិតនៅក្នុងស្រទាប់វណ្ណៈខ្ពស់ដូចព្រះមហាក្សត្រ ព្រះរាជវង្សានុវង្ស មន្ត្រីជាន់ខ្ពស់ហើយចាត់ទុកថាជានិមិត្តរូបនៃភាពសម្បូររុងរឿង និងរីកចម្រើនតំណាងទឹកភ្លៀង និងប្រើជាពាហនៈដឹកជញ្ជូន និងដំរីចម្បាំង។ ប្រាសាទដំរីមានតួប៉មឥដ្ឋមួយរាងការ៉េ ដូចប្រាសាទបក្សីចាំក្រុងដែរ។ ប្រាសាទនេះមានទ្វារបញ្ឆោតបីនៅទិសខាងជើង ត្បូង និងលិច ហើយមានមាត់ទ្វារទៅទិសខាងកើត ជាទិសបង្កើតចក្រវាល។ តួប៉មនេះសង់នៅលើខឿនថ្មភក់កម្ពស់២.៥ម៉ែត្រ ប្លងមានរាងការ៉េមានប្រវែង១២ម៉ែត្រក្នុងមួយជ្រុង កាត់ដោយជណ្តើរពីរទិសទាំងបួននិងមានប្រាំកាំក្នងជណ្តើរមួយ។ មេទ្វារធ្វើអំពីថ្មភក់ មានការតុបតែងលំអដោយសសរថ្មភក់ប្រាំបីជ្រុងលំអដោយក្បាច់ជញ្ចៀនយ៉ាងល្អ ចំណែកផ្តែរទ្វារមានចម្លាក់កម្រងមាលាដែលមានរូបព្រះឥន្ទ្រគង់លើដំរីព្ធរាវ័ណដែលកើតចេញពីការកូរសមុទ្រទឹកដោះ។ ខាងលើសត្វដំរីមានចម្លាក់ទេព១០លើដៃប្រណមមួយជួរ។ ហោត្រៃសង់អំពីឥដ្ឋពីរបែរមុខទៅទិសខាងលិច និងលំអដោយទ្វារបញ្ឆោតតាមជ្រុងខាងកើត ត្រូវដួលរលំទាំងស្រុងសល់តែជញ្ជាំងខ្លះប៉ុណ្ណោះ។ ប្រាសាទដំរីព័ន្ធជុំវិញដោយកំពែងឥដ្ឋមួយជាន់រាងចតុកោណមានប្រវែង ៦០ម៉ែត្រគុណ៥៥ម៉ែត្រ។
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="architecture" class="title-head fw-bold py-2 ">លក្ខណៈស្ថាបត្យកម្ម</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            ប្រាសាទដំរីមានតួប៉មឥដ្ឋមួយរាងការ៉េ ដូចប្រាសាទបក្សីចាំក្រុងដែរ។ ប្រាសាទនេះមានទ្វារបញ្ឆោតបីនៅទិសខាងជើង ខាងត្បូង និងខាងលិច ហើយមានទ្វារចំហរនៅទិសខាងកើត ជាទិសបង្កើតចក្រវាលក្នុងទ្រឹស្តីហិណ្ឌូនិយម តួប៉មនេះសង់លើខឿនថ្មភក់កម្ពស់២.៥ម៉ែត្រ ប្លង់រាងការ៉េមានប្រវែង១២ម៉ែត្រក្នុងមួយជ្រុង កាត់ដោយជណ្តើរពីទិសទាំងបួននិងមានប្រាំកាំក្នុងជណ្តើរនិមួយៗ ប្រាសាទដំរីមានចម្លាក់សត្វដំរីអំពីថ្មភក់មួយផ្ទាំងភ្ជាប់ជាមួយជើងទម្រផ្ទាល់ កម្ពស់២.៥០ម៉ែត្រ តម្កល់នៅតាមជ្រុងទាំងបួន។ សិលាចារឹកប្រាសាទដំរី លេខ K-៦៧៧ កត់ត្រាថាព្រះបាទជ័យវរ្ម័នទី៤បានកសាងសិវលិង្គ តម្កល់ក្នុងតួប៉មកណ្តាលប្រាសាទដំរី ដើម្បីជាកិត្តិយសថ្វាយដល់ព្រះជេដ្ឋា(បងប្រុស)មានមាតាតែមួយព្រះនាម រាជេន្ទ្រវរ្ម័ន[៣]។ មេទ្វារធ្វើអំពីថ្មភក់ មានតុបតែងលំអសសរពេជ្រធ្វើអំពីថ្មភក់រាងប្រាំបីជ្រុងលំអដោយក្បាច់ជញ្ជៀនយ៉ាងល្អ ចំណែកផ្តែរទ្វារមានចម្លាក់កម្រងផ្កាមាលាដែលមានរូបព្រះឥន្ទ្រគង់លើដំរីឥរាវ័ណ ដែលកើតចេញពីការកើតចេញពីការកូរសមុទ្រទឹកដោះ។ ខាងលើសត្វដំរីមានចម្លាក់ទេព១០អង្គលើកដៃប្រណមមួយជួរ។
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="hoa-trai" class="title-head fw-bold py-2 ">ហោត្រៃ</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            ចូលទៅក្នុងកំពែងនៃបរិវេណនៃប្រាសាទ គេប្រទះឃើញមានហោត្រៃ ឬបណ្ណាល័យសង់អំពីឥដ្ឋបែរទៅរកទិសខាងលិច និងលំអដោយទ្វារបញ្ឆោត។ លោក ហ៊្យង់ បូសយេ បានបកស្រាយបំភ្លឺក្នុងសៀវភៅ ប្រទេសកម្ពុជា ថាជាងប្រាសាទមានការព្រួយបារម្ភក្នុងការស្ថាបនាសំណង់សាសនាឱ្យជាប់បានយូរ ដូចការខ្ទាតថ្មចេញពីគ្នា និងភ្លាត់ចេញពីបាត ដូច្មេះហើយគេផ្គុំថ្មតាមបែបជាងឈើ ដោយប្រើប្រាស់ថ្មតែមួយដុំយ៉ាងគំហុកការងារអនុវត្តន៍ដដែលៗ ក្នុងការតម្រៀបបន្ទុបថ្មឱ្យបានរឹងមាំ។
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="gate" class="title-head fw-bold py-2 ">កំពែងនិងខ្លោងទ្វារ</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            ប្រាសាទដំរីព័ទ្ធជុំវិញដោយកំពែងឥដ្ឋមួយជាន់រាងចតុកោណកែងមានទំហំ៦០ម៉ែត្រគុណ៥៥ម៉ែត្រ។ ផ្តាច់ដោយគោបុរៈ(ខ្លោងទ្វារ)សង់អំពីឥដ្ឋចូលពីទិសខាងកើតតែមួយគត់ ប៉ុន្តែសព្វថ្ងៃមានការដូលរលំនៅសល់តែមេទ្វារធ្វើអំពីថ្មភក់ ដែលមានសិលាចារឹកទាំងសងខាងនៅទិសខាងកើតនៃប្រាសាទមានស្រះទឹកធំមួយ។ បើតាមរបាយការណ៍នៃការស្រាវជ្រាវថ្មីគេសន្និដ្ឋានថា នៅក្នុងបរិវេណកំពែងនេះអាចមានសំណង់ឈើដែលបាត់បង់ទៅ លើសពីនេះអាចមានអាគារឥដ្ឋឬថ្ម។
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <h4 id="sekla" class="title-head fw-bold py-2 ">សិលាចារឹក</h4>
+                        <hr id="hori" class="w-100 border border-1">
+                        <p id="h-dis" class="float-start pt-1 overflow-hidden">
+                            តាមការចុះបញ្ជីសារពើភណ្ឌស្តីអំពីសិលាចារឹកនៅកម្ពុជាដោយលោក ហ៊្យក សឺដេស សិលាចារឹកដំរីលេខ K-៦៧៧ ស្ថិតនៅទីតាំងដើម នៅលើមេទ្វារខាងត្បូងមាន៤៨បន្ទាត់ជាភាសាសំស្រ្តឹត និងមេទ្វារខាងជើងមាន៣៦បន្ទាត់ជាភាសាខ្មែរបុរាណដោយមិនបានចុះកាលបរិច្ឆេទទេ។ ផ្ទាំងខាងជើងសិលាចារឹកនេះ ស្ថិតនៅគោបុរៈខាងលិច មេទ្វារខាងជើងនៃប្រាសាទដំរី បានចុះបញ្ជីសារពើភណ្ឌដោយលោក ហ៊្យក សឺដេសមាន៣៦បន្ទាត់។
+                        </p>
+                    </div>
+                </div>         
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <!-- end articles and images -->
+    <div class="fixed-bottom d-flex justify-content-end" style="bottom: 3rem; right: 5rem;">
+        <a class="bg-light rounded-circle p-2 border border-secondary" href="#top">
+            <svg width="30" height="30" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 12H5.414a1 1 0 0 1-.707-1.707l6.586-6.586a1 1 0 0 1 1.414 0l6.586 6.586A1 1 0 0 1 18.586 12H15v3H9v-3 0Z"></path>
+                <path d="M9 21h6"></path>
+                <path d="M9 18h6"></path>
+               </svg>
+        </a>
+    </div>
+    <div id="theme" hidden>
+        <p>test</p>
+    </div>
+<script>
+    function getTheme() {
+        return localStorage.getItem('theme') || 'light';
+    }
+    function saveTheme(theme) {
+        localStorage.setItem('theme', theme);
+    }
+
+    const colorScheme = document.querySelector('meta[name="color-scheme"]');
+    function applyTheme(theme) {
+        document.body.className = theme;
+        colorScheme.content = theme;
+    }
+
+    function rotateTheme(theme) {
+        if (theme === 'light') {
+            return 'dark'
+        }else{
+            return 'light';
+        }
+        
+    }
+
+    const themeDisplay = document.getElementById('theme');
+    const themeToggler = document.getElementById('theme-toggle');
+
+// Mimic heavy load done by other JS scripts
+    setTimeout(() => {
+        let theme = getTheme();
+        applyTheme(theme);
+        themeDisplay.innerText = theme;
+
+        themeToggler.onclick = () => {
+            const newTheme = rotateTheme(theme);
+            applyTheme(newTheme);
+            themeDisplay.innerText = newTheme;
+            saveTheme(newTheme);
+
+            theme = newTheme;
+        }
+    }, 100);
+</script>
+<script>
+    $(document).ready(function() {
+    var banner_height = $("#navscroll").height();
+    var lastScrollTop = 0;
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        var currScrollTop = $(this).scrollTop();
+        if (scroll >= banner_height && currScrollTop > lastScrollTop) {
+        $("#banner").hide();
+        } else {
+        $("#banner").show();
+        }
+        lastScrollTop = currScrollTop;
+
+    });
+
+    });
+</script>
+</body>
+</html>
