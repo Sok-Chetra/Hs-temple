@@ -40,6 +40,12 @@
   fill: #F05454;
   stroke: #ffffff;
 }
+a :active{
+  box-shadow: none;
+}
+a :focus{
+  box-shadow: none;
+}
 /* #btn-nav:hover{
   color: darkred;
 } */
