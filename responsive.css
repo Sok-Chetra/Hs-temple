@@ -3272,8 +3272,8 @@
       height: 180px !important;
     }
     #btn-close{
-      width: 20px;
-      height: 20px;
+      width: 25px !important;
+      height: 25px !important;
     }
     .name{
       font-size: 15px;
@@ -3498,8 +3498,8 @@
     height: 174px !important;
   }
   #btn-close{
-    width: 17px;
-    height: 17px;
+    width: 20px;
+    height: 20px;
   }
   #btn-off{
     font-size: 14px !important;
@@ -3728,8 +3728,8 @@
     height: 160px !important;
   }
   #btn-close{
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
   }
   #btn-off{
     font-size: 12px !important;
