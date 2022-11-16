@@ -200,6 +200,9 @@ input:-webkit-autofill:active{
   font-size: 30px;
   font-family: khmer;
 }
+#row-left{
+  background-color: #DDDDDD;
+}
 footer{
   background-position: center;
   background-image: linear-gradient(rgba(3, 3, 3, 0.24), rgba(0, 0, 0, 0.226)),url('./images/footer-bg.jpg');
