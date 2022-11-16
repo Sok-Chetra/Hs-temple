@@ -3870,7 +3870,7 @@
   }
   #bt_chmar_slide{
     margin-top: 3.4rem;
-    height: 480px;
+    height: 470px;
   }
   #row-left{
     border: none !important;
@@ -3883,7 +3883,7 @@
   }
   #btn-top{
     left: 63% !important;
-    bottom: 8rem !important;
+    bottom: 3.5rem !important;
   }
 }
 @media screen and (max-width:319px) and (min-width:100px) {
@@ -4023,7 +4023,7 @@
     font-family: khmer;
   }
   .nav-btn{
-    font-size: 2.4px;
+    font-size: 2.5px;
     font-family: khmer;
   }
   .nav-btn:hover{
@@ -4117,7 +4117,7 @@
   }
   #bt_chmar_slide{
     margin-top: 3.4rem;
-    height: 360px;
+    height: 365px;
   }
   #row-left{
     border: none !important;
@@ -4125,8 +4125,8 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    padding-top: 1% !important;
-    padding-bottom: 1% !important;
+    padding-top: 1.5% !important;
+    padding-bottom: 1.5% !important;
   }
   #btn-top{
     left: 63% !important;
