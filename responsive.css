@@ -170,6 +170,9 @@
     #ke-slide{
       height: 980px !important;
     }
+    #bt_chmar_slide{
+      height: 980px !important;
+    }
 }
 @media screen and (max-width : 1899px) and (min-width:1800px) {
     #navscroll{
@@ -256,7 +259,7 @@
     }
     #textftimg{
       height: 100%; 
-      width: 30%;
+      width: 40%;
     }
     #slide-img{
       height: 890px !important;
@@ -338,6 +341,9 @@
     }
     #ke-slide{
       height: 890px !important;
+    }
+    #bt_chmar_slide{
+      height: 910px !important;
     }
 }
 @media screen and (max-width : 1799px) and (min-width:1700px) {
@@ -426,7 +432,7 @@
   }
   #textftimg{
     height: 100%; 
-    width: 30%;
+    width: 40%;
   }
   #slide-img{
     height: 890px !important;
@@ -508,6 +514,9 @@
   }
   #ke-slide{
     height: 870px !important;
+  }
+  #bt_chmar_slide{
+    height: 910px;
   }
 }
 @media screen and (max-width : 1699px) and (min-width:1600px) {
@@ -597,7 +606,7 @@
   }
   #textftimg{
     height: 100%; 
-    width: 30%;
+    width: 39%;
   }
   #slide-img{
     margin-top: 2rem;
@@ -680,6 +689,10 @@
   }
   #ke-slide{
     height: 770px !important;
+  }
+  #bt_chmar_slide{
+    margin-top: 1rem;
+    height: 899px;
   }
 }
 @media screen and (max-width : 1599px) and (min-width:1500px) {
@@ -769,7 +782,7 @@
   }
   #textftimg{
     height: 100%; 
-    width: 30%;
+    width: 38%;
     image-rendering: pixelated;
   }
   #slide-img{
@@ -854,10 +867,14 @@
   #ke-slide{
     height: 760px !important;
   }
+  #bt_chmar_slide{
+    margin-top: 4.2rem;
+    height: 840px;
+  }
 }
 @media screen and (max-width : 1499px) and (min-width:1400px) {
     #navscroll{
-        height: 75px;
+        height: 72px;
         padding: 0 200px;
     }
     #background-space{
@@ -948,7 +965,7 @@
   }
   #textftimg{
     height: 100%; 
-    width: 30%;
+    width: 37%;
   }
   #slide-img{
     margin-top: 3rem;
@@ -1033,10 +1050,14 @@
     margin-top: 1rem;
     height: 710px !important;
   }
+  #bt_chmar_slide{
+    margin-top: 4.5rem;
+    height: 835px;
+  }
 }
 @media screen and (max-width : 1399px) and (min-width:1300px) {
     #navscroll{
-        height: 73px;
+        height: 72px;
         padding: 0 200px;
     }
     #background-space{
@@ -1127,7 +1148,7 @@
   }
   #textftimg{
     height: 100%; 
-    width: 30%;
+    width: 36%;
   }
   #slide-img{
     margin-top: 4rem;
@@ -1212,10 +1233,14 @@
     margin-top: 1rem;
     height: 660px !important;
   }
+  #bt_chmar_slide{
+    margin-top: 4.5rem;
+    height: 836px;
+  }
 }
 @media screen and (max-width : 1299px) and (min-width:1200px) {
     #navscroll{
-        height:72px;
+        height:80px;
         padding: 0 110px;
     }
     #background-space{
@@ -1306,7 +1331,7 @@
   }
   #textftimg{
     height: 100%; 
-    width: 30%;
+    width: 35%;
   }
   #slide-img{
     margin-top: 2rem;
@@ -1399,10 +1424,14 @@
     margin-top: 2rem;
     height: 610px !important;
   }
+  #bt_chmar_slide{
+    margin-top: 4rem;
+    height: 830px;
+  }
 }
 @media screen and (max-width : 1199px) and (min-width:1100px) {
     #navscroll{
-        height: 80px;
+        height: 73px;
         padding: 0 120px;
     }
     #background-space{
@@ -1494,7 +1523,7 @@
   }
   #textftimg{
     height: 100%; 
-    width: 30%;
+    width: 34%;
   }
   #slide-img{
     margin-top: 5rem;
@@ -1588,6 +1617,9 @@
   #ke-slide{
     margin-top: 3rem;
     height: 560px !important;
+  }
+  #bt_chmar_slide{
+    height: 890px;
   }
 }
 @media screen and (max-width : 1099px) and (min-width:1018px) {
@@ -1683,7 +1715,7 @@
   }
   #textftimg{
     height: 100%; 
-    width: 30%;
+    width: 33%;
   }
   #slide-img{
     margin-top: 3rem;
@@ -1777,6 +1809,9 @@
   #ke-slide{
     margin-top: 3rem;
     height: 518px !important;
+  }
+  #bt_chmar_slide{
+    height: 890px;
   }
 }
 @media screen and (max-width : 1017px) and (min-width:992px) {
@@ -1873,7 +1908,7 @@
   }
   #textftimg{
     height: 100%; 
-    width: 30%;
+    width: 33%;
   }
   #slide-img{
     margin-top: 3rem;
@@ -1968,7 +2003,9 @@
     margin-top: 3rem;
     height: 510px !important;
   }
-
+  #bt_chmar_slide{
+    height: 890px;
+  }
 }
 @media screen and (max-width : 991px) and (min-width:800px) {
     #navscroll{
@@ -2071,7 +2108,7 @@
     }
     #textftimg{
       height: 100%; 
-      width: 30%;
+      width: 35%;
     }
     #slide-img{
       margin-top: 4rem;
@@ -2168,6 +2205,9 @@
     #btn-close{
       width: 33px;
       height: 33px;
+    }
+    #bt_chmar_slide{
+      height: 890px;
     }
 }
 @media screen and (max-width : 799px) and (min-width:700px) {
@@ -2281,7 +2321,7 @@
     }
     #textftimg{
       height: 100%; 
-      width: 30%;
+      width: 35%;
     }
     #slide-img{
       margin-top: 4rem;
@@ -2378,6 +2418,10 @@
     #btn-close{
       width: 31px;
       height: 31px;
+    }
+    #bt_chmar_slide{
+      margin-top: 1rem;
+      height: 875px;
     }
 }
 @media screen and (max-width : 699px) and (min-width:600px) {
@@ -2488,7 +2532,29 @@
     }
     #textftimg{
       height: 100%; 
-      width: 30%;
+      width: 45%;
+      display: none !important;
+    }
+    #img1{
+      display: block;
+      height: 300px;
+      background-size: cover;
+      margin-bottom: 10px;
+      background-image: url('./images/bt_chma-img/bt_chma-sek-la-jarek.jpg') !important;
+    }
+    #img2{
+      display: block;
+      height: 300px;
+      background-size: cover;
+      margin-bottom: 10px;
+      background-image: url('images/bt_chma-img/Bantey-Chhmar-Overnight-Tour-20.jpg') !important;
+    }
+    #img3{
+      display: block;
+      height: 300px;
+      background-size: cover;
+      margin-bottom: 10px;
+      background-image: url('./images/bt_chma-img/bt_chmar-art.jpg') !important;
     }
     #slide-img{
       margin-top: 3rem;
@@ -2597,8 +2663,248 @@
     #logo-of{
       width: 350px;
     }
+    #bt_chmar_slide{
+      margin-top: 3.7rem;
+      height: 830px;
+    }
 }
-@media screen and (max-width : 599px) and (min-width:500px) {
+@media screen and (max-width : 599px) and (min-width:576px) {
+  #navscroll{
+      height: 60px;
+      padding: 0 45px 5px 45px;
+  }
+  #background-space{
+      margin-top: 30px;
+  }
+  #logo-of{
+    width: 350px;
+  }
+  #box-purpose{
+    width: 25rem;
+    height: 32rem;
+  }
+  #slide1{
+    src: url('images/bt_chma-img/bt-chmar-mobile1.jpeg');
+  }
+  #bg-purpose {
+    height: 886px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+  }
+  #text-purpose{
+    font-size: 15px;
+    line-height: 27px;
+    padding: 15px 20px !important;
+  }
+  #menu-svg{
+    width: 30px;
+    padding-bottom: 10px;
+  }
+  #dark-svg{
+    padding-bottom: 5px;
+  }
+  #title-purpose{
+    padding-top: 1rem;
+    font-size: 25px;
+  }
+  #img-member{
+    width: 80px;
+  }
+  #text-name{
+    font-size: 8px;
+  }
+  #text-role{
+    font-size: 7px;
+  }
+  #text1{
+    font-size: 67px;
+    line-height: 85px;
+    letter-spacing: 2px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  #text2{
+    text-transform: uppercase;
+    padding-top: 3px;
+    font-size: 16px;
+    letter-spacing: 7.5px;
+  }
+  #text2 br{
+    display: none;
+  }
+  .center-left {
+    position: absolute;
+    top: 69%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #back-top-icon {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  #text-btn{
+    font-size: 21px;
+  }
+  #arrow-down{
+    width: 22px;
+    height: 22px;
+  }
+  #eye-icon{
+    width: 21px;
+    height: 21px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/Angkorwat-imgs/ak-evening.jpg');
+  }
+  #text-viewAll{
+    font-size: 13px;
+  }
+  #sub-title1{
+    font-size: 13px;
+  }
+  #title1{
+  font-size: 25px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 21px;
+    font-size: 11px;
+    text-indent: 1.5rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 45%;
+  }
+  #slide-img{
+  margin-top: 3rem;
+  height: 310px !important;
+}
+#svg-back{
+  width: 15px !important;
+}
+.back-btn{
+  font-size: 10px !important;
+}
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-size: 16px;
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 10px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .container{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  #title-angkor{
+    font-size: 46px;
+    padding: 0 0 4px 0;
+    text-align: center;
+  }
+  #title-kohke{
+    font-size: 46px;
+    padding: 8px 0 4px 0;
+    text-align: center;
+  }
+  #title-srey{
+    font-size: 46px;
+    padding: 6px 0 4px 0 !important;
+    text-align: center;
+  }
+  #title-bayon{
+    font-size: 46px;
+    padding: 5px 0 4px 0;
+    text-align: center;
+  }
+  #title-chmar{
+    font-size: 46px;
+    padding: 0 0 3px 0 !important;
+    text-align: center;
+  }
+  #title-prum{
+    font-size: 46px;
+    padding: 0 10px 3px 10px !important;
+    text-align: center;
+  }
+  #title-vihear{
+    font-size: 46px;
+    padding: 3px 0 3px 0;
+    text-align: center;
+  }
+  #title-jrab{
+    font-size: 46px;
+    padding: 0 0 3px 0;
+    text-align: center;
+  }
+  #title-domrei{
+    font-size: 46px;
+    padding: 10px 0 3px 0;
+    text-align: center;
+  }
+  #modal-text{
+    font-size: 13px;
+    line-height: 21px;
+    padding: 0 4px 0 4px;
+  }
+  #more-info{
+    font-size: 16px;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 270px !important;
+  }
+  #ke-slide{
+    margin-top: 3.7rem;
+    height: 255px !important;
+  }
+  #btn-close{
+    width: 27px;
+    height: 27px;
+  }
+  .name{
+    font-size: 25px;
+  }
+  .group{
+    font-size: 20px;
+  }
+  #bt_chmar_slide{
+    margin-top: 3.7rem;
+    height: 750px;
+  }
+  #btn-top{
+    left: 75% !important;
+    bottom: 6rem !important;
+  }
+}
+@media screen and (max-width : 575px) and (min-width:500px) {
     #navscroll{
         height: 60px;
         padding: 0 45px 5px 45px;
@@ -2612,6 +2918,9 @@
     #box-purpose{
       width: 25rem;
       height: 32rem;
+    }
+    #slide1{
+      src: url('images/bt_chma-img/bt-chmar-mobile1.jpeg');
     }
     #bg-purpose {
       height: 886px;
@@ -2719,10 +3028,10 @@
     height: 310px !important;
   }
   #svg-back{
-    width: 20px !important;
+    width: 15px !important;
   }
   .back-btn{
-    font-size: 15px !important;
+    font-size: 13px !important;
   }
     .title-topic{
       font-family: KST;
@@ -2740,12 +3049,10 @@
       background-color: rgb(109, 109, 109) !important;
     }
     .nav-btn:focus{
-      font-size: 20px;
       color: azure;
       background-color: rgb(109, 109, 109);
     }
     .nav-btn:active{
-      font-size: 20px;
       color: azure;
       background-color: rgb(109, 109, 109);
     }
@@ -2824,10 +3131,30 @@
     .group{
       font-size: 20px;
     }
+    #bt_chmar_slide{
+      margin-top: 3.7rem;
+      height: 750px;
+    }
+    #row-left{
+      border: none !important;
+      position: fixed !important;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding-top: 1% !important;
+      padding-bottom: 1% !important;
+    }
+    #btn-top{
+      left: 75% !important;
+      bottom: 6rem !important;
+    }
+    #bg-color{
+      padding-bottom: 15% !important;
+    }
 }
 @media screen and (max-width : 499px) and (min-width:400px) {
     #navscroll{
-        height: 55px;
+        height: 58px;
         padding: 0px 35px;
     }
     #background-space{
@@ -2948,7 +3275,7 @@
     width: 10px !important;
   }
   .back-btn{
-    font-size: 10px !important;
+    font-size: 9px !important;
   }
     .title-topic{
       font-family: KST;
@@ -2958,7 +3285,7 @@
       font-family: khmer;
     }
     .nav-btn{
-      font-size: 7px;
+      font-size: 7.5px;
       font-family: khmer;
     }
     .nav-btn:hover{
@@ -2966,12 +3293,10 @@
       background-color: rgb(109, 109, 109) !important;
     }
     .nav-btn:focus{
-      font-size: 20px;
       color: azure;
       background-color: rgb(109, 109, 109);
     }
     .nav-btn:active{
-      font-size: 20px;
       color: azure;
       background-color: rgb(109, 109, 109);
     }
@@ -3050,11 +3375,28 @@
     .group{
       font-size: 17px;
     }
+    #bt_chmar_slide{
+      margin-top: 3.6rem;
+      height: 602px;
+    }
+    #row-left{
+      border: none !important;
+      position: fixed !important;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding-top: 2% !important;
+      padding-bottom: 2% !important;
+    }
+    #btn-top{
+      left: 75% !important;
+      bottom: 6rem !important;
+    }
 }
 @media screen and (max-width : 399px) and (min-width:350px) {
     #navscroll{
-        height: 55px;
-        padding: 0px 20px;
+        height: 62px;
+        padding: 6px 20px;
     }
     #logo-of{
       width: 400px;
@@ -3176,10 +3518,13 @@
     height: 220px !important;
   }
   #svg-back{
-    width: 9px !important;
+    width: 6px !important;
+  }
+  #row-left{
+    border: none !important;
   }
   .back-btn{
-    font-size: 8px !important;
+    font-size: 7px !important;
   }
     .title-topic{
       font-family: KST;
@@ -3197,12 +3542,10 @@
       background-color: rgb(109, 109, 109) !important;
     }
     .nav-btn:focus{
-      font-size: 20px;
       color: azure;
       background-color: rgb(109, 109, 109);
     }
     .nav-btn:active{
-      font-size: 20px;
       color: azure;
       background-color: rgb(109, 109, 109);
     }
@@ -3280,6 +3623,23 @@
     }
     .group{
       font-size: 14px;
+    }
+    #bt_chmar_slide{
+      margin-top: 3.9rem;
+      height: 520px;
+    }
+    #row-left{
+      border: none !important;
+      position: fixed !important;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding-top: 1% !important;
+      padding-bottom: 1% !important;
+    }
+    #btn-top{
+      left: 75% !important;
+      bottom: 6rem !important;
     }
 }
 @media screen and (max-width : 349px) and (min-width:320px) {
@@ -3403,10 +3763,10 @@
     height: 200px !important;
   }
   #svg-back{
-    width: 7px !important;
+    width: 6px !important;
   }
   .back-btn{
-    font-size: 7px !important;
+    font-size: 6px !important;
   }
   .title-topic{
     font-family: KST;
@@ -3416,7 +3776,7 @@
     font-family: khmer;
   }
   .nav-btn{
-    font-size: 6px;
+    font-size: 5px;
     font-family: khmer;
   }
   .nav-btn:hover{
@@ -3424,12 +3784,10 @@
     background-color: rgb(109, 109, 109) !important;
   }
   .nav-btn:focus{
-    font-size: 20px;
     color: azure;
     background-color: rgb(109, 109, 109);
   }
   .nav-btn:active{
-    font-size: 20px;
     color: azure;
     background-color: rgb(109, 109, 109);
   }
@@ -3509,6 +3867,23 @@
   }
   .group{
     font-size: 11px;
+  }
+  #bt_chmar_slide{
+    margin-top: 3.4rem;
+    height: 480px;
+  }
+  #row-left{
+    border: none !important;
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+  }
+  #btn-top{
+    left: 63% !important;
+    bottom: 8rem !important;
   }
 }
 @media screen and (max-width:319px) and (min-width:100px) {
@@ -3635,10 +4010,10 @@
     height: 200px !important;
   }
   #svg-back{
-    width: 6px !important;
+    width: 4px !important;
   }
   .back-btn{
-    font-size: 5px !important;
+    font-size: 4px !important;
   }
   .title-topic{
     font-family: KST;
@@ -3739,6 +4114,23 @@
   }
   .group{
     font-size: 7px;
+  }
+  #bt_chmar_slide{
+    margin-top: 3.4rem;
+    height: 360px;
+  }
+  #row-left{
+    border: none !important;
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+  }
+  #btn-top{
+    left: 63% !important;
+    bottom: 4rem !important;
   }
 }
 

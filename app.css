@@ -41,10 +41,10 @@
   stroke: #ffffff;
 }
 a :active{
-  box-shadow: none;
+  box-shadow: none !important;
 }
 a :focus{
-  box-shadow: none;
+  box-shadow: none !important;
 }
 /* #btn-nav:hover{
   color: darkred;
