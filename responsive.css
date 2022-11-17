@@ -3281,10 +3281,10 @@
     height: 240px !important;
   }
   #svg-back{
-    width: 9px !important;
+    width: 10px !important;
   }
   .back-btn{
-    font-size: 9px !important;
+    font-size: 10px !important;
   }
     .title-topic{
       font-family: KST;
@@ -3294,7 +3294,7 @@
       font-family: khmer;
     }
     .nav-btn{
-      font-size: 0.5rem;
+      font-size: 8.2px;
       font-family: khmer;
     }
     .nav-btn:hover{
@@ -3536,13 +3536,13 @@
     height: 220px !important;
   }
   #svg-back{
-    width: 8px !important;
+    width: 9px !important;
   }
   #row-left{
     border: none !important;
   }
   .back-btn{
-    font-size: 8px !important;
+    font-size: 9px !important;
   }
     .title-topic{
       font-family: KST;
@@ -3803,7 +3803,7 @@
     font-family: khmer;
   }
   .nav-btn{
-    font-size: 0.3rem;
+    font-size: 5.5px;
     font-family: khmer;
   }
   .nav-btn:hover{
@@ -3914,9 +3914,6 @@
   }
   #angkor-btn2{
     display: none !important;
-  }
-  .btn-more{
-    font-size: 0.3rem !important;
   }
   .dropdown-menu li a{
     font-size: 0.4rem !important;
@@ -4046,10 +4043,10 @@
     height: 200px !important;
   }
   #svg-back{
-    width: 3px !important;
+    width: 4px !important;
   }
   .back-btn{
-    font-size: 3px !important;
+    font-size: 4px !important;
   }
   .title-topic{
     font-family: KST;
@@ -4059,7 +4056,7 @@
     font-family: khmer;
   }
   .nav-btn{
-    font-size: 0.1rem;
+    font-size: 2.4px;
     font-family: khmer;
   }
   .nav-btn:hover{
