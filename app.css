@@ -1,8 +1,6 @@
 /*General Design */
 *{
-  margin: 0;
-  box-sizing: border-box;
-    overflow-x: hidden;
+    overflow-x: visible;
     -ms-overflow-style: none;
 }
 *::-webkit-scrollbar{
@@ -354,6 +352,12 @@ footer{
   background-color: #f7941d !important;
   color: #DDDDDD;
 }
+.dark .nav-btn:focus{
+  color: #f7941d;
+}
+.dark .nav-btn:active{
+  color: #f7941d;
+}
 .dark .back-btn{
   color: #DDDDDD;
 }
@@ -401,6 +405,25 @@ footer{
 }
 .dark #search{
   fill: darkgreen;
+}
+.dark .dropdown-menu{
+  background-color: #30475E !important;
+}
+.dark .dropdown-menu li a{
+  color: #DDDDDD !important;
+}
+.dark .dropdown-menu li:hover{
+  color: #DDDDDD !important;
+  background-color: #f7941d !important;
+}
+.dark .dropdown-toggle{
+  color: #DDDDDD !important;
+}
+.dark .dropdown-toggle:active{
+  color: #f7941d !important;
+}
+.dark .dropdown-toggle:focus{
+  color: #f7941d !important;
 }
 .dark input[type=search]{
   width: 25px;

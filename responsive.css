@@ -3145,11 +3145,14 @@
       padding-bottom: 1% !important;
     }
     #btn-top{
-      left: 75% !important;
-      bottom: 6rem !important;
+      left: 95% !important;
+      bottom: 4.5rem !important;
     }
     #bg-color{
       padding-bottom: 15% !important;
+    }
+    #angkor-btn2{
+      display: none !important;
     }
 }
 @media screen and (max-width : 499px) and (min-width:400px) {
@@ -3285,7 +3288,7 @@
       font-family: khmer;
     }
     .nav-btn{
-      font-size: 7px;
+      font-size: 6.5px;
       font-family: khmer;
     }
     .nav-btn:hover{
@@ -3389,8 +3392,11 @@
       padding-bottom: 2% !important;
     }
     #btn-top{
-      left: 75% !important;
-      bottom: 6rem !important;
+      left: 95% !important;
+      bottom: 4.8rem !important;
+    }
+    #angkor-btn2{
+      display: none !important;
     }
 }
 @media screen and (max-width : 399px) and (min-width:350px) {
@@ -3534,7 +3540,7 @@
       font-family: khmer;
     }
     .nav-btn{
-      font-size: 6px;
+      font-size: 0.3rem;
       font-family: khmer;
     }
     .nav-btn:hover{
@@ -3638,8 +3644,11 @@
       padding-bottom: 1% !important;
     }
     #btn-top{
-      left: 75% !important;
-      bottom: 6rem !important;
+      left: 95% !important;
+      bottom: 4rem !important;
+    }
+    #angkor-btn2{
+      display: none !important;
     }
 }
 @media screen and (max-width : 349px) and (min-width:320px) {
@@ -3776,7 +3785,7 @@
     font-family: khmer;
   }
   .nav-btn{
-    font-size: 5px;
+    font-size: 4.1px;
     font-family: khmer;
   }
   .nav-btn:hover{
@@ -3882,11 +3891,20 @@
     padding-bottom: 1% !important;
   }
   #btn-top{
-    left: 63% !important;
-    bottom: 3.5rem !important;
+    left: 95% !important;
+    bottom: 4rem !important;
+  }
+  #angkor-btn2{
+    display: none !important;
+  }
+  .btn-more{
+    font-size: 0.3rem !important;
+  }
+  .dropdown-menu li a{
+    font-size: 0.3rem !important;
   }
 }
-@media screen and (max-width:319px) and (min-width:100px) {
+@media screen and (max-width:319px) and (min-width:227px) {
   #navscroll{
       height: 55px;
       padding: 0px 3px;
@@ -4023,7 +4041,7 @@
     font-family: khmer;
   }
   .nav-btn{
-    font-size: 2.5px;
+    font-size: 2px;
     font-family: khmer;
   }
   .nav-btn:hover{
@@ -4031,12 +4049,10 @@
     background-color: rgb(109, 109, 109) !important;
   }
   .nav-btn:focus{
-    font-size: 20px;
     color: azure;
     background-color: rgb(109, 109, 109);
   }
   .nav-btn:active{
-    font-size: 20px;
     color: azure;
     background-color: rgb(109, 109, 109);
   }
@@ -4129,8 +4145,265 @@
     padding-bottom: 1.5% !important;
   }
   #btn-top{
-    left: 63% !important;
+    left: 95% !important;
+    bottom: 3.8rem !important;
+  }
+  .btn-more{
+    font-size: 0.2rem !important;
+  }
+  .dropdown-menu li a{
+    font-size: 0.3rem !important;
+  }
+}
+@media screen and (max-width:226px) and (min-width:1px) {
+  #navscroll{
+      height: 55px;
+      padding: 0px 3px;
+  }
+  #background-space{
+    margin-top: 30px;
+  }
+  #box-purpose{
+    width: 13rem;
+    height: 28rem;
+  }
+  #bg-purpose {
+    height: 886px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./images/Angkorwat-imgs/ak-evening.jpg') !important;
+  }
+  #text-purpose{
+    font-size: 10px;
+    line-height: 17px;
+    padding: 15px 15px !important;
+  }
+  #menu-svg{
+    width: 30px;
+    padding-bottom: 15px;
+  }
+  .card-text{
+    font-size: 11px;
+  }
+  #dark-svg{
+    width: 50px;
+    padding-bottom: 9px;
+  }
+  #title-purpose{
+    padding-top: 1rem;
+    font-size: 13px;
+  }
+  #img-member{
+    width: 60px;
+  }
+  #text-name{
+    font-size: 5px;
+  }
+  #text-role{
+    font-size: 4px;
+  }
+  #member-role{
+    font-size: 15px;
+  }
+  #text1{
+    padding-bottom: 14px !important;
+    font-size: 41px;
+    line-height: 59px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  #text2{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+  #text2 br{
+    display: none;
+  }
+  .center-left {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #back-top-icon {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  #text-btn{
+    font-size: 16px;
+  }
+  #arrow-down{
+    width: 19px;
+    height: 18px;
+  }
+  #eye-icon{
+    width: 16px;
+    height: 16px;
+  }
+  #bg-img{
+    width: 100%;
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    background-image: url('images/Angkorwat-imgs/ak-evening.jpg');
+  }
+  #text-viewAll{
+    font-size: 10px;
+  }
+  #sub-title1{
+    font-size: 10px;
+  }
+  #title1{
+  font-size: 18px;
+  }
+  #h-dis{
+    font-family: khmer;
+    line-height: 13px;
+    font-size: 7px;
+    text-indent: 1.1rem;
+  }
+  #list-text{
+    font-family: khmer;
+    line-height: 33px;
+    font-size: 19px;
+  }
+  #textftimg{
+    height: 100%; 
+    width: 40%;
+  }
+  #slide-img{
+    margin-top: 3rem;
+    height: 200px !important;
+  }
+  #svg-back{
+    width: 2px !important;
+  }
+  .back-btn{
+    font-size: 2px !important;
+  }
+  .title-topic{
+    font-family: KST;
+  }
+  .title-head{
+    font-size: 11px;
+    font-family: khmer;
+  }
+  .nav-btn{
+    font-size: 1.5px;
+    font-family: khmer;
+  }
+  .nav-btn:hover{
+    color: azure !important;
+    background-color: rgb(109, 109, 109) !important;
+  }
+  .nav-btn:focus{
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  .nav-btn:active{
+    color: azure;
+    background-color: rgb(109, 109, 109);
+  }
+  #title-angkor{
+    font-size: 33px;
+    text-align: center;
+    padding: 0px 0 4px 0 !important;
+  }
+  #title-kohke{
+    font-size: 30px;
+    padding: 8px 0 4px 0;
+    text-align: center;
+  }
+  #title-srey{
+    font-size: 26px;
+    padding: 6px 0 4px 0 !important;
+    text-align: center;
+  }
+  #title-bayon{
+    font-size: 30px;
+    padding: 5px 0 4px 0;
+    text-align: center;
+  }
+  #title-chmar{
+    font-size: 26px;
+    padding: 0 0 3px 0 !important;
+    text-align: center;
+  }
+  #title-prum{
+    font-size: 27px;
+    padding: 0 10px 3px 10px !important;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  #title-vihear{
+    font-size: 23px;
+    padding: 2px 0 3px 0;
+    text-align: center;
+  }
+  #title-jrab{
+    font-size: 28px;
+    padding: 0 0 3px 0;
+    text-align: center;
+  }
+  #title-domrei{
+    font-size: 29px;
+    padding: 5px 0 3px 0;
+    text-align: center;
+  }
+  #modal-text{
+    font-size: 10px;
+    line-height: 16px !important;
+    padding: 0 3px 3px 3px !important;
+  }
+  #more-info{
+    font-size: 11px;
+  }
+  #img-slide{
+    width: 100% !important;
+    height: 115px !important;
+  }
+  #ke-slide{
+    margin-top: 3.4rem;
+    height: 160px !important;
+  }
+  #btn-close{
+    width: 18px;
+    height: 18px;
+  }
+  #btn-off{
+    font-size: 12px !important;
+  }
+  .name{
+    font-size: 8px;
+  }
+  .group{
+    font-size: 7px;
+  }
+  #bt_chmar_slide{
+    margin-top: 3.4rem;
+    height: 365px;
+  }
+  #row-left{
+    border: none !important;
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 1.5% !important;
+    padding-bottom: 1.5% !important;
+  }
+  #btn-top{
+    left: 95% !important;
     bottom: 4rem !important;
+  }
+  .btn-more{
+    font-size: 0.1rem !important;
+  }
+  .dropdown-menu li a{
+    font-size: 0.2rem !important;
   }
 }
 
