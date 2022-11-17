@@ -3784,10 +3784,10 @@
     height: 200px !important;
   }
   #svg-back{
-    width: 6px !important;
+    width: 5px !important;
   }
   .back-btn{
-    font-size: 6px !important;
+    font-size: 5px !important;
   }
   .title-topic{
     font-family: KST;
@@ -3797,7 +3797,7 @@
     font-family: khmer;
   }
   .nav-btn{
-    font-size: 4.1px;
+    font-size: 4px;
     font-family: khmer;
   }
   .nav-btn:hover{
@@ -3910,7 +3910,7 @@
     display: none !important;
   }
   .btn-more{
-    font-size: 0.3rem !important;
+    font-size: 4px !important;
   }
   .dropdown-menu li a{
     font-size: 0.3rem !important;
@@ -4040,10 +4040,10 @@
     height: 200px !important;
   }
   #svg-back{
-    width: 4px !important;
+    width: 2px !important;
   }
   .back-btn{
-    font-size: 4px !important;
+    font-size: 2px !important;
   }
   .title-topic{
     font-family: KST;
@@ -4053,7 +4053,7 @@
     font-family: khmer;
   }
   .nav-btn{
-    font-size: 2px;
+    font-size: 1.3px;
     font-family: khmer;
   }
   .nav-btn:hover{
@@ -4161,10 +4161,10 @@
     bottom: 3.8rem !important;
   }
   .btn-more{
-    font-size: 0.2rem !important;
+    font-size: 1.3px !important;
   }
   .dropdown-menu li a{
-    font-size: 0.3rem !important;
+    font-size: 2px !important;
   }
 }
 @media screen and (max-width:226px) and (min-width:1px) {
