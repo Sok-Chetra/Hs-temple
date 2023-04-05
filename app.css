@@ -23,15 +23,20 @@
   color: #000;
   transition: width .4s;
 }
-@keyframes jump {
-  0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
-  40%  {transform: translate3d(0,0,0) scale3d(.7,1.5,1);}
-  100% {transform: translate3d(0,30%,0) scale3d(1.5,.7,1);}
-}
-.jump {
-  transform-origin: 50% 50%;
-  animation: jump .5s linear alternate infinite;
-}
+
+
+    @keyframes jump {
+        0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+        40%  {transform: translate3d(0,0,0) scale3d(.7,1.5,1);}
+        100% {transform: translate3d(0,30%,0) scale3d(1.5,.7,1);}
+    }
+    .jump {
+        transform-origin: 50% 50%;
+        animation: jump .5s linear alternate infinite;
+    }
+
+
+
 #btn-nav:hover::after {
   color: #000;
   width: 100%;
@@ -141,18 +146,23 @@ input:-webkit-autofill:active{
 #bg-card{
   background-color: whitesmoke;
 }
-#theme-toggle:active{
-  box-shadow: none;
-  border: none;
-}
-#theme-toggle:focus{
-  box-shadow: none;
-  border: none;
-}
-#theme-toggle:hover{
-  box-shadow: none;
-  border: none;
-}
+
+
+    #theme-toggle:active{
+        box-shadow: none;
+         border: none;
+    }
+    #theme-toggle:focus{
+        box-shadow: none;
+        border: none;
+    }
+    #theme-toggle:hover{
+        box-shadow: none;
+        border: none;
+  }
+
+
+  
 .btn{
   border: none !important;
 }
@@ -219,8 +229,8 @@ footer{
   width: 100%;
 }
 .dark #dark-svg{
-  fill: black;
-  stroke: lightgrey;
+      fill: black;
+      stroke: lightgrey;
 }
 .dark #text1{
   color: #DDDDDD !important;

@@ -350,6 +350,8 @@
     <div id="theme" hidden>
         <p>test</p>
     </div>
+
+    
 <script>
     function getTheme() {
         return localStorage.getItem('theme') || 'light';
@@ -357,20 +359,17 @@
     function saveTheme(theme) {
         localStorage.setItem('theme', theme);
     }
-
     const colorScheme = document.querySelector('meta[name="color-scheme"]');
     function applyTheme(theme) {
         document.body.className = theme;
         colorScheme.content = theme;
     }
-
     function rotateTheme(theme) {
         if (theme === 'light') {
             return 'dark'
         }else{
             return 'light';
-        }
-        
+        }      
     }
 
     const themeDisplay = document.getElementById('theme');
@@ -392,6 +391,10 @@
         }
     }, 100);
 </script>
+
+
+
+
 <script>
     $(document).ready(function() {
     var banner_height = $("#navscroll").height();
